@@ -17,7 +17,7 @@
  * Boston, MA 02111-1307, USA.
  */
 
-public class Sharing.Widgets.ServiceEntry : Gtk.Grid {
+public class Sharing.Widgets.ServiceEntry : Gtk.ListBoxRow {
     private static string state_to_string (ServiceState service_state) {
         switch (service_state) {
             case ServiceState.ENABLED: return _("Enabled");
@@ -29,10 +29,10 @@ public class Sharing.Widgets.ServiceEntry : Gtk.Grid {
 
     private static string state_to_icon_name (ServiceState service_state) {
         switch (service_state) {
-            case ServiceState.ENABLED: return "user-idle";
-            case ServiceState.NOT_AVAILABLE: return "user-offline";
-            case ServiceState.CONNECTED: return "user-available";
-            default: case ServiceState.DISABLED: return "user-busy";
+            case ServiceState.ENABLED: return "user-available";
+            case ServiceState.NOT_AVAILABLE: return "user-invisible";
+            case ServiceState.CONNECTED: return "mail-unread";
+            default: case ServiceState.DISABLED: return "user-offline";
         }
     }
 
@@ -43,9 +43,12 @@ public class Sharing.Widgets.ServiceEntry : Gtk.Grid {
         DISABLED
     }
 
-    public string title { private get; construct; }
-    public string icon_name { private get; construct; }
-    public ServiceState service_state { private get; construct; }
+    public string id { get; construct; }
+    public string title { get; construct; }
+    public string icon_name { get; construct; }
+    public ServiceState service_state { get; construct; }
+
+    private Gtk.Grid grid;
 
     private Gtk.Overlay overlay_icon;
 
@@ -55,15 +58,16 @@ public class Sharing.Widgets.ServiceEntry : Gtk.Grid {
     private Gtk.Label title_label;
     private Gtk.Label subtitle_label;
 
-    public ServiceEntry (string title, string icon_name, ServiceState service_state = ServiceState.DISABLED) {
-        Object (title: title, icon_name: icon_name, service_state: service_state);
+    public ServiceEntry (string id, string title, string icon_name, ServiceState service_state = ServiceState.DISABLED) {
+        Object (id: id, title: title, icon_name: icon_name, service_state: service_state);
 
         build_ui ();
     }
 
     private void build_ui () {
-        this.margin = 6;
-        this.column_spacing = 3;
+        grid = new Gtk.Grid ();
+        grid.margin = 6;
+        grid.column_spacing = 3;
 
         overlay_icon = new Gtk.Overlay ();
 
@@ -84,8 +88,10 @@ public class Sharing.Widgets.ServiceEntry : Gtk.Grid {
         subtitle_label = new Gtk.Label (state_to_string (service_state));
         subtitle_label.halign = Gtk.Align.START;
 
-        this.attach (overlay_icon, 0, 0, 1, 2);
-        this.attach (title_label, 1, 0, 1, 1);
-        this.attach (subtitle_label, 1, 1, 1, 1);
+        grid.attach (overlay_icon, 0, 0, 1, 2);
+        grid.attach (title_label, 1, 0, 1, 1);
+        grid.attach (subtitle_label, 1, 1, 1, 1);
+
+        this.add (grid);
     }
 }

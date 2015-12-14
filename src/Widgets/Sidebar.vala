@@ -22,8 +22,11 @@ public class Sharing.Widgets.Sidebar : Gtk.ScrolledWindow {
 
     private ServiceEntry dlna_service_entry;
 
+    public signal void selected_service_changed (string service_id);
+
     public Sidebar () {
         build_ui ();
+        connect_signals ();
     }
 
     private void build_ui () {
@@ -33,10 +36,20 @@ public class Sharing.Widgets.Sidebar : Gtk.ScrolledWindow {
 
         list_box = new Gtk.ListBox ();
 
-        dlna_service_entry = new ServiceEntry (_("Media Library"), "applications-multimedia");
+        dlna_service_entry = new ServiceEntry ("dlna", _("Media Library"), "applications-multimedia");
 
         list_box.add (dlna_service_entry);
 
         this.add (list_box);
+    }
+
+    private void connect_signals () {
+        list_box.row_selected.connect ((row) => {
+            if (row == null || !(row is ServiceEntry)) {
+                return;
+            }
+
+            selected_service_changed (((ServiceEntry)row).id);
+        });
     }
 }
