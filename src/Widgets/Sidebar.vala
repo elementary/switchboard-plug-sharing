@@ -29,6 +29,7 @@ public class Sharing.Widgets.Sidebar : Gtk.ScrolledWindow {
     private void build_ui () {
         this.hscrollbar_policy = Gtk.PolicyType.NEVER;
         this.vscrollbar_policy = Gtk.PolicyType.AUTOMATIC;
+        this.set_size_request (200, -1);
 
         list_box = new Gtk.ListBox ();
 
