@@ -18,7 +18,54 @@
  */
 
 public class Sharing.Widgets.DLNAPage : SettingsPage {
+    private int content_grid_rows = 0;
+
     public DLNAPage () {
-        base ("dlna", _("Media Library"), "applications-multimedia");
+        base ("dlna",
+              _("Media Library"),
+              "applications-multimedia",
+              _("While enabled the following media libraries are shared to compatible devices in your network."),
+              _("While disabled the selected media libraries aren't shared and it isn't possible to stream files from your harddrive to other devices."));
+
+        build_ui ();
+        connect_signals ();
+    }
+
+    private void build_ui () {
+        base.content_grid.set_size_request (500, -1);
+        base.content_grid.margin_top = 100;
+
+        add_media_entry ("music", _("Music"));
+        add_media_entry ("videos", _("Videos"));
+        add_media_entry ("pictures", _("Photos"));
+    }
+
+    private void connect_signals () {
+        base.switch_state_changed.connect ((state) => {
+            /* TODO: Toggle server and process other states. */
+            update_state (state ? ServiceState.ENABLED : ServiceState.DISABLED);
+        });
+    }
+
+    private void add_media_entry (string media_type_id, string media_type_name) {
+        Gtk.Label entry_label = new Gtk.Label ("%s:".printf (media_type_name));
+        entry_label.halign = Gtk.Align.END;
+
+        Gtk.FileChooserButton entry_file_chooser = new Gtk.FileChooserButton (_("Select the folder containing your %s").printf (media_type_name), Gtk.FileChooserAction.SELECT_FOLDER);
+        entry_file_chooser.hexpand = true;
+        entry_file_chooser.sensitive = false;
+
+        Gtk.Switch entry_switch = new Gtk.Switch ();
+        entry_switch.state_set.connect ((state) => {
+            entry_file_chooser.set_sensitive (state);
+
+            return false;
+        });
+
+        base.content_grid.attach (entry_label, 0, content_grid_rows, 1, 1);
+        base.content_grid.attach (entry_file_chooser, 1, content_grid_rows, 1, 1);
+        base.content_grid.attach (entry_switch, 2, content_grid_rows, 1, 1);
+
+        content_grid_rows++;
     }
 }
