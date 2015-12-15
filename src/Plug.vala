@@ -34,6 +34,7 @@ public class Sharing.Plug : Switchboard.Plug {
     public override Gtk.Widget get_widget () {
         if (main_container == null) {
             build_ui ();
+            connect_signals ();
         }
 
         return main_container;
@@ -60,9 +61,17 @@ public class Sharing.Plug : Switchboard.Plug {
 
         settings_view = new Widgets.SettingsView ();
 
+        foreach (Widgets.SettingsPage settings_page in settings_view.get_settings_pages ()) {
+            sidebar.add_service_entry (settings_page.get_service_entry ());
+        }
+
         main_container.pack1 (sidebar, false, false);
         main_container.pack2 (settings_view, true, false);
         main_container.show_all ();
+    }
+
+    private void connect_signals () {
+        sidebar.selected_service_changed.connect (settings_view.show_service_settings);
     }
 }
 

@@ -20,13 +20,15 @@
 public class Sharing.Widgets.Sidebar : Gtk.ScrolledWindow {
     private Gtk.ListBox list_box;
 
-    private ServiceEntry dlna_service_entry;
-
     public signal void selected_service_changed (string service_id);
 
     public Sidebar () {
         build_ui ();
         connect_signals ();
+    }
+
+    public void add_service_entry (ServiceEntry service_entry) {
+        list_box.add (service_entry);
     }
 
     private void build_ui () {
@@ -35,10 +37,6 @@ public class Sharing.Widgets.Sidebar : Gtk.ScrolledWindow {
         this.set_size_request (200, -1);
 
         list_box = new Gtk.ListBox ();
-
-        dlna_service_entry = new ServiceEntry ("dlna", _("Media Library"), "applications-multimedia");
-
-        list_box.add (dlna_service_entry);
 
         this.add (list_box);
     }

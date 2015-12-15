@@ -17,30 +17,8 @@
  * Boston, MA 02111-1307, USA.
  */
 
-public class Sharing.Widgets.SettingsView : Gtk.Stack {
-    private Gee.HashMap<string, SettingsPage> settings_pages;
-
-    construct {
-        settings_pages = new Gee.HashMap<string, SettingsPage> ();
-    }
-
-    public SettingsView () {
-        load_pages ();
-    }
-
-    public SettingsPage[] get_settings_pages () {
-        return settings_pages.values.to_array ();
-    }
-
-    public void show_service_settings (string service_id) {
-        this.set_visible_child_name (service_id);
-    }
-
-    private void load_pages () {
-        DLNAPage dlna_page = new DLNAPage ();
-
-        settings_pages.@set (dlna_page.id, dlna_page);
-
-        this.add_named (dlna_page, dlna_page.id);
+public class Sharing.Widgets.DLNAPage : SettingsPage {
+    public DLNAPage () {
+        base ("dlna", _("Media Library"), "applications-multimedia");
     }
 }

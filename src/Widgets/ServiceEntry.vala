@@ -18,35 +18,28 @@
  */
 
 public class Sharing.Widgets.ServiceEntry : Gtk.ListBoxRow {
-    private static string state_to_string (ServiceState service_state) {
+    private static string state_to_string (SettingsPage.ServiceState service_state) {
         switch (service_state) {
-            case ServiceState.ENABLED: return _("Enabled");
-            case ServiceState.NOT_AVAILABLE: return _("NOT_AVAILABLE");
-            case ServiceState.CONNECTED: return _("CONNECTED");
-            default: case ServiceState.DISABLED: return _("Disabled");
+            case SettingsPage.ServiceState.ENABLED: return _("Enabled");
+            case SettingsPage.ServiceState.NOT_AVAILABLE: return _("NOT_AVAILABLE");
+            case SettingsPage.ServiceState.CONNECTED: return _("CONNECTED");
+            default: case SettingsPage.ServiceState.DISABLED: return _("Disabled");
         }
     }
 
-    private static string state_to_icon_name (ServiceState service_state) {
+    private static string state_to_icon_name (SettingsPage.ServiceState service_state) {
         switch (service_state) {
-            case ServiceState.ENABLED: return "user-available";
-            case ServiceState.NOT_AVAILABLE: return "user-invisible";
-            case ServiceState.CONNECTED: return "mail-unread";
-            default: case ServiceState.DISABLED: return "user-offline";
+            case SettingsPage.ServiceState.ENABLED: return "user-available";
+            case SettingsPage.ServiceState.NOT_AVAILABLE: return "user-invisible";
+            case SettingsPage.ServiceState.CONNECTED: return "mail-unread";
+            default: case SettingsPage.ServiceState.DISABLED: return "user-offline";
         }
-    }
-
-    public enum ServiceState {
-        ENABLED,
-        NOT_AVAILABLE,
-        CONNECTED,
-        DISABLED
     }
 
     public string id { get; construct; }
     public string title { get; construct; }
     public string icon_name { get; construct; }
-    public ServiceState service_state { get; construct; }
+    public SettingsPage.ServiceState service_state { get; protected set construct; }
 
     private Gtk.Grid grid;
 
@@ -58,10 +51,17 @@ public class Sharing.Widgets.ServiceEntry : Gtk.ListBoxRow {
     private Gtk.Label title_label;
     private Gtk.Label subtitle_label;
 
-    public ServiceEntry (string id, string title, string icon_name, ServiceState service_state = ServiceState.DISABLED) {
+    public ServiceEntry (string id, string title, string icon_name, SettingsPage.ServiceState service_state) {
         Object (id: id, title: title, icon_name: icon_name, service_state: service_state);
 
         build_ui ();
+    }
+
+    public void update_state (SettingsPage.ServiceState state) {
+        secondary_icon.set_from_icon_name (state_to_icon_name (state), Gtk.IconSize.MENU);
+        subtitle_label.set_label (state_to_string (state));
+
+        service_state = state;
     }
 
     private void build_ui () {
