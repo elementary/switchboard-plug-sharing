@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-17 00:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/Widgets/DLNAPage.vala:42
+msgid "Media Library"
+msgstr ""
+
+#: ../src/Widgets/DLNAPage.vala:44
+msgid ""
+"While enabled the following media libraries are shared to compatible devices "
+"in your network."
+msgstr ""
+
+#: ../src/Widgets/DLNAPage.vala:45
+msgid ""
+"While disabled the selected media libraries aren't shared and it isn't "
+"possible to stream files from your harddrive to other devices."
+msgstr ""
+
+#: ../src/Widgets/DLNAPage.vala:56
+msgid "Music"
+msgstr ""
+
+#: ../src/Widgets/DLNAPage.vala:57
+msgid "Videos"
+msgstr ""
+
+#: ../src/Widgets/DLNAPage.vala:58
+msgid "Photos"
+msgstr ""
+
+#: ../src/Widgets/DLNAPage.vala:80
+msgid "Select the folder containing your %s"
+msgstr ""
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr ""
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "NOT_AVAILABLE"
+msgstr ""
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "CONNECTED"
+msgstr ""
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr ""
+
+#: ../src/Plug.vala:29
+msgid "Sharing"
+msgstr ""
+
+#: ../src/Plug.vala:30
+msgid "Configure the sharing of system services"
+msgstr ""
