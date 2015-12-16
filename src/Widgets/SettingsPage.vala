@@ -93,6 +93,7 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
 
         service_switch = new Gtk.Switch ();
         service_switch.halign = Gtk.Align.END;
+        service_switch.valign = Gtk.Align.CENTER;
 
         content_grid = new Gtk.Grid ();
         content_grid.column_spacing = 12;

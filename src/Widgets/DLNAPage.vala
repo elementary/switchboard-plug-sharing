@@ -94,6 +94,7 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
         }
 
         Gtk.Switch entry_switch = new Gtk.Switch ();
+        entry_switch.valign = Gtk.Align.CENTER;
         entry_switch.state = is_enabled;
         entry_switch.state_set.connect ((state) => {
             entry_file_chooser.set_sensitive (state);
