@@ -20,6 +20,8 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Widgets/SettingsView.vala
     Widgets/SettingsPage.vala
     Widgets/DLNAPage.vala
+    Backend/RygelDBusInterface.vala
+    Backend/RygelStartupManager.vala
     ${CMAKE_CURRENT_BINARY_DIR}/config.vala
 PACKAGES
     gtk+-3.0

@@ -18,7 +18,13 @@
  */
 
 public class Sharing.Widgets.DLNAPage : SettingsPage {
+    private Backend.RygelStartupManager rygel_startup_manager;
+
     private int content_grid_rows = 0;
+
+    construct {
+        rygel_startup_manager = new Backend.RygelStartupManager ();
+    }
 
     public DLNAPage () {
         base ("dlna",
@@ -28,6 +34,7 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
               _("While disabled the selected media libraries aren't shared and it isn't possible to stream files from your harddrive to other devices."));
 
         build_ui ();
+        read_state ();
         connect_signals ();
     }
 
@@ -40,9 +47,14 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
         add_media_entry ("pictures", _("Photos"));
     }
 
+    private void read_state () {
+        update_state (rygel_startup_manager.get_service_enabled () ? ServiceState.ENABLED : ServiceState.DISABLED);
+    }
+
     private void connect_signals () {
         base.switch_state_changed.connect ((state) => {
-            /* TODO: Toggle server and process other states. */
+            rygel_startup_manager.set_service_enabled.begin (state);
+
             update_state (state ? ServiceState.ENABLED : ServiceState.DISABLED);
         });
     }
