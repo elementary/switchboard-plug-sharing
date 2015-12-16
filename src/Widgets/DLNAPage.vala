@@ -18,12 +18,23 @@
  */
 
 public class Sharing.Widgets.DLNAPage : SettingsPage {
+    private static string replace_xdg_folders (string folder_path) {
+        switch (folder_path) {
+            case "@MUSIC@": return Environment.get_user_special_dir (UserDirectory.MUSIC);
+            case "@VIDEOS@": return Environment.get_user_special_dir (UserDirectory.VIDEOS);
+            case "@PICTURES@": return Environment.get_user_special_dir (UserDirectory.PICTURES);
+            default: return folder_path;
+        }
+    }
+
     private Backend.RygelStartupManager rygel_startup_manager;
+    private Backend.RygelConfigFile rygel_config_file;
 
     private int content_grid_rows = 0;
 
     construct {
         rygel_startup_manager = new Backend.RygelStartupManager ();
+        rygel_config_file = new Backend.RygelConfigFile ();
     }
 
     public DLNAPage () {
@@ -60,16 +71,35 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
     }
 
     private void add_media_entry (string media_type_id, string media_type_name) {
+        bool is_enabled = rygel_config_file.get_media_type_enabled (media_type_id);
+        string folder_path = rygel_config_file.get_media_type_folder (media_type_id);
+
         Gtk.Label entry_label = new Gtk.Label ("%s:".printf (media_type_name));
         entry_label.halign = Gtk.Align.END;
 
         Gtk.FileChooserButton entry_file_chooser = new Gtk.FileChooserButton (_("Select the folder containing your %s").printf (media_type_name), Gtk.FileChooserAction.SELECT_FOLDER);
         entry_file_chooser.hexpand = true;
-        entry_file_chooser.sensitive = false;
+        entry_file_chooser.sensitive = is_enabled;
+        entry_file_chooser.file_set.connect (() => {
+            rygel_config_file.set_media_type_folder (media_type_id, entry_file_chooser.get_file ().get_path ());
+            rygel_config_file.save ();
+        });
+
+        try {
+            if (folder_path != "") {
+                entry_file_chooser.set_file (File.new_for_path (replace_xdg_folders (folder_path)));
+            }
+        } catch (Error e) {
+            warning ("The folder path %s is invalid: %s", folder_path, e.message);
+        }
 
         Gtk.Switch entry_switch = new Gtk.Switch ();
+        entry_switch.state = is_enabled;
         entry_switch.state_set.connect ((state) => {
             entry_file_chooser.set_sensitive (state);
+
+            rygel_config_file.set_media_type_enabled (media_type_id, state);
+            rygel_config_file.save ();
 
             return false;
         });

@@ -29,6 +29,10 @@ public class Sharing.Widgets.Sidebar : Gtk.ScrolledWindow {
 
     public void add_service_entry (ServiceEntry service_entry) {
         list_box.add (service_entry);
+
+        if (list_box.get_children ().length () == 1) {
+            list_box.select_row (service_entry);
+        }
     }
 
     private void build_ui () {
