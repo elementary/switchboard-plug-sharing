@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-17 00:16+0100\n"
+"POT-Creation-Date: 2015-12-17 00:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,11 +54,11 @@ msgid "Enabled"
 msgstr ""
 
 #: ../src/Widgets/ServiceEntry.vala:24
-msgid "NOT_AVAILABLE"
+msgid "Not Available"
 msgstr ""
 
 #: ../src/Widgets/ServiceEntry.vala:25
-msgid "CONNECTED"
+msgid "Connected"
 msgstr ""
 
 #: ../src/Widgets/ServiceEntry.vala:26
