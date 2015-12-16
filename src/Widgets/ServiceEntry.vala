@@ -21,8 +21,8 @@ public class Sharing.Widgets.ServiceEntry : Gtk.ListBoxRow {
     private static string state_to_string (SettingsPage.ServiceState service_state) {
         switch (service_state) {
             case SettingsPage.ServiceState.ENABLED: return _("Enabled");
-            case SettingsPage.ServiceState.NOT_AVAILABLE: return _("NOT_AVAILABLE");
-            case SettingsPage.ServiceState.CONNECTED: return _("CONNECTED");
+            case SettingsPage.ServiceState.NOT_AVAILABLE: return _("Not Available");
+            case SettingsPage.ServiceState.CONNECTED: return _("Connected");
             default: case SettingsPage.ServiceState.DISABLED: return _("Disabled");
         }
     }
