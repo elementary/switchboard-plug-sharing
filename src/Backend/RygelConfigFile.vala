@@ -25,16 +25,32 @@ public class Sharing.Backend.RygelConfigFile : Object {
 
     construct {
         config_filename = Path.build_filename (Environment.get_user_config_dir (), "rygel.conf");
+        config_file = new KeyFile ();
+
+        if (File.new_for_path (config_filename).query_exists ()) {
+            try {
+                config_file.load_from_file (config_filename, KeyFileFlags.KEEP_COMMENTS | KeyFileFlags.KEEP_TRANSLATIONS);
+            } catch (Error e) {
+                warning ("Loading configuration file %s failed: %s", config_filename, e.message);
+
+                config_file = null;
+
+                return;
+            }
+        } else {
+            debug ("Setting up new rygel.conf...");
+
+            setup_config_file ();
+        }
 
         try {
-            config_file = new KeyFile ();
-            config_file.load_from_file (config_filename, KeyFileFlags.KEEP_COMMENTS | KeyFileFlags.KEEP_TRANSLATIONS);
-
             media_uris = config_file.get_string_list ("MediaExport", "uris");
         } catch (Error e) {
             warning ("Reading configuration file %s failed: %s", config_filename, e.message);
 
             config_file = null;
+
+            return;
         }
     }
 
@@ -94,17 +110,56 @@ public class Sharing.Backend.RygelConfigFile : Object {
         config_file.set_string_list ("MediaExport", "uris", media_uris);
     }
 
-    public void save () {
+    public bool save () {
         if (config_file == null) {
             warning ("The loaded configuration file %s wasn't valid. Saving isn't allowed to prevent overwriting a broken rygel.conf.", config_filename);
 
-            return;
+            return false;
         }
 
         try {
             config_file.save_to_file (config_filename);
         } catch (Error e) {
             warning ("Saving configuration file %s failed: %s", config_filename, e.message);
+
+            return false;
         }
+
+        return true;
+    }
+
+    private void setup_config_file () {
+        config_file.set_boolean ("general", "upnp-enabled", true);
+        config_file.set_boolean ("general", "enable-transcoding", true);
+        config_file.set_string ("general", "video-upload-folder", "@VIDEOS@");
+        config_file.set_string ("general", "music-upload-folder", "@MUSIC@");
+        config_file.set_string ("general", "picture-upload-folder", "@PICTURES@");
+        config_file.set_string ("general", "media-engine", "librygel-media-engine-gst.so");
+        config_file.set_string ("general", "interface", "");
+        config_file.set_integer ("general", "port", 0);
+        config_file.set_string ("general", "log-level", "*:4");
+        config_file.set_boolean ("general", "allow-upload", true);
+        config_file.set_boolean ("general", "allow-deletion", true);
+
+        config_file.set_string_list ("GstMediaEngine", "transcoders", { "mp3", "lpcm", "mp2ts", "wmv", "aac", "avc" });
+
+        config_file.set_integer ("Renderer", "image-timeout", 15);
+
+        config_file.set_boolean ("Tracker", "enabled", true);
+        config_file.set_boolean ("Tracker", "share-pictures", true);
+        config_file.set_boolean ("Tracker", "share-videos", true);
+        config_file.set_boolean ("Tracker", "share-music", true);
+        config_file.set_boolean ("Tracker", "strict-sharing", false);
+        config_file.set_string ("Tracker", "tile", "@HOSTNAME@: @REALNAME@");
+
+        config_file.set_boolean ("MediaExport", "enabled", true);
+        config_file.set_string ("MediaExport", "tile", "@HOSTNAME@: @REALNAME@");
+        config_file.set_string_list ("MediaExport", "uris", { "@MUSIC@", "@VIDEOS@", "@PICTURES@" });
+        config_file.set_boolean ("MediaExport", "extract-metadata", true);
+        config_file.set_boolean ("MediaExport", "monitor-changes", true);
+        config_file.set_boolean ("MediaExport", "virtual-folders", true);
+
+        config_file.set_boolean ("Playbin", "enabled", true);
+        config_file.set_string ("MediaExport", "tile", "Audio/Video playback on @HOSTNAME@");
     }
 }

@@ -64,9 +64,12 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
 
     private void connect_signals () {
         base.switch_state_changed.connect ((state) => {
-            rygel_startup_manager.set_service_enabled.begin (state);
+            /* Make sure the configuration file exists */
+            if (rygel_config_file.save ()) {
+                rygel_startup_manager.set_service_enabled.begin (state);
 
-            update_state (state ? ServiceState.ENABLED : ServiceState.DISABLED);
+                update_state (state ? ServiceState.ENABLED : ServiceState.DISABLED);
+            }
         });
     }
 

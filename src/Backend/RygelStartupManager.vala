@@ -88,7 +88,7 @@ public class Sharing.Backend.RygelStartupManager : Object {
             directory.make_directory ();
         } catch (Error e) {
             /* That will most likely happen because the directory already exists. */
-            debug ("Directory %s shouldn't be created: %s", path, e.message);
+            debug ("Directory %s not created: %s", path, e.message);
         }
     }
 
