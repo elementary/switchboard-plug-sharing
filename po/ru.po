@@ -1,0 +1,76 @@
+# Russian translation for switchboard-plug-sharing
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the switchboard-plug-sharing package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-sharing\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-17 00:26+0100\n"
+"PO-Revision-Date: 2015-12-17 01:28+0000\n"
+"Last-Translator: Yuly Nesterov <crow@rikka.io>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-17 05:38+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+
+#: ../src/Widgets/DLNAPage.vala:42
+msgid "Media Library"
+msgstr "Медиатека"
+
+#: ../src/Widgets/DLNAPage.vala:44
+msgid ""
+"While enabled the following media libraries are shared to compatible devices "
+"in your network."
+msgstr ""
+"Выбранные медиа-каталоги доступны для совместимых устройств в вашей сети."
+
+#: ../src/Widgets/DLNAPage.vala:45
+msgid ""
+"While disabled the selected media libraries aren't shared and it isn't "
+"possible to stream files from your harddrive to other devices."
+msgstr ""
+"Выбранные медиа-каталоги недоступны для совместимых устройств вашей сети."
+
+#: ../src/Widgets/DLNAPage.vala:56
+msgid "Music"
+msgstr "Музыка"
+
+#: ../src/Widgets/DLNAPage.vala:57
+msgid "Videos"
+msgstr "Видео"
+
+#: ../src/Widgets/DLNAPage.vala:58
+msgid "Photos"
+msgstr "Фотографии"
+
+#: ../src/Widgets/DLNAPage.vala:80
+msgid "Select the folder containing your %s"
+msgstr "Выберите папку, содержащую вашу %s"
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "Включено"
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "Недоступно"
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "Подключено"
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "Отключено"
+
+#: ../src/Plug.vala:29
+msgid "Sharing"
+msgstr "Общий доступ"
+
+#: ../src/Plug.vala:30
+msgid "Configure the sharing of system services"
+msgstr "Настройка системных служб обмена"
