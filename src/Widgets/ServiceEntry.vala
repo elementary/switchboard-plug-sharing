@@ -76,6 +76,8 @@ public class Sharing.Widgets.ServiceEntry : Gtk.ListBoxRow {
         secondary_icon = new Gtk.Image.from_icon_name (state_to_icon_name (service_state), Gtk.IconSize.MENU);
         secondary_icon.halign = Gtk.Align.END;
         secondary_icon.valign = Gtk.Align.END;
+        ((Gtk.Misc)secondary_icon).xalign = 0.5f;
+        ((Gtk.Misc)secondary_icon).yalign = 0.5f;
 
         overlay_icon.add (primary_icon);
         overlay_icon.add_overlay (secondary_icon);

@@ -80,6 +80,7 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
         this.row_spacing = 6;
 
         service_icon = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.DIALOG);
+        service_icon.valign = Gtk.Align.START;
 
         title_label = new Gtk.Label (title);
         title_label.get_style_context ().add_class (Granite.StyleClass.H2_TEXT);
@@ -87,8 +88,8 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
         title_label.hexpand = true;
 
         subtitle_label = new Gtk.Label (disabled_description);
-        subtitle_label.justify = Gtk.Justification.FILL;
-        subtitle_label.halign = Gtk.Align.START;
+        subtitle_label.justify = Gtk.Justification.LEFT;
+        ((Gtk.Misc)subtitle_label).xalign = 0;
         subtitle_label.wrap = true;
 
         service_switch = new Gtk.Switch ();
