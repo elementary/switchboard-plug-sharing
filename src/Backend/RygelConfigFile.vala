@@ -160,6 +160,6 @@ public class Sharing.Backend.RygelConfigFile : Object {
         config_file.set_boolean ("MediaExport", "virtual-folders", true);
 
         config_file.set_boolean ("Playbin", "enabled", true);
-        config_file.set_string ("MediaExport", "title", "Audio/Video playback on @HOSTNAME@");
+        config_file.set_string ("Playbin", "title", "Audio/Video playback on @HOSTNAME@");
     }
 }
