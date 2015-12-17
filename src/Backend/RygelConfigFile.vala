@@ -157,6 +157,7 @@ public class Sharing.Backend.RygelConfigFile : Object {
         config_file.set_string_list ("MediaExport", "uris", { "@MUSIC@", "@VIDEOS@", "@PICTURES@" });
         config_file.set_boolean ("MediaExport", "extract-metadata", true);
         config_file.set_boolean ("MediaExport", "monitor-changes", true);
+        config_file.set_integer ("MediaExport", "monitor-grace-timeout", 5);
         config_file.set_boolean ("MediaExport", "virtual-folders", true);
 
         config_file.set_boolean ("Playbin", "enabled", true);
