@@ -150,16 +150,16 @@ public class Sharing.Backend.RygelConfigFile : Object {
         config_file.set_boolean ("Tracker", "share-videos", true);
         config_file.set_boolean ("Tracker", "share-music", true);
         config_file.set_boolean ("Tracker", "strict-sharing", false);
-        config_file.set_string ("Tracker", "tile", "@HOSTNAME@: @REALNAME@");
+        config_file.set_string ("Tracker", "title", "@HOSTNAME@: @REALNAME@");
 
         config_file.set_boolean ("MediaExport", "enabled", true);
-        config_file.set_string ("MediaExport", "tile", "@HOSTNAME@: @REALNAME@");
+        config_file.set_string ("MediaExport", "title", "@HOSTNAME@: @REALNAME@");
         config_file.set_string_list ("MediaExport", "uris", { "@MUSIC@", "@VIDEOS@", "@PICTURES@" });
         config_file.set_boolean ("MediaExport", "extract-metadata", true);
         config_file.set_boolean ("MediaExport", "monitor-changes", true);
         config_file.set_boolean ("MediaExport", "virtual-folders", true);
 
         config_file.set_boolean ("Playbin", "enabled", true);
-        config_file.set_string ("MediaExport", "tile", "Audio/Video playback on @HOSTNAME@");
+        config_file.set_string ("MediaExport", "title", "Audio/Video playback on @HOSTNAME@");
     }
 }
