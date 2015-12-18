@@ -1,4 +1,4 @@
-# German translation for switchboard-plug-sharing
+# Polish translation for switchboard-plug-sharing
 # Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
 # This file is distributed under the same license as the switchboard-plug-sharing package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-12-17 16:13+0100\n"
-"PO-Revision-Date: 2015-12-16 23:41+0000\n"
-"Last-Translator: Marcus Wichelmann <admin@marcusw.de>\n"
-"Language-Team: German <de@li.org>\n"
+"PO-Revision-Date: 2015-12-17 19:46+0000\n"
+"Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
+"Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,61 +19,60 @@ msgstr ""
 
 #: ../src/Widgets/DLNAPage.vala:42
 msgid "Media Library"
-msgstr "Medienbibliothek"
+msgstr "Biblioteka mediów"
 
 #: ../src/Widgets/DLNAPage.vala:44
 msgid ""
 "While enabled the following media libraries are shared to compatible devices "
 "in your network."
 msgstr ""
-"Solange dies aktiviert ist, werden die folgenen Medienbibliotheken mit "
-"kompatiblen Geräten in Ihrem Netzwerk geteilt."
+"Gdy włączone, następujące biblioteki multimediów są współdzielone z innymi "
+"urządzeniami w sieci."
 
 #: ../src/Widgets/DLNAPage.vala:45
 msgid ""
 "While disabled the selected media libraries aren't shared and it isn't "
 "possible to stream files from your harddrive to other devices."
 msgstr ""
-"Solange dies deaktiviert ist, werden die gewählten Medienbibliotheken nicht "
-"geteilt und es ist nicht möglich Dateien von Ihrer Festplatte an andere "
-"Geräte zu streamen."
+"Gdy wyłączone, wybrane biblioteki multimediów nie są współdzielone i nie "
+"jest możliwe przesyłanie plików z Twojego dysku twardego do innych urządzeń."
 
 #: ../src/Widgets/DLNAPage.vala:56
 msgid "Music"
-msgstr "Musik"
+msgstr "Muzyka"
 
 #: ../src/Widgets/DLNAPage.vala:57
 msgid "Videos"
-msgstr "Videos"
+msgstr "Filmy"
 
 #: ../src/Widgets/DLNAPage.vala:58
 msgid "Photos"
-msgstr "Bilder"
+msgstr "Zdjęcia"
 
 #: ../src/Widgets/DLNAPage.vala:83
 msgid "Select the folder containing your %s"
-msgstr "Wählen Sie den Ordner, der Ihre %s enthält."
+msgstr "Wybierz katalog zawierający Twoje %s"
 
 #: ../src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
-msgstr "Aktiviert"
+msgstr "Włączone"
 
 #: ../src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
-msgstr "Nicht Verfügbar"
+msgstr "Niedostępne"
 
 #: ../src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
-msgstr "Verbunden"
+msgstr "Połączone"
 
 #: ../src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
-msgstr "Deaktiviert"
+msgstr "Wyłączone"
 
 #: ../src/Plug.vala:29
 msgid "Sharing"
-msgstr "Freigaben"
+msgstr "Współdzielenie"
 
 #: ../src/Plug.vala:30
 msgid "Configure the sharing of system services"
-msgstr "Konfigurieren Sie die Freigabe von Systemdiensten"
+msgstr "Konfiguruj współdzielenie usług systemowych"
