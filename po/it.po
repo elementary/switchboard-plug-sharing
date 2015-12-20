@@ -1,0 +1,79 @@
+# Italian translation for switchboard-plug-sharing
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the switchboard-plug-sharing package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-sharing\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-17 16:13+0100\n"
+"PO-Revision-Date: 2015-12-18 11:29+0000\n"
+"Last-Translator: Fabio Zaramella <FFabio.96.X@Gmail.com>\n"
+"Language-Team: Italian <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-20 07:13+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+
+#: ../src/Widgets/DLNAPage.vala:42
+msgid "Media Library"
+msgstr "Mediateca"
+
+#: ../src/Widgets/DLNAPage.vala:44
+msgid ""
+"While enabled the following media libraries are shared to compatible devices "
+"in your network."
+msgstr ""
+"Mentre è abilitato le seguenti librerie multimediali sono condivise a "
+"dispositivi compatibili presenti nella rete."
+
+#: ../src/Widgets/DLNAPage.vala:45
+msgid ""
+"While disabled the selected media libraries aren't shared and it isn't "
+"possible to stream files from your harddrive to other devices."
+msgstr ""
+"Mentre è disabilitato le librerie multimediali selezionate non sono "
+"condivise e non è possibile lo streaming di file dal disco rigido ad altri "
+"dispositivi."
+
+#: ../src/Widgets/DLNAPage.vala:56
+msgid "Music"
+msgstr "Musica"
+
+#: ../src/Widgets/DLNAPage.vala:57
+msgid "Videos"
+msgstr "Video"
+
+#: ../src/Widgets/DLNAPage.vala:58
+msgid "Photos"
+msgstr "Foto"
+
+#: ../src/Widgets/DLNAPage.vala:83
+msgid "Select the folder containing your %s"
+msgstr "Seleziona la cartella contenente il tuo %s"
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "Non disponibile"
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "Connesso"
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: ../src/Plug.vala:29
+msgid "Sharing"
+msgstr "Condivisione"
+
+#: ../src/Plug.vala:30
+msgid "Configure the sharing of system services"
+msgstr "Configura la condivisione dei servizi di sistema"
