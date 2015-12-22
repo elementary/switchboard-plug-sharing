@@ -7,15 +7,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-12-17 16:13+0100\n"
+"POT-Creation-Date: 2015-12-21 12:33-0200\n"
 "PO-Revision-Date: 2015-12-17 19:42+0000\n"
 "Last-Translator: Corentin Noël <corentin@elementaryos.org>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-12-18 06:01+0000\n"
+"X-Launchpad-Export-Date: 2015-12-22 05:21+0000\n"
 "X-Generator: Launchpad (build 17865)\n"
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "Activé"
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "Indisponible"
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "Connecté"
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "Désactivé"
 
 #: ../src/Widgets/DLNAPage.vala:42
 msgid "Media Library"
@@ -49,26 +65,10 @@ msgstr "Photos"
 msgid "Select the folder containing your %s"
 msgstr ""
 
-#: ../src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "Activé"
-
-#: ../src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "Indisponible"
-
-#: ../src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "Connecté"
-
-#: ../src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Désactivé"
-
 #: ../src/Plug.vala:29
 msgid "Sharing"
 msgstr ""
 
 #: ../src/Plug.vala:30
-msgid "Configure the sharing of system services"
+msgid "Configure Bluetooth, DLNA, and Samba shares"
 msgstr ""
