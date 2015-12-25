@@ -1,0 +1,74 @@
+# Chinese (Simplified) translation for switchboard-plug-sharing
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the switchboard-plug-sharing package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-sharing\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-21 12:33-0200\n"
+"PO-Revision-Date: 2015-12-25 04:20+0000\n"
+"Last-Translator: colindemian <dengmengpc@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-12-25 05:45+0000\n"
+"X-Generator: Launchpad (build 17865)\n"
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "已启用"
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "不可用"
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "已连接"
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "已禁用"
+
+#: ../src/Widgets/DLNAPage.vala:42
+msgid "Media Library"
+msgstr "媒体库"
+
+#: ../src/Widgets/DLNAPage.vala:44
+msgid ""
+"While enabled the following media libraries are shared to compatible devices "
+"in your network."
+msgstr "启用时，以下媒体库将会分享至您网络中的可用设备。"
+
+#: ../src/Widgets/DLNAPage.vala:45
+msgid ""
+"While disabled the selected media libraries aren't shared and it isn't "
+"possible to stream files from your harddrive to other devices."
+msgstr "禁用时，选中的媒体库将无法串流至您的硬盘和其他设备。"
+
+#: ../src/Widgets/DLNAPage.vala:56
+msgid "Music"
+msgstr "音乐"
+
+#: ../src/Widgets/DLNAPage.vala:57
+msgid "Videos"
+msgstr "视频"
+
+#: ../src/Widgets/DLNAPage.vala:58
+msgid "Photos"
+msgstr "照片"
+
+#: ../src/Widgets/DLNAPage.vala:83
+msgid "Select the folder containing your %s"
+msgstr "选择包含 %s 内容的文件夹"
+
+#: ../src/Plug.vala:29
+msgid "Sharing"
+msgstr "共享中"
+
+#: ../src/Plug.vala:30
+msgid "Configure Bluetooth, DLNA, and Samba shares"
+msgstr "配置蓝牙、DLNA 和 Samba 共享"
