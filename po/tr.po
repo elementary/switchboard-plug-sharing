@@ -1,0 +1,74 @@
+# Turkish translation for switchboard-plug-sharing
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the switchboard-plug-sharing package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-sharing\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-21 12:33-0200\n"
+"PO-Revision-Date: 2016-02-01 02:55+0000\n"
+"Last-Translator: Sadık Poyraz <sadikpoyraz01@gmail.com>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-02-02 06:04+0000\n"
+"X-Generator: Launchpad (build 17908)\n"
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "Etkin"
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "Kullanılabilir Değil"
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "Bağlı"
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: ../src/Widgets/DLNAPage.vala:42
+msgid "Media Library"
+msgstr "Ortam Kütüphanesi"
+
+#: ../src/Widgets/DLNAPage.vala:44
+msgid ""
+"While enabled the following media libraries are shared to compatible devices "
+"in your network."
+msgstr ""
+
+#: ../src/Widgets/DLNAPage.vala:45
+msgid ""
+"While disabled the selected media libraries aren't shared and it isn't "
+"possible to stream files from your harddrive to other devices."
+msgstr ""
+
+#: ../src/Widgets/DLNAPage.vala:56
+msgid "Music"
+msgstr "Müzik"
+
+#: ../src/Widgets/DLNAPage.vala:57
+msgid "Videos"
+msgstr "Videolar"
+
+#: ../src/Widgets/DLNAPage.vala:58
+msgid "Photos"
+msgstr "Fotoğraflar"
+
+#: ../src/Widgets/DLNAPage.vala:83
+msgid "Select the folder containing your %s"
+msgstr ""
+
+#: ../src/Plug.vala:29
+msgid "Sharing"
+msgstr "Paylaşım"
+
+#: ../src/Plug.vala:30
+msgid "Configure Bluetooth, DLNA, and Samba shares"
+msgstr ""
