@@ -1,0 +1,78 @@
+# Estonian translation for switchboard-plug-sharing
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the switchboard-plug-sharing package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-sharing\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-21 12:33-0200\n"
+"PO-Revision-Date: 2016-02-10 22:52+0000\n"
+"Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
+"Language-Team: Estonian <et@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-02-11 06:24+0000\n"
+"X-Generator: Launchpad (build 17923)\n"
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "Lubatud"
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "Pole saadaval"
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "Ühendatud"
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "Keelatud"
+
+#: ../src/Widgets/DLNAPage.vala:42
+msgid "Media Library"
+msgstr "Meediakogu"
+
+#: ../src/Widgets/DLNAPage.vala:44
+msgid ""
+"While enabled the following media libraries are shared to compatible devices "
+"in your network."
+msgstr ""
+"Lubatuna jagatakse järgnevaid meediateeke ühilduvatele jagatud seadmetele "
+"sinu võrgus."
+
+#: ../src/Widgets/DLNAPage.vala:45
+msgid ""
+"While disabled the selected media libraries aren't shared and it isn't "
+"possible to stream files from your harddrive to other devices."
+msgstr ""
+"Keelatuna ei jagata meediateeke ning teistesse seadmetesse failide saatmine "
+"pole võimalik."
+
+#: ../src/Widgets/DLNAPage.vala:56
+msgid "Music"
+msgstr "Muusika"
+
+#: ../src/Widgets/DLNAPage.vala:57
+msgid "Videos"
+msgstr "Videod"
+
+#: ../src/Widgets/DLNAPage.vala:58
+msgid "Photos"
+msgstr "Fotod"
+
+#: ../src/Widgets/DLNAPage.vala:83
+msgid "Select the folder containing your %s"
+msgstr "Kasuta valimine, milles sisalduvad"
+
+#: ../src/Plug.vala:29
+msgid "Sharing"
+msgstr "Jagamine"
+
+#: ../src/Plug.vala:30
+msgid "Configure Bluetooth, DLNA, and Samba shares"
+msgstr "Bluetoothi, DLNA ja Samba jagamiste konfigureerimine"
