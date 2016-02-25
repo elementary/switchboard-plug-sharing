@@ -1,0 +1,79 @@
+# Bengali translation for switchboard-plug-sharing
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the switchboard-plug-sharing package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-sharing\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-12-21 12:33-0200\n"
+"PO-Revision-Date: 2016-02-24 18:45+0000\n"
+"Last-Translator: momit rahman <momitrahman@gmail.com>\n"
+"Language-Team: Bengali <bn@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-02-25 05:31+0000\n"
+"X-Generator: Launchpad (build 17925)\n"
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "সক্রিয় করুন"
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "বিদ্যমান নেই"
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "সংযোগ স্থাপিত হয়েছে"
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "নিস্ক্রিয় করুন"
+
+#: ../src/Widgets/DLNAPage.vala:42
+msgid "Media Library"
+msgstr "মিডিয়া লাইব্রেরি"
+
+#: ../src/Widgets/DLNAPage.vala:44
+msgid ""
+"While enabled the following media libraries are shared to compatible devices "
+"in your network."
+msgstr ""
+"যদি এটি সক্রিয় করেন তাহলে এই মিডিয়া লাইব্রেরিগুলো আপনার নেটওয়ার্ক থাকা "
+"ব্যবহার যোগ্য ডিভাইস মধ্যে শেয়ার হয়ে যাবে।"
+
+#: ../src/Widgets/DLNAPage.vala:45
+msgid ""
+"While disabled the selected media libraries aren't shared and it isn't "
+"possible to stream files from your harddrive to other devices."
+msgstr ""
+"যদি এটি নিস্ক্রিয় করেন তাহলে এই মিডিয়া লাইব্রেরিগুলো আপনার নেটওয়ার্ক থাকা "
+"ব্যবহার যোগ্য ডিভাইস মধ্যে আর শেয়ার হবে না এবং  অন্যান্য ডিভাইসে আপনার হার্ড-"
+"ড্রাইভ থেকে এই ফাইলগুলো চালানো সম্ভব হবে না।"
+
+#: ../src/Widgets/DLNAPage.vala:56
+msgid "Music"
+msgstr "গান সমূহ"
+
+#: ../src/Widgets/DLNAPage.vala:57
+msgid "Videos"
+msgstr "ভিডিও সমূহ"
+
+#: ../src/Widgets/DLNAPage.vala:58
+msgid "Photos"
+msgstr "ছবি সমূহ"
+
+#: ../src/Widgets/DLNAPage.vala:83
+msgid "Select the folder containing your %s"
+msgstr "আপনার %s ধারণকারী ফোল্ডারটি নির্বাচন করুন"
+
+#: ../src/Plug.vala:29
+msgid "Sharing"
+msgstr "শেয়ারিং"
+
+#: ../src/Plug.vala:30
+msgid "Configure Bluetooth, DLNA, and Samba shares"
+msgstr "ব্লুটুথ, ডি এল এন এ এবং সাম্বা শেয়ার কনফিগার করুন"
