@@ -41,8 +41,8 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
         base ("dlna",
               _("Media Library"),
               "applications-multimedia",
-              _("While enabled the following media libraries are shared to compatible devices in your network."),
-              _("While disabled the selected media libraries aren't shared and it isn't possible to stream files from your harddrive to other devices."));
+              _("While enabled, the following media libraries are shared to compatible devices in your network."),
+              _("While disabled, the selected media libraries are unshared, and it won't stream files from your computer to other devices."));
 
         build_ui ();
         read_state ();
