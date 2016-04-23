@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-21 12:33-0200\n"
+"POT-Creation-Date: 2016-04-23 12:16-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,36 +17,20 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr ""
-
-#: ../src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr ""
-
-#: ../src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr ""
-
-#: ../src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr ""
-
 #: ../src/Widgets/DLNAPage.vala:42
 msgid "Media Library"
 msgstr ""
 
 #: ../src/Widgets/DLNAPage.vala:44
 msgid ""
-"While enabled the following media libraries are shared to compatible devices "
-"in your network."
+"While enabled, the following media libraries are shared to compatible "
+"devices in your network."
 msgstr ""
 
 #: ../src/Widgets/DLNAPage.vala:45
 msgid ""
-"While disabled the selected media libraries aren't shared and it isn't "
-"possible to stream files from your harddrive to other devices."
+"While disabled, the selected media libraries are unshared, and it won't "
+"stream files from your computer to other devices."
 msgstr ""
 
 #: ../src/Widgets/DLNAPage.vala:56
@@ -63,6 +47,22 @@ msgstr ""
 
 #: ../src/Widgets/DLNAPage.vala:83
 msgid "Select the folder containing your %s"
+msgstr ""
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr ""
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr ""
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr ""
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
 msgstr ""
 
 #: ../src/Plug.vala:29
