@@ -7,31 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2015-12-21 12:33-0200\n"
+"POT-Creation-Date: 2016-04-23 12:16-0500\n"
 "PO-Revision-Date: 2016-04-17 00:02+0000\n"
 "Last-Translator: Matheus Macabu <mkbu95@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-04-17 06:05+0000\n"
+"X-Launchpad-Export-Date: 2016-04-24 06:12+0000\n"
 "X-Generator: Launchpad (build 17995)\n"
-
-#: ../src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "Habilitado"
-
-#: ../src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "Não disponível"
-
-#: ../src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "Conectado"
-
-#: ../src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Desabilitado"
 
 #: ../src/Widgets/DLNAPage.vala:42
 msgid "Media Library"
@@ -39,20 +23,15 @@ msgstr "Biblioteca de mídia"
 
 #: ../src/Widgets/DLNAPage.vala:44
 msgid ""
-"While enabled the following media libraries are shared to compatible devices "
-"in your network."
+"While enabled, the following media libraries are shared to compatible "
+"devices in your network."
 msgstr ""
-"Quando habilitado, as seguintes bibliotecas de mídia serão compartilhadas "
-"com dispositivos compatíveis em sua rede."
 
 #: ../src/Widgets/DLNAPage.vala:45
 msgid ""
-"While disabled the selected media libraries aren't shared and it isn't "
-"possible to stream files from your harddrive to other devices."
+"While disabled, the selected media libraries are unshared, and it won't "
+"stream files from your computer to other devices."
 msgstr ""
-"Quando desabilitado, as bibliotecas de mídia selecionadas não serão "
-"compartilhadas e não é possível enviar arquivos de seu disco rígido para "
-"outros dispositivos."
 
 #: ../src/Widgets/DLNAPage.vala:56
 msgid "Music"
@@ -69,6 +48,22 @@ msgstr "Fotos"
 #: ../src/Widgets/DLNAPage.vala:83
 msgid "Select the folder containing your %s"
 msgstr "Selecione a pasta que contém seu %s"
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "Não disponível"
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "Conectado"
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "Desabilitado"
 
 #: ../src/Plug.vala:29
 msgid "Sharing"
