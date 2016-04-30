@@ -1,16 +1,16 @@
-# Polish translation for switchboard-plug-sharing
-# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# Ukrainian translation for switchboard-plug-sharing
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
 # This file is distributed under the same license as the switchboard-plug-sharing package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-23 12:16-0500\n"
-"PO-Revision-Date: 2016-04-29 09:24+0000\n"
-"Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
-"Language-Team: Polish <pl@li.org>\n"
+"PO-Revision-Date: 2016-04-29 14:37+0000\n"
+"Last-Translator: neiron13 <Unknown>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,61 +19,56 @@ msgstr ""
 
 #: ../src/Widgets/DLNAPage.vala:42
 msgid "Media Library"
-msgstr "Biblioteka mediów"
+msgstr "Медіабібліотека"
 
 #: ../src/Widgets/DLNAPage.vala:44
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
 msgstr ""
-"Gdy włączony, następujące biblioteki mediów będą współdzielone z "
-"kompatybilnymi urządzeniami w Twojej sieci."
 
 #: ../src/Widgets/DLNAPage.vala:45
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
 msgstr ""
-"Gdy wyłączony, wybrane biblioteki mediów nie będą udostępnione oraz nie "
-"będzie możliwości transmitowania plików z Twojego komputera do innych "
-"urządzeń."
 
 #: ../src/Widgets/DLNAPage.vala:56
 msgid "Music"
-msgstr "Muzyka"
+msgstr "Музика"
 
 #: ../src/Widgets/DLNAPage.vala:57
 msgid "Videos"
-msgstr "Filmy"
+msgstr "Відео"
 
 #: ../src/Widgets/DLNAPage.vala:58
 msgid "Photos"
-msgstr "Zdjęcia"
+msgstr "Фотографії"
 
 #: ../src/Widgets/DLNAPage.vala:83
 msgid "Select the folder containing your %s"
-msgstr "Wybierz katalog zawierający Twoje %s"
+msgstr ""
 
 #: ../src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
-msgstr "Włączone"
+msgstr "Увімкнено"
 
 #: ../src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
-msgstr "Niedostępne"
+msgstr "Недоступно"
 
 #: ../src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
-msgstr "Połączone"
+msgstr "З’єднано"
 
 #: ../src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
-msgstr "Wyłączone"
+msgstr ""
 
 #: ../src/Plug.vala:29
 msgid "Sharing"
-msgstr "Współdzielenie"
+msgstr "Спільний доступ"
 
 #: ../src/Plug.vala:30
 msgid "Configure Bluetooth, DLNA, and Samba shares"
-msgstr "Konfiguruj Bluetooth, DLNA i katalogi sieciowe Samba"
+msgstr ""
