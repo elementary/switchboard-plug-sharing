@@ -1,4 +1,4 @@
-# Korean translation for switchboard-plug-sharing
+# Albanian translation for switchboard-plug-sharing
 # Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
 # This file is distributed under the same license as the switchboard-plug-sharing package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-04-23 12:16-0500\n"
-"PO-Revision-Date: 2016-05-01 05:50+0000\n"
-"Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
-"Language-Team: Korean <ko@li.org>\n"
+"PO-Revision-Date: 2016-05-01 01:53+0000\n"
+"Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,57 +19,56 @@ msgstr ""
 
 #: ../src/Widgets/DLNAPage.vala:42
 msgid "Media Library"
-msgstr "미디어 라이브러리"
+msgstr ""
 
 #: ../src/Widgets/DLNAPage.vala:44
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
-msgstr "사용할 땐, 다음의 미디어 라이브러리들이 네트워크 안의 호환되는 장비와 공유됩니다."
+msgstr ""
 
 #: ../src/Widgets/DLNAPage.vala:45
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
 msgstr ""
-"사용하지 않을 땐, 선택한 미디어 라이브러리들이 공유되지 않으며, 여러분의 컴퓨터에서 다른 장비로의 스트리밍도 안 하게 됩니다."
 
 #: ../src/Widgets/DLNAPage.vala:56
 msgid "Music"
-msgstr "음악"
+msgstr "Muzikë"
 
 #: ../src/Widgets/DLNAPage.vala:57
 msgid "Videos"
-msgstr "동영상"
+msgstr "Video"
 
 #: ../src/Widgets/DLNAPage.vala:58
 msgid "Photos"
-msgstr "사진"
+msgstr "Foto"
 
 #: ../src/Widgets/DLNAPage.vala:83
 msgid "Select the folder containing your %s"
-msgstr "%s가 있는 폴더 선택"
+msgstr ""
 
 #: ../src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
-msgstr "사용함"
+msgstr ""
 
 #: ../src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
-msgstr "사용 안 함"
+msgstr ""
 
 #: ../src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
-msgstr "연결됨"
+msgstr "Lidhur"
 
 #: ../src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
-msgstr "사용 안 함"
+msgstr ""
 
 #: ../src/Plug.vala:29
 msgid "Sharing"
-msgstr "공유하기"
+msgstr ""
 
 #: ../src/Plug.vala:30
 msgid "Configure Bluetooth, DLNA, and Samba shares"
-msgstr "블루투스, DNLA, 삼바 공유 설정하기"
+msgstr ""
