@@ -29,8 +29,9 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
               _("While enabled, bluetooth devices can send files to Downloads."),
               _("While disabled, bluetooth devices can not send files to Downloads."));
 
-        build_ui ();
         settings = new GLib.Settings ("org.gnome.desktop.file-sharing");
+
+        build_ui ();
         read_state ();
         connect_signals ();
     }
@@ -52,7 +53,6 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         accept_combo.append_text (_("Always"));
         accept_combo.append_text (_("When paired"));
         accept_combo.append_text (_("Ask me"));
-        accept_combo.active = 0;
 
         base.content_grid.attach (notify_label, 0, 0, 1, 1);
         base.content_grid.attach (notify_switch, 1, 0, 1, 1);
