@@ -39,7 +39,7 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
     private Gtk.Image service_icon;
     private Gtk.Label title_label;
     private Gtk.Label subtitle_label;
-    private Gtk.Switch service_switch;
+    public Gtk.Switch service_switch;
 
     protected signal void switch_state_changed (bool state);
 

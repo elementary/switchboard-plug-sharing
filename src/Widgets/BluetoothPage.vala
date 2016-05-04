@@ -50,9 +50,10 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         accept_label.xalign = 1.0f;
 
         accept_combo = new Gtk.ComboBoxText ();
-        accept_combo.append_text (_("Always"));
-        accept_combo.append_text (_("When paired"));
-        accept_combo.append_text (_("Ask me"));
+        accept_combo.hexpand = true;
+        accept_combo.append ("always", _("Always"));
+        accept_combo.append ("bonded", _("When paired"));
+        accept_combo.append ("ask", _("Ask me"));
 
         base.content_grid.attach (notify_label, 0, 0, 1, 1);
         base.content_grid.attach (notify_switch, 1, 0, 1, 1);
@@ -65,13 +66,15 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
     }
 
     private void connect_signals () {
+        settings.bind ("bluetooth-obexpush-enabled", base.service_switch, "active", SettingsBindFlags.DEFAULT);
+
         base.switch_state_changed.connect ((state) => {
             settings.set_boolean ("bluetooth-obexpush-enabled", state);
             update_state (state ? ServiceState.ENABLED : ServiceState.DISABLED);
         });
 
         settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
-        settings.bind ("bluetooth-accept-files", accept_combo, "active", SettingsBindFlags.DEFAULT);
+        settings.bind ("bluetooth-accept-files", accept_combo, "active-id", SettingsBindFlags.DEFAULT);
     }
 
 }
