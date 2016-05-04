@@ -32,7 +32,7 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         settings = new GLib.Settings ("org.gnome.desktop.file-sharing");
 
         build_ui ();
-        read_state ();
+        set_service_state (settings.get_boolean ("bluetooth-obexpush-enabled"));
         connect_signals ();
     }
 
@@ -61,20 +61,23 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         base.content_grid.attach (accept_combo, 1, 1, 1, 1);
     }
 
-    private void read_state () {
-        update_state (settings.get_boolean ("bluetooth-obexpush-enabled") ? ServiceState.ENABLED : ServiceState.DISABLED);
-    }
-
     private void connect_signals () {
         settings.bind ("bluetooth-obexpush-enabled", base.service_switch, "active", SettingsBindFlags.DEFAULT);
 
         base.switch_state_changed.connect ((state) => {
-            settings.set_boolean ("bluetooth-obexpush-enabled", state);
-            update_state (state ? ServiceState.ENABLED : ServiceState.DISABLED);
+            set_service_state (state);
         });
 
         settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
         settings.bind ("bluetooth-accept-files", accept_combo, "active-id", SettingsBindFlags.DEFAULT);
     }
 
+    private void set_service_state (bool state) {
+        var bluetooth_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.bluetooth");
+        if (bluetooth_settings.get_boolean ("bluetooth-enabled")) {
+            update_state (state ? ServiceState.ENABLED : ServiceState.DISABLED);
+        } else {
+            update_state (state ? ServiceState.NOT_AVAILABLE : ServiceState.DISABLED);
+        }
+    }
 }
