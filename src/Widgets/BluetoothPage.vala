@@ -18,7 +18,8 @@
  */
 
 public class Sharing.Widgets.BluetoothPage : SettingsPage {
-    GLib.Settings settings;
+    GLib.Settings bluetooth_settings;
+    GLib.Settings sharing_settings;
     Gtk.Switch notify_switch;
     Gtk.ComboBoxText accept_combo;
 
@@ -29,10 +30,11 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
               _("While enabled, bluetooth devices can send files to Downloads."),
               _("While disabled, bluetooth devices can not send files to Downloads."));
 
-        settings = new GLib.Settings ("org.gnome.desktop.file-sharing");
+        bluetooth_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.bluetooth");
+        sharing_settings = new GLib.Settings ("org.gnome.desktop.file-sharing");
 
         build_ui ();
-        set_service_state (settings.get_boolean ("bluetooth-obexpush-enabled"));
+        set_service_state (sharing_settings.get_boolean ("bluetooth-obexpush-enabled"));
         connect_signals ();
     }
 
@@ -65,11 +67,9 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
     }
 
     private void connect_signals () {
-        settings.bind ("bluetooth-obexpush-enabled", base.service_switch, "active", SettingsBindFlags.DEFAULT);
-
-        base.switch_state_changed.connect ((state) => {
-            set_service_state (state);
-        });
+        sharing_settings.bind ("bluetooth-obexpush-enabled", base.service_switch, "active", SettingsBindFlags.DEFAULT);
+        sharing_settings.bind ("bluetooth-accept-files", accept_combo, "active-id", SettingsBindFlags.DEFAULT);
+        sharing_settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
 
         base.link_button.activate_link.connect (() => {
             var list = new List<string> ();
@@ -84,12 +84,16 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
             return true;
         });
 
-        settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
-        settings.bind ("bluetooth-accept-files", accept_combo, "active-id", SettingsBindFlags.DEFAULT);
+        base.switch_state_changed.connect ((state) => {
+            set_service_state (state);
+        });
+
+        bluetooth_settings.changed ["bluetooth-enabled"].connect (() => {
+            set_service_state (sharing_settings.get_boolean ("bluetooth-obexpush-enabled"));
+        });
     }
 
     private void set_service_state (bool state) {
-        var bluetooth_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.bluetooth");
         if (bluetooth_settings.get_boolean ("bluetooth-enabled")) {
             update_state (state ? ServiceState.ENABLED : ServiceState.DISABLED);
         } else {
