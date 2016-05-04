@@ -39,6 +39,7 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
     private Gtk.Image service_icon;
     private Gtk.Label title_label;
     private Gtk.Label subtitle_label;
+    public Gtk.LinkButton link_button;
     public Gtk.Switch service_switch;
 
     protected signal void switch_state_changed (bool state);
@@ -102,11 +103,18 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
         content_grid.halign = Gtk.Align.CENTER;
         content_grid.sensitive = false;
 
+        link_button = new Gtk.LinkButton ("");
+        link_button.halign = Gtk.Align.END;
+        link_button.valign = Gtk.Align.END;
+        link_button.vexpand = true;
+        link_button.no_show_all = true;
+
         this.attach (service_icon, 0, 0, 1, 2);
         this.attach (title_label, 1, 0, 1, 1);
         this.attach (subtitle_label, 1, 1, 1, 1);
         this.attach (service_switch, 2, 0, 1, 2);
         this.attach (content_grid, 0, 2, 3, 1);
+        this.attach (link_button, 0, 3, 3, 1);
     }
 
     private void connect_signals () {

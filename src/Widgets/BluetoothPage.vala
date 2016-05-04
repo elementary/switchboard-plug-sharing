@@ -59,6 +59,9 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         base.content_grid.attach (notify_switch, 1, 0, 1, 1);
         base.content_grid.attach (accept_label, 0, 1, 1, 1);
         base.content_grid.attach (accept_combo, 1, 1, 1, 1);
+
+        base.link_button.label = "Bluetooth settings…";
+        base.link_button.no_show_all = false;
     }
 
     private void connect_signals () {
@@ -66,6 +69,19 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
 
         base.switch_state_changed.connect ((state) => {
             set_service_state (state);
+        });
+
+        base.link_button.activate_link.connect (() => {
+            var list = new List<string> ();
+            list.append ("bluetooth");
+
+            try {
+                var appinfo = AppInfo.create_from_commandline ("switchboard", null, AppInfoCreateFlags.SUPPORTS_URIS);
+                appinfo.launch_uris (list, null);
+            } catch (Error e) {
+                warning ("%s\n", e.message);
+            }
+            return true;
         });
 
         settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
