@@ -59,7 +59,7 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
 
         base.alert_view.title = _("Bluetooth Sharing Is Not Available");
         base.alert_view.description = _("The bluetooth device is either disconnected or disabled. Check bluetooth settings and try again.");
-        base.alert_view.icon_name ="preferences-bluetooth-symbolic";
+        base.alert_view.icon_name ="bluetooth-disabled-symbolic";
 
         base.content_grid.attach (notify_label, 0, 0, 1, 1);
         base.content_grid.attach (notify_switch, 1, 0, 1, 1);
