@@ -20,8 +20,8 @@
 public class Sharing.Widgets.BluetoothPage : SettingsPage {
     GLib.Settings bluetooth_settings;
     GLib.Settings sharing_settings;
-    Gtk.Switch notify_switch;
     Gtk.ComboBoxText accept_combo;
+    Gtk.Switch notify_switch;
 
     public BluetoothPage () {
         base ("bluetooth",
@@ -34,8 +34,8 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         sharing_settings = new GLib.Settings ("org.gnome.desktop.file-sharing");
 
         build_ui ();
-        set_service_state (sharing_settings.get_boolean ("bluetooth-obexpush-enabled"));
         connect_signals ();
+        set_service_state ();
     }
 
     private void build_ui () {
@@ -57,6 +57,10 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         accept_combo.append ("bonded", _("When paired"));
         accept_combo.append ("ask", _("Ask me"));
 
+        base.alert_view.title = _("Bluetooth Sharing Is Not Available");
+        base.alert_view.description = _("The bluetooth device is either disconnected or disabled. Check bluetooth settings and try again.");
+        base.alert_view.icon_name ="preferences-bluetooth-symbolic";
+
         base.content_grid.attach (notify_label, 0, 0, 1, 1);
         base.content_grid.attach (notify_switch, 1, 0, 1, 1);
         base.content_grid.attach (accept_label, 0, 1, 1, 1);
@@ -67,7 +71,7 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
     }
 
     private void connect_signals () {
-        sharing_settings.bind ("bluetooth-obexpush-enabled", base.service_switch, "active", SettingsBindFlags.DEFAULT);
+        sharing_settings.bind ("bluetooth-obexpush-enabled", base.service_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
         sharing_settings.bind ("bluetooth-accept-files", accept_combo, "active-id", SettingsBindFlags.DEFAULT);
         sharing_settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
 
@@ -84,20 +88,20 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
             return true;
         });
 
-        base.switch_state_changed.connect ((state) => {
-            set_service_state (state);
+        base.service_switch.notify ["active"].connect (() => {
+            set_service_state ();
         });
 
         bluetooth_settings.changed ["bluetooth-enabled"].connect (() => {
-            set_service_state (sharing_settings.get_boolean ("bluetooth-obexpush-enabled"));
+            set_service_state ();
         });
     }
 
-    private void set_service_state (bool state) {
+    private void set_service_state () {
         if (bluetooth_settings.get_boolean ("bluetooth-enabled")) {
-            update_state (state ? ServiceState.ENABLED : ServiceState.DISABLED);
+            update_state (sharing_settings.get_boolean ("bluetooth-obexpush-enabled") ? ServiceState.ENABLED : ServiceState.DISABLED);
         } else {
-            update_state (state ? ServiceState.NOT_AVAILABLE : ServiceState.DISABLED);
+            update_state (ServiceState.NOT_AVAILABLE);
         }
     }
 }
