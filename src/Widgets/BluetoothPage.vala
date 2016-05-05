@@ -62,7 +62,7 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         base.content_grid.attach (accept_label, 0, 1, 1, 1);
         base.content_grid.attach (accept_combo, 1, 1, 1, 1);
 
-        base.link_button.label = "Bluetooth settings…";
+        base.link_button.label = _("Bluetooth settings…");
         base.link_button.no_show_all = false;
     }
 
