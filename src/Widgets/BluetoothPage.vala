@@ -67,6 +67,7 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         base.content_grid.attach (accept_combo, 1, 1, 1, 1);
 
         base.link_button.label = _("Bluetooth settings…");
+        base.link_button.tooltip_text = _("Open bluetooth settings");
         base.link_button.no_show_all = false;
     }
 
