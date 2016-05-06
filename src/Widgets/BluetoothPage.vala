@@ -63,9 +63,6 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
     }
 
     construct {
-        content_grid.set_size_request (500, -1);
-        content_grid.margin_top = 100;
-
         var notify_label = new Gtk.Label (_("Notify about newly received files:"));
         ((Gtk.Misc)notify_label).xalign = 1.0f;
 
