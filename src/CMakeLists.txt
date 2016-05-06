@@ -19,6 +19,7 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Widgets/ServiceEntry.vala
     Widgets/SettingsView.vala
     Widgets/SettingsPage.vala
+    Widgets/BluetoothPage.vala
     Widgets/DLNAPage.vala
     Backend/RygelDBusInterface.vala
     Backend/RygelStartupManager.vala

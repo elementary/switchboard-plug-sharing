@@ -30,7 +30,7 @@ public class Sharing.Widgets.ServiceEntry : Gtk.ListBoxRow {
     private static string state_to_icon_name (SettingsPage.ServiceState service_state) {
         switch (service_state) {
             case SettingsPage.ServiceState.ENABLED: return "user-available";
-            case SettingsPage.ServiceState.NOT_AVAILABLE: return "user-invisible";
+            case SettingsPage.ServiceState.NOT_AVAILABLE: return "user-busy";
             case SettingsPage.ServiceState.CONNECTED: return "mail-unread";
             default: case SettingsPage.ServiceState.DISABLED: return "user-offline";
         }
