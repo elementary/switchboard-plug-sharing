@@ -33,50 +33,11 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         bluetooth_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.bluetooth");
         sharing_settings = new GLib.Settings ("org.gnome.desktop.file-sharing");
 
-        build_ui ();
-        connect_signals ();
-        set_service_state ();
-    }
-
-    private void build_ui () {
-        base.content_grid.set_size_request (500, -1);
-        base.content_grid.margin_top = 100;
-
-        var notify_label = new Gtk.Label (_("Notify about newly received files:"));
-        notify_label.xalign = 1.0f;
-
-        notify_switch = new Gtk.Switch ();
-        notify_switch.halign = Gtk.Align.START;
-
-        var accept_label = new Gtk.Label (_("Accept files from bluetooth devices:"));
-        accept_label.xalign = 1.0f;
-
-        accept_combo = new Gtk.ComboBoxText ();
-        accept_combo.hexpand = true;
-        accept_combo.append ("always", _("Always"));
-        accept_combo.append ("bonded", _("When paired"));
-        accept_combo.append ("ask", _("Ask me"));
-
-        base.alert_view.title = _("Bluetooth Sharing Is Not Available");
-        base.alert_view.description = _("The bluetooth device is either disconnected or disabled. Check bluetooth settings and try again.");
-        base.alert_view.icon_name ="bluetooth-disabled-symbolic";
-
-        base.content_grid.attach (notify_label, 0, 0, 1, 1);
-        base.content_grid.attach (notify_switch, 1, 0, 1, 1);
-        base.content_grid.attach (accept_label, 0, 1, 1, 1);
-        base.content_grid.attach (accept_combo, 1, 1, 1, 1);
-
-        base.link_button.label = _("Bluetooth settings…");
-        base.link_button.tooltip_text = _("Open bluetooth settings");
-        base.link_button.no_show_all = false;
-    }
-
-    private void connect_signals () {
-        sharing_settings.bind ("bluetooth-obexpush-enabled", base.service_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
+        sharing_settings.bind ("bluetooth-obexpush-enabled", service_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
         sharing_settings.bind ("bluetooth-accept-files", accept_combo, "active-id", SettingsBindFlags.DEFAULT);
         sharing_settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
 
-        base.link_button.activate_link.connect (() => {
+        link_button.activate_link.connect (() => {
             var list = new List<string> ();
             list.append ("bluetooth");
 
@@ -84,18 +45,54 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
                 var appinfo = AppInfo.create_from_commandline ("switchboard", null, AppInfoCreateFlags.SUPPORTS_URIS);
                 appinfo.launch_uris (list, null);
             } catch (Error e) {
-                warning ("%s\n", e.message);
+                warning (e.message);
             }
+
             return true;
         });
 
-        base.service_switch.notify ["active"].connect (() => {
+        service_switch.notify ["active"].connect (() => {
             set_service_state ();
         });
 
         bluetooth_settings.changed ["bluetooth-enabled"].connect (() => {
             set_service_state ();
         });
+
+        set_service_state ();
+    }
+
+    construct {
+        content_grid.set_size_request (500, -1);
+        content_grid.margin_top = 100;
+
+        var notify_label = new Gtk.Label (_("Notify about newly received files:"));
+        ((Gtk.Misc)notify_label).xalign = 1.0f;
+
+        notify_switch = new Gtk.Switch ();
+        notify_switch.halign = Gtk.Align.START;
+
+        var accept_label = new Gtk.Label (_("Accept files from bluetooth devices:"));
+        ((Gtk.Misc) accept_label).xalign = 1.0f;
+
+        accept_combo = new Gtk.ComboBoxText ();
+        accept_combo.hexpand = true;
+        accept_combo.append ("always", _("Always"));
+        accept_combo.append ("bonded", _("When paired"));
+        accept_combo.append ("ask", _("Ask me"));
+
+        alert_view.title = _("Bluetooth Sharing Is Not Available");
+        alert_view.description = _("The bluetooth device is either disconnected or disabled. Check bluetooth settings and try again.");
+        alert_view.icon_name ="bluetooth-disabled-symbolic";
+
+        content_grid.attach (notify_label, 0, 0, 1, 1);
+        content_grid.attach (notify_switch, 1, 0, 1, 1);
+        content_grid.attach (accept_label, 0, 1, 1, 1);
+        content_grid.attach (accept_combo, 1, 1, 1, 1);
+
+        link_button.label = _("Bluetooth settings…");
+        link_button.tooltip_text = _("Open bluetooth settings");
+        link_button.no_show_all = false;
     }
 
     private void set_service_state () {
