@@ -85,6 +85,8 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
         content_grid.row_spacing = 12;
         content_grid.halign = Gtk.Align.CENTER;
         content_grid.sensitive = false;
+        content_grid.set_size_request (500, -1);
+        content_grid.margin_top = 100;
 
         alert_view = new Granite.Widgets.AlertView ("", "", "");
         alert_view.get_style_context ().remove_class (Gtk.STYLE_CLASS_VIEW);
