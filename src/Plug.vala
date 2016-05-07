@@ -27,7 +27,7 @@ public class Sharing.Plug : Switchboard.Plug {
         Object (category : Category.NETWORK,
                 code_name: "pantheon-sharing",
                 display_name: _("Sharing"),
-                description: _("Configure Bluetooth, DLNA, and Samba shares"),
+                description: _("Configure file and media sharing"),
                 icon: "preferences-system-sharing");
     }
 
