@@ -7,52 +7,39 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-05-06 15:22-0500\n"
+"POT-Creation-Date: 2016-05-07 11:12-0700\n"
 "PO-Revision-Date: 2016-04-25 01:39+0000\n"
 "Last-Translator: Leonardo Lemos <Unknown>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-07 05:25+0000\n"
+"X-Launchpad-Export-Date: 2016-05-08 04:56+0000\n"
 "X-Generator: Launchpad (build 18025)\n"
 
-#: ../src/Widgets/DLNAPage.vala:42
-msgid "Media Library"
-msgstr "Biblioteca de mídia"
+#: ../src/Plug.vala:29
+msgid "Sharing"
+msgstr "Compartilhamento"
 
-#: ../src/Widgets/DLNAPage.vala:44
-msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
+#: ../src/Plug.vala:30
+msgid "Configure file and media sharing"
 msgstr ""
-"Enquanto habilitado, as seguintes bibliotecas de mídia são compartilhadas "
-"com dispositivos compatíveis em sua rede."
 
-#: ../src/Widgets/DLNAPage.vala:45
-msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
-msgstr ""
-"Enquanto desabilitado, as bibliotecas de mídia selecionadas não são "
-"compartilhadas, e não será possível realizar transmissão de arquivos de seu "
-"computador para outros dispositivos."
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "Habilitado"
 
-#: ../src/Widgets/DLNAPage.vala:56
-msgid "Music"
-msgstr "Música"
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "Não disponível"
 
-#: ../src/Widgets/DLNAPage.vala:57
-msgid "Videos"
-msgstr "Vídeos"
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "Conectado"
 
-#: ../src/Widgets/DLNAPage.vala:58
-msgid "Photos"
-msgstr "Fotos"
-
-#: ../src/Widgets/DLNAPage.vala:83
-msgid "Select the folder containing your %s"
-msgstr "Selecione a pasta que contém seu %s"
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "Desabilitado"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -104,26 +91,39 @@ msgstr ""
 msgid "Open bluetooth settings"
 msgstr ""
 
-#: ../src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "Habilitado"
+#: ../src/Widgets/DLNAPage.vala:42
+msgid "Media Library"
+msgstr "Biblioteca de mídia"
 
-#: ../src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "Não disponível"
+#: ../src/Widgets/DLNAPage.vala:44
+msgid ""
+"While enabled, the following media libraries are shared to compatible "
+"devices in your network."
+msgstr ""
+"Enquanto habilitado, as seguintes bibliotecas de mídia são compartilhadas "
+"com dispositivos compatíveis em sua rede."
 
-#: ../src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "Conectado"
+#: ../src/Widgets/DLNAPage.vala:45
+msgid ""
+"While disabled, the selected media libraries are unshared, and it won't "
+"stream files from your computer to other devices."
+msgstr ""
+"Enquanto desabilitado, as bibliotecas de mídia selecionadas não são "
+"compartilhadas, e não será possível realizar transmissão de arquivos de seu "
+"computador para outros dispositivos."
 
-#: ../src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Desabilitado"
+#: ../src/Widgets/DLNAPage.vala:56
+msgid "Music"
+msgstr "Música"
 
-#: ../src/Plug.vala:29
-msgid "Sharing"
-msgstr "Compartilhamento"
+#: ../src/Widgets/DLNAPage.vala:57
+msgid "Videos"
+msgstr "Vídeos"
 
-#: ../src/Plug.vala:30
-msgid "Configure Bluetooth, DLNA, and Samba shares"
-msgstr "Configurar compartilhamento Bluetooth, DLNA e Samba"
+#: ../src/Widgets/DLNAPage.vala:58
+msgid "Photos"
+msgstr "Fotos"
+
+#: ../src/Widgets/DLNAPage.vala:83
+msgid "Select the folder containing your %s"
+msgstr "Selecione a pasta que contém seu %s"

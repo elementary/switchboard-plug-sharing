@@ -7,47 +7,39 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-05-06 15:22-0500\n"
+"POT-Creation-Date: 2016-05-07 11:12-0700\n"
 "PO-Revision-Date: 2016-04-24 00:56+0000\n"
 "Last-Translator: colindemian <dengmengpc@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-07 05:25+0000\n"
+"X-Launchpad-Export-Date: 2016-05-08 04:56+0000\n"
 "X-Generator: Launchpad (build 18025)\n"
 
-#: ../src/Widgets/DLNAPage.vala:42
-msgid "Media Library"
-msgstr "媒体库"
+#: ../src/Plug.vala:29
+msgid "Sharing"
+msgstr "共享中"
 
-#: ../src/Widgets/DLNAPage.vala:44
-msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
-msgstr "启用时，以下媒体库将会被共享给您当前网络中可用的设备。"
+#: ../src/Plug.vala:30
+msgid "Configure file and media sharing"
+msgstr ""
 
-#: ../src/Widgets/DLNAPage.vala:45
-msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
-msgstr "禁用时，选中的媒体库将不会被共享，也不会传输您的文件到其他设备。"
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "已启用"
 
-#: ../src/Widgets/DLNAPage.vala:56
-msgid "Music"
-msgstr "音乐"
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "不可用"
 
-#: ../src/Widgets/DLNAPage.vala:57
-msgid "Videos"
-msgstr "视频"
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "已连接"
 
-#: ../src/Widgets/DLNAPage.vala:58
-msgid "Photos"
-msgstr "照片"
-
-#: ../src/Widgets/DLNAPage.vala:83
-msgid "Select the folder containing your %s"
-msgstr "选择包含 %s 内容的文件夹"
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "已禁用"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -99,26 +91,34 @@ msgstr ""
 msgid "Open bluetooth settings"
 msgstr ""
 
-#: ../src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "已启用"
+#: ../src/Widgets/DLNAPage.vala:42
+msgid "Media Library"
+msgstr "媒体库"
 
-#: ../src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "不可用"
+#: ../src/Widgets/DLNAPage.vala:44
+msgid ""
+"While enabled, the following media libraries are shared to compatible "
+"devices in your network."
+msgstr "启用时，以下媒体库将会被共享给您当前网络中可用的设备。"
 
-#: ../src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "已连接"
+#: ../src/Widgets/DLNAPage.vala:45
+msgid ""
+"While disabled, the selected media libraries are unshared, and it won't "
+"stream files from your computer to other devices."
+msgstr "禁用时，选中的媒体库将不会被共享，也不会传输您的文件到其他设备。"
 
-#: ../src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "已禁用"
+#: ../src/Widgets/DLNAPage.vala:56
+msgid "Music"
+msgstr "音乐"
 
-#: ../src/Plug.vala:29
-msgid "Sharing"
-msgstr "共享中"
+#: ../src/Widgets/DLNAPage.vala:57
+msgid "Videos"
+msgstr "视频"
 
-#: ../src/Plug.vala:30
-msgid "Configure Bluetooth, DLNA, and Samba shares"
-msgstr "配置蓝牙、DLNA 和 Samba 共享"
+#: ../src/Widgets/DLNAPage.vala:58
+msgid "Photos"
+msgstr "照片"
+
+#: ../src/Widgets/DLNAPage.vala:83
+msgid "Select the folder containing your %s"
+msgstr "选择包含 %s 内容的文件夹"

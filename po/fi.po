@@ -7,51 +7,39 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-05-06 15:22-0500\n"
+"POT-Creation-Date: 2016-05-07 11:12-0700\n"
 "PO-Revision-Date: 2016-04-25 06:54+0000\n"
 "Last-Translator: Jiri Grönroos <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-07 05:25+0000\n"
+"X-Launchpad-Export-Date: 2016-05-08 04:56+0000\n"
 "X-Generator: Launchpad (build 18025)\n"
 
-#: ../src/Widgets/DLNAPage.vala:42
-msgid "Media Library"
-msgstr "Mediakirjasto"
+#: ../src/Plug.vala:29
+msgid "Sharing"
+msgstr "Jakaminen"
 
-#: ../src/Widgets/DLNAPage.vala:44
-msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
+#: ../src/Plug.vala:30
+msgid "Configure file and media sharing"
 msgstr ""
-"Kun käytössä, seuraavat mediakirjastot jaetaan samassa verkossa oleville "
-"yhteensopiville laitteille."
 
-#: ../src/Widgets/DLNAPage.vala:45
-msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
-msgstr ""
-"Kun ei käytössä, valitut mediakirjastot eivät ole jaossa, eikä tiedostojasi "
-"voi suoratoistaa toisille laitteille tietokoneeltasi."
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "Käytössä"
 
-#: ../src/Widgets/DLNAPage.vala:56
-msgid "Music"
-msgstr "Musiikki"
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "Ei saatavilla"
 
-#: ../src/Widgets/DLNAPage.vala:57
-msgid "Videos"
-msgstr "Videot"
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "Yhdistetty"
 
-#: ../src/Widgets/DLNAPage.vala:58
-msgid "Photos"
-msgstr "Kuvat"
-
-#: ../src/Widgets/DLNAPage.vala:83
-msgid "Select the folder containing your %s"
-msgstr "Valitse kansio, joka sisältää %s"
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "Ei käytössä"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -103,26 +91,38 @@ msgstr ""
 msgid "Open bluetooth settings"
 msgstr ""
 
-#: ../src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "Käytössä"
+#: ../src/Widgets/DLNAPage.vala:42
+msgid "Media Library"
+msgstr "Mediakirjasto"
 
-#: ../src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "Ei saatavilla"
+#: ../src/Widgets/DLNAPage.vala:44
+msgid ""
+"While enabled, the following media libraries are shared to compatible "
+"devices in your network."
+msgstr ""
+"Kun käytössä, seuraavat mediakirjastot jaetaan samassa verkossa oleville "
+"yhteensopiville laitteille."
 
-#: ../src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "Yhdistetty"
+#: ../src/Widgets/DLNAPage.vala:45
+msgid ""
+"While disabled, the selected media libraries are unshared, and it won't "
+"stream files from your computer to other devices."
+msgstr ""
+"Kun ei käytössä, valitut mediakirjastot eivät ole jaossa, eikä tiedostojasi "
+"voi suoratoistaa toisille laitteille tietokoneeltasi."
 
-#: ../src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Ei käytössä"
+#: ../src/Widgets/DLNAPage.vala:56
+msgid "Music"
+msgstr "Musiikki"
 
-#: ../src/Plug.vala:29
-msgid "Sharing"
-msgstr "Jakaminen"
+#: ../src/Widgets/DLNAPage.vala:57
+msgid "Videos"
+msgstr "Videot"
 
-#: ../src/Plug.vala:30
-msgid "Configure Bluetooth, DLNA, and Samba shares"
-msgstr "Hallitse Bluetooth-, DLNA- ja Samba-jakoja"
+#: ../src/Widgets/DLNAPage.vala:58
+msgid "Photos"
+msgstr "Kuvat"
+
+#: ../src/Widgets/DLNAPage.vala:83
+msgid "Select the folder containing your %s"
+msgstr "Valitse kansio, joka sisältää %s"
