@@ -1,0 +1,130 @@
+# English (Canada) translation for switchboard-plug-sharing
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the switchboard-plug-sharing package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-sharing\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-05-07 11:12-0700\n"
+"PO-Revision-Date: 2016-05-10 17:30+0000\n"
+"Last-Translator: Giovanni Caligaris <giovannicaligaris@gmail.com>\n"
+"Language-Team: English (Canada) <en_CA@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-05-11 06:10+0000\n"
+"X-Generator: Launchpad (build 18025)\n"
+
+#: ../src/Plug.vala:29
+msgid "Sharing"
+msgstr "Sharing"
+
+#: ../src/Plug.vala:30
+msgid "Configure file and media sharing"
+msgstr "Configure file and media sharing"
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "Enabled"
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "Not Available"
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "Connected"
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "Disabled"
+
+#: ../src/Widgets/BluetoothPage.vala:28
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: ../src/Widgets/BluetoothPage.vala:30
+msgid "While enabled, bluetooth devices can send files to Downloads."
+msgstr "While enabled, bluetooth devices can send files to Downloads."
+
+#: ../src/Widgets/BluetoothPage.vala:31
+msgid "While disabled, bluetooth devices can not send files to Downloads."
+msgstr "While disabled, bluetooth devices can not send files to Downloads."
+
+#: ../src/Widgets/BluetoothPage.vala:69
+msgid "Notify about newly received files:"
+msgstr "Notify about newly received files:"
+
+#: ../src/Widgets/BluetoothPage.vala:75
+msgid "Accept files from bluetooth devices:"
+msgstr "Accept files from bluetooth devices:"
+
+#: ../src/Widgets/BluetoothPage.vala:80
+msgid "Always"
+msgstr "Always"
+
+#: ../src/Widgets/BluetoothPage.vala:81
+msgid "When paired"
+msgstr "When paired"
+
+#: ../src/Widgets/BluetoothPage.vala:82
+msgid "Ask me"
+msgstr "Ask me"
+
+#: ../src/Widgets/BluetoothPage.vala:84
+msgid "Bluetooth Sharing Is Not Available"
+msgstr "Bluetooth Sharing Is Not Available"
+
+#: ../src/Widgets/BluetoothPage.vala:85
+msgid ""
+"The bluetooth device is either disconnected or disabled. Check bluetooth "
+"settings and try again."
+msgstr ""
+"The bluetooth device is either disconnected or disabled. Check bluetooth "
+"settings and try again."
+
+#: ../src/Widgets/BluetoothPage.vala:93
+msgid "Bluetooth settings…"
+msgstr "Bluetooth settings…"
+
+#: ../src/Widgets/BluetoothPage.vala:94
+msgid "Open bluetooth settings"
+msgstr "Open bluetooth settings"
+
+#: ../src/Widgets/DLNAPage.vala:42
+msgid "Media Library"
+msgstr "Media Library"
+
+#: ../src/Widgets/DLNAPage.vala:44
+msgid ""
+"While enabled, the following media libraries are shared to compatible "
+"devices in your network."
+msgstr ""
+"While enabled, the following media libraries are shared to compatible "
+"devices in your network."
+
+#: ../src/Widgets/DLNAPage.vala:45
+msgid ""
+"While disabled, the selected media libraries are unshared, and it won't "
+"stream files from your computer to other devices."
+msgstr ""
+"While disabled, the selected media libraries are unshared, and it won't "
+"stream files from your computer to other devices."
+
+#: ../src/Widgets/DLNAPage.vala:56
+msgid "Music"
+msgstr "Music"
+
+#: ../src/Widgets/DLNAPage.vala:57
+msgid "Videos"
+msgstr "Videos"
+
+#: ../src/Widgets/DLNAPage.vala:58
+msgid "Photos"
+msgstr "Photos"
+
+#: ../src/Widgets/DLNAPage.vala:83
+msgid "Select the folder containing your %s"
+msgstr "Select the folder containing your %s"
