@@ -65,7 +65,7 @@ public class Sharing.Plug : Switchboard.Plug {
         settings_view = new Widgets.SettingsView ();
 
         var network_alert_view = new Granite.Widgets.AlertView (_("Network Is Not Available"),
-                                                                _("While network is not available you cannot use any sharing services."),
+                                                                _("While disconnected from the network, sharing services are not available."),
                                                                 "network-error");
         network_alert_view.get_style_context ().remove_class (Gtk.STYLE_CLASS_VIEW);
 
@@ -111,7 +111,7 @@ public class Sharing.Plug : Switchboard.Plug {
     }
 
     private void update_content_view () {
-        if (NetworkMonitor.get_default ().get_network_available ()) {
+        if (NetworkMonitor.get_default ().get_network_available () || NetworkMonitor.get_default ().get_network_metered ()) {
             content.visible_child_name = "main-container";
         } else {
             content.visible_child_name = "network-alert-view";
