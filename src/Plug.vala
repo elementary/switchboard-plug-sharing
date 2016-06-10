@@ -18,11 +18,11 @@
  */
 
 public class Sharing.Plug : Switchboard.Plug {
-    private Gtk.Paned? main_container = null;
+    private Gtk.Stack? content = null;
 
+    private Gtk.Paned main_container;
     private Widgets.Sidebar sidebar;
     private Widgets.SettingsView settings_view;
-    private Gtk.Stack content;
     private Gtk.LinkButton link_button;
 
     public Plug () {
@@ -34,13 +34,13 @@ public class Sharing.Plug : Switchboard.Plug {
     }
 
     public override Gtk.Widget get_widget () {
-        if (main_container == null) {
+        if (content == null) {
             build_ui ();
             connect_signals ();
             update_content_view ();
         }
 
-        return main_container;
+        return content;
     }
 
     public override void shown () {
@@ -58,8 +58,9 @@ public class Sharing.Plug : Switchboard.Plug {
     }
 
     private void build_ui () {
+        content = new Gtk.Stack ();
+        
         main_container = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
-
         sidebar = new Widgets.Sidebar ();
         settings_view = new Widgets.SettingsView ();
 
@@ -78,17 +79,16 @@ public class Sharing.Plug : Switchboard.Plug {
         network_grid_view.attach (network_alert_view, 0, 0, 1, 1);
         network_grid_view.attach (link_button, 0, 1, 1, 1);
 
-        content = new Gtk.Stack ();
-        content.add_named (settings_view, "settings-view");
-        content.add_named (network_grid_view, "network-alert-view");
-
         foreach (Widgets.SettingsPage settings_page in settings_view.get_settings_pages ()) {
             sidebar.add_service_entry (settings_page.get_service_entry ());
         }
 
         main_container.pack1 (sidebar, false, false);
-        main_container.pack2 (content, true, false);
-        main_container.show_all ();
+        main_container.pack2 (settings_view, true, false);
+
+        content.add_named (main_container, "main-container");
+        content.add_named (network_grid_view, "network-alert-view");
+        content.show_all ();
     }
 
     private void connect_signals () {
