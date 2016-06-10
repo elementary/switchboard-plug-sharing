@@ -59,7 +59,7 @@ public class Sharing.Plug : Switchboard.Plug {
 
     private void build_ui () {
         content = new Gtk.Stack ();
-        
+
         main_container = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
         sidebar = new Widgets.Sidebar ();
         settings_view = new Widgets.SettingsView ();
@@ -112,7 +112,7 @@ public class Sharing.Plug : Switchboard.Plug {
 
     private void update_content_view () {
         if (NetworkMonitor.get_default ().get_network_available ()) {
-            content.visible_child_name = "settings-view";
+            content.visible_child_name = "main-container";
         } else {
             content.visible_child_name = "network-alert-view";
         }
