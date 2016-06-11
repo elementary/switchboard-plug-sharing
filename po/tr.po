@@ -7,39 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-05-07 11:12-0700\n"
+"POT-Creation-Date: 2016-06-10 14:22-0700\n"
 "PO-Revision-Date: 2016-05-07 22:46+0000\n"
 "Last-Translator: Melih Güçlü <melihguclu@hotmail.com>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-05-08 04:56+0000\n"
-"X-Generator: Launchpad (build 18025)\n"
-
-#: ../src/Plug.vala:29
-msgid "Sharing"
-msgstr "Paylaşım"
-
-#: ../src/Plug.vala:30
-msgid "Configure file and media sharing"
-msgstr "Dosyayı ve medya paylaşımını yapılandır"
-
-#: ../src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "Etkin"
-
-#: ../src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "Kullanılabilir Değil"
-
-#: ../src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "Bağlı"
-
-#: ../src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Devre dışı"
+"X-Launchpad-Export-Date: 2016-06-11 05:46+0000\n"
+"X-Generator: Launchpad (build 18097)\n"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -57,31 +33,31 @@ msgstr ""
 "Devre dışı bırakıldığında, bluetooth cihazları İndirilenler klasörüne dosya "
 "gönderemez."
 
-#: ../src/Widgets/BluetoothPage.vala:69
+#: ../src/Widgets/BluetoothPage.vala:66
 msgid "Notify about newly received files:"
 msgstr "Alınan yeni dosyalar ile ilgili bilgilendirme yap:"
 
-#: ../src/Widgets/BluetoothPage.vala:75
+#: ../src/Widgets/BluetoothPage.vala:72
 msgid "Accept files from bluetooth devices:"
 msgstr "Bluetooth cihazazlarından dosya kabul et:"
 
-#: ../src/Widgets/BluetoothPage.vala:80
+#: ../src/Widgets/BluetoothPage.vala:77
 msgid "Always"
 msgstr "Her zaman"
 
-#: ../src/Widgets/BluetoothPage.vala:81
+#: ../src/Widgets/BluetoothPage.vala:78
 msgid "When paired"
 msgstr "Eşleştirildiğinde"
 
-#: ../src/Widgets/BluetoothPage.vala:82
+#: ../src/Widgets/BluetoothPage.vala:79
 msgid "Ask me"
 msgstr "Bana sor"
 
-#: ../src/Widgets/BluetoothPage.vala:84
+#: ../src/Widgets/BluetoothPage.vala:81
 msgid "Bluetooth Sharing Is Not Available"
 msgstr "Bluetooth Paylaşımı mevcut değil"
 
-#: ../src/Widgets/BluetoothPage.vala:85
+#: ../src/Widgets/BluetoothPage.vala:82
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
@@ -89,19 +65,35 @@ msgstr ""
 "Bluetooth cihazının devre dışı olması ve bağlantısının kesilmesi "
 "durumlarında bluetooth ayarlarını kontrol et ve tekrar dene."
 
-#: ../src/Widgets/BluetoothPage.vala:93
+#: ../src/Widgets/BluetoothPage.vala:90
 msgid "Bluetooth settings…"
 msgstr "Bluetooth Ayarları"
 
-#: ../src/Widgets/BluetoothPage.vala:94
+#: ../src/Widgets/BluetoothPage.vala:91
 msgid "Open bluetooth settings"
 msgstr "Bluetooth ayarlarını aç"
 
-#: ../src/Widgets/DLNAPage.vala:42
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "Etkin"
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "Kullanılabilir Değil"
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "Bağlı"
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: ../src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
 msgstr "Ortam Kütüphanesi"
 
-#: ../src/Widgets/DLNAPage.vala:44
+#: ../src/Widgets/DLNAPage.vala:30
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -109,7 +101,7 @@ msgstr ""
 "Aktif edildiğinde, ortam kütüphaneleri ağda bulunan uyumlu cihazlar ile "
 "paylaşılır."
 
-#: ../src/Widgets/DLNAPage.vala:45
+#: ../src/Widgets/DLNAPage.vala:31
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -117,18 +109,39 @@ msgstr ""
 "Devredışı bırakıldığında, seçili ortam kütüphaneleri paylaşılmaz ve "
 "bilgisayarınızdan diğer cihazlara yayın yapmaz."
 
-#: ../src/Widgets/DLNAPage.vala:56
+#: ../src/Widgets/DLNAPage.vala:49
 msgid "Music"
 msgstr "Müzik"
 
-#: ../src/Widgets/DLNAPage.vala:57
+#: ../src/Widgets/DLNAPage.vala:50
 msgid "Videos"
 msgstr "Videolar"
 
-#: ../src/Widgets/DLNAPage.vala:58
+#: ../src/Widgets/DLNAPage.vala:51
 msgid "Photos"
 msgstr "Fotoğraflar"
 
-#: ../src/Widgets/DLNAPage.vala:83
+#: ../src/Widgets/DLNAPage.vala:69
 msgid "Select the folder containing your %s"
 msgstr "%s'i içeren dizini seçin"
+
+#: ../src/Plug.vala:31
+msgid "Sharing"
+msgstr "Paylaşım"
+
+#: ../src/Plug.vala:32
+msgid "Configure file and media sharing"
+msgstr "Dosyayı ve medya paylaşımını yapılandır"
+
+#: ../src/Plug.vala:67
+msgid "Network Is Not Available"
+msgstr ""
+
+#: ../src/Plug.vala:68
+msgid ""
+"While disconnected from the network, sharing services are not available."
+msgstr ""
+
+#: ../src/Plug.vala:72
+msgid "Network settings…"
+msgstr ""
