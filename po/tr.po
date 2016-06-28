@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-10 14:22-0700\n"
-"PO-Revision-Date: 2016-05-07 22:46+0000\n"
+"PO-Revision-Date: 2016-06-28 00:41+0000\n"
 "Last-Translator: Melih Güçlü <melihguclu@hotmail.com>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-11 05:46+0000\n"
-"X-Generator: Launchpad (build 18097)\n"
+"X-Launchpad-Export-Date: 2016-06-28 06:12+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -135,13 +135,13 @@ msgstr "Dosyayı ve medya paylaşımını yapılandır"
 
 #: ../src/Plug.vala:67
 msgid "Network Is Not Available"
-msgstr ""
+msgstr "Ağ kullanılabilir değil"
 
 #: ../src/Plug.vala:68
 msgid ""
 "While disconnected from the network, sharing services are not available."
-msgstr ""
+msgstr "Ağ bağlantısı kesildiğinde, paylaşım servisleri kullanılamaz."
 
 #: ../src/Plug.vala:72
 msgid "Network settings…"
-msgstr ""
+msgstr "Ağ ayarları..."
