@@ -8,38 +8,42 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-10 14:22-0700\n"
-"PO-Revision-Date: 2016-05-01 01:53+0000\n"
+"PO-Revision-Date: 2016-06-29 14:19+0000\n"
 "Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>\n"
 "Language-Team: Albanian <sq@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-11 05:46+0000\n"
-"X-Generator: Launchpad (build 18097)\n"
+"X-Launchpad-Export-Date: 2016-06-30 06:00+0000\n"
+"X-Generator: Launchpad (build 18115)\n"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: ../src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
+"Gjersa të jenë aktivë, pajisjet bluetooth mund të dërgojnë skedarë në "
+"Shkarkimet."
 
 #: ../src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
+"Gjersa të jenë joaktivë, pajisjet bluetooth nuk mund të dërgojnë skedarë në "
+"Shkarkimet."
 
 #: ../src/Widgets/BluetoothPage.vala:66
 msgid "Notify about newly received files:"
-msgstr ""
+msgstr "Njofto kur arrijnë skedarë të ri:"
 
 #: ../src/Widgets/BluetoothPage.vala:72
 msgid "Accept files from bluetooth devices:"
-msgstr ""
+msgstr "Prano skedarë nga pajisja bluetooth:"
 
 #: ../src/Widgets/BluetoothPage.vala:77
 msgid "Always"
-msgstr ""
+msgstr "Gjithmonë"
 
 #: ../src/Widgets/BluetoothPage.vala:78
 msgid "When paired"
@@ -47,7 +51,7 @@ msgstr ""
 
 #: ../src/Widgets/BluetoothPage.vala:79
 msgid "Ask me"
-msgstr ""
+msgstr "Më pyet"
 
 #: ../src/Widgets/BluetoothPage.vala:81
 msgid "Bluetooth Sharing Is Not Available"
@@ -69,7 +73,7 @@ msgstr ""
 
 #: ../src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
-msgstr ""
+msgstr "Aktivizuar"
 
 #: ../src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
@@ -81,7 +85,7 @@ msgstr "Lidhur"
 
 #: ../src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
-msgstr ""
+msgstr "Çaktivizuar"
 
 #: ../src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
@@ -113,11 +117,11 @@ msgstr "Foto"
 
 #: ../src/Widgets/DLNAPage.vala:69
 msgid "Select the folder containing your %s"
-msgstr ""
+msgstr "Zgjidh dosjen që përmban %s tuaj"
 
 #: ../src/Plug.vala:31
 msgid "Sharing"
-msgstr ""
+msgstr "Shpërndarja"
 
 #: ../src/Plug.vala:32
 msgid "Configure file and media sharing"
