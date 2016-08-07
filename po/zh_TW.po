@@ -1,0 +1,137 @@
+# Chinese (Traditional) translation for switchboard-plug-sharing
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the switchboard-plug-sharing package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-sharing\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-06-10 14:22-0700\n"
+"PO-Revision-Date: 2016-08-06 10:15+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-08-07 05:51+0000\n"
+"X-Generator: Launchpad (build 18169)\n"
+
+#: ../src/Widgets/BluetoothPage.vala:28
+msgid "Bluetooth"
+msgstr "藍牙"
+
+#: ../src/Widgets/BluetoothPage.vala:30
+msgid "While enabled, bluetooth devices can send files to Downloads."
+msgstr "啟用時，藍牙裝置可以傳送檔案到「下載」資料夾。"
+
+#: ../src/Widgets/BluetoothPage.vala:31
+msgid "While disabled, bluetooth devices can not send files to Downloads."
+msgstr "停用時，藍牙裝置無法傳送檔案到「下載」資料夾。"
+
+#: ../src/Widgets/BluetoothPage.vala:66
+msgid "Notify about newly received files:"
+msgstr "當新接收到檔案時發出通知："
+
+#: ../src/Widgets/BluetoothPage.vala:72
+msgid "Accept files from bluetooth devices:"
+msgstr "接受來自藍牙裝置的檔案："
+
+#: ../src/Widgets/BluetoothPage.vala:77
+msgid "Always"
+msgstr "總是"
+
+#: ../src/Widgets/BluetoothPage.vala:78
+msgid "When paired"
+msgstr "配對時"
+
+#: ../src/Widgets/BluetoothPage.vala:79
+msgid "Ask me"
+msgstr "詢問我"
+
+#: ../src/Widgets/BluetoothPage.vala:81
+msgid "Bluetooth Sharing Is Not Available"
+msgstr "藍牙分享目前無法使用"
+
+#: ../src/Widgets/BluetoothPage.vala:82
+msgid ""
+"The bluetooth device is either disconnected or disabled. Check bluetooth "
+"settings and try again."
+msgstr "藍牙裝置可能已斷線或停用。請先檢查藍牙設定值無誤後再試一次。"
+
+#: ../src/Widgets/BluetoothPage.vala:90
+msgid "Bluetooth settings…"
+msgstr "藍牙設定值："
+
+#: ../src/Widgets/BluetoothPage.vala:91
+msgid "Open bluetooth settings"
+msgstr "開啟藍牙設定值"
+
+#: ../src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr "啟用"
+
+#: ../src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr "無法使用"
+
+#: ../src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr "已連接"
+
+#: ../src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr "停用"
+
+#: ../src/Widgets/DLNAPage.vala:28
+msgid "Media Library"
+msgstr "媒體庫"
+
+#: ../src/Widgets/DLNAPage.vala:30
+msgid ""
+"While enabled, the following media libraries are shared to compatible "
+"devices in your network."
+msgstr "啟用時，下列媒體庫會和您網路中的相容裝置分享。"
+
+#: ../src/Widgets/DLNAPage.vala:31
+msgid ""
+"While disabled, the selected media libraries are unshared, and it won't "
+"stream files from your computer to other devices."
+msgstr "停用時，選取的媒體庫不會分享，也不會將檔案從您的電腦串流到其他裝置上。"
+
+#: ../src/Widgets/DLNAPage.vala:49
+msgid "Music"
+msgstr "音樂"
+
+#: ../src/Widgets/DLNAPage.vala:50
+msgid "Videos"
+msgstr "影片"
+
+#: ../src/Widgets/DLNAPage.vala:51
+msgid "Photos"
+msgstr "相片"
+
+#: ../src/Widgets/DLNAPage.vala:69
+msgid "Select the folder containing your %s"
+msgstr "選取包含您 %s 的資料夾"
+
+#: ../src/Plug.vala:31
+msgid "Sharing"
+msgstr "分享"
+
+#: ../src/Plug.vala:32
+msgid "Configure file and media sharing"
+msgstr "調整檔案和媒體分享設定"
+
+#: ../src/Plug.vala:67
+msgid "Network Is Not Available"
+msgstr "網路無法使用"
+
+#: ../src/Plug.vala:68
+msgid ""
+"While disconnected from the network, sharing services are not available."
+msgstr "當網路斷線時，分享服務便無法使用。"
+
+#: ../src/Plug.vala:72
+msgid "Network settings…"
+msgstr "網路設定值…"
