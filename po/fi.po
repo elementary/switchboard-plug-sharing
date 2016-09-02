@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-10 14:22-0700\n"
-"PO-Revision-Date: 2016-06-17 07:37+0000\n"
+"PO-Revision-Date: 2016-09-01 12:30+0000\n"
 "Last-Translator: Jiri Grönroos <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-06-18 06:22+0000\n"
-"X-Generator: Launchpad (build 18097)\n"
+"X-Launchpad-Export-Date: 2016-09-02 07:57+0000\n"
+"X-Generator: Launchpad (build 18179)\n"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -30,8 +30,8 @@ msgstr ""
 #: ../src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
-"Kun pois käytöstä, Bluetooth-laitteet eivät voi lähettää tiedostoja "
-"Lataukset-kansioon."
+"Kun ei käytössä, Bluetooth-laitteet eivät voi lähettää tiedostoja Lataukset-"
+"kansioon."
 
 #: ../src/Widgets/BluetoothPage.vala:66
 msgid "Notify about newly received files:"
