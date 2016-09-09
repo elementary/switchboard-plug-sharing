@@ -13,7 +13,7 @@ Homepage: https://launchpad.net/switchboard-plug-sharing
 
 Package: switchboard-plug-sharing
 Architecture: any
-Depends: rygel, ${misc:Depends}, ${shlibs:Depends}
+Depends: gnome-user-share (>= 3.14), rygel, ${misc:Depends}, ${shlibs:Depends}
 Description: Change media sharing settings
  Switchboard plug for controlling media sharing.
 
