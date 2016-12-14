@@ -26,11 +26,14 @@ public class Sharing.Plug : Switchboard.Plug {
     private Gtk.LinkButton link_button;
 
     public Plug () {
+        var settings = new Gee.TreeMap<string, string?> (null, null);
+        settings.set ("network/share", "null");
         Object (category : Category.NETWORK,
                 code_name: "pantheon-sharing",
                 display_name: _("Sharing"),
                 description: _("Configure file and media sharing"),
-                icon: "preferences-system-sharing");
+                icon: "preferences-system-sharing",
+                supported_settings: settings);
     }
 
     public override Gtk.Widget get_widget () {
