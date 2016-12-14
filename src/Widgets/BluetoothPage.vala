@@ -37,20 +37,6 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         sharing_settings.bind ("bluetooth-accept-files", accept_combo, "active-id", SettingsBindFlags.DEFAULT);
         sharing_settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
 
-        link_button.activate_link.connect (() => {
-            var list = new List<string> ();
-            list.append ("bluetooth");
-
-            try {
-                var appinfo = AppInfo.create_from_commandline ("switchboard", null, AppInfoCreateFlags.SUPPORTS_URIS);
-                appinfo.launch_uris (list, null);
-            } catch (Error e) {
-                warning (e.message);
-            }
-
-            return true;
-        });
-
         service_switch.notify ["active"].connect (() => {
             set_service_state ();
         });
@@ -89,6 +75,7 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
 
         link_button.label = _("Bluetooth settings…");
         link_button.tooltip_text = _("Open bluetooth settings");
+        link_button.uri = "settings://network/bluetooth";
         link_button.no_show_all = false;
     }
 
