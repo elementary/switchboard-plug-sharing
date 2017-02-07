@@ -14,7 +14,7 @@ set (PLUGDESCRIPTION "Network sharing preferences")
 
 set (PLUGICON "preferences-system-sharing")
 # Set the version for the plug
-set (VERSION "0.1")
+set (VERSION "0.1.1")
 
 # Set the Name of the plug, should be an executable command, lowercase, no spaces 
 project (${PLUGNAME})
