@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-10 14:22-0700\n"
-"PO-Revision-Date: 2016-10-15 07:11+0000\n"
-"Last-Translator: Ryo Nakano <Unknown>\n"
+"PO-Revision-Date: 2017-02-15 14:55+0000\n"
+"Last-Translator: yasum <nyma5a@gmail.com>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-10-16 06:53+0000\n"
-"X-Generator: Launchpad (build 18232)\n"
+"X-Launchpad-Export-Date: 2017-02-16 07:27+0000\n"
+"X-Generator: Launchpad (build 18326)\n"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -43,11 +43,11 @@ msgstr "常に使用"
 
 #: ../src/Widgets/BluetoothPage.vala:78
 msgid "When paired"
-msgstr "対になったとき"
+msgstr "ペアリングした時"
 
 #: ../src/Widgets/BluetoothPage.vala:79
 msgid "Ask me"
-msgstr "ダイアログを表示"
+msgstr "動作を確認"
 
 #: ../src/Widgets/BluetoothPage.vala:81
 msgid "Bluetooth Sharing Is Not Available"
