@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-10 14:22-0700\n"
-"PO-Revision-Date: 2017-02-09 14:44+0000\n"
+"PO-Revision-Date: 2017-02-22 12:10+0000\n"
 "Last-Translator: Christos Iatropoulos <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-02-10 06:03+0000\n"
+"X-Launchpad-Export-Date: 2017-02-23 06:51+0000\n"
 "X-Generator: Launchpad (build 18326)\n"
 
 #: ../src/Widgets/BluetoothPage.vala:28
@@ -47,7 +47,7 @@ msgstr "Πάντα"
 
 #: ../src/Widgets/BluetoothPage.vala:78
 msgid "When paired"
-msgstr ""
+msgstr "Όταν έχουν ζευγοποιηθεί"
 
 #: ../src/Widgets/BluetoothPage.vala:79
 msgid "Ask me"
@@ -106,7 +106,7 @@ msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
 msgstr ""
-"Όσο είναι απενεργοποιημένες, οι επιλεγμένες βιβλιοθήκες πολυμέσων δεν θα "
+"Όσο είναι απενεργοποιημένες, οι επιλεγμένες βιβλιοθήκες πολυμέσων δε θα "
 "διαμοιράζονται και δε θα μεταδίδονται αρχεία από τον υπολογιστή σας σε άλλες "
 "συσκευές."
 
@@ -132,7 +132,7 @@ msgstr "Κοινή χρήση"
 
 #: ../src/Plug.vala:32
 msgid "Configure file and media sharing"
-msgstr ""
+msgstr "Ρύθμιση αρχείων και διαμοιρασμού πολυμέσων"
 
 #: ../src/Plug.vala:67
 msgid "Network Is Not Available"
