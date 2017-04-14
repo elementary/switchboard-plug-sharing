@@ -6,16 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-10 14:22-0700\n"
-"PO-Revision-Date: 2016-07-17 18:00+0000\n"
-"Last-Translator: Nikos <Unknown>\n"
-"Language-Team: French <fr@li.org>\n"
+"PO-Revision-Date: 2017-04-14 23:34+0000\n"
+"Last-Translator: Corentin Noël <corentin@elementary.io>\n"
+"Language-Team: French <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-sharing/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2016-07-18 05:41+0000\n"
-"X-Generator: Launchpad (build 18140)\n"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -25,13 +28,13 @@ msgstr "Bluetooth"
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
 "Lorsqu'il est activé, les périphériques bluetooth peuvent envoyer des "
-"fichiers dans le dossier Téléchargements"
+"fichiers dans le dossier Téléchargements."
 
 #: ../src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
 "Lorsqu'il est désactivé, les périphériques bluetooth ne peuvent pas envoyés "
-"de fichiers dans le dossier Téléchargements"
+"de fichiers dans le dossier Téléchargements."
 
 #: ../src/Widgets/BluetoothPage.vala:66
 msgid "Notify about newly received files:"
@@ -39,8 +42,7 @@ msgstr "Notifier lors d'une réception de fichiers :"
 
 #: ../src/Widgets/BluetoothPage.vala:72
 msgid "Accept files from bluetooth devices:"
-msgstr ""
-"Accepter la réception de fichiers depuis ces périphériques bluetooth :"
+msgstr "Accepter la réception de fichiers depuis ces périphériques bluetooth :"
 
 #: ../src/Widgets/BluetoothPage.vala:77
 msgid "Always"
@@ -68,7 +70,7 @@ msgstr ""
 
 #: ../src/Widgets/BluetoothPage.vala:90
 msgid "Bluetooth settings…"
-msgstr "Paramètres Bluetooth..."
+msgstr "Paramètres Bluetooth…"
 
 #: ../src/Widgets/BluetoothPage.vala:91
 msgid "Open bluetooth settings"
@@ -148,4 +150,4 @@ msgstr ""
 
 #: ../src/Plug.vala:72
 msgid "Network settings…"
-msgstr "Paramètres réseaux..."
+msgstr "Paramètres réseau…"
