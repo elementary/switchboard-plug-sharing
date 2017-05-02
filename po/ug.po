@@ -6,11 +6,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-10 14:22-0700\n"
 "PO-Revision-Date: 2017-01-02 03:54+0000\n"
 "Last-Translator: ablimet <Unknown>\n"
 "Language-Team: Uyghur <ug@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -140,8 +141,7 @@ msgstr "تورنى ئىشلەتكىلى بولمايدۇ"
 #: ../src/Plug.vala:68
 msgid ""
 "While disconnected from the network, sharing services are not available."
-msgstr ""
-"توردىن ئۈزۈلگەن ۋاقىتتا ھەمبەھىرلەش مۇلازىمىتىنى ئىشلەتكىلى بولمايدۇ."
+msgstr "توردىن ئۈزۈلگەن ۋاقىتتا ھەمبەھىرلەش مۇلازىمىتىنى ئىشلەتكىلى بولمايدۇ."
 
 #: ../src/Plug.vala:72
 msgid "Network settings…"
