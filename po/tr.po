@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-10 14:22-0700\n"
-"PO-Revision-Date: 2016-09-07 15:07+0000\n"
-"Last-Translator: Deniz CAN <denizcan72@hotmail.de>\n"
-"Language-Team: Turkish <tr@li.org>\n"
+"PO-Revision-Date: 2017-05-04 09:30+0000\n"
+"Last-Translator: Seyit Ali Doğan <seyit822@yandex.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-sharing/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.13-dev\n"
 "X-Launchpad-Export-Date: 2016-09-08 07:26+0000\n"
-"X-Generator: Launchpad (build 18179)\n"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -76,7 +78,7 @@ msgstr "Bluetooth ayarlarını aç"
 
 #: ../src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
-msgstr "Etkin"
+msgstr "Aktif"
 
 #: ../src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
@@ -88,7 +90,7 @@ msgstr "Bağlı"
 
 #: ../src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
-msgstr "Devre dışı"
+msgstr "Pasif"
 
 #: ../src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
