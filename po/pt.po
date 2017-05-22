@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-10 14:22-0700\n"
-"PO-Revision-Date: 2016-06-30 15:38+0000\n"
-"Last-Translator: Pedro Monteiro <Unknown>\n"
-"Language-Team: Portuguese <pt@li.org>\n"
+"PO-Revision-Date: 2017-05-22 08:21+0000\n"
+"Last-Translator: Luís Lima <geral@liqensoft.com>\n"
+"Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-sharing/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2016-07-01 06:08+0000\n"
-"X-Generator: Launchpad (build 18115)\n"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -88,7 +90,7 @@ msgstr "Ligado"
 
 #: ../src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
-msgstr "Inativo"
+msgstr "Desativado"
 
 #: ../src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
