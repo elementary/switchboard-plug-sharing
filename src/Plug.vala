@@ -27,7 +27,7 @@ public class Sharing.Plug : Switchboard.Plug {
 
     public Plug () {
         var settings = new Gee.TreeMap<string, string?> (null, null);
-        settings.set ("network/share", "null");
+        settings.set ("network/share", null);
         Object (category : Category.NETWORK,
                 code_name: "pantheon-sharing",
                 display_name: _("Sharing"),
