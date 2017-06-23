@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016 elementary LLC (https://launchpad.net/switchboard-plug-sharing)
+ * Copyright (c) 2016-2017 elementary LLC (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -17,29 +17,19 @@
  * Boston, MA 02111-1307, USA.
  */
 
-public class Sharing.Widgets.DLNAPage : SettingsPage {
+public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
     private Backend.RygelStartupManager rygel_startup_manager;
     private Backend.RygelConfigFile rygel_config_file;
 
     private int content_grid_rows = 0;
 
     public DLNAPage () {
-        base ("dlna",
-              _("Media Library"),
-              "applications-multimedia",
-              _("While enabled, the following media libraries are shared to compatible devices in your network."),
-              _("While disabled, the selected media libraries are unshared, and it won't stream files from your computer to other devices."));
-
-        switch_state_changed.connect ((state) => {
-            /* Make sure the configuration file exists */
-            if (rygel_config_file.save ()) {
-                rygel_startup_manager.set_service_enabled.begin (state);
-
-                update_state (state ? ServiceState.ENABLED : ServiceState.DISABLED);
-            }
-        });
-
-        set_service_state ();
+        Object (
+            activatable: true,
+            description: _("While enabled, the following media libraries are shared to compatible devices in your network."),
+            icon_name: "applications-multimedia",
+            title: _("Media Library")
+        );
     }
 
     construct {
@@ -49,6 +39,17 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
         add_media_entry ("music", _("Music"));
         add_media_entry ("videos", _("Videos"));
         add_media_entry ("pictures", _("Photos"));
+
+        status_switch.notify ["active"].connect (() => {
+            /* Make sure the configuration file exists */
+            if (rygel_config_file.save ()) {
+                rygel_startup_manager.set_service_enabled.begin (status_switch.active);
+
+                set_service_state ();
+            }
+        });
+
+        set_service_state ();
     }
 
     private static string replace_xdg_folders (string folder_path) {
@@ -94,15 +95,23 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
             return false;
         });
 
-        content_grid.attach (entry_label, 0, content_grid_rows, 1, 1);
-        content_grid.attach (entry_file_chooser, 1, content_grid_rows, 1, 1);
-        content_grid.attach (entry_switch, 2, content_grid_rows, 1, 1);
+        content_area.attach (entry_label, 0, content_grid_rows, 1, 1);
+        content_area.attach (entry_file_chooser, 1, content_grid_rows, 1, 1);
+        content_area.attach (entry_switch, 2, content_grid_rows, 1, 1);
 
         content_grid_rows++;
     }
 
     private void set_service_state () {
-        update_state (rygel_startup_manager.get_service_enabled () ? ServiceState.ENABLED : ServiceState.DISABLED);
+        if (rygel_startup_manager.get_service_enabled ()) {
+            status_type = Granite.SettingsPage.StatusType.SUCCESS;
+            status = Granite.SettingsPage.ENABLED;
+            content_area.sensitive = true;
+        } else {
+            status_type = Granite.SettingsPage.StatusType.OFFLINE;
+            status = Granite.SettingsPage.DISABLED;
+            content_area.sensitive = false;
+        }
     }
 
 }

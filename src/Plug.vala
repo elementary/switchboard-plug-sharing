@@ -74,8 +74,8 @@ public class Sharing.Plug : Switchboard.Plug {
         var dlna_page = new Sharing.Widgets.DLNAPage ();
 
         var settings_view = new Gtk.Stack ();
-        settings_view.add_named (bluetooth_page, "bluetooth_page");
         settings_view.add_named (dlna_page, "dlna_page");
+        settings_view.add_named (bluetooth_page, "bluetooth_page");
 
         var sidebar = new Granite.SettingsSidebar (settings_view);
 

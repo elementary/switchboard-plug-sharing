@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016 elementary LLC (https://launchpad.net/switchboard-plug-sharing)
+ * Copyright (c) 2016-2017 elementary LLC (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -18,10 +18,10 @@
  */
 
 public class Sharing.Widgets.BluetoothPage : Granite.SimpleSettingsPage {
-    GLib.Settings bluetooth_settings;
-    GLib.Settings sharing_settings;
-    Gtk.ComboBoxText accept_combo;
-    Gtk.Switch notify_switch;
+    private GLib.Settings bluetooth_settings;
+    private GLib.Settings sharing_settings;
+    private Gtk.ComboBoxText accept_combo;
+    private Gtk.Switch notify_switch;
 
     public BluetoothPage () {
         Object (
@@ -34,13 +34,13 @@ public class Sharing.Widgets.BluetoothPage : Granite.SimpleSettingsPage {
 
     construct {
         var notify_label = new Gtk.Label (_("Notify about newly received files:"));
-        ((Gtk.Misc)notify_label).xalign = 1.0f;
+        notify_label.xalign = 1;
 
         notify_switch = new Gtk.Switch ();
         notify_switch.halign = Gtk.Align.START;
 
         var accept_label = new Gtk.Label (_("Accept files from bluetooth devices:"));
-        ((Gtk.Misc) accept_label).xalign = 1.0f;
+        accept_label.xalign = 1;
 
         accept_combo = new Gtk.ComboBoxText ();
         accept_combo.hexpand = true;
