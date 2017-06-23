@@ -17,35 +17,19 @@
  * Boston, MA 02111-1307, USA.
  */
 
-public class Sharing.Widgets.BluetoothPage : SettingsPage {
+public class Sharing.Widgets.BluetoothPage : Granite.SimpleSettingsPage {
     GLib.Settings bluetooth_settings;
     GLib.Settings sharing_settings;
     Gtk.ComboBoxText accept_combo;
     Gtk.Switch notify_switch;
 
     public BluetoothPage () {
-        base ("bluetooth",
-              _("Bluetooth"),
-              "preferences-bluetooth",
-              _("While enabled, bluetooth devices can send files to Downloads."),
-              _("While disabled, bluetooth devices can not send files to Downloads."));
-
-        bluetooth_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.bluetooth");
-        sharing_settings = new GLib.Settings ("org.gnome.desktop.file-sharing");
-
-        sharing_settings.bind ("bluetooth-obexpush-enabled", service_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
-        sharing_settings.bind ("bluetooth-accept-files", accept_combo, "active-id", SettingsBindFlags.DEFAULT);
-        sharing_settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
-
-        service_switch.notify ["active"].connect (() => {
-            set_service_state ();
-        });
-
-        bluetooth_settings.changed ["bluetooth-enabled"].connect (() => {
-            set_service_state ();
-        });
-
-        set_service_state ();
+        Object (
+            activatable: true,
+            description: _("While enabled, bluetooth devices can send files to Downloads."),
+            icon_name: "preferences-bluetooth",
+            title: _("Bluetooth")
+        );
     }
 
     construct {
@@ -64,26 +48,50 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         accept_combo.append ("bonded", _("When paired"));
         accept_combo.append ("ask", _("Ask me"));
 
-        alert_view.title = _("Bluetooth Sharing Is Not Available");
+        /*alert_view.title = _("Bluetooth Sharing Is Not Available");
         alert_view.description = _("The bluetooth device is either disconnected or disabled. Check bluetooth settings and try again.");
-        alert_view.icon_name ="bluetooth-disabled-symbolic";
+        alert_view.icon_name ="bluetooth-disabled-symbolic";*/
 
-        content_grid.attach (notify_label, 0, 0, 1, 1);
-        content_grid.attach (notify_switch, 1, 0, 1, 1);
-        content_grid.attach (accept_label, 0, 1, 1, 1);
-        content_grid.attach (accept_combo, 1, 1, 1, 1);
+        content_area.attach (notify_label, 0, 0, 1, 1);
+        content_area.attach (notify_switch, 1, 0, 1, 1);
+        content_area.attach (accept_label, 0, 1, 1, 1);
+        content_area.attach (accept_combo, 1, 1, 1, 1);
 
-        link_button.label = _("Bluetooth settings…");
-        link_button.tooltip_text = _("Open bluetooth settings");
-        link_button.uri = "settings://network/bluetooth";
-        link_button.no_show_all = false;
+        var link_button = new Gtk.LinkButton.with_label ("settings://network/bluetooth", _("Bluetooth settings…"));
+        action_area.add (link_button);
+
+        bluetooth_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.bluetooth");
+        sharing_settings = new GLib.Settings ("org.gnome.desktop.file-sharing");
+
+        sharing_settings.bind ("bluetooth-obexpush-enabled", status_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
+        sharing_settings.bind ("bluetooth-accept-files", accept_combo, "active-id", SettingsBindFlags.DEFAULT);
+        sharing_settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
+
+        status_switch.notify ["active"].connect (() => {
+            set_service_state ();
+        });
+
+        bluetooth_settings.changed ["bluetooth-enabled"].connect (() => {
+            set_service_state ();
+        });
+
+        set_service_state ();
     }
 
     private void set_service_state () {
         if (bluetooth_settings.get_boolean ("bluetooth-enabled")) {
-            update_state (sharing_settings.get_boolean ("bluetooth-obexpush-enabled") ? ServiceState.ENABLED : ServiceState.DISABLED);
+            status_switch.sensitive = true;
+            if (sharing_settings.get_boolean ("bluetooth-obexpush-enabled")) {
+                status_type = Granite.SettingsPage.StatusType.SUCCESS;
+                status = Granite.SettingsPage.ENABLED;
+            } else {
+                status_type = Granite.SettingsPage.StatusType.OFFLINE;
+                status = Granite.SettingsPage.DISABLED;
+            }
         } else {
-            update_state (ServiceState.NOT_AVAILABLE);
+            status_switch.sensitive = false;
+            status_type = Granite.SettingsPage.StatusType.ERROR;
+            status = _("Not Available");
         }
     }
 }
