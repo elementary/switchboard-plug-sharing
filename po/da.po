@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-10 14:22-0700\n"
-"PO-Revision-Date: 2017-03-23 13:39+0000\n"
+"PO-Revision-Date: 2017-07-04 11:14+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
-"Language-Team: Danish <da@li.org>\n"
+"Language-Team: Danish <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-sharing/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2017-03-24 06:34+0000\n"
-"X-Generator: Launchpad (build 18334)\n"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -33,7 +35,7 @@ msgstr ""
 
 #: ../src/Widgets/BluetoothPage.vala:66
 msgid "Notify about newly received files:"
-msgstr "Giv besked om nyligt modtaget filer"
+msgstr "Giv besked om nyligt modtaget filer:"
 
 #: ../src/Widgets/BluetoothPage.vala:72
 msgid "Accept files from bluetooth devices:"
