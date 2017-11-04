@@ -13,8 +13,8 @@
  *
  * You should have received a copy of the GNU General Public
  * License along with this program; if not, write to the
- * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
- * Boston, MA 02111-1307, USA.
+ * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ * Boston, MA 02110-1301 USA.
  */
 
 public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
@@ -105,11 +105,11 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
     private void set_service_state () {
         if (rygel_startup_manager.get_service_enabled ()) {
             status_type = Granite.SettingsPage.StatusType.SUCCESS;
-            status = Granite.SettingsPage.ENABLED;
+            status = _("Enabled");
             content_area.sensitive = true;
         } else {
             status_type = Granite.SettingsPage.StatusType.OFFLINE;
-            status = Granite.SettingsPage.DISABLED;
+            status = _("Disabled");
             content_area.sensitive = false;
         }
     }

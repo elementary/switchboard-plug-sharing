@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-10 14:22-0700\n"
-"PO-Revision-Date: 2016-12-14 14:42+0000\n"
-"Last-Translator: Félix Brezo <felixbrezo@gmail.com>\n"
-"Language-Team: Spanish <es@li.org>\n"
+"PO-Revision-Date: 2017-07-11 11:43+0000\n"
+"Last-Translator: Mattias Ezequiel Mignone <memignone@gmail.com>\n"
+"Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-sharing/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.14\n"
 "X-Launchpad-Export-Date: 2016-12-15 05:14+0000\n"
-"X-Generator: Launchpad (build 18293)\n"
 
 #: ../src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -76,7 +78,7 @@ msgstr "Abrir configuración  de  Bluetooth"
 
 #: ../src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
-msgstr "Activado"
+msgstr "Habilitado"
 
 #: ../src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
@@ -109,7 +111,7 @@ msgid ""
 msgstr ""
 "Si está desactivado, las bibliotecas multimedia seleccionadas quedarán sin "
 "compartir de modo que no transmitirán archivos desde el equipo a otros "
-"dispositivos"
+"dispositivos."
 
 #: ../src/Widgets/DLNAPage.vala:49
 msgid "Music"
@@ -148,4 +150,4 @@ msgstr ""
 
 #: ../src/Plug.vala:72
 msgid "Network settings…"
-msgstr "Configuración de red..."
+msgstr "Configuración de red…"
