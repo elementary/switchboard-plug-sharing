@@ -70,12 +70,14 @@ public class Sharing.Plug : Switchboard.Plug {
         network_grid_view.attach (network_alert_view, 0, 0, 1, 1);
         network_grid_view.attach (link_button, 0, 1, 1, 1);
 
-        var sidebar = new Widgets.Sidebar ();
-        var settings_view = new Widgets.SettingsView ();
+        var bluetooth_page = new Sharing.Widgets.BluetoothPage ();
+        var dlna_page = new Sharing.Widgets.DLNAPage ();
 
-        foreach (Widgets.SettingsPage settings_page in settings_view.get_settings_pages ()) {
-            sidebar.add_service_entry (settings_page.get_service_entry ());
-        }
+        var settings_view = new Gtk.Stack ();
+        settings_view.add_named (dlna_page, "dlna_page");
+        settings_view.add_named (bluetooth_page, "bluetooth_page");
+
+        var sidebar = new Granite.SettingsSidebar (settings_view);
 
         var main_container = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
         main_container.pack1 (sidebar, false, false);
@@ -87,7 +89,6 @@ public class Sharing.Plug : Switchboard.Plug {
         content.show_all ();
 
         NetworkMonitor.get_default ().network_changed.connect (() => update_content_view ());
-        sidebar.selected_service_changed.connect (settings_view.show_service_settings);
 
         link_button.activate_link.connect (() => {
             var list = new List<string> ();
