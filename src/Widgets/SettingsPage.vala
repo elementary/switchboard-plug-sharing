@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2015 elementary Developers (https://launchpad.net/elementary)
+ * Copyright (c) 2011-2018 elementary LLC (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -67,7 +67,7 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
         service_icon.valign = Gtk.Align.START;
 
         title_label = new Gtk.Label (title);
-        title_label.get_style_context ().add_class (Granite.StyleClass.H2_TEXT);
+        title_label.get_style_context ().add_class (Granite.STYLE_CLASS_H2_LABEL);
         title_label.halign = Gtk.Align.START;
         title_label.hexpand = true;
 
