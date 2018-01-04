@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2015 elementary Developers (https://launchpad.net/elementary)
+ * Copyright (c) 2011-2018 elementary LLC (https://elementary.io)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -84,7 +84,7 @@ public class Sharing.Widgets.ServiceEntry : Gtk.ListBoxRow {
         overlay_icon.add_overlay (secondary_icon);
 
         title_label = new Gtk.Label (title);
-        title_label.get_style_context ().add_class (Granite.StyleClass.H3_TEXT);
+        title_label.get_style_context ().add_class (Granite.STYLE_CLASS_H3_LABEL);
         title_label.halign = Gtk.Align.START;
         title_label.ellipsize = Pango.EllipsizeMode.END;
 
