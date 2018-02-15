@@ -22,10 +22,11 @@ public class Sharing.Widgets.SettingsView : Gtk.Stack {
 
     construct {
         settings_pages = new Gee.HashMap<string, SettingsPage> ();
-    }
+        DLNAPage dlna_page = new DLNAPage ();
 
-    public SettingsView () {
-        load_pages ();
+        settings_pages.@set (dlna_page.id, dlna_page);
+
+        this.add_named (dlna_page, dlna_page.id);
     }
 
     public SettingsPage[] get_settings_pages () {
@@ -34,16 +35,5 @@ public class Sharing.Widgets.SettingsView : Gtk.Stack {
 
     public void show_service_settings (string service_id) {
         this.set_visible_child_name (service_id);
-    }
-
-    private void load_pages () {
-        BluetoothPage bluetooth_page = new BluetoothPage ();
-        DLNAPage dlna_page = new DLNAPage ();
-
-        settings_pages.@set (bluetooth_page.id, bluetooth_page);
-        settings_pages.@set (dlna_page.id, dlna_page);
-
-        this.add_named (bluetooth_page, bluetooth_page.id);
-        this.add_named (dlna_page, dlna_page.id);
     }
 }
