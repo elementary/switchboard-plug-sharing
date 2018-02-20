@@ -1,0 +1,10 @@
+src/Plug.vala
+src/Widgets/Sidebar.vala
+src/Widgets/SettingsView.vala
+src/Widgets/SettingsPage.vala
+src/Widgets/ServiceEntry.vala
+src/Widgets/DLNAPage.vala
+src/Widgets/BluetoothPage.vala
+src/Backend/RygelStartupManager.vala
+src/Backend/RygelDBusInterface.vala
+src/Backend/RygelConfigFile.vala
