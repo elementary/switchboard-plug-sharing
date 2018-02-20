@@ -37,13 +37,14 @@ public class Sharing.Widgets.SettingsView : Gtk.Stack {
     }
 
     private void load_pages () {
-        BluetoothPage bluetooth_page = new BluetoothPage ();
+        if (GLib.SettingsSchemaSource.get_default ().lookup ("org.pantheon.desktop.wingpanel.indicators.bluetooth", false) != null) {
+            BluetoothPage bluetooth_page = new BluetoothPage ();
+            this.add_named (bluetooth_page, bluetooth_page.id);
+            settings_pages.@set (bluetooth_page.id, bluetooth_page);
+        }
+
         DLNAPage dlna_page = new DLNAPage ();
-
-        settings_pages.@set (bluetooth_page.id, bluetooth_page);
         settings_pages.@set (dlna_page.id, dlna_page);
-
-        this.add_named (bluetooth_page, bluetooth_page.id);
         this.add_named (dlna_page, dlna_page.id);
     }
 }
