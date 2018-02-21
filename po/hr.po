@@ -7,96 +7,62 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-10 14:22-0700\n"
+"POT-Creation-Date: 2018-02-20 18:32-0600\n"
 "PO-Revision-Date: 2017-08-16 11:43+0000\n"
 "Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
-"Language-Team: Croatian <https://weblate.elementary.io/projects/switchboard"
-"/switchboard-plug-sharing/hr/>\n"
+"Language-Team: Croatian <https://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-sharing/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.15\n"
 "X-Launchpad-Export-Date: 2016-07-07 06:14+0000\n"
 
-#: ../src/Widgets/BluetoothPage.vala:28
-msgid "Bluetooth"
-msgstr "Bluetooth"
+#: src/Plug.vala:28
+msgid "Sharing"
+msgstr "Dijeljenje"
 
-#: ../src/Widgets/BluetoothPage.vala:30
-msgid "While enabled, bluetooth devices can send files to Downloads."
-msgstr ""
-"Kada je omogućeno, bluetooth uređaji mogu slati datoteke u mapu preuzimanja."
+#: src/Plug.vala:29
+msgid "Configure file and media sharing"
+msgstr "Prilagodite datoteke i dijeljenje medija"
 
-#: ../src/Widgets/BluetoothPage.vala:31
-msgid "While disabled, bluetooth devices can not send files to Downloads."
-msgstr ""
-"Kada je onemogućeno, bluetooth uređaji ne mogu slati datoteke u mapu "
-"preuzimanja."
+#: src/Plug.vala:58
+msgid "Network Is Not Available"
+msgstr "Mreža nije dostupna"
 
-#: ../src/Widgets/BluetoothPage.vala:66
-msgid "Notify about newly received files:"
-msgstr "Obavijesti o novo primljenim datotekama:"
-
-#: ../src/Widgets/BluetoothPage.vala:72
-msgid "Accept files from bluetooth devices:"
-msgstr "Prihvati datoteke s bluetooth uređaja:"
-
-#: ../src/Widgets/BluetoothPage.vala:77
-msgid "Always"
-msgstr "Uvijek"
-
-#: ../src/Widgets/BluetoothPage.vala:78
-msgid "When paired"
-msgstr "Kada su upareni"
-
-#: ../src/Widgets/BluetoothPage.vala:79
-msgid "Ask me"
-msgstr "Upitaj me"
-
-#: ../src/Widgets/BluetoothPage.vala:81
-msgid "Bluetooth Sharing Is Not Available"
-msgstr "Bluetooth dijeljenje nije dostupno"
-
-#: ../src/Widgets/BluetoothPage.vala:82
+#: src/Plug.vala:59
 msgid ""
-"The bluetooth device is either disconnected or disabled. Check bluetooth "
-"settings and try again."
-msgstr ""
-"Bluetooth uređaj nije povezan ili je onemogućen. Provjerite bluetooth "
-"postavke i pokušajte ponovno."
+"While disconnected from the network, sharing services are not available."
+msgstr "Tijekom nedostupnosti mreže, usluge dijeljenja nisu dostupne."
 
-#: ../src/Widgets/BluetoothPage.vala:90
-msgid "Bluetooth settings…"
-msgstr "Bluetooth postavke…"
+#: src/Plug.vala:63
+msgid "Network settings…"
+msgstr "Postavke mreže…"
 
-#: ../src/Widgets/BluetoothPage.vala:91
-msgid "Open bluetooth settings"
-msgstr "Otvori bluetooth postavke"
-
-#: ../src/Widgets/ServiceEntry.vala:23
+#: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
 msgstr "Omogućeno"
 
-#: ../src/Widgets/ServiceEntry.vala:24
+#: src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
 msgstr "Nije dostupno"
 
-#: ../src/Widgets/ServiceEntry.vala:25
+#: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
 msgstr "Povezano"
 
-#: ../src/Widgets/ServiceEntry.vala:26
+#: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
 msgstr "Onemogućeno"
 
-#: ../src/Widgets/DLNAPage.vala:28
+#: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
 msgstr "Medijska zbirka"
 
-#: ../src/Widgets/DLNAPage.vala:30
+#: src/Widgets/DLNAPage.vala:30
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -104,7 +70,7 @@ msgstr ""
 "Kada je omogućeno, sljedeće medijske zbirke su dijeljene s kompatibilnim "
 "uređajima na vašoj mreži."
 
-#: ../src/Widgets/DLNAPage.vala:31
+#: src/Widgets/DLNAPage.vala:31
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -112,39 +78,74 @@ msgstr ""
 "Kada je onemogućeno, sljedeće medijske zbirke nisu dijeljene i neće "
 "odašiljati datoteke s vašeg uređaja na druge uređaje."
 
-#: ../src/Widgets/DLNAPage.vala:49
+#: src/Widgets/DLNAPage.vala:49
 msgid "Music"
 msgstr "Glazba"
 
-#: ../src/Widgets/DLNAPage.vala:50
+#: src/Widgets/DLNAPage.vala:50
 msgid "Videos"
 msgstr "Snimke"
 
-#: ../src/Widgets/DLNAPage.vala:51
+#: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
 msgstr "Fototeka"
 
-#: ../src/Widgets/DLNAPage.vala:69
+#: src/Widgets/DLNAPage.vala:69
+#, c-format
 msgid "Select the folder containing your %s"
 msgstr "Odaberite mapu koja sadržii vaše %s"
 
-#: ../src/Plug.vala:31
-msgid "Sharing"
-msgstr "Dijeljenje"
+#: src/Widgets/BluetoothPage.vala:28
+msgid "Bluetooth"
+msgstr "Bluetooth"
 
-#: ../src/Plug.vala:32
-msgid "Configure file and media sharing"
-msgstr "Prilagodite datoteke i dijeljenje medija"
+#: src/Widgets/BluetoothPage.vala:30
+msgid "While enabled, bluetooth devices can send files to Downloads."
+msgstr ""
+"Kada je omogućeno, bluetooth uređaji mogu slati datoteke u mapu preuzimanja."
 
-#: ../src/Plug.vala:67
-msgid "Network Is Not Available"
-msgstr "Mreža nije dostupna"
+#: src/Widgets/BluetoothPage.vala:31
+msgid "While disabled, bluetooth devices can not send files to Downloads."
+msgstr ""
+"Kada je onemogućeno, bluetooth uređaji ne mogu slati datoteke u mapu "
+"preuzimanja."
 
-#: ../src/Plug.vala:68
+#: src/Widgets/BluetoothPage.vala:52
+msgid "Notify about newly received files:"
+msgstr "Obavijesti o novo primljenim datotekama:"
+
+#: src/Widgets/BluetoothPage.vala:58
+msgid "Accept files from bluetooth devices:"
+msgstr "Prihvati datoteke s bluetooth uređaja:"
+
+#: src/Widgets/BluetoothPage.vala:63
+msgid "Always"
+msgstr "Uvijek"
+
+#: src/Widgets/BluetoothPage.vala:64
+msgid "When paired"
+msgstr "Kada su upareni"
+
+#: src/Widgets/BluetoothPage.vala:65
+msgid "Ask me"
+msgstr "Upitaj me"
+
+#: src/Widgets/BluetoothPage.vala:67
+msgid "Bluetooth Sharing Is Not Available"
+msgstr "Bluetooth dijeljenje nije dostupno"
+
+#: src/Widgets/BluetoothPage.vala:68
 msgid ""
-"While disconnected from the network, sharing services are not available."
-msgstr "Tijekom nedostupnosti mreže, usluge dijeljenja nisu dostupne."
+"The bluetooth device is either disconnected or disabled. Check bluetooth "
+"settings and try again."
+msgstr ""
+"Bluetooth uređaj nije povezan ili je onemogućen. Provjerite bluetooth "
+"postavke i pokušajte ponovno."
 
-#: ../src/Plug.vala:72
-msgid "Network settings…"
-msgstr "Postavke mreže…"
+#: src/Widgets/BluetoothPage.vala:76
+msgid "Bluetooth settings…"
+msgstr "Bluetooth postavke…"
+
+#: src/Widgets/BluetoothPage.vala:77
+msgid "Open bluetooth settings"
+msgstr "Otvori bluetooth postavke"

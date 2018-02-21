@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-10 14:22-0700\n"
+"POT-Creation-Date: 2018-02-20 18:32-0600\n"
 "PO-Revision-Date: 2018-02-18 11:09+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard"
-"/switchboard-plug-sharing/ja/>\n"
+"Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
+"switchboard-plug-sharing/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,77 +20,49 @@ msgstr ""
 "X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-02-16 07:27+0000\n"
 
-#: ../src/Widgets/BluetoothPage.vala:28
-msgid "Bluetooth"
-msgstr "Bluetooth"
+#: src/Plug.vala:28
+msgid "Sharing"
+msgstr "共有"
 
-#: ../src/Widgets/BluetoothPage.vala:30
-msgid "While enabled, bluetooth devices can send files to Downloads."
-msgstr "有効になっている間、Bluetooth デバイスは [ダウンロード] フォルダーにファイルを送信できます。"
+#: src/Plug.vala:29
+msgid "Configure file and media sharing"
+msgstr "ファイルとメディア共有の設定をします"
 
-#: ../src/Widgets/BluetoothPage.vala:31
-msgid "While disabled, bluetooth devices can not send files to Downloads."
-msgstr "無効になっている間、Bluetooth デバイスは [ダウンロード] フォルダーにファイルを送信できません。"
+#: src/Plug.vala:58
+msgid "Network Is Not Available"
+msgstr "ネットワークは使用できません"
 
-#: ../src/Widgets/BluetoothPage.vala:66
-msgid "Notify about newly received files:"
-msgstr "新しいファイルを受け取った時に知らせる:"
-
-#: ../src/Widgets/BluetoothPage.vala:72
-msgid "Accept files from bluetooth devices:"
-msgstr "Bluetooth デバイスからのファイルを受け入れる:"
-
-#: ../src/Widgets/BluetoothPage.vala:77
-msgid "Always"
-msgstr "常に使用"
-
-#: ../src/Widgets/BluetoothPage.vala:78
-msgid "When paired"
-msgstr "ペアリングした時"
-
-#: ../src/Widgets/BluetoothPage.vala:79
-msgid "Ask me"
-msgstr "動作を確認"
-
-#: ../src/Widgets/BluetoothPage.vala:81
-msgid "Bluetooth Sharing Is Not Available"
-msgstr "Bluetooth 共有は使用できません"
-
-#: ../src/Widgets/BluetoothPage.vala:82
+#: src/Plug.vala:59
 msgid ""
-"The bluetooth device is either disconnected or disabled. Check bluetooth "
-"settings and try again."
-msgstr "Bluetooth デバイスは接続されていないか、無効になっています。Bluetooth の設定をクリックしてもう一度試してください。"
+"While disconnected from the network, sharing services are not available."
+msgstr ""
+"ネットワークから切断されている間、共有サービスは利用可能ではありません。"
 
-#: ../src/Widgets/BluetoothPage.vala:90
-msgid "Bluetooth settings…"
-msgstr "Bluetooth の設定…"
+#: src/Plug.vala:63
+msgid "Network settings…"
+msgstr "ネットワークの設定…"
 
-#: ../src/Widgets/BluetoothPage.vala:91
-msgid "Open bluetooth settings"
-msgstr "Bluetooth の設定を開く"
-
-#: ../src/Widgets/ServiceEntry.vala:23
+#: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
 msgstr "有効"
 
-#: ../src/Widgets/ServiceEntry.vala:24
+#: src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
 msgstr "使用できません"
 
-#: ../src/Widgets/ServiceEntry.vala:25
+#: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
 msgstr "接続済み"
 
-#: ../src/Widgets/ServiceEntry.vala:26
+#: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
 msgstr "無効"
 
-#: ../src/Widgets/DLNAPage.vala:28
+#: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
 msgstr "メディアライブラリー"
 
-#: ../src/Widgets/DLNAPage.vala:30
+#: src/Widgets/DLNAPage.vala:30
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -98,7 +70,7 @@ msgstr ""
 "有効になっている間、以下のメディアライブラリーはネットワークの互換性のあるデ"
 "バイスと共有されます。"
 
-#: ../src/Widgets/DLNAPage.vala:31
+#: src/Widgets/DLNAPage.vala:31
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -106,40 +78,75 @@ msgstr ""
 "無効になっている間、選択されたメディアライブラリーは共有されず、このコン"
 "ピューターから他のデバイスへファイルを送信しません。"
 
-#: ../src/Widgets/DLNAPage.vala:49
+#: src/Widgets/DLNAPage.vala:49
 msgid "Music"
 msgstr "ミュージック"
 
-#: ../src/Widgets/DLNAPage.vala:50
+#: src/Widgets/DLNAPage.vala:50
 msgid "Videos"
 msgstr "ビデオ"
 
-#: ../src/Widgets/DLNAPage.vala:51
+#: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
 msgstr "フォト"
 
-#: ../src/Widgets/DLNAPage.vala:69
+#: src/Widgets/DLNAPage.vala:69
+#, c-format
 msgid "Select the folder containing your %s"
 msgstr "%s を含むフォルダーを選択してください"
 
-#: ../src/Plug.vala:31
-msgid "Sharing"
-msgstr "共有"
+#: src/Widgets/BluetoothPage.vala:28
+msgid "Bluetooth"
+msgstr "Bluetooth"
 
-#: ../src/Plug.vala:32
-msgid "Configure file and media sharing"
-msgstr "ファイルとメディア共有の設定をします"
-
-#: ../src/Plug.vala:67
-msgid "Network Is Not Available"
-msgstr "ネットワークは使用できません"
-
-#: ../src/Plug.vala:68
-msgid ""
-"While disconnected from the network, sharing services are not available."
+#: src/Widgets/BluetoothPage.vala:30
+msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
-"ネットワークから切断されている間、共有サービスは利用可能ではありません。"
+"有効になっている間、Bluetooth デバイスは [ダウンロード] フォルダーにファイル"
+"を送信できます。"
 
-#: ../src/Plug.vala:72
-msgid "Network settings…"
-msgstr "ネットワークの設定…"
+#: src/Widgets/BluetoothPage.vala:31
+msgid "While disabled, bluetooth devices can not send files to Downloads."
+msgstr ""
+"無効になっている間、Bluetooth デバイスは [ダウンロード] フォルダーにファイル"
+"を送信できません。"
+
+#: src/Widgets/BluetoothPage.vala:52
+msgid "Notify about newly received files:"
+msgstr "新しいファイルを受け取った時に知らせる:"
+
+#: src/Widgets/BluetoothPage.vala:58
+msgid "Accept files from bluetooth devices:"
+msgstr "Bluetooth デバイスからのファイルを受け入れる:"
+
+#: src/Widgets/BluetoothPage.vala:63
+msgid "Always"
+msgstr "常に使用"
+
+#: src/Widgets/BluetoothPage.vala:64
+msgid "When paired"
+msgstr "ペアリングした時"
+
+#: src/Widgets/BluetoothPage.vala:65
+msgid "Ask me"
+msgstr "動作を確認"
+
+#: src/Widgets/BluetoothPage.vala:67
+msgid "Bluetooth Sharing Is Not Available"
+msgstr "Bluetooth 共有は使用できません"
+
+#: src/Widgets/BluetoothPage.vala:68
+msgid ""
+"The bluetooth device is either disconnected or disabled. Check bluetooth "
+"settings and try again."
+msgstr ""
+"Bluetooth デバイスは接続されていないか、無効になっています。Bluetooth の設定"
+"をクリックしてもう一度試してください。"
+
+#: src/Widgets/BluetoothPage.vala:76
+msgid "Bluetooth settings…"
+msgstr "Bluetooth の設定…"
+
+#: src/Widgets/BluetoothPage.vala:77
+msgid "Open bluetooth settings"
+msgstr "Bluetooth の設定を開く"

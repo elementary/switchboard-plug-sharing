@@ -1,0 +1,137 @@
+# Tagalog translations for sharing-plug package.
+# Copyright (C) 2018 THE sharing-plug'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the sharing-plug package.
+# Automatically generated, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sharing-plug\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 18:32-0600\n"
+"PO-Revision-Date: 2018-02-20 18:32-0600\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: tl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Plug.vala:28
+msgid "Sharing"
+msgstr ""
+
+#: src/Plug.vala:29
+msgid "Configure file and media sharing"
+msgstr ""
+
+#: src/Plug.vala:58
+msgid "Network Is Not Available"
+msgstr ""
+
+#: src/Plug.vala:59
+msgid ""
+"While disconnected from the network, sharing services are not available."
+msgstr ""
+
+#: src/Plug.vala:63
+msgid "Network settings…"
+msgstr ""
+
+#: src/Widgets/ServiceEntry.vala:23
+msgid "Enabled"
+msgstr ""
+
+#: src/Widgets/ServiceEntry.vala:24
+msgid "Not Available"
+msgstr ""
+
+#: src/Widgets/ServiceEntry.vala:25
+msgid "Connected"
+msgstr ""
+
+#: src/Widgets/ServiceEntry.vala:26
+msgid "Disabled"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:28
+msgid "Media Library"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:30
+msgid ""
+"While enabled, the following media libraries are shared to compatible "
+"devices in your network."
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:31
+msgid ""
+"While disabled, the selected media libraries are unshared, and it won't "
+"stream files from your computer to other devices."
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:49
+msgid "Music"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:50
+msgid "Videos"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:51
+msgid "Photos"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:69
+#, c-format
+msgid "Select the folder containing your %s"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:28
+msgid "Bluetooth"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:30
+msgid "While enabled, bluetooth devices can send files to Downloads."
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:31
+msgid "While disabled, bluetooth devices can not send files to Downloads."
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:52
+msgid "Notify about newly received files:"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:58
+msgid "Accept files from bluetooth devices:"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:63
+msgid "Always"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:64
+msgid "When paired"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:65
+msgid "Ask me"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:67
+msgid "Bluetooth Sharing Is Not Available"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:68
+msgid ""
+"The bluetooth device is either disconnected or disabled. Check bluetooth "
+"settings and try again."
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:76
+msgid "Bluetooth settings…"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:77
+msgid "Open bluetooth settings"
+msgstr ""
