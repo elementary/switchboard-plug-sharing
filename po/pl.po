@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-02-26 00:09+0000\n"
+"PO-Revision-Date: 2018-03-08 00:09+0000\n"
 "Last-Translator: Piotr Strebski <strebski@o2.pl>\n"
 "Language-Team: Polish <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/pl/>\n"
@@ -53,7 +53,7 @@ msgstr "Niedostępne"
 
 #: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
-msgstr "Połączony"
+msgstr "Połączono"
 
 #: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
