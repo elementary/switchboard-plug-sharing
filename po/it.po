@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-03-11 00:06+0000\n"
+"PO-Revision-Date: 2018-03-12 00:10+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/it/>\n"
@@ -36,7 +36,7 @@ msgstr "Rete non disponibile"
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
-"Mentre si è disconnessi dalla rete, i servizi di condivisione non sono "
+"Quando si è disconnessi dalla rete, i servizi di condivisione non sono "
 "disponibili."
 
 #: src/Plug.vala:63
@@ -68,7 +68,7 @@ msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
 msgstr ""
-"Mentre è abilitata, le seguenti librerie multimediali sono condivise a "
+"Se abilitate, le seguenti librerie multimediali sono condivise con i "
 "dispositivi compatibili nella rete."
 
 #: src/Widgets/DLNAPage.vala:31
@@ -76,8 +76,8 @@ msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
 msgstr ""
-"Mentre è disabilitata, le librerie multimediali selezionate non sono "
-"condivise, e i file non verranno trasmessi a altri dispositivi."
+"Se disabilitate, le librerie multimediali selezionate non sono condivise e i "
+"file non verranno trasmessi ad altri dispositivi."
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
@@ -103,13 +103,13 @@ msgstr "Bluetooth"
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
-"Mentre è abilitato, i dispositivi Bluetooth possono inviare file alla "
-"cartella Scaricati."
+"Se abilitato, i dispositivi Bluetooth possono inviare file alla cartella "
+"Scaricati."
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
-"Mentre è disabilitato, i dispositivi Bluetooth non possono inviare file alla "
+"Se disabilitato, i dispositivi Bluetooth non possono inviare file alla "
 "cartella Scaricati."
 
 #: src/Widgets/BluetoothPage.vala:52
