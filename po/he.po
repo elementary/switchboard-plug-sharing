@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-02-21 12:44+0000\n"
+"PO-Revision-Date: 2018-04-21 00:11+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/he/>\n"
@@ -54,7 +54,7 @@ msgstr "יש חיבור"
 
 #: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
-msgstr "מושבת"
+msgstr "מושבתת"
 
 #: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
