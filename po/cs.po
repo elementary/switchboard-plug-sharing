@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-04-20 00:12+0000\n"
+"PO-Revision-Date: 2018-04-26 00:04+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/cs/>\n"
@@ -50,7 +50,7 @@ msgstr ""
 
 #: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
-msgstr ""
+msgstr "Připojeno"
 
 #: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
-msgstr ""
+msgstr "Hudba"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid "Videos"
@@ -91,7 +91,7 @@ msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
