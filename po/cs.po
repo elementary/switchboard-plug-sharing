@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-04-26 00:04+0000\n"
+"PO-Revision-Date: 2018-04-27 00:03+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/cs/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: src/Plug.vala:28
 msgid "Sharing"
-msgstr ""
+msgstr "Sdílení"
 
 #: src/Plug.vala:29
 msgid "Configure file and media sharing"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: src/Plug.vala:58
 msgid "Network Is Not Available"
-msgstr ""
+msgstr "Síť není dostupná"
 
 #: src/Plug.vala:59
 msgid ""
@@ -38,7 +38,7 @@ msgstr ""
 
 #: src/Plug.vala:63
 msgid "Network settings…"
-msgstr ""
+msgstr "Nastavení sítě…"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
@@ -46,7 +46,7 @@ msgstr "Zapnuto"
 
 #: src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
-msgstr ""
+msgstr "Není dostupná"
 
 #: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
@@ -58,7 +58,7 @@ msgstr "Vypnuto"
 
 #: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
-msgstr ""
+msgstr "Knihovna médií"
 
 #: src/Widgets/DLNAPage.vala:30
 msgid ""
@@ -78,16 +78,16 @@ msgstr "Hudba"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid "Videos"
-msgstr ""
+msgstr "Videa"
 
 #: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
-msgstr ""
+msgstr "Fotky"
 
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
 msgid "Select the folder containing your %s"
-msgstr ""
+msgstr "Vyberte složku obsahující vaše %s"
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -107,23 +107,23 @@ msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:58
 msgid "Accept files from bluetooth devices:"
-msgstr ""
+msgstr "Přijímat soubory od bluetooth zařízení:"
 
 #: src/Widgets/BluetoothPage.vala:63
 msgid "Always"
-msgstr ""
+msgstr "Vždy"
 
 #: src/Widgets/BluetoothPage.vala:64
 msgid "When paired"
-msgstr ""
+msgstr "Od spárovaných"
 
 #: src/Widgets/BluetoothPage.vala:65
 msgid "Ask me"
-msgstr ""
+msgstr "Zeptat se mě"
 
 #: src/Widgets/BluetoothPage.vala:67
 msgid "Bluetooth Sharing Is Not Available"
-msgstr ""
+msgstr "Sdílení přes bluetooth není dostupné"
 
 #: src/Widgets/BluetoothPage.vala:68
 msgid ""
@@ -133,8 +133,8 @@ msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:76
 msgid "Bluetooth settings…"
-msgstr ""
+msgstr "Nastavení bluetooth…"
 
 #: src/Widgets/BluetoothPage.vala:77
 msgid "Open bluetooth settings"
-msgstr ""
+msgstr "Otevřít nastavení bluetooth"
