@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-03-07 00:10+0000\n"
+"PO-Revision-Date: 2018-05-03 07:01+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/ja/>\n"
@@ -35,8 +35,7 @@ msgstr "ネットワークは使用できません"
 #: src/Plug.vala:59
 msgid ""
 "While disconnected from the network, sharing services are not available."
-msgstr ""
-"ネットワークから切断されている間、共有サービスは利用可能ではありません。"
+msgstr "ネットワークから切断されている間、共有サービスは利用できません。"
 
 #: src/Plug.vala:63
 msgid "Network settings…"
