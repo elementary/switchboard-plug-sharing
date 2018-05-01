@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2017-07-04 11:14+0000\n"
-"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
-"Language-Team: Danish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-sharing/da/>\n"
+"PO-Revision-Date: 2018-05-04 00:07+0000\n"
+"Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
+"Language-Team: Danish <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-sharing/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.14\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-03-24 06:34+0000\n"
 
 #: src/Plug.vala:28
@@ -89,7 +89,7 @@ msgstr "Videoer"
 
 #: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
-msgstr "Billeder"
+msgstr "Fotos"
 
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
