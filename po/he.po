@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-04-21 00:11+0000\n"
+"PO-Revision-Date: 2018-05-04 00:07+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/he/>\n"
@@ -93,7 +93,7 @@ msgstr "נא לבחור את התיקייה שמכילה את ה%s שלך"
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
-msgstr "בלוטות׳"
+msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
