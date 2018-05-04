@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-05-03 07:01+0000\n"
+"PO-Revision-Date: 2018-05-05 00:11+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/ja/>\n"
@@ -59,23 +59,19 @@ msgstr "無効"
 
 #: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
-msgstr "メディアライブラリー"
+msgstr "メディアライブラリ"
 
 #: src/Widgets/DLNAPage.vala:30
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
-msgstr ""
-"有効になっている間、以下のメディアライブラリーはネットワークの互換性のあるデ"
-"バイスと共有されます。"
+msgstr "有効になっている間、以下のメディアライブラリはネットワーク内の互換性のあるデバイスと共有されます。"
 
 #: src/Widgets/DLNAPage.vala:31
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
-msgstr ""
-"無効になっている間、選択されたメディアライブラリーは共有されず、このコン"
-"ピューターから他のデバイスへファイルを送信しません。"
+msgstr "無効になっている間、選択されたメディアライブラリは共有されず、このコンピューターから他のデバイスへファイルを送信しません。"
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
