@@ -8,14 +8,17 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-02-20 18:32-0600\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-05-10 00:09+0000\n"
+"Last-Translator: martin fromont <martin.fromont1@gmail.com>\n"
+"Language-Team: French (Canada) "
+"<https://weblate.elementary.io/projects/switchboard/switchboard-plug-"
+"sharing/fr_CA/>\n"
 "Language: fr_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: src/Plug.vala:28
 msgid "Sharing"
@@ -48,7 +51,7 @@ msgstr ""
 
 #: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
-msgstr ""
+msgstr "Connecté"
 
 #: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
@@ -89,7 +92,7 @@ msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
