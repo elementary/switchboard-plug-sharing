@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-04-27 00:03+0000\n"
-"Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
+"PO-Revision-Date: 2018-05-16 14:24+0000\n"
+"Last-Translator: Daniel Zvir <zvir.daniel@seznam.cz>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/cs/>\n"
 "Language: cs\n"
@@ -25,7 +25,7 @@ msgstr "Sdílení"
 
 #: src/Plug.vala:29
 msgid "Configure file and media sharing"
-msgstr ""
+msgstr "Nastavit sdílení souborů a médií"
 
 #: src/Plug.vala:58
 msgid "Network Is Not Available"
@@ -34,7 +34,7 @@ msgstr "Síť není dostupná"
 #: src/Plug.vala:59
 msgid ""
 "While disconnected from the network, sharing services are not available."
-msgstr ""
+msgstr "Pokud jste odpojeni ze sítě, služby sdílení nejsou dostupné."
 
 #: src/Plug.vala:63
 msgid "Network settings…"
@@ -65,12 +65,16 @@ msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
 msgstr ""
+"Pokud povoleno, následující knihovny médií jsou sdíleny do kompatibilních "
+"zařízení ve vaší síti."
 
 #: src/Widgets/DLNAPage.vala:31
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
 msgstr ""
+"Pokud zakázáno, následující knihovny médií a soubory nejsou sdíleny z vašeho "
+"počítače do ostatních zařízení."
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
@@ -96,14 +100,16 @@ msgstr "Bluetooth"
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
+"Pokud povoleno, bluetooth zařízení mohou odeslat soubory do složky Stažené."
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
+"Pokud zakázáno, bluetooth zařízení nemohou odeslat soubory do složky Stažené."
 
 #: src/Widgets/BluetoothPage.vala:52
 msgid "Notify about newly received files:"
-msgstr ""
+msgstr "Oznámit nově přijaté soubory:"
 
 #: src/Widgets/BluetoothPage.vala:58
 msgid "Accept files from bluetooth devices:"
@@ -130,6 +136,8 @@ msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
 msgstr ""
+"Bluetooth zařízení je buď odpojeno, nebo vypnuto. Zkontrolujte nastavení "
+"bluetooth a zkuste to znova."
 
 #: src/Widgets/BluetoothPage.vala:76
 msgid "Bluetooth settings…"
