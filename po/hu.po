@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-05-31 00:03+0000\n"
+"PO-Revision-Date: 2018-05-31 10:05+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/hu/>\n"
@@ -22,32 +22,34 @@ msgstr ""
 
 #: src/Plug.vala:28
 msgid "Sharing"
-msgstr ""
+msgstr "Megosztás"
 
 #: src/Plug.vala:29
 msgid "Configure file and media sharing"
-msgstr ""
+msgstr "Állítsa be a fájl- és média megosztást"
 
 #: src/Plug.vala:58
 msgid "Network Is Not Available"
-msgstr ""
+msgstr "A hálózat nem elérhető"
 
 #: src/Plug.vala:59
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
+"Amíg nincs csatlakozva a hálózatra, a megosztási szolgáltatások nem állnak "
+"rendelkezésre."
 
 #: src/Plug.vala:63
 msgid "Network settings…"
-msgstr ""
+msgstr "Hálózati beállítások…"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
-msgstr ""
+msgstr "Bekapcsolva"
 
 #: src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
-msgstr ""
+msgstr "Nem elérhető"
 
 #: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
@@ -59,36 +61,40 @@ msgstr "Letiltva"
 
 #: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
-msgstr ""
+msgstr "Médiagyűjtemény"
 
 #: src/Widgets/DLNAPage.vala:30
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
 msgstr ""
+"Amíg engedélyezve van, a következő médiagyűjtemények megosztásra kerülnek a "
+"hálózatban lévő kompatibilis eszközökkel."
 
 #: src/Widgets/DLNAPage.vala:31
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
 msgstr ""
+"Amíg nincs engedélyezve, a kiválasztott médiagyűjtemények nem lesznek "
+"megosztva, és a fájlok nem lesznek továbbítva a számítógépről más eszközökre."
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
-msgstr "Zene"
+msgstr "Zenék"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid "Videos"
-msgstr ""
+msgstr "Videók"
 
 #: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
-msgstr ""
+msgstr "Képek"
 
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
 msgid "Select the folder containing your %s"
-msgstr ""
+msgstr "Válassza ki a %s tartalmazó mappát"
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -97,45 +103,51 @@ msgstr "Bluetooth"
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
+"Amíg engedélyezett, a Bluetooth eszközök fájlokat küldhetnek a Letöltések "
+"mappába."
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
+"Amíg nincs engedélyezve, a Bluetooth eszközök nem küldhetnek fájlokat a "
+"Letöltések mappába."
 
 #: src/Widgets/BluetoothPage.vala:52
 msgid "Notify about newly received files:"
-msgstr ""
+msgstr "Értesítés az újonnan érkezett fájlokról:"
 
 #: src/Widgets/BluetoothPage.vala:58
 msgid "Accept files from bluetooth devices:"
-msgstr ""
+msgstr "Fájlok elfogadása a bluetooth eszközökről:"
 
 #: src/Widgets/BluetoothPage.vala:63
 msgid "Always"
-msgstr ""
+msgstr "Mindig"
 
 #: src/Widgets/BluetoothPage.vala:64
 msgid "When paired"
-msgstr ""
+msgstr "Amikor párosítva vannak"
 
 #: src/Widgets/BluetoothPage.vala:65
 msgid "Ask me"
-msgstr ""
+msgstr "Kérdezzen"
 
 #: src/Widgets/BluetoothPage.vala:67
 msgid "Bluetooth Sharing Is Not Available"
-msgstr ""
+msgstr "A Bluetooth megosztás nem áll rendelkezésre"
 
 #: src/Widgets/BluetoothPage.vala:68
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
 msgstr ""
+"A Bluetooth eszköz leválasztva vagy letiltva. Ellenőrizze a bluetooth "
+"beállításokat, és próbálja újra."
 
 #: src/Widgets/BluetoothPage.vala:76
 msgid "Bluetooth settings…"
-msgstr ""
+msgstr "Bluetooth beállítások…"
 
 #: src/Widgets/BluetoothPage.vala:77
 msgid "Open bluetooth settings"
-msgstr ""
+msgstr "Bluetooth beállítások megnyitása"
