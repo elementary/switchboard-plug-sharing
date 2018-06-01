@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-05-31 10:05+0000\n"
+"PO-Revision-Date: 2018-06-02 00:07+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/hu/>\n"
@@ -30,7 +30,7 @@ msgstr "Állítsa be a fájl- és média megosztást"
 
 #: src/Plug.vala:58
 msgid "Network Is Not Available"
-msgstr "A hálózat nem elérhető"
+msgstr "A hálózat nem érhető el"
 
 #: src/Plug.vala:59
 msgid ""
@@ -49,7 +49,7 @@ msgstr "Bekapcsolva"
 
 #: src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
-msgstr "Nem elérhető"
+msgstr "Nem érhető el"
 
 #: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
@@ -94,7 +94,7 @@ msgstr "Képek"
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
 msgid "Select the folder containing your %s"
-msgstr "Válassza ki a %s tartalmazó mappát"
+msgstr "Válassza ki a mappát, amiben %s találhatók"
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
