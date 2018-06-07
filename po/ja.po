@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-06-06 00:09+0000\n"
+"PO-Revision-Date: 2018-06-08 00:12+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/ja/>\n"
@@ -88,7 +88,7 @@ msgstr "フォト"
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
 msgid "Select the folder containing your %s"
-msgstr "%s を含むフォルダを選択してください"
+msgstr "%s を含むフォルダーを選択してください"
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
@@ -96,11 +96,11 @@ msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
-msgstr "有効になっている間、Bluetooth デバイスは \"ダウンロード\" フォルダにファイルを送信できます。"
+msgstr "有効になっている間、Bluetooth デバイスは \"ダウンロード\" フォルダーにファイルを送信できます。"
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
-msgstr "無効になっている間、Bluetooth デバイスは \"ダウンロード\" フォルダにファイルを送信できません。"
+msgstr "無効になっている間、Bluetooth デバイスは \"ダウンロード\" フォルダーにファイルを送信できません。"
 
 #: src/Widgets/BluetoothPage.vala:52
 msgid "Notify about newly received files:"
