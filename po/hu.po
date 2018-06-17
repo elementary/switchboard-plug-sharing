@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2018-06-15 00:11+0000\n"
+"PO-Revision-Date: 2018-06-18 00:06+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard"
 "/switchboard-plug-sharing/hu/>\n"
@@ -26,7 +26,7 @@ msgstr "Megosztás"
 
 #: src/Plug.vala:29
 msgid "Configure file and media sharing"
-msgstr "Állítsa be a fájl- és média megosztást"
+msgstr "Fájl- és média megosztás beállítása"
 
 #: src/Plug.vala:58
 msgid "Network Is Not Available"
