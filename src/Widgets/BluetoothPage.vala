@@ -28,7 +28,7 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
               _("Bluetooth"),
               "preferences-bluetooth",
               _("While enabled, bluetooth devices can send files to Downloads."),
-              _("While disabled, bluetooth devices can not send files to Downloads."));
+              _("While disabled, bluetooth devices cannot send files to Downloads."));
 
         bluetooth_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.bluetooth");
         sharing_settings = new GLib.Settings ("org.gnome.desktop.file-sharing");
@@ -49,7 +49,7 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
     }
 
     construct {
-        var notify_label = new Gtk.Label (_("Notify about newly received files:"));
+        var notify_label = new Gtk.Label (_("Notify me when new files are transferred:"));
         ((Gtk.Misc)notify_label).xalign = 1.0f;
 
         notify_switch = new Gtk.Switch ();
@@ -64,8 +64,8 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
         accept_combo.append ("bonded", _("When paired"));
         accept_combo.append ("ask", _("Ask me"));
 
-        alert_view.title = _("Bluetooth Sharing Is Not Available");
-        alert_view.description = _("The bluetooth device is either disconnected or disabled. Check bluetooth settings and try again.");
+        alert_view.title = _("Bluetooth Sharing Is Not Found");
+        alert_view.description = _("Your bluetooth device is either disconnected or disabled. Check bluetooth settings and try again.");
         alert_view.icon_name ="bluetooth-disabled-symbolic";
 
         content_grid.attach (notify_label, 0, 0, 1, 1);
