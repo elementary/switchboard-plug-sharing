@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 18:32-0600\n"
-"PO-Revision-Date: 2016-08-15 20:01+0000\n"
-"Last-Translator: Anderson Rodrigues <andersrodigrue@live.com>\n"
-"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"PO-Revision-Date: 2018-09-22 00:11+0000\n"
+"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
+"switchboard/switchboard-plug-sharing/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-08-16 06:24+0000\n"
-"X-Generator: Launchpad (build 18169)\n"
 
 #: src/Plug.vala:28
 msgid "Sharing"
@@ -39,7 +41,7 @@ msgstr ""
 
 #: src/Plug.vala:63
 msgid "Network settings…"
-msgstr "Configurações de rede…"
+msgstr "Configurações de Rede…"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
