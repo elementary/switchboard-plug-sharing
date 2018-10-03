@@ -51,7 +51,9 @@ public class Sharing.Plug : Switchboard.Plug {
 
     /* 'search' returns results like ("Keyboard → Behavior → Duration", "keyboard<sep>behavior") */
     public override async Gee.TreeMap<string, string> search (string search) {
-        return new Gee.TreeMap<string, string> (null, null);
+      var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
+      search_results.set ("%s → %s".printf (display_name, _("Media library")), "");
+      return search_results;
     }
 
     private void build_ui () {
@@ -101,7 +103,7 @@ public class Sharing.Plug : Switchboard.Plug {
             }
 
             return true;
-        });        
+        });
     }
 
     private void update_content_view () {
