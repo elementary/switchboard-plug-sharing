@@ -60,7 +60,7 @@ public class Sharing.Plug : Switchboard.Plug {
                                                                 "network-error");
         network_alert_view.get_style_context ().remove_class (Gtk.STYLE_CLASS_VIEW);
 
-        var link_button = new Gtk.LinkButton (_("Network settings…"));
+        var link_button = new Gtk.LinkButton.with_label ("settings://network", _("Network settings…"));
         link_button.halign = Gtk.Align.END;
         link_button.valign = Gtk.Align.END;
         link_button.vexpand = true;
@@ -88,20 +88,6 @@ public class Sharing.Plug : Switchboard.Plug {
 
         NetworkMonitor.get_default ().network_changed.connect (() => update_content_view ());
         sidebar.selected_service_changed.connect (settings_view.show_service_settings);
-
-        link_button.activate_link.connect (() => {
-            var list = new List<string> ();
-            list.append ("network");
-
-            try {
-                var appinfo = AppInfo.create_from_commandline ("switchboard", null, AppInfoCreateFlags.SUPPORTS_URIS);
-                appinfo.launch_uris (list, null);
-            } catch (Error e) {
-                warning (e.message);
-            }
-
-            return true;
-        });        
     }
 
     private void update_content_view () {
