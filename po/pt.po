@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-13 15:01-0700\n"
-"PO-Revision-Date: 2018-05-13 00:11+0000\n"
-"Last-Translator: Pedro Ferreira <pmaf.ferreira@gmail.com>\n"
+"PO-Revision-Date: 2018-10-16 00:09+0000\n"
+"Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-sharing/pt/>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-07-01 06:08+0000\n"
 
 #: src/Plug.vala:28
@@ -89,7 +89,7 @@ msgstr "Vídeos"
 
 #: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
-msgstr "Fotografias"
+msgstr "Fotos"
 
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
