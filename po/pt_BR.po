@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-09-22 00:11+0000\n"
+"PO-Revision-Date: 2018-10-16 17:56+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-sharing/pt_BR/>\n"
@@ -29,9 +29,8 @@ msgid "Configure file and media sharing"
 msgstr "Configurar compartilhamento de arquivos e mídia"
 
 #: src/Plug.vala:55
-#, fuzzy
 msgid "Media library"
-msgstr "Biblioteca de mídia"
+msgstr "Biblioteca de Mídia"
 
 #: src/Plug.vala:60
 msgid "Network Is Not Available"
