@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:01-0700\n"
+"POT-Creation-Date: 2018-10-15 19:27-0700\n"
 "PO-Revision-Date: 2018-05-16 14:24+0000\n"
 "Last-Translator: Daniel Zvir <zvir.daniel@seznam.cz>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/switchboard/"
@@ -27,16 +27,21 @@ msgstr "Sdílení"
 msgid "Configure file and media sharing"
 msgstr "Nastavit sdílení souborů a médií"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:55
+#, fuzzy
+msgid "Media library"
+msgstr "Knihovna médií"
+
+#: src/Plug.vala:60
 msgid "Network Is Not Available"
 msgstr "Síť není dostupná"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:61
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "Pokud jste odpojeni ze sítě, služby sdílení nejsou dostupné."
 
-#: src/Plug.vala:63
+#: src/Plug.vala:65
 msgid "Network settings…"
 msgstr "Nastavení sítě…"
 

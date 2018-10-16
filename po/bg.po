@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:01-0700\n"
+"POT-Creation-Date: 2018-10-15 19:27-0700\n"
 "PO-Revision-Date: 2016-08-11 13:12+0000\n"
 "Last-Translator: Stanislav <stunito0o0o0@gmail.com>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
@@ -26,16 +26,21 @@ msgstr "Споделяне"
 msgid "Configure file and media sharing"
 msgstr "Настройка на споделянето"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:55
+#, fuzzy
+msgid "Media library"
+msgstr "Библиотека"
+
+#: src/Plug.vala:60
 msgid "Network Is Not Available"
 msgstr "Не е налична мрежа"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:61
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "Докато няма мрежа, услугите за споделяне не са налични."
 
-#: src/Plug.vala:63
+#: src/Plug.vala:65
 msgid "Network settings…"
 msgstr "Настройки на мрежата..."
 

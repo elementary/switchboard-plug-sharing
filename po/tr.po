@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:01-0700\n"
+"POT-Creation-Date: 2018-10-15 19:27-0700\n"
 "PO-Revision-Date: 2018-05-27 00:06+0000\n"
 "Last-Translator: İbrahim Ethem Göl <ethem578@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.elementary.io/projects/switchboard/"
@@ -28,16 +28,21 @@ msgstr "Paylaşım"
 msgid "Configure file and media sharing"
 msgstr "Dosya ve medya paylaşımını yapılandırın"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:55
+#, fuzzy
+msgid "Media library"
+msgstr "Ortam Kütüphanesi"
+
+#: src/Plug.vala:60
 msgid "Network Is Not Available"
 msgstr "Ağ Mevcut Değil"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:61
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "Ağ bağlantısı kesildiğinde, paylaşım servisleri kullanılamaz."
 
-#: src/Plug.vala:63
+#: src/Plug.vala:65
 msgid "Network settings…"
 msgstr "Ağ ayarları…"
 

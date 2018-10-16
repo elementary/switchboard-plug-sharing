@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:01-0700\n"
+"POT-Creation-Date: 2018-10-15 19:27-0700\n"
 "PO-Revision-Date: 2017-05-12 16:15+0000\n"
 "Last-Translator: Dieter Debast <dieter_debast@hotmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
@@ -28,18 +28,23 @@ msgstr "Delen"
 msgid "Configure file and media sharing"
 msgstr "configureer het delen van bestanden en media"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:55
+#, fuzzy
+msgid "Media library"
+msgstr "Mediabibliotheek"
+
+#: src/Plug.vala:60
 msgid "Network Is Not Available"
 msgstr "netwerk is niet beschikbaar"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:61
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
 "Wanneer er geen netwerk beschikbaar is, is het delen van bestanden niet "
 "beschikbaar."
 
-#: src/Plug.vala:63
+#: src/Plug.vala:65
 msgid "Network settings…"
 msgstr "Netwerkinstellingen…"
 

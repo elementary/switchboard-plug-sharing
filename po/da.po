@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-13 15:01-0700\n"
+"POT-Creation-Date: 2018-10-15 19:27-0700\n"
 "PO-Revision-Date: 2018-05-04 00:07+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/switchboard/"
@@ -28,18 +28,23 @@ msgstr "Deling"
 msgid "Configure file and media sharing"
 msgstr "Konfigurer fil- og mediedeling"
 
-#: src/Plug.vala:58
+#: src/Plug.vala:55
+#, fuzzy
+msgid "Media library"
+msgstr "Mediebibliotek"
+
+#: src/Plug.vala:60
 msgid "Network Is Not Available"
 msgstr "Netværk er ikke tilgængelig"
 
-#: src/Plug.vala:59
+#: src/Plug.vala:61
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
 "Når forbindelsen til netværket er afbrudt, er delingstjenester ikke "
 "tilgængelige."
 
-#: src/Plug.vala:63
+#: src/Plug.vala:65
 msgid "Network settings…"
 msgstr "Netværksindstillinger…"
 
