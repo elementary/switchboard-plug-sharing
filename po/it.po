@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-03-12 00:10+0000\n"
-"Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
+"PO-Revision-Date: 2018-10-16 06:55+0000\n"
+"Last-Translator: Marco De Paolini <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-06-18 06:22+0000\n"
 
 #: src/Plug.vala:28
@@ -29,9 +29,8 @@ msgid "Configure file and media sharing"
 msgstr "Configura la condivisione di file e contenuti multimediali"
 
 #: src/Plug.vala:55
-#, fuzzy
 msgid "Media library"
-msgstr "Mediateca"
+msgstr "Libreria multimedia"
 
 #: src/Plug.vala:60
 msgid "Network Is Not Available"
