@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-10-16 00:09+0000\n"
+"PO-Revision-Date: 2018-10-16 12:49+0000\n"
 "Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-sharing/pt/>\n"
@@ -29,7 +29,6 @@ msgid "Configure file and media sharing"
 msgstr "Configure a partilha de ficheiros e multimédia"
 
 #: src/Plug.vala:55
-#, fuzzy
 msgid "Media library"
 msgstr "Biblioteca Multimédia"
 
