@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-10-13 22:01+0000\n"
+"PO-Revision-Date: 2018-10-18 00:11+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/mr/>\n"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
-msgstr ""
+msgstr "सक्षम"
 
 #: src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
@@ -54,7 +54,7 @@ msgstr ""
 
 #: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
-msgstr ""
+msgstr "जोडलेले"
 
 #: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
-msgstr ""
+msgstr "ब्लूटुथ"
 
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
