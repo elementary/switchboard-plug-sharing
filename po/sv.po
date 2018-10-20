@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-03-26 00:09+0000\n"
-"Last-Translator: H. Gerhard. A <henrik.ahlkvist@gmail.com>\n"
+"PO-Revision-Date: 2018-10-21 11:10+0000\n"
+"Last-Translator: Fredrik B <frbo9002@gmail.com>\n"
 "Language-Team: Swedish <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2016-07-24 05:41+0000\n"
 
 #: src/Plug.vala:28
@@ -29,7 +29,6 @@ msgid "Configure file and media sharing"
 msgstr "Ställ in fil- och mediadelning"
 
 #: src/Plug.vala:55
-#, fuzzy
 msgid "Media library"
 msgstr "Mediabibliotek"
 
@@ -92,7 +91,7 @@ msgstr "Videor"
 
 #: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
-msgstr "Bilder"
+msgstr "Foton"
 
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
