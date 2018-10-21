@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-06-13 00:08+0000\n"
+"PO-Revision-Date: 2018-10-25 13:08+0000\n"
 "Last-Translator: Eri Hidayat <eriwhidayat@gmail.com>\n"
 "Language-Team: Indonesian <https://weblate.elementary.io/projects/"
 "switchboard/switchboard-plug-sharing/id/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/Plug.vala:28
 msgid "Sharing"
@@ -78,15 +78,15 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
-msgstr ""
+msgstr "Musik"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid "Videos"
-msgstr ""
+msgstr "Video"
 
 #: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
-msgstr ""
+msgstr "Foto"
 
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
