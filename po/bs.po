@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2018-11-05 23:17+0000\n"
+"PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
-"Language-Team: Bosnian <https://weblate.elementary.io/projects/switchboard/"
+"Language-Team: Bosnian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/bs/>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: src/Plug.vala:28
 msgid "Sharing"
@@ -104,8 +104,7 @@ msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
-msgstr ""
-"Dok je aktivirano, Bluetooth uređaji mogu slati datoteke u Preuzimanja."
+msgstr "Dok je aktivirano, Bluetooth uređaji mogu slati datoteke u Preuzimanja."
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
