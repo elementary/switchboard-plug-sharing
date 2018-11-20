@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-11-07 01:49+0000\n"
+"PO-Revision-Date: 2018-11-24 12:10+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/ja/>\n"
@@ -116,15 +116,15 @@ msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:52
 msgid "Notify about newly received files:"
-msgstr "新しいファイルを受け取った時に知らせる:"
+msgstr "新しく受け取ったファイルについて通知："
 
 #: src/Widgets/BluetoothPage.vala:58
 msgid "Accept files from bluetooth devices:"
-msgstr "Bluetooth デバイスからのファイルを受け入れる:"
+msgstr "Bluetooth デバイスからファイルを受け入れる："
 
 #: src/Widgets/BluetoothPage.vala:63
 msgid "Always"
-msgstr "常に使用"
+msgstr "常に"
 
 #: src/Widgets/BluetoothPage.vala:64
 msgid "When paired"
@@ -132,7 +132,7 @@ msgstr "ペアリングした時"
 
 #: src/Widgets/BluetoothPage.vala:65
 msgid "Ask me"
-msgstr "動作を確認"
+msgstr "確認"
 
 #: src/Widgets/BluetoothPage.vala:67
 msgid "Bluetooth Sharing Is Not Available"
