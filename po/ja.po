@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-11-24 12:10+0000\n"
+"PO-Revision-Date: 2018-12-02 06:50+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/ja/>\n"
@@ -116,11 +116,11 @@ msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:52
 msgid "Notify about newly received files:"
-msgstr "新しく受け取ったファイルについて通知："
+msgstr "新しく受け取ったファイルについて通知:"
 
 #: src/Widgets/BluetoothPage.vala:58
 msgid "Accept files from bluetooth devices:"
-msgstr "Bluetooth デバイスからファイルを受け入れる："
+msgstr "Bluetooth デバイスからファイルを受け入れる:"
 
 #: src/Widgets/BluetoothPage.vala:63
 msgid "Always"
