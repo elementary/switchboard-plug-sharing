@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-10-18 00:11+0000\n"
+"PO-Revision-Date: 2018-12-14 22:09+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/mr/>\n"
@@ -86,7 +86,7 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
-msgstr ""
+msgstr "फोटो"
 
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
