@@ -8,135 +8,145 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-02-20 18:32-0600\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-01-06 15:16+0000\n"
+"Last-Translator: Simon Dagfinrud <semonje@gmail.com>\n"
+"Language-Team: Norwegian Nynorsk <https://weblate.elementary.io/projects/"
+"switchboard/switchboard-plug-sharing/nn/>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: src/Plug.vala:28
 msgid "Sharing"
-msgstr ""
+msgstr "Deling"
 
 #: src/Plug.vala:29
 msgid "Configure file and media sharing"
-msgstr ""
+msgstr "Sett opp fil- og mediedeling"
 
 #: src/Plug.vala:55
 msgid "Media library"
-msgstr ""
+msgstr "Mediabibliotek"
 
 #: src/Plug.vala:60
 msgid "Network Is Not Available"
-msgstr ""
+msgstr "Nettverk er ikkje tilgjengeleg"
 
 #: src/Plug.vala:61
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
+"Medan ein er fråkopla frå nettverket, er ikkje delingstenester tilgjengeleg."
 
 #: src/Plug.vala:65
 msgid "Network settings…"
-msgstr ""
+msgstr "Nettverksinnstillingar…"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
-msgstr ""
+msgstr "Påslått"
 
 #: src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
-msgstr ""
+msgstr "Ikkje tilgjengeleg"
 
 #: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
-msgstr ""
+msgstr "Tilkopla"
 
 #: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
-msgstr ""
+msgstr "Avslått"
 
 #: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
-msgstr ""
+msgstr "Mediebibliotek"
 
 #: src/Widgets/DLNAPage.vala:30
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
 msgstr ""
+"Medan aktivert er følgande mediebibliotek delt til kompatible einingar i "
+"nettverket ditt."
 
 #: src/Widgets/DLNAPage.vala:31
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
 msgstr ""
+"Medan avslått er dei valde mediebiblioteka udelt, og det vil ikkje strøyme "
+"filer frå datamaskina di til andre einingar."
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
-msgstr ""
+msgstr "Musikk"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid "Videos"
-msgstr ""
+msgstr "Videoar"
 
 #: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
-msgstr ""
+msgstr "Bilete"
 
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
 msgid "Select the folder containing your %s"
-msgstr ""
+msgstr "Vel mappa som inneheld %s dine"
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
-msgstr ""
+msgstr "Medan aktivert kan Bluetooth-einingar sende filer til «Nedlastingar»."
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
+"Medan aktivert kan ikkje Bluetooth-einingar sende filer til «Nedlastingar»."
 
 #: src/Widgets/BluetoothPage.vala:52
 msgid "Notify about newly received files:"
-msgstr ""
+msgstr "Varsle om nyleg mottekne filer:"
 
 #: src/Widgets/BluetoothPage.vala:58
 msgid "Accept files from bluetooth devices:"
-msgstr ""
+msgstr "Aksepter filer frå Bluetooth-einingar:"
 
 #: src/Widgets/BluetoothPage.vala:63
 msgid "Always"
-msgstr ""
+msgstr "Alltid"
 
 #: src/Widgets/BluetoothPage.vala:64
 msgid "When paired"
-msgstr ""
+msgstr "Når samankopla"
 
 #: src/Widgets/BluetoothPage.vala:65
 msgid "Ask me"
-msgstr ""
+msgstr "Spør meg"
 
 #: src/Widgets/BluetoothPage.vala:67
 msgid "Bluetooth Sharing Is Not Available"
-msgstr ""
+msgstr "Bluetooth-deling er ikkje tilgjengeleg"
 
 #: src/Widgets/BluetoothPage.vala:68
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
 msgstr ""
+"Bluetooth-eininga er anten fråkopla eller avslått. Sjekk Bluetooth-"
+"innstillingane og prøv igjen."
 
 #: src/Widgets/BluetoothPage.vala:76
 msgid "Bluetooth settings…"
-msgstr ""
+msgstr "Bluetooth-innstillingar…"
 
 #: src/Widgets/BluetoothPage.vala:77
 msgid "Open bluetooth settings"
-msgstr ""
+msgstr "Opne Bluetooth-innstillingar"
