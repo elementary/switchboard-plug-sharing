@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-11-16 08:31+0000\n"
-"Last-Translator: Corentin Noël <corentin@elementary.io>\n"
+"PO-Revision-Date: 2019-01-14 00:10+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://weblate.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/fr/>\n"
 "Language: fr\n"
@@ -30,7 +30,7 @@ msgstr "Configurer le partage de fichier et de média"
 
 #: src/Plug.vala:55
 msgid "Media library"
-msgstr "Bibliothèque des médias"
+msgstr "Bibliothèque Média"
 
 #: src/Plug.vala:60
 msgid "Network Is Not Available"
@@ -65,7 +65,7 @@ msgstr "Désactivé"
 
 #: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
-msgstr "Bibliothèque des médias"
+msgstr "Bibliothèque Médias"
 
 #: src/Widgets/DLNAPage.vala:30
 msgid ""
@@ -108,13 +108,13 @@ msgstr "Bluetooth"
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
-"Lorsqu'il est activé, les périphériques bluetooth peuvent envoyer des "
+"Lorsqu'il est activé, les périphériques Bluetooth peuvent envoyer des "
 "fichiers dans le dossier Téléchargements."
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
-"Lorsqu'il est désactivé, les périphériques bluetooth ne peuvent pas envoyés "
+"Lorsqu'il est désactivé, les périphériques Bluetooth ne peuvent pas envoyés "
 "de fichiers dans le dossier Téléchargements."
 
 #: src/Widgets/BluetoothPage.vala:52
@@ -123,7 +123,7 @@ msgstr "Notifier lors d'une réception de fichiers :"
 
 #: src/Widgets/BluetoothPage.vala:58
 msgid "Accept files from bluetooth devices:"
-msgstr "Accepter la réception de fichiers depuis ces périphériques bluetooth :"
+msgstr "Accepter la réception de fichiers depuis ces périphériques Bluetooth :"
 
 #: src/Widgets/BluetoothPage.vala:63
 msgid "Always"
@@ -146,7 +146,7 @@ msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
 msgstr ""
-"Le périphérique bluetooth est soit déconnecté ou désactivé. Veuillez "
+"Le périphérique Bluetooth est soit déconnecté ou désactivé. Veuillez "
 "contrôler son paramétrage et recommencer."
 
 #: src/Widgets/BluetoothPage.vala:76
@@ -155,4 +155,4 @@ msgstr "Paramètres Bluetooth…"
 
 #: src/Widgets/BluetoothPage.vala:77
 msgid "Open bluetooth settings"
-msgstr "Ouvrir les paramètres bluetooth"
+msgstr "Ouvrir les paramètres Bluetooth"
