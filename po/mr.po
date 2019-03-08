@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2018-12-14 22:09+0000\n"
+"PO-Revision-Date: 2019-03-09 13:31+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
-"Language-Team: Marathi <https://weblate.elementary.io/projects/switchboard/"
+"Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/mr/>\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.4\n"
 
 #: src/Plug.vala:28
 msgid "Sharing"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
-msgstr ""
+msgstr "संगीत"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid "Videos"
