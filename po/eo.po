@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-15 19:27-0700\n"
-"PO-Revision-Date: 2019-07-05 17:46+0000\n"
+"PO-Revision-Date: 2019-07-13 13:47+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/eo/>\n"
@@ -58,7 +58,7 @@ msgstr "Konektita"
 
 #: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
-msgstr ""
+msgstr "Malaktivigita"
 
 #: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
-msgstr ""
+msgstr "Muziko"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid "Videos"
