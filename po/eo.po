@@ -7,136 +7,148 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:46+0200\n"
-"PO-Revision-Date: 2018-02-20 18:32-0600\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2018-10-15 19:27-0700\n"
+"PO-Revision-Date: 2019-07-17 00:31+0000\n"
+"Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
+"Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-sharing/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/Plug.vala:28
 msgid "Sharing"
-msgstr ""
+msgstr "Kunhavigi"
 
 #: src/Plug.vala:29
 msgid "Configure file and media sharing"
-msgstr ""
+msgstr "Agordi dosieran kaj aŭvidaĵan kunhavigon"
 
 #: src/Plug.vala:55
 msgid "Media library"
-msgstr ""
+msgstr "Aŭdvidaĵa biblioteko"
 
 #: src/Plug.vala:60
 msgid "Network Is Not Available"
-msgstr ""
+msgstr "Reto ne disponeblas"
 
 #: src/Plug.vala:61
 msgid ""
 "While disconnected from the network, sharing services are not available."
-msgstr ""
+msgstr "Sen konekto al la reto, kunhavigaj servoj ne disponeblas."
 
 #: src/Plug.vala:65
 msgid "Network settings…"
-msgstr ""
+msgstr "Retaj agordoj…"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
-msgstr ""
+msgstr "Ebligita"
 
 #: src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
-msgstr ""
+msgstr "Nedisponebla"
 
 #: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
-msgstr ""
+msgstr "Konektita"
 
 #: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
-msgstr ""
+msgstr "Malaktivigita"
 
 #: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
-msgstr ""
+msgstr "Aŭdvidaĵa biblioteko"
 
 #: src/Widgets/DLNAPage.vala:30
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
 msgstr ""
+"Kiam ebligitaj, la sekvaj aŭdvidaĵaj bibliotekoj estas kundividitaj kun "
+"kongruaj aparatoj en via reto."
 
 #: src/Widgets/DLNAPage.vala:31
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
 msgstr ""
+"Kiam malebligitaj, la elektitaj aŭdvidaĵaj bibliotekoj ne estas plu "
+"kundividitaj, kaj ne plu elsendos dosierojn de via komputilo al alia aparato."
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
-msgstr ""
+msgstr "Muziko"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid "Videos"
-msgstr ""
+msgstr "Videoj"
 
 #: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
-msgstr ""
+msgstr "Fotoj"
 
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
 msgid "Select the folder containing your %s"
-msgstr ""
+msgstr "Elektu la dosierujon entenanta vian %s"
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bludento"
 
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
+"Kiam ebligitaj, bludentaj aparatoj povas sendi dosierojn al la dosierujo "
+"Elŝutaĵo."
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
+"Kiam malebligitaj, bludentaj aparatoj ne plu povas sendi dosierojn al la "
+"dosierujo Elŝutaĵo."
 
 #: src/Widgets/BluetoothPage.vala:52
 msgid "Notify about newly received files:"
-msgstr ""
+msgstr "Averti pri ĵus ricevitaj dosieroj:"
 
 #: src/Widgets/BluetoothPage.vala:58
 msgid "Accept files from bluetooth devices:"
-msgstr ""
+msgstr "Akcepti dosierojn de bludentaj aparatoj:"
 
 #: src/Widgets/BluetoothPage.vala:63
 msgid "Always"
-msgstr ""
+msgstr "Ĉiam"
 
 #: src/Widgets/BluetoothPage.vala:64
 msgid "When paired"
-msgstr ""
+msgstr "Kiam kuplita"
 
 #: src/Widgets/BluetoothPage.vala:65
 msgid "Ask me"
-msgstr ""
+msgstr "Peti de mi"
 
 #: src/Widgets/BluetoothPage.vala:67
 msgid "Bluetooth Sharing Is Not Available"
-msgstr ""
+msgstr "Bludenta kunhavigo ne disponeblas"
 
 #: src/Widgets/BluetoothPage.vala:68
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
 msgstr ""
+"La bludenta aparato estas ĉu diskonektita ĉu malebligita. Kontrolu la "
+"bludentajn agorodojn kaj reprovu."
 
 #: src/Widgets/BluetoothPage.vala:76
 msgid "Bluetooth settings…"
-msgstr ""
+msgstr "Bludentaj agordoj…"
 
 #: src/Widgets/BluetoothPage.vala:77
 msgid "Open bluetooth settings"
-msgstr ""
+msgstr "Malfermi la bludentajn agordojn"
