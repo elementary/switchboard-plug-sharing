@@ -24,7 +24,7 @@ public class Sharing.Plug : Switchboard.Plug {
         var settings = new Gee.TreeMap<string, string?> (null, null);
         settings.set ("network/share", null);
         Object (category : Category.NETWORK,
-                code_name: "pantheon-sharing",
+                code_name: "io.elementary.switchboard.sharing",
                 display_name: _("Sharing"),
                 description: _("Configure file and media sharing"),
                 icon: "preferences-system-sharing",
