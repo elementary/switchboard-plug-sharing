@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:46+0200\n"
-"PO-Revision-Date: 2019-04-15 20:26+0000\n"
+"PO-Revision-Date: 2019-08-30 21:22+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 3.7.1\n"
 "X-Launchpad-Export-Date: 2016-09-08 07:26+0000\n"
 
 #: src/Plug.vala:28
@@ -105,13 +105,13 @@ msgstr "Bluetooth"
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
-"Etkinleştirildiğinde, bluetooth cihazları İndirilenler klasörüne dosya "
+"Etkinleştirildiğinde, bluetooth aygıtları İndirilenler klasörüne dosya "
 "gönderebilir."
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
-"Devre dışı bırakıldığında, bluetooth cihazları İndirilenler klasörüne dosya "
+"Devre dışı bırakıldığında, bluetooth aygıtları İndirilenler klasörüne dosya "
 "gönderemez."
 
 #: src/Widgets/BluetoothPage.vala:52
@@ -120,7 +120,7 @@ msgstr "Alınan yeni dosyalar için bir bildirim görüntüle:"
 
 #: src/Widgets/BluetoothPage.vala:58
 msgid "Accept files from bluetooth devices:"
-msgstr "Bluetooth cihazlarından gelen dosyaları kabul et:"
+msgstr "Bluetooth aygıtlarından gelen dosyaları kabul et:"
 
 #: src/Widgets/BluetoothPage.vala:63
 msgid "Always"
