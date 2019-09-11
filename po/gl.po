@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:46+0200\n"
-"PO-Revision-Date: 2019-09-06 15:23+0000\n"
+"PO-Revision-Date: 2019-09-12 14:23+0000\n"
 "Last-Translator: Daniel <riesp@protonmail.com>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/gl/>\n"
@@ -86,7 +86,7 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
-msgstr ""
+msgstr "Fotos"
 
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
