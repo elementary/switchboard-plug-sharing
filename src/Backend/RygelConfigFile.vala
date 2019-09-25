@@ -38,7 +38,7 @@ public class Sharing.Backend.RygelConfigFile : Object {
                 return;
             }
         } else {
-            debug ("Setting up new rygel.conf...");
+            debug ("Setting up new rygel.conf…");
 
             setup_config_file ();
         }
