@@ -132,7 +132,7 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
             subtitle_label.set_label (state == ServiceState.DISABLED ? disabled_description : enabled_description);
             service_switch.set_active (state != ServiceState.DISABLED);
             content_grid.set_sensitive (state != ServiceState.DISABLED);
-            update_content_grid_state(state);
+            update_content_grid_state (state);
         }
 
         if (service_entry != null) {
@@ -144,9 +144,9 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
 
     protected void update_content_grid_state (ServiceState state) {
         if (state == ServiceState.DISABLED) {
-            foreach(Gtk.Widget widget in content_grid.get_children()) {
+            foreach (Gtk.Widget widget in content_grid.get_children ()) {
                 if (widget is Gtk.Switch) {
-                    ((Gtk.Switch)widget).set_active(false);
+                    ((Gtk.Switch)widget).set_active (false);
                 }
             }
         }
