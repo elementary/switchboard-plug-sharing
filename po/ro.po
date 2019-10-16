@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:46+0200\n"
-"PO-Revision-Date: 2019-05-14 06:03+0000\n"
+"PO-Revision-Date: 2019-10-17 17:24+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Romanian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/ro/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/Plug.vala:28
 msgid "Sharing"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
-msgstr ""
+msgstr "Dezactivat"
 
 #: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
