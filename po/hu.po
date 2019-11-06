@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:46+0200\n"
+"POT-Creation-Date: 2019-11-06 18:38+0000\n"
 "PO-Revision-Date: 2018-06-19 00:08+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian <https://weblate.elementary.io/projects/switchboard/"
@@ -28,25 +28,25 @@ msgstr "Megosztás"
 msgid "Configure file and media sharing"
 msgstr "Fájl- és média megosztás beállítása"
 
-#: src/Plug.vala:55
-#, fuzzy
-msgid "Media library"
-msgstr "Médiagyűjtemény"
-
-#: src/Plug.vala:60
+#: src/Plug.vala:37
 msgid "Network Is Not Available"
 msgstr "A hálózat nem érhető el"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:38
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
 "Amíg nincs csatlakozva a hálózatra, a megosztási szolgáltatások nem állnak "
 "rendelkezésre."
 
-#: src/Plug.vala:65
+#: src/Plug.vala:43
 msgid "Network settings…"
 msgstr "Hálózati beállítások…"
+
+#: src/Plug.vala:90
+#, fuzzy
+msgid "Media library"
+msgstr "Médiagyűjtemény"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"

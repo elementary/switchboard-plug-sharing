@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-15 19:27-0700\n"
+"POT-Creation-Date: 2019-11-06 18:38+0000\n"
 "PO-Revision-Date: 2019-07-17 00:31+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
@@ -27,22 +27,22 @@ msgstr "Kunhavigi"
 msgid "Configure file and media sharing"
 msgstr "Agordi dosieran kaj aŭvidaĵan kunhavigon"
 
-#: src/Plug.vala:55
-msgid "Media library"
-msgstr "Aŭdvidaĵa biblioteko"
-
-#: src/Plug.vala:60
+#: src/Plug.vala:37
 msgid "Network Is Not Available"
 msgstr "Reto ne disponeblas"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:38
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "Sen konekto al la reto, kunhavigaj servoj ne disponeblas."
 
-#: src/Plug.vala:65
+#: src/Plug.vala:43
 msgid "Network settings…"
 msgstr "Retaj agordoj…"
+
+#: src/Plug.vala:90
+msgid "Media library"
+msgstr "Aŭdvidaĵa biblioteko"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"

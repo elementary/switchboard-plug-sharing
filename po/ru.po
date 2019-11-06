@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:46+0200\n"
+"POT-Creation-Date: 2019-11-06 18:38+0000\n"
 "PO-Revision-Date: 2018-10-21 13:33+0000\n"
 "Last-Translator: Kirill Romanov <djaler1@gmail.com>\n"
 "Language-Team: Russian <https://weblate.elementary.io/projects/switchboard/"
@@ -29,22 +29,22 @@ msgstr "Общий доступ"
 msgid "Configure file and media sharing"
 msgstr "Настройка общего доступа файлов и медиа"
 
-#: src/Plug.vala:55
-msgid "Media library"
-msgstr "Медиатека"
-
-#: src/Plug.vala:60
+#: src/Plug.vala:37
 msgid "Network Is Not Available"
 msgstr "Сеть недоступна"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:38
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "При отключении от сети службы обмена недоступны."
 
-#: src/Plug.vala:65
+#: src/Plug.vala:43
 msgid "Network settings…"
 msgstr "Параметры сети…"
+
+#: src/Plug.vala:90
+msgid "Media library"
+msgstr "Медиатека"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"

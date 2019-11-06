@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:46+0200\n"
+"POT-Creation-Date: 2019-11-06 18:38+0000\n"
 "PO-Revision-Date: 2016-02-24 18:45+0000\n"
 "Last-Translator: momit rahman <momitrahman@gmail.com>\n"
 "Language-Team: Bengali <bn@li.org>\n"
@@ -26,23 +26,23 @@ msgstr "শেয়ারিং"
 msgid "Configure file and media sharing"
 msgstr ""
 
-#: src/Plug.vala:55
-#, fuzzy
-msgid "Media library"
-msgstr "মিডিয়া লাইব্রেরি"
-
-#: src/Plug.vala:60
+#: src/Plug.vala:37
 msgid "Network Is Not Available"
 msgstr ""
 
-#: src/Plug.vala:61
+#: src/Plug.vala:38
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
 
-#: src/Plug.vala:65
+#: src/Plug.vala:43
 msgid "Network settings…"
 msgstr ""
+
+#: src/Plug.vala:90
+#, fuzzy
+msgid "Media library"
+msgstr "মিডিয়া লাইব্রেরি"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"

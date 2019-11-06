@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:46+0200\n"
+"POT-Creation-Date: 2019-11-06 18:38+0000\n"
 "PO-Revision-Date: 2016-06-13 17:09+0000\n"
 "Last-Translator: Kristjan Vool <tictac7x@gmail.com>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -26,23 +26,23 @@ msgstr "Jagamine"
 msgid "Configure file and media sharing"
 msgstr "Failide ja meedia jagamise seadistamine"
 
-#: src/Plug.vala:55
-#, fuzzy
-msgid "Media library"
-msgstr "Meediakogu"
-
-#: src/Plug.vala:60
+#: src/Plug.vala:37
 msgid "Network Is Not Available"
 msgstr "Internetivõrk pole saadaval"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:38
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "Internetivõrku ühendamata olles ei ole jagamise teenused kasutatavad."
 
-#: src/Plug.vala:65
+#: src/Plug.vala:43
 msgid "Network settings…"
 msgstr "Võrgu seaded…"
+
+#: src/Plug.vala:90
+#, fuzzy
+msgid "Media library"
+msgstr "Meediakogu"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"

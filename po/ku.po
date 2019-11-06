@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:46+0200\n"
+"POT-Creation-Date: 2019-11-06 18:38+0000\n"
 "PO-Revision-Date: 2018-02-11 00:09+0000\n"
 "Last-Translator: Rokar <mail@rokar.de>\n"
 "Language-Team: Kurdish <https://weblate.elementary.io/projects/switchboard/"
@@ -28,23 +28,23 @@ msgstr "Parvekirin"
 msgid "Configure file and media sharing"
 msgstr "Parve kirina dosye û media mîheng bike"
 
-#: src/Plug.vala:55
-#, fuzzy
-msgid "Media library"
-msgstr "Pirtûkxaneya Medya"
-
-#: src/Plug.vala:60
+#: src/Plug.vala:37
 msgid "Network Is Not Available"
 msgstr "Tor na berdeste"
 
-#: src/Plug.vala:61
+#: src/Plug.vala:38
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
 
-#: src/Plug.vala:65
+#: src/Plug.vala:43
 msgid "Network settings…"
 msgstr "mîhenge Tor..."
+
+#: src/Plug.vala:90
+#, fuzzy
+msgid "Media library"
+msgstr "Pirtûkxaneya Medya"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
