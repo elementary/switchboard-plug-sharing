@@ -4,6 +4,15 @@
   <extends>io.elementary.switchboard</extends>
   <name>Sharing</name>
   <summary>Configure file and media sharing</summary>
+  <releases>
+    <release version="2.1.4" date="2019-11-04" urgency="medium">
+      <description>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/elementary/switchboard-plug-sharing/master/data/screenshot.png</image>
