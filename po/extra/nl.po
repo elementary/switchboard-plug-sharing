@@ -8,22 +8,24 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-07 11:42+0100\n"
-"PO-Revision-Date: 2019-05-10 12:57-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-01-01 23:08+0000\n"
+"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
+"switchboard-plug-sharing-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/sharing.appdata.xml.in:5
 msgid "Sharing"
-msgstr ""
+msgstr "Delen"
 
 #: data/sharing.appdata.xml.in:6
 msgid "Configure file and media sharing"
-msgstr ""
+msgstr "Configureer het delen van bestanden en media"
 
 #: data/sharing.appdata.xml.in:11
 msgid "Updated translations"
