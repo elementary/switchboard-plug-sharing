@@ -1,3 +1,31 @@
+switchboard-plug-sharing (2.1.4) bionic; urgency=medium
+
+  * Release 2.1.4 (#46)
+  * Update translation files
+  * Delete INSTALL
+  * Add extra.pot (#44)
+  * AppData: Add 2.1.4 release info
+  * Add Release to Actions
+  * Update translation template
+  * Delete pantheon-sharing.pot
+  * Add Gettext Updates to Actions
+  * run installation in CI (#42)
+  * Add Lint to CI (#41)
+  * fix ellipsis
+  * Delete CODE_OF_CONDUCT.md
+  * Build with GitHub CI (#40)
+  * build: fix install path for switchboard plug  (#38)
+  * Add Appdata and translations (#34)
+  * Plug: Remove build_ui method (#37)
+  * Plug: Change code name to RDNN
+  * Add Silesian and update translation template
+  * Constructors of abstract classes should not be public
+  * Travis: use juno-unstable docker (#32)
+  * Update translation files
+  * Plug search improvements (#29)
+
+ -- Cody Garver <cody@elementary.io>  Wed, 01 Apr 2020 23:45:07 +0000
+
 switchboard-plug-sharing (2.1.3) bionic; urgency=medium
 
   * New upstream release.
