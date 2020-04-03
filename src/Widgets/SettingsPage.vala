@@ -47,7 +47,7 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
 
     protected signal void switch_state_changed (bool state);
 
-    protected SettingsPage (string id, string title, string icon_name, string enabled_description, string disabled_description) {
+    public SettingsPage (string id, string title, string icon_name, string enabled_description, string disabled_description) {
         Object (id : id,
                 title: title,
                 icon_name: icon_name,
