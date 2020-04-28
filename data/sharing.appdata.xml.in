@@ -2,7 +2,7 @@
 <component type="addon">
   <id>io.elementary.switchboard.sharing</id>
   <extends>io.elementary.switchboard</extends>
-  <name>Sharing</name>
+  <name>Sharing Settings</name>
   <summary>Configure file and media sharing</summary>
   <icon type="stock">preferences-system-sharing</icon>
   <translation type="gettext">sharing-plug</translation>
