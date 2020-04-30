@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-28 22:26+0000\n"
-"PO-Revision-Date: 2020-03-01 14:09+0000\n"
+"PO-Revision-Date: 2020-05-01 03:10+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing-extra/he/>\n"
@@ -20,10 +20,8 @@ msgstr ""
 "X-Generator: Weblate 3.9.1\n"
 
 #: data/sharing.appdata.xml.in:5
-#, fuzzy
-#| msgid "Sharing"
 msgid "Sharing Settings"
-msgstr "שיתוף"
+msgstr "הגדרות שיתוף"
 
 #: data/sharing.appdata.xml.in:6
 msgid "Configure file and media sharing"
@@ -31,4 +29,4 @@ msgstr "הגדרת שיתוף קבצים ומדיה"
 
 #: data/sharing.appdata.xml.in:13
 msgid "Updated translations"
-msgstr ""
+msgstr "תרגומים עודכנו"
