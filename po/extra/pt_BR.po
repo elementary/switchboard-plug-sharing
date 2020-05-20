@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-28 22:26+0000\n"
-"PO-Revision-Date: 2019-12-21 23:03+0000\n"
+"PO-Revision-Date: 2020-05-21 00:11+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-sharing-extra/pt_BR/>\n"
@@ -20,10 +20,8 @@ msgstr ""
 "X-Generator: Weblate 3.9.1\n"
 
 #: data/sharing.appdata.xml.in:5
-#, fuzzy
-#| msgid "Sharing"
 msgid "Sharing Settings"
-msgstr "Compartilhamento"
+msgstr "Configurações de compartilhamento"
 
 #: data/sharing.appdata.xml.in:6
 msgid "Configure file and media sharing"
@@ -31,4 +29,4 @@ msgstr "Configurar compartilhamento de arquivos e mídia"
 
 #: data/sharing.appdata.xml.in:13
 msgid "Updated translations"
-msgstr ""
+msgstr "Traduções atualizadas"
