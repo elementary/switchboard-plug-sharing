@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2020-09-19 01:14+0000\n"
+"PO-Revision-Date: 2020-09-20 14:33+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/uk/>\n"
@@ -89,7 +89,7 @@ msgstr "Відео"
 
 #: src/Widgets/DLNAPage.vala:51
 msgid "Photos"
-msgstr "Фотографії"
+msgstr "Світлини"
 
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
