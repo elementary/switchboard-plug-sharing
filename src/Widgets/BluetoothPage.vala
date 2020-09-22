@@ -18,8 +18,8 @@
  */
 
 public class Sharing.Widgets.BluetoothPage : SettingsPage {
+    private const string SCHEMA = "io.elementary.desktop.wingpanel.bluetooth";
     GLib.Settings bluetooth_settings;
-    GLib.Settings sharing_settings;
     Gtk.ComboBoxText accept_combo;
     Gtk.Switch notify_switch;
 
@@ -30,20 +30,15 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
               _("While enabled, bluetooth devices can send files to Downloads."),
               _("While disabled, bluetooth devices can not send files to Downloads."));
 
-        bluetooth_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.bluetooth");
-        sharing_settings = new GLib.Settings ("org.gnome.desktop.file-sharing");
-
-        sharing_settings.bind ("bluetooth-obexpush-enabled", service_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
-        sharing_settings.bind ("bluetooth-accept-files", accept_combo, "active-id", SettingsBindFlags.DEFAULT);
-        sharing_settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
-
-        service_switch.notify ["active"].connect (() => {
-            set_service_state ();
-        });
-
-        bluetooth_settings.changed ["bluetooth-enabled"].connect (() => {
-            set_service_state ();
-        });
+        var settings_schema = SettingsSchemaSource.get_default ().lookup (SCHEMA, true);
+        if (settings_schema != null) {
+            bluetooth_settings = new Settings (SCHEMA);
+            bluetooth_settings.bind ("bluetooth-obex-enabled", service_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
+            bluetooth_settings.bind ("bluetooth-accept-files", accept_combo, "active", SettingsBindFlags.DEFAULT);
+            bluetooth_settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
+            bluetooth_settings.changed ["bluetooth-enabled"].connect (set_service_state);
+        }
+        service_switch.notify ["active"].connect (set_service_state);
 
         set_service_state ();
     }
@@ -60,13 +55,13 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
 
         accept_combo = new Gtk.ComboBoxText ();
         accept_combo.hexpand = true;
-        accept_combo.append ("always", _("Always"));
         accept_combo.append ("bonded", _("When paired"));
         accept_combo.append ("ask", _("Ask me"));
 
         alert_view.title = _("Bluetooth Sharing Is Not Available");
         alert_view.description = _("The bluetooth device is either disconnected or disabled. Check bluetooth settings and try again.");
-        alert_view.icon_name ="bluetooth-disabled-symbolic";
+        alert_view.icon_name ="bluetooth-disabled";
+        alert_view.valign = Gtk.Align.CENTER;
 
         content_grid.attach (notify_label, 0, 0, 1, 1);
         content_grid.attach (notify_switch, 1, 0, 1, 1);
@@ -80,10 +75,12 @@ public class Sharing.Widgets.BluetoothPage : SettingsPage {
     }
 
     private void set_service_state () {
-        if (bluetooth_settings.get_boolean ("bluetooth-enabled")) {
-            update_state (sharing_settings.get_boolean ("bluetooth-obexpush-enabled") ? ServiceState.ENABLED : ServiceState.DISABLED);
-        } else {
-            update_state (ServiceState.NOT_AVAILABLE);
+        if (bluetooth_settings != null) {
+            if (bluetooth_settings.get_boolean ("bluetooth-enabled")) {
+                update_state (bluetooth_settings.get_boolean ("bluetooth-obex-enabled") ? ServiceState.ENABLED : ServiceState.DISABLED);
+            } else {
+                update_state (ServiceState.NOT_AVAILABLE);
+            }
         }
     }
 }

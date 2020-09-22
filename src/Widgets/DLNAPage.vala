@@ -29,7 +29,6 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
               "applications-multimedia",
               _("While enabled, the following media libraries are shared to compatible devices in your network."),
               _("While disabled, the selected media libraries are unshared, and it won't stream files from your computer to other devices."));
-
         switch_state_changed.connect ((state) => {
             /* Make sure the configuration file exists */
             if (rygel_config_file.save ()) {
@@ -46,9 +45,20 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
         rygel_startup_manager = new Backend.RygelStartupManager ();
         rygel_config_file = new Backend.RygelConfigFile ();
 
+        alert_view.title = _("Network Is Not Available");
+        alert_view.description = _("While disconnected from the network, sharing services are not available.");
+        alert_view.icon_name = "network-error";
+
         add_media_entry ("music", _("Music"));
         add_media_entry ("videos", _("Videos"));
         add_media_entry ("pictures", _("Photos"));
+
+        link_button.label = _("Network settings…");
+        link_button.tooltip_text = _("Open Network settings");
+        link_button.uri = "settings://network";
+        link_button.no_show_all = true;
+
+        NetworkMonitor.get_default ().network_changed.connect (set_service_state);
     }
 
     private static string replace_xdg_folders (string folder_path) {
@@ -97,12 +107,17 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
         content_grid.attach (entry_label, 0, content_grid_rows, 1, 1);
         content_grid.attach (entry_file_chooser, 1, content_grid_rows, 1, 1);
         content_grid.attach (entry_switch, 2, content_grid_rows, 1, 1);
-
         content_grid_rows++;
     }
 
     private void set_service_state () {
-        update_state (rygel_startup_manager.get_service_enabled () ? ServiceState.ENABLED : ServiceState.DISABLED);
+        if (NetworkMonitor.get_default ().get_network_available () || NetworkMonitor.get_default ().get_network_metered ()) {
+            update_state (rygel_startup_manager.get_service_enabled () ? ServiceState.ENABLED : ServiceState.DISABLED);
+            link_button.visible = false;
+        } else {
+            update_state (ServiceState.NOT_AVAILABLE);
+            link_button.visible = true;
+        }
     }
 
 }

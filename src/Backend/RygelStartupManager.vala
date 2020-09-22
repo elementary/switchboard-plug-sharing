@@ -53,7 +53,6 @@ public class Sharing.Backend.RygelStartupManager : Object {
         if (File.new_for_path (autostart_filename).query_exists ()) {
             try {
                 KeyFile autostart_file = open_autostart_file ();
-
                 return autostart_file.get_boolean ("Desktop Entry", "X-GNOME-Autostart-enabled");
             } catch (Error e) {
                 warning ("Reading autostart file %s failed: %s", autostart_filename, e.message);

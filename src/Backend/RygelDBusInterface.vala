@@ -22,5 +22,5 @@ public interface Sharing.Backend.RygelDBusInterface : Object {
     public const string SERVICE_NAME = "org.gnome.Rygel1";
     public const string OBJECT_PATH = "/org/gnome/Rygel1";
 
-    public abstract void shutdown () throws IOError;
+    public abstract void shutdown () throws GLib.Error;
 }

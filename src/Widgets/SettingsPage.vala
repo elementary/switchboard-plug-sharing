@@ -35,7 +35,6 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
     protected Gtk.Grid content_grid;
     protected Granite.Widgets.AlertView alert_view;
     protected Gtk.Grid options_grid;
-
     private ServiceEntry? service_entry = null;
 
     private Gtk.Image service_icon;
@@ -120,7 +119,6 @@ public abstract class Sharing.Widgets.SettingsPage : Gtk.Grid {
         if (service_entry == null) {
             service_entry = new ServiceEntry (id, title, icon_name, service_state);
         }
-
         return service_entry;
     }
 
