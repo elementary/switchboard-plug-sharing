@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2020-09-20 14:33+0000\n"
+"PO-Revision-Date: 2020-09-24 16:44+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/uk/>\n"
@@ -27,7 +27,7 @@ msgstr "Спільний доступ"
 
 #: src/Plug.vala:29
 msgid "Configure file and media sharing"
-msgstr ""
+msgstr "Налаштування надсилання файлів та медіа"
 
 #: src/Plug.vala:37
 msgid "Network Is Not Available"
