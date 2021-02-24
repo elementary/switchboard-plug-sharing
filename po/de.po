@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2019-01-02 21:34+0000\n"
-"Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
-"Language-Team: German <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2021-02-24 23:37+0000\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
+"Language-Team: German <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2016-07-26 05:43+0000\n"
 
 #: src/Plug.vala:28
@@ -30,7 +30,7 @@ msgstr "Datei- und Medienfreigaben verwalten"
 
 #: src/Plug.vala:37
 msgid "Network Is Not Available"
-msgstr "Das Netzwerk ist nicht verfügbar"
+msgstr "Netzwerk ist nicht verfügbar"
 
 #: src/Plug.vala:38
 msgid ""
@@ -45,7 +45,7 @@ msgstr "Netzwerkeinstellungen …"
 
 #: src/Plug.vala:90
 msgid "Media library"
-msgstr "Medienbibliothek"
+msgstr "Mediensammlung"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
@@ -65,14 +65,14 @@ msgstr "Deaktiviert"
 
 #: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
-msgstr "Medienbibliothek"
+msgstr "Mediensammlung"
 
 #: src/Widgets/DLNAPage.vala:30
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
 msgstr ""
-"Bei eingeschalteter Option werden die folgenden Medienbibliotheken für "
+"Bei eingeschalteter Option werden die folgenden Mediensammlungen für "
 "kompatible Geräte im lokalen Netzwerk freigegeben."
 
 #: src/Widgets/DLNAPage.vala:31
@@ -80,8 +80,8 @@ msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
 msgstr ""
-"Bei ausgeschalteter Option sind die gewählten Medienbibliotheken gesperrt "
-"und es werden keine Dateien von Ihrem Rechner an andere Geräte gestreamt."
+"Bei ausgeschalteter Option sind die gewählten Mediensammlungen gesperrt und "
+"es werden keine Dateien von Ihrem Rechner an andere Geräte gestreamt."
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
@@ -98,7 +98,7 @@ msgstr "Fotos"
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
 msgid "Select the folder containing your %s"
-msgstr "Wählen Sie den Ordner, der Ihre %s enthält"
+msgstr "Ordner wählen, der Ihre %s enthält"
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
