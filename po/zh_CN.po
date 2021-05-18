@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2019-01-14 13:39+0000\n"
+"PO-Revision-Date: 2020-11-21 04:15+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
-"Language-Team: Chinese (Simplified) <https://weblate.elementary.io/projects/"
+"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-sharing/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Launchpad-Export-Date: 2016-06-17 06:07+0000\n"
 
 #: src/Plug.vala:28
@@ -75,7 +75,7 @@ msgstr "启用时，以下媒体库将会共享至您当前网络中可用的设
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
-msgstr "禁用时，选中的媒体库将不会被共享，也不会传输您的文件到其他设备中。"
+msgstr "禁用时，选中的媒体库不会被共享，也不会传输您的文件到其他设备中。"
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
