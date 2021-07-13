@@ -1,3 +1,14 @@
+switchboard-plug-sharing (2.1.5) bionic; urgency=medium
+
+  * Release 2.1.5 (#54)
+  * LINGUAS: sort, remove en_US
+  * Update translation files
+  * Update translation template
+  * AppData: Add "Settings" to name (#50)
+  * AppData: Add Icon & Gettext domain (#49)
+
+ -- Cody Garver <cody@elementary.io>  Tue, 13 Jul 2021 23:31:07 +0000
+
 switchboard-plug-sharing (2.1.4) bionic; urgency=medium
 
   * Release 2.1.4 (#46)
