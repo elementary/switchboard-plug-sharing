@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2018-10-16 16:41+0000\n"
+"PO-Revision-Date: 2021-07-22 01:39+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://weblate.elementary.io/projects/switchboard/"
+"Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2016-09-02 07:57+0000\n"
 
 #: src/Plug.vala:28
@@ -26,7 +26,7 @@ msgstr "Jakaminen"
 
 #: src/Plug.vala:29
 msgid "Configure file and media sharing"
-msgstr "Määritä tiedosto- ja mediajaon asetukset"
+msgstr "Määritä tiedostojen ja median jakaminen"
 
 #: src/Plug.vala:37
 msgid "Network Is Not Available"
