@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2020-01-25 15:08+0000\n"
+"PO-Revision-Date: 2021-08-09 14:19+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 07:27+0000\n"
 
 #: src/Plug.vala:28
@@ -102,15 +102,11 @@ msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:30
 msgid "While enabled, bluetooth devices can send files to Downloads."
-msgstr ""
-"有効になっている間、Bluetooth デバイスは \"ダウンロード\" フォルダーにファイ"
-"ルを送信できます。"
+msgstr "有効になっている間、Bluetooth デバイスは“ダウンロード”フォルダーにファイルを送信できます。"
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
-msgstr ""
-"無効になっている間、Bluetooth デバイスは \"ダウンロード\" フォルダーにファイ"
-"ルを送信できません。"
+msgstr "無効になっている間、Bluetooth デバイスは“ダウンロード”フォルダーにファイルを送信できません。"
 
 #: src/Widgets/BluetoothPage.vala:52
 msgid "Notify about newly received files:"
