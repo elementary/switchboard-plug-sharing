@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
 "PO-Revision-Date: 2021-08-28 17:06+0000\n"
-"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
+"Last-Translator: Cleiton Floss <cleitonfloss@tutanota.de>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/sk/>\n"
 "Language: sk\n"
@@ -39,7 +39,7 @@ msgstr "Keď ste odpojení od siete, služby zdieľania nie sú dostupné."
 
 #: src/Plug.vala:43
 msgid "Network settings…"
-msgstr "Nastavenia siete"
+msgstr "Nastavenia siete…"
 
 #: src/Plug.vala:90
 msgid "Media library"
