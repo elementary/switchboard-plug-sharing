@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-28 22:26+0000\n"
-"PO-Revision-Date: 2021-11-03 11:54+0000\n"
+"PO-Revision-Date: 2021-11-07 12:18+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing-extra/pl/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: data/sharing.appdata.xml.in:6
 msgid "Configure file and media sharing"
-msgstr ""
+msgstr "Konfiguruj udostępnianie plików i multimediów"
 
 #: data/sharing.appdata.xml.in:13
 msgid "Updated translations"
