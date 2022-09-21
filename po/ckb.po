@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2022-09-21 12:19+0000\n"
+"PO-Revision-Date: 2022-09-21 15:36+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-sharing/ckb/>\n"
@@ -54,7 +54,7 @@ msgstr ""
 
 #: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
-msgstr ""
+msgstr "پەیوەستبوو"
 
 #: src/Widgets/ServiceEntry.vala:26
 msgid "Disabled"
