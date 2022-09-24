@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2022-09-23 22:36+0000\n"
+"PO-Revision-Date: 2022-09-25 06:58+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-sharing/ckb/>\n"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
-msgstr ""
+msgstr "مۆسیقا"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid "Videos"
