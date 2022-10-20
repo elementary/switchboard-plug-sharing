@@ -7,6 +7,14 @@
   <icon type="stock">preferences-system-sharing</icon>
   <translation type="gettext">sharing-plug</translation>
   <releases>
+    <release version="2.1.6" date="2022-10-19" urgency="medium">
+      <description>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="2.1.5" date="2021-07-13" urgency="medium">
       <description>
         <ul>
