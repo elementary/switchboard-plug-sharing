@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2018-10-20 03:03+0000\n"
-"Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
-"Language-Team: Korean <https://weblate.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2022-12-12 11:38+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0.1\n"
+"X-Generator: Weblate 4.14.2\n"
 "X-Launchpad-Export-Date: 2016-06-14 06:29+0000\n"
 
 #: src/Plug.vala:28
@@ -69,17 +69,15 @@ msgstr "미디어 라이브러리"
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
-msgstr ""
-"사용할 땐, 다음의 미디어 라이브러리들이 네트워크 안의 호환되는 장비와 공유됩"
-"니다."
+msgstr "사용할 땐, 다음의 미디어 라이브러리들이 네트워크 안의 호환되는 장비와 "
+"공유됩니다."
 
 #: src/Widgets/DLNAPage.vala:31
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
-msgstr ""
-"사용하지 않을 땐, 선택한 미디어 라이브러리들이 공유되지 않으며, 여러분의 컴퓨"
-"터에서 다른 장비로의 스트리밍도 안 하게 됩니다."
+msgstr "사용하지 않을 땐, 선택한 미디어 라이브러리들이 공유되지 않으며, 여러분의 "
+"컴퓨터에서 다른 장비로의 스트리밍도 안 하게 됩니다."
 
 #: src/Widgets/DLNAPage.vala:49
 msgid "Music"
@@ -108,8 +106,7 @@ msgstr "사용할 땐, 블루투스 장비에서 다운로드 폴더로 파일�
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "While disabled, bluetooth devices can not send files to Downloads."
-msgstr ""
-"사용하지 않을 땐, 블루투스 장비에서 다운로드 폴더로 파일을 보낼 수 없습니다."
+msgstr "사용하지 않을 땐, 블루투스 장비에서 다운로드 폴더로 파일을 보낼 수 없습니다."
 
 #: src/Widgets/BluetoothPage.vala:52
 msgid "Notify about newly received files:"
@@ -139,9 +136,8 @@ msgstr "블루투스 공유를 할 수 없음"
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
-msgstr ""
-"블루투스 장비와 연결이 끊어졌거나 사용 안 함 상태입니다. 블루투스 설정을 확인"
-"하시고 다시 해보세요."
+msgstr "블루투스 장비와 연결이 끊어졌거나 사용 안 함 상태입니다. 블루투스 설정을 "
+"확인하시고 다시 해보세요."
 
 #: src/Widgets/BluetoothPage.vala:76
 msgid "Bluetooth settings…"
