@@ -48,11 +48,15 @@ public class Sharing.Widgets.GnomeRemoteDesktopPage : SettingsPage {
         rdp_settings.bind ("view-only", remoteControl_switch, "active", SettingsBindFlags.NO_SENSITIVITY|SettingsBindFlags.INVERT_BOOLEAN);
         rdp_settings.set_boolean("view-only", remoteControl_switch.state);
 
-        
         service_switch.notify ["active"].connect (() => {
             set_service_state ();
         });
-        
+
+        vnc_settings.changed ["enable"].connect ((state) => {
+            bool is_visible = vnc_settings.get_boolean(state)
+            vnc_url_label.visible = is_visible;
+            vnc_url_entry.visible = is_visible;
+        });
 
         set_service_state ();
     }
