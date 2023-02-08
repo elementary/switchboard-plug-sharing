@@ -41,11 +41,11 @@ public class Sharing.Widgets.GnomeRemoteDesktopPage : SettingsPage {
         rdp_settings = new GLib.Settings ("org.gnome.desktop.remote-desktop.rdp");
 
         vnc_settings.bind ("enable", useLegicyVNCMode_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
-        vnc_settings.bind ("view-only", remoteControl_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
+        vnc_settings.bind ("view-only", remoteControl_switch, "active", SettingsBindFlags.NO_SENSITIVITY|SettingsBindFlags.INVERT_BOOLEAN);
         vnc_settings.set_boolean("view-only", remoteControl_switch.state);
         
         rdp_settings.bind ("enable", service_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
-        rdp_settings.bind ("view-only", remoteControl_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
+        rdp_settings.bind ("view-only", remoteControl_switch, "active", SettingsBindFlags.NO_SENSITIVITY|SettingsBindFlags.INVERT_BOOLEAN);
         rdp_settings.set_boolean("view-only", remoteControl_switch.state);
 
         
