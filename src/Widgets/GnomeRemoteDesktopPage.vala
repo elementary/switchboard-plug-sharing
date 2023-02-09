@@ -22,7 +22,7 @@ public class Sharing.Widgets.GnomeRemoteDesktopPage : SettingsPage {
     GLib.Settings vnc_settings;
     GLib.Settings rdp_settings;
 
-    Gtk.Switch useLegicyVNCMode_switch;
+    Gtk.Switch useLegacyVNCMode_switch;
     Gtk.Switch remoteControl_switch;
     Gtk.Entry deviceName_entry;
     Gtk.Label vnc_url_label;
@@ -40,7 +40,7 @@ public class Sharing.Widgets.GnomeRemoteDesktopPage : SettingsPage {
         vnc_settings = new GLib.Settings ("org.gnome.desktop.remote-desktop.vnc");
         rdp_settings = new GLib.Settings ("org.gnome.desktop.remote-desktop.rdp");
 
-        vnc_settings.bind ("enable", useLegicyVNCMode_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
+        vnc_settings.bind ("enable", useLegacyVNCMode_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
         vnc_settings.bind ("view-only", remoteControl_switch, "active", SettingsBindFlags.NO_SENSITIVITY|SettingsBindFlags.INVERT_BOOLEAN);
         vnc_settings.set_boolean("view-only", remoteControl_switch.state);
         
@@ -69,8 +69,8 @@ public class Sharing.Widgets.GnomeRemoteDesktopPage : SettingsPage {
             critical (e.message);
         }
 
-        var useLegicyVNCMode_label = new Gtk.Label (_("Use Legicy VNC Mode"));
-        ((Gtk.Misc) useLegicyVNCMode_label).xalign = 1.0f;
+        var useLegacyVNCMode_label = new Gtk.Label (_("Use Legacy VNC Mode"));
+        ((Gtk.Misc) useLegacyVNCMode_label).xalign = 1.0f;
 
         var viewOnly_label = new Gtk.Label (_("Remote Control"));
         ((Gtk.Misc) viewOnly_label).xalign = 1.0f;
@@ -87,9 +87,9 @@ public class Sharing.Widgets.GnomeRemoteDesktopPage : SettingsPage {
         var password_label = new Gtk.Label (_("Password"));
         ((Gtk.Misc) password_label).xalign = 1.0f;
 
-        useLegicyVNCMode_switch = new Gtk.Switch();
-        useLegicyVNCMode_switch.halign = Gtk.Align.START;
-        useLegicyVNCMode_switch.state_set.connect ((state) => {
+        useLegacyVNCMode_switch = new Gtk.Switch();
+        useLegacyVNCMode_switch.halign = Gtk.Align.START;
+        useLegacyVNCMode_switch.state_set.connect ((state) => {
             vnc_url_label.visible = state;
             vnc_url_entry.visible = state;
             return false;
@@ -118,8 +118,8 @@ public class Sharing.Widgets.GnomeRemoteDesktopPage : SettingsPage {
         password_entry.text = client.hostname;
         password_entry.set_visibility (false);
 
-        content_grid.attach (useLegicyVNCMode_label, 0, 0, 1, 1);
-        content_grid.attach (useLegicyVNCMode_switch, 1, 0, 1, 1);
+        content_grid.attach (useLegacyVNCMode_label, 0, 0, 1, 1);
+        content_grid.attach (useLegacyVNCMode_switch, 1, 0, 1, 1);
         content_grid.attach (viewOnly_label, 0, 1, 1, 1);
         content_grid.attach (remoteControl_switch, 1, 1, 1, 1);
         content_grid.attach (deviceName_label, 0, 2, 1, 1);
