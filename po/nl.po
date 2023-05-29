@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2022-12-12 11:39+0000\n"
+"PO-Revision-Date: 2023-05-30 03:07+0000\n"
 "Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/nl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.17\n"
 "X-Launchpad-Export-Date: 2016-07-19 06:13+0000\n"
 
 #: src/Plug.vala:28
@@ -99,7 +99,7 @@ msgstr "Foto’s"
 #: src/Widgets/DLNAPage.vala:69
 #, c-format
 msgid "Select the folder containing your %s"
-msgstr "selecteer de folder die %s bevat"
+msgstr "Selecteer de map die %s bevat"
 
 #: src/Widgets/BluetoothPage.vala:28
 msgid "Bluetooth"
