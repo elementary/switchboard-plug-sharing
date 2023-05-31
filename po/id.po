@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 18:38+0000\n"
-"PO-Revision-Date: 2023-05-23 19:07+0000\n"
+"PO-Revision-Date: 2023-06-01 14:07+0000\n"
 "Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
 "io>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/switchboard/"
@@ -22,28 +22,28 @@ msgstr ""
 
 #: src/Plug.vala:28
 msgid "Sharing"
-msgstr ""
+msgstr "Berbagi"
 
 #: src/Plug.vala:29
 msgid "Configure file and media sharing"
-msgstr ""
+msgstr "Konfigurasikan berbagi berkas dan media"
 
 #: src/Plug.vala:37
 msgid "Network Is Not Available"
-msgstr ""
+msgstr "Jaringan Tidak Tersedia"
 
 #: src/Plug.vala:38
 msgid ""
 "While disconnected from the network, sharing services are not available."
-msgstr ""
+msgstr "Saat terputus dari jaringan, layanan berbagi tidak tersedia."
 
 #: src/Plug.vala:43
 msgid "Network settings…"
-msgstr ""
+msgstr "Pengaturan jaringan…"
 
 #: src/Plug.vala:90
 msgid "Media library"
-msgstr ""
+msgstr "Pustaka media"
 
 #: src/Widgets/ServiceEntry.vala:23
 msgid "Enabled"
@@ -51,7 +51,7 @@ msgstr "Diaktifkan"
 
 #: src/Widgets/ServiceEntry.vala:24
 msgid "Not Available"
-msgstr ""
+msgstr "Tidak Tersedia"
 
 #: src/Widgets/ServiceEntry.vala:25
 msgid "Connected"
@@ -63,13 +63,15 @@ msgstr "Nonaktifkan"
 
 #: src/Widgets/DLNAPage.vala:28
 msgid "Media Library"
-msgstr ""
+msgstr "Pustaka Media"
 
 #: src/Widgets/DLNAPage.vala:30
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
 msgstr ""
+"Saat diaktifkan, pustaka media berikut ini dibagikan ke perangkat yang "
+"kompatibel dalam jaringan Anda."
 
 #: src/Widgets/DLNAPage.vala:31
 msgid ""
