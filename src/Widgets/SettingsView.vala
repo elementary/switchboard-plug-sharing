@@ -27,6 +27,12 @@ public class Sharing.Widgets.SettingsView : Gtk.Stack {
         settings_pages.@set (dlna_page.id, dlna_page);
 
         this.add_named (dlna_page, dlna_page.id);
+
+        GnomeRemoteDesktopPage grd_page = new GnomeRemoteDesktopPage ();
+
+        settings_pages.@set (grd_page.id, grd_page);
+
+        this.add_named (grd_page, grd_page.id);
     }
 
     public SettingsPage[] get_settings_pages () {
