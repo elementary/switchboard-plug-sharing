@@ -53,12 +53,10 @@ public class Sharing.Widgets.BluetoothPage : Granite.SimpleSettingsPage {
         if (bluetooth_settings.get_boolean ("bluetooth-enabled")) {
             if (bluetooth_settings.get_boolean ("bluetooth-obex-enabled")) {
                 description = _("While enabled, bluetooth devices can send files to Downloads.");
-                icon_name = "bluetooth";
                 status = _("Enabled");
                 status_type = SUCCESS;
             } else {
                 description = _("While disabled, bluetooth devices can not send files to Downloads.");
-                icon_name = "bluetooth-disabled";
                 status = _("Disabled");
                 status_type = OFFLINE;
             }
