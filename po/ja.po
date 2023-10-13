@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:38+0000\n"
+"POT-Creation-Date: 2023-10-13 21:16+0000\n"
 "PO-Revision-Date: 2022-12-12 11:38+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -20,131 +20,132 @@ msgstr ""
 "X-Generator: Weblate 4.14.2\n"
 "X-Launchpad-Export-Date: 2017-02-16 07:27+0000\n"
 
-#: src/Plug.vala:28
+#: src/Plug.vala:17
 msgid "Sharing"
 msgstr "共有"
 
-#: src/Plug.vala:29
+#: src/Plug.vala:18
 msgid "Configure file and media sharing"
 msgstr "ファイルとメディア共有の設定をします"
 
-#: src/Plug.vala:37
+#: src/Plug.vala:26
 msgid "Network Is Not Available"
 msgstr "ネットワークは使用できません"
 
-#: src/Plug.vala:38
+#: src/Plug.vala:27
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "ネットワークから切断されている間、共有サービスは利用できません。"
 
-#: src/Plug.vala:43
+#: src/Plug.vala:32
 msgid "Network settings…"
 msgstr "ネットワークの設定…"
 
-#: src/Plug.vala:90
+#: src/Plug.vala:80
 msgid "Media library"
 msgstr "メディアライブラリ"
 
-#: src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "有効"
-
-#: src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "使用できません"
-
-#: src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "接続済み"
-
-#: src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "無効"
-
-#: src/Widgets/DLNAPage.vala:28
+#: src/Widgets/DLNAPage.vala:20
 msgid "Media Library"
 msgstr "メディアライブラリ"
 
-#: src/Widgets/DLNAPage.vala:30
-msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
-msgstr "有効になっている間、以下のメディアライブラリはネットワーク内の互換性のあるデ"
-"バイスと共有されます。"
-
-#: src/Widgets/DLNAPage.vala:31
-msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
-msgstr "無効になっている間、選択されたメディアライブラリは共有されず、このコンピュー"
-"ターからほかのデバイスへファイルを送信しません。"
-
-#: src/Widgets/DLNAPage.vala:49
+#: src/Widgets/DLNAPage.vala:26
 msgid "Music"
 msgstr "音楽"
 
-#: src/Widgets/DLNAPage.vala:50
+#: src/Widgets/DLNAPage.vala:27
 msgid "Videos"
 msgstr "動画"
 
-#: src/Widgets/DLNAPage.vala:51
+#: src/Widgets/DLNAPage.vala:28
 msgid "Photos"
 msgstr "写真"
 
-#: src/Widgets/DLNAPage.vala:69
+#: src/Widgets/DLNAPage.vala:52
 #, c-format
 msgid "Select the folder containing your %s"
 msgstr "%s を含むフォルダーを選択してください"
 
-#: src/Widgets/BluetoothPage.vala:28
+#: src/Widgets/DLNAPage.vala:95
+msgid ""
+"While enabled, the following media libraries are shared to compatible "
+"devices in your network."
+msgstr ""
+"有効になっている間、以下のメディアライブラリはネットワーク内の互換性のあるデ"
+"バイスと共有されます。"
+
+#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+msgid "Enabled"
+msgstr "有効"
+
+#: src/Widgets/DLNAPage.vala:99
+msgid ""
+"While disabled, the selected media libraries are unshared, and it won't "
+"stream files from your computer to other devices."
+msgstr ""
+"無効になっている間、選択されたメディアライブラリは共有されず、このコンピュー"
+"ターからほかのデバイスへファイルを送信しません。"
+
+#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+msgid "Disabled"
+msgstr "無効"
+
+#: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: src/Widgets/BluetoothPage.vala:30
-msgid "While enabled, bluetooth devices can send files to Downloads."
-msgstr "有効になっている間、Bluetooth "
-"デバイスは“ダウンロード”フォルダーにファイルを送信できます。"
+#: src/Widgets/BluetoothPage.vala:20
+msgid "Ask before accepting files:"
+msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:31
-msgid "While disabled, bluetooth devices can not send files to Downloads."
-msgstr "無効になっている間、Bluetooth "
-"デバイスは“ダウンロード”フォルダーにファイルを送信できません。"
-
-#: src/Widgets/BluetoothPage.vala:52
-msgid "Notify about newly received files:"
-msgstr "新しく受け取ったファイルについて通知:"
-
-#: src/Widgets/BluetoothPage.vala:58
-msgid "Accept files from bluetooth devices:"
-msgstr "Bluetooth デバイスからファイルを受け入れる:"
-
-#: src/Widgets/BluetoothPage.vala:63
-msgid "Always"
-msgstr "常に"
-
-#: src/Widgets/BluetoothPage.vala:64
-msgid "When paired"
-msgstr "ペアリングした時"
-
-#: src/Widgets/BluetoothPage.vala:65
-msgid "Ask me"
-msgstr "確認"
-
-#: src/Widgets/BluetoothPage.vala:67
-msgid "Bluetooth Sharing Is Not Available"
-msgstr "Bluetooth 共有は使用できません"
-
-#: src/Widgets/BluetoothPage.vala:68
-msgid ""
-"The bluetooth device is either disconnected or disabled. Check bluetooth "
-"settings and try again."
-msgstr "Bluetooth デバイスが接続されていないか、無効になっています。Bluetooth "
-"の設定をチェックして、もう一度お試しください。"
-
-#: src/Widgets/BluetoothPage.vala:76
 msgid "Bluetooth settings…"
 msgstr "Bluetooth の設定…"
 
-#: src/Widgets/BluetoothPage.vala:77
-msgid "Open bluetooth settings"
-msgstr "Bluetooth の設定を開く"
+#: src/Widgets/BluetoothPage.vala:55
+msgid "While enabled, bluetooth devices can send files to Downloads."
+msgstr ""
+"有効になっている間、Bluetooth デバイスは“ダウンロード”フォルダーにファイルを"
+"送信できます。"
+
+#: src/Widgets/BluetoothPage.vala:59
+msgid "While disabled, bluetooth devices can not send files to Downloads."
+msgstr ""
+"無効になっている間、Bluetooth デバイスは“ダウンロード”フォルダーにファイルを"
+"送信できません。"
+
+#: src/Widgets/BluetoothPage.vala:64
+msgid ""
+"The bluetooth device is either disconnected or disabled. Check bluetooth "
+"settings and try again."
+msgstr ""
+"Bluetooth デバイスが接続されていないか、無効になっています。Bluetooth の設定"
+"をチェックして、もう一度お試しください。"
+
+#: src/Widgets/BluetoothPage.vala:66
+msgid "Not Available"
+msgstr "使用できません"
+
+#~ msgid "Connected"
+#~ msgstr "接続済み"
+
+#~ msgid "Notify about newly received files:"
+#~ msgstr "新しく受け取ったファイルについて通知:"
+
+#~ msgid "Accept files from bluetooth devices:"
+#~ msgstr "Bluetooth デバイスからファイルを受け入れる:"
+
+#~ msgid "Always"
+#~ msgstr "常に"
+
+#~ msgid "When paired"
+#~ msgstr "ペアリングした時"
+
+#~ msgid "Ask me"
+#~ msgstr "確認"
+
+#~ msgid "Bluetooth Sharing Is Not Available"
+#~ msgstr "Bluetooth 共有は使用できません"
+
+#~ msgid "Open bluetooth settings"
+#~ msgstr "Bluetooth の設定を開く"

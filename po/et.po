@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:38+0000\n"
+"POT-Creation-Date: 2023-10-13 21:16+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Estonian <https://l10n.elementary.io/projects/switchboard/"
@@ -20,59 +20,65 @@ msgstr ""
 "X-Generator: Weblate 4.14.2\n"
 "X-Launchpad-Export-Date: 2016-06-14 06:29+0000\n"
 
-#: src/Plug.vala:28
+#: src/Plug.vala:17
 msgid "Sharing"
 msgstr "Jagamine"
 
-#: src/Plug.vala:29
+#: src/Plug.vala:18
 msgid "Configure file and media sharing"
 msgstr "Failide ja meedia jagamise seadistamine"
 
-#: src/Plug.vala:37
+#: src/Plug.vala:26
 msgid "Network Is Not Available"
 msgstr "Internetivõrk pole saadaval"
 
-#: src/Plug.vala:38
+#: src/Plug.vala:27
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "Internetivõrku ühendamata olles ei ole jagamise teenused kasutatavad."
 
-#: src/Plug.vala:43
+#: src/Plug.vala:32
 msgid "Network settings…"
 msgstr "Võrgu seaded…"
 
-#: src/Plug.vala:90
+#: src/Plug.vala:80
 #, fuzzy
 msgid "Media library"
 msgstr "Meediakogu"
 
-#: src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "Lubatud"
-
-#: src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "Pole saadaval"
-
-#: src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "Ühendatud"
-
-#: src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Keelatud"
-
-#: src/Widgets/DLNAPage.vala:28
+#: src/Widgets/DLNAPage.vala:20
 msgid "Media Library"
 msgstr "Meediakogu"
 
-#: src/Widgets/DLNAPage.vala:30
+#: src/Widgets/DLNAPage.vala:26
+msgid "Music"
+msgstr "Muusika"
+
+#: src/Widgets/DLNAPage.vala:27
+msgid "Videos"
+msgstr "Videod"
+
+#: src/Widgets/DLNAPage.vala:28
+msgid "Photos"
+msgstr "Fotod"
+
+#: src/Widgets/DLNAPage.vala:52
+#, fuzzy, c-format
+msgid "Select the folder containing your %s"
+msgstr "Kasuta valimine, milles sisalduvad"
+
+#: src/Widgets/DLNAPage.vala:95
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
-msgstr "Lubatuna on järgnevad asukohad jagatud toetatud seadmetele sinu võrgus."
+msgstr ""
+"Lubatuna on järgnevad asukohad jagatud toetatud seadmetele sinu võrgus."
 
-#: src/Widgets/DLNAPage.vala:31
+#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+msgid "Enabled"
+msgstr "Lubatud"
+
+#: src/Widgets/DLNAPage.vala:99
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -80,60 +86,31 @@ msgstr ""
 "Keelatuna ei ole valitud asukohad teistele seadmetele jagatud ning failide "
 "ülekandmine sinu arvutist teistesse seadmetesse pole võimalik."
 
-#: src/Widgets/DLNAPage.vala:49
-msgid "Music"
-msgstr "Muusika"
+#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+msgid "Disabled"
+msgstr "Keelatud"
 
-#: src/Widgets/DLNAPage.vala:50
-msgid "Videos"
-msgstr "Videod"
-
-#: src/Widgets/DLNAPage.vala:51
-msgid "Photos"
-msgstr "Fotod"
-
-#: src/Widgets/DLNAPage.vala:69
-#, fuzzy, c-format
-msgid "Select the folder containing your %s"
-msgstr "Kasuta valimine, milles sisalduvad"
-
-#: src/Widgets/BluetoothPage.vala:28
+#: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: src/Widgets/BluetoothPage.vala:30
+#: src/Widgets/BluetoothPage.vala:20
+msgid "Ask before accepting files:"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:31
+msgid "Bluetooth settings…"
+msgstr "Bluetooth'i seaded..."
+
+#: src/Widgets/BluetoothPage.vala:55
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr "Lubatuna saavad bluetooth'i seaded faile allalaadimiste kausta saata."
 
-#: src/Widgets/BluetoothPage.vala:31
+#: src/Widgets/BluetoothPage.vala:59
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr "Keelatuna pole bluetooth'i seadetel võimalik faile edastada."
 
-#: src/Widgets/BluetoothPage.vala:52
-msgid "Notify about newly received files:"
-msgstr "Teavitamine failide saabumisel:"
-
-#: src/Widgets/BluetoothPage.vala:58
-msgid "Accept files from bluetooth devices:"
-msgstr "Bluetooth'i seadmetest failide saatmise lubamine:"
-
-#: src/Widgets/BluetoothPage.vala:63
-msgid "Always"
-msgstr "Alati"
-
 #: src/Widgets/BluetoothPage.vala:64
-msgid "When paired"
-msgstr "Seotuna"
-
-#: src/Widgets/BluetoothPage.vala:65
-msgid "Ask me"
-msgstr "Küsitakse"
-
-#: src/Widgets/BluetoothPage.vala:67
-msgid "Bluetooth Sharing Is Not Available"
-msgstr "Jagamine üle bluetooth'i pole võimalik."
-
-#: src/Widgets/BluetoothPage.vala:68
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
@@ -141,10 +118,30 @@ msgstr ""
 "Bluetooth'i seade ei ole ühendatud või on keelatud. Kontrolli bluetooth'i "
 "seadeid ning proovi uuesti."
 
-#: src/Widgets/BluetoothPage.vala:76
-msgid "Bluetooth settings…"
-msgstr "Bluetooth'i seaded..."
+#: src/Widgets/BluetoothPage.vala:66
+msgid "Not Available"
+msgstr "Pole saadaval"
 
-#: src/Widgets/BluetoothPage.vala:77
-msgid "Open bluetooth settings"
-msgstr "Bluetooth'i seadete avamine"
+#~ msgid "Connected"
+#~ msgstr "Ühendatud"
+
+#~ msgid "Notify about newly received files:"
+#~ msgstr "Teavitamine failide saabumisel:"
+
+#~ msgid "Accept files from bluetooth devices:"
+#~ msgstr "Bluetooth'i seadmetest failide saatmise lubamine:"
+
+#~ msgid "Always"
+#~ msgstr "Alati"
+
+#~ msgid "When paired"
+#~ msgstr "Seotuna"
+
+#~ msgid "Ask me"
+#~ msgstr "Küsitakse"
+
+#~ msgid "Bluetooth Sharing Is Not Available"
+#~ msgstr "Jagamine üle bluetooth'i pole võimalik."
+
+#~ msgid "Open bluetooth settings"
+#~ msgstr "Bluetooth'i seadete avamine"

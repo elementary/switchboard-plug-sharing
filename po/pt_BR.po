@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:38+0000\n"
+"POT-Creation-Date: 2023-10-13 21:16+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -20,54 +20,55 @@ msgstr ""
 "X-Generator: Weblate 4.14.2\n"
 "X-Launchpad-Export-Date: 2016-08-16 06:24+0000\n"
 
-#: src/Plug.vala:28
+#: src/Plug.vala:17
 msgid "Sharing"
 msgstr "Compartilhamento"
 
-#: src/Plug.vala:29
+#: src/Plug.vala:18
 msgid "Configure file and media sharing"
 msgstr "Configurar compartilhamento de arquivos e mídia"
 
-#: src/Plug.vala:37
+#: src/Plug.vala:26
 msgid "Network Is Not Available"
 msgstr "Rede não disponível"
 
-#: src/Plug.vala:38
+#: src/Plug.vala:27
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
 "Enquanto estiver desconectado da rede, os serviços de compartilhamento não "
 "estarão disponíveis."
 
-#: src/Plug.vala:43
+#: src/Plug.vala:32
 msgid "Network settings…"
 msgstr "Configurações de Rede…"
 
-#: src/Plug.vala:90
+#: src/Plug.vala:80
 msgid "Media library"
 msgstr "Biblioteca de Mídia"
 
-#: src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "Habilitado"
-
-#: src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "Não disponível"
-
-#: src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "Conectado"
-
-#: src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Desabilitado"
-
-#: src/Widgets/DLNAPage.vala:28
+#: src/Widgets/DLNAPage.vala:20
 msgid "Media Library"
 msgstr "Biblioteca de mídia"
 
-#: src/Widgets/DLNAPage.vala:30
+#: src/Widgets/DLNAPage.vala:26
+msgid "Music"
+msgstr "Música"
+
+#: src/Widgets/DLNAPage.vala:27
+msgid "Videos"
+msgstr "Vídeos"
+
+#: src/Widgets/DLNAPage.vala:28
+msgid "Photos"
+msgstr "Fotos"
+
+#: src/Widgets/DLNAPage.vala:52
+#, c-format
+msgid "Select the folder containing your %s"
+msgstr "Selecione a pasta que contém seu %s"
+
+#: src/Widgets/DLNAPage.vala:95
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -75,7 +76,11 @@ msgstr ""
 "Enquanto habilitado, as seguintes bibliotecas de mídia são compartilhadas "
 "com dispositivos compatíveis em sua rede."
 
-#: src/Widgets/DLNAPage.vala:31
+#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: src/Widgets/DLNAPage.vala:99
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -84,64 +89,35 @@ msgstr ""
 "compartilhadas, e não será possível realizar transmissão de arquivos de seu "
 "computador para outros dispositivos."
 
-#: src/Widgets/DLNAPage.vala:49
-msgid "Music"
-msgstr "Música"
+#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+msgid "Disabled"
+msgstr "Desabilitado"
 
-#: src/Widgets/DLNAPage.vala:50
-msgid "Videos"
-msgstr "Vídeos"
-
-#: src/Widgets/DLNAPage.vala:51
-msgid "Photos"
-msgstr "Fotos"
-
-#: src/Widgets/DLNAPage.vala:69
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Selecione a pasta que contém seu %s"
-
-#: src/Widgets/BluetoothPage.vala:28
+#: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: src/Widgets/BluetoothPage.vala:30
+#: src/Widgets/BluetoothPage.vala:20
+msgid "Ask before accepting files:"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:31
+msgid "Bluetooth settings…"
+msgstr "Configurações de bluetooth…"
+
+#: src/Widgets/BluetoothPage.vala:55
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
 "Quando estiver ativado, dispositivos bluetooth podem enviar arquivos para o "
 "diretório Downloads."
 
-#: src/Widgets/BluetoothPage.vala:31
+#: src/Widgets/BluetoothPage.vala:59
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
 "Quando estiver desativado, dispositivos blutooth não podem enviar arquivos "
 "para o diretório Downloads."
 
-#: src/Widgets/BluetoothPage.vala:52
-msgid "Notify about newly received files:"
-msgstr "Notificar sobre o recebimento recente de arquivos:"
-
-#: src/Widgets/BluetoothPage.vala:58
-msgid "Accept files from bluetooth devices:"
-msgstr "Aceitar arquivos de dispositivos bluetooth:"
-
-#: src/Widgets/BluetoothPage.vala:63
-msgid "Always"
-msgstr "Sempre"
-
 #: src/Widgets/BluetoothPage.vala:64
-msgid "When paired"
-msgstr "Quando pareado"
-
-#: src/Widgets/BluetoothPage.vala:65
-msgid "Ask me"
-msgstr "Pergunte-me"
-
-#: src/Widgets/BluetoothPage.vala:67
-msgid "Bluetooth Sharing Is Not Available"
-msgstr "Compartilhamento via bluetooth não está disponível"
-
-#: src/Widgets/BluetoothPage.vala:68
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
@@ -149,10 +125,30 @@ msgstr ""
 "O dispositivo bluetooth está desconectado ou desabilitado. Verifique suas "
 "configurações de bluetooth e tente novamente."
 
-#: src/Widgets/BluetoothPage.vala:76
-msgid "Bluetooth settings…"
-msgstr "Configurações de bluetooth…"
+#: src/Widgets/BluetoothPage.vala:66
+msgid "Not Available"
+msgstr "Não disponível"
 
-#: src/Widgets/BluetoothPage.vala:77
-msgid "Open bluetooth settings"
-msgstr "Abrir configurações de bluetooth"
+#~ msgid "Connected"
+#~ msgstr "Conectado"
+
+#~ msgid "Notify about newly received files:"
+#~ msgstr "Notificar sobre o recebimento recente de arquivos:"
+
+#~ msgid "Accept files from bluetooth devices:"
+#~ msgstr "Aceitar arquivos de dispositivos bluetooth:"
+
+#~ msgid "Always"
+#~ msgstr "Sempre"
+
+#~ msgid "When paired"
+#~ msgstr "Quando pareado"
+
+#~ msgid "Ask me"
+#~ msgstr "Pergunte-me"
+
+#~ msgid "Bluetooth Sharing Is Not Available"
+#~ msgstr "Compartilhamento via bluetooth não está disponível"
+
+#~ msgid "Open bluetooth settings"
+#~ msgstr "Abrir configurações de bluetooth"

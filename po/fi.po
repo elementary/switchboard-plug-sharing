@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:38+0000\n"
+"POT-Creation-Date: 2023-10-13 21:16+0000\n"
 "PO-Revision-Date: 2022-12-12 11:38+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -20,53 +20,54 @@ msgstr ""
 "X-Generator: Weblate 4.14.2\n"
 "X-Launchpad-Export-Date: 2016-09-02 07:57+0000\n"
 
-#: src/Plug.vala:28
+#: src/Plug.vala:17
 msgid "Sharing"
 msgstr "Jakaminen"
 
-#: src/Plug.vala:29
+#: src/Plug.vala:18
 msgid "Configure file and media sharing"
 msgstr "Määritä tiedostojen ja median jakaminen"
 
-#: src/Plug.vala:37
+#: src/Plug.vala:26
 msgid "Network Is Not Available"
 msgstr "Verkko ei ole käytettävissä"
 
-#: src/Plug.vala:38
+#: src/Plug.vala:27
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
 "Kun yhteys verkkoon on katkaistu, jakamispalvelut eivät ole käytettävissä."
 
-#: src/Plug.vala:43
+#: src/Plug.vala:32
 msgid "Network settings…"
 msgstr "Verkkoasetukset…"
 
-#: src/Plug.vala:90
+#: src/Plug.vala:80
 msgid "Media library"
 msgstr "Mediakirjasto"
 
-#: src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "Käytössä"
-
-#: src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "Ei saatavilla"
-
-#: src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "Yhdistetty"
-
-#: src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Pois käytöstä"
-
-#: src/Widgets/DLNAPage.vala:28
+#: src/Widgets/DLNAPage.vala:20
 msgid "Media Library"
 msgstr "Mediakirjasto"
 
-#: src/Widgets/DLNAPage.vala:30
+#: src/Widgets/DLNAPage.vala:26
+msgid "Music"
+msgstr "Musiikki"
+
+#: src/Widgets/DLNAPage.vala:27
+msgid "Videos"
+msgstr "Videot"
+
+#: src/Widgets/DLNAPage.vala:28
+msgid "Photos"
+msgstr "Kuvat"
+
+#: src/Widgets/DLNAPage.vala:52
+#, c-format
+msgid "Select the folder containing your %s"
+msgstr "Valitse kansio, joka sisältää %s"
+
+#: src/Widgets/DLNAPage.vala:95
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -74,7 +75,11 @@ msgstr ""
 "Kun käytössä, seuraavat mediakirjastot jaetaan samassa verkossa oleville "
 "yhteensopiville laitteille."
 
-#: src/Widgets/DLNAPage.vala:31
+#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+msgid "Enabled"
+msgstr "Käytössä"
+
+#: src/Widgets/DLNAPage.vala:99
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -82,64 +87,35 @@ msgstr ""
 "Kun ei käytössä, valitut mediakirjastot eivät ole jaossa, eikä tiedostojasi "
 "voi suoratoistaa toisille laitteille tietokoneeltasi."
 
-#: src/Widgets/DLNAPage.vala:49
-msgid "Music"
-msgstr "Musiikki"
+#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+msgid "Disabled"
+msgstr "Pois käytöstä"
 
-#: src/Widgets/DLNAPage.vala:50
-msgid "Videos"
-msgstr "Videot"
-
-#: src/Widgets/DLNAPage.vala:51
-msgid "Photos"
-msgstr "Kuvat"
-
-#: src/Widgets/DLNAPage.vala:69
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Valitse kansio, joka sisältää %s"
-
-#: src/Widgets/BluetoothPage.vala:28
+#: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: src/Widgets/BluetoothPage.vala:30
+#: src/Widgets/BluetoothPage.vala:20
+msgid "Ask before accepting files:"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:31
+msgid "Bluetooth settings…"
+msgstr "Bluetooth-asetukset…"
+
+#: src/Widgets/BluetoothPage.vala:55
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
 "Kun käytössä, Bluetooth-laitteet voivat lähettää tiedostoja Lataukset-"
 "kansioon."
 
-#: src/Widgets/BluetoothPage.vala:31
+#: src/Widgets/BluetoothPage.vala:59
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
 "Kun ei käytössä, Bluetooth-laitteet eivät voi lähettää tiedostoja Lataukset-"
 "kansioon."
 
-#: src/Widgets/BluetoothPage.vala:52
-msgid "Notify about newly received files:"
-msgstr "Ilmoita vastaanotetuista tiedostoista:"
-
-#: src/Widgets/BluetoothPage.vala:58
-msgid "Accept files from bluetooth devices:"
-msgstr "Hyväksy tiedostot Bluetooth-laitteilta:"
-
-#: src/Widgets/BluetoothPage.vala:63
-msgid "Always"
-msgstr "Aina"
-
 #: src/Widgets/BluetoothPage.vala:64
-msgid "When paired"
-msgstr "Kun paritettu"
-
-#: src/Widgets/BluetoothPage.vala:65
-msgid "Ask me"
-msgstr "Kysy"
-
-#: src/Widgets/BluetoothPage.vala:67
-msgid "Bluetooth Sharing Is Not Available"
-msgstr "Bluetooth-jakaminen ei ole käytettävissä"
-
-#: src/Widgets/BluetoothPage.vala:68
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
@@ -147,10 +123,30 @@ msgstr ""
 "Bluetooth-laitteen yhteys on katkaistu tai laite ei ole käytettävissä. "
 "Tarkista Bluetoothin asetukset ja yritä uudelleen."
 
-#: src/Widgets/BluetoothPage.vala:76
-msgid "Bluetooth settings…"
-msgstr "Bluetooth-asetukset…"
+#: src/Widgets/BluetoothPage.vala:66
+msgid "Not Available"
+msgstr "Ei saatavilla"
 
-#: src/Widgets/BluetoothPage.vala:77
-msgid "Open bluetooth settings"
-msgstr "Avaa Bluetooth-asetukset"
+#~ msgid "Connected"
+#~ msgstr "Yhdistetty"
+
+#~ msgid "Notify about newly received files:"
+#~ msgstr "Ilmoita vastaanotetuista tiedostoista:"
+
+#~ msgid "Accept files from bluetooth devices:"
+#~ msgstr "Hyväksy tiedostot Bluetooth-laitteilta:"
+
+#~ msgid "Always"
+#~ msgstr "Aina"
+
+#~ msgid "When paired"
+#~ msgstr "Kun paritettu"
+
+#~ msgid "Ask me"
+#~ msgstr "Kysy"
+
+#~ msgid "Bluetooth Sharing Is Not Available"
+#~ msgstr "Bluetooth-jakaminen ei ole käytettävissä"
+
+#~ msgid "Open bluetooth settings"
+#~ msgstr "Avaa Bluetooth-asetukset"

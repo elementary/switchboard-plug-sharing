@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:38+0000\n"
+"POT-Creation-Date: 2023-10-13 21:16+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -19,132 +19,128 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: src/Plug.vala:28
+#: src/Plug.vala:17
 msgid "Sharing"
 msgstr "सामायिकरण"
 
-#: src/Plug.vala:29
+#: src/Plug.vala:18
 msgid "Configure file and media sharing"
 msgstr "फाइल आणि मीडिया सामायिकरण कॉन्फिगर करा"
 
-#: src/Plug.vala:37
+#: src/Plug.vala:26
 msgid "Network Is Not Available"
 msgstr "नेटवर्क उपलब्ध नाही"
 
-#: src/Plug.vala:38
+#: src/Plug.vala:27
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "नेटवर्कवरून डिस्कनेक्ट केल्यानंतर, सामायिकरण सेवा उपलब्ध नसतात."
 
-#: src/Plug.vala:43
+#: src/Plug.vala:32
 msgid "Network settings…"
 msgstr "नेटवर्क सेटिंग्ज…"
 
-#: src/Plug.vala:90
+#: src/Plug.vala:80
 msgid "Media library"
 msgstr "मीडिया लायब्ररी"
 
-#: src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "सक्षम"
-
-#: src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "उपलब्ध नाही"
-
-#: src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "जोडलेले"
-
-#: src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "अक्षम"
-
-#: src/Widgets/DLNAPage.vala:28
+#: src/Widgets/DLNAPage.vala:20
 msgid "Media Library"
 msgstr "मीडिया लायब्ररी"
 
-#: src/Widgets/DLNAPage.vala:30
-msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
-msgstr ""
-"सक्षम असताना, खालील मीडिया लायब्ररी आपल्या नेटवर्कमधील सुसंगत डिव्हाइसेसवर "
-"सामायिक केल्या जातात."
-
-#: src/Widgets/DLNAPage.vala:31
-msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
-msgstr ""
-"अक्षम असताना, निवडलेले माध्यम लायब्ररीज असामायिक असतात आणि त्या आपल्या "
-"संगणकावरील फायली इतर डिव्हाइसेसवर प्रवाहित केल्या जाऊ शकणार नाहीत."
-
-#: src/Widgets/DLNAPage.vala:49
+#: src/Widgets/DLNAPage.vala:26
 msgid "Music"
 msgstr "संगीत"
 
-#: src/Widgets/DLNAPage.vala:50
+#: src/Widgets/DLNAPage.vala:27
 msgid "Videos"
 msgstr "व्हिडिओ"
 
-#: src/Widgets/DLNAPage.vala:51
+#: src/Widgets/DLNAPage.vala:28
 msgid "Photos"
 msgstr "फोटो"
 
-#: src/Widgets/DLNAPage.vala:69
+#: src/Widgets/DLNAPage.vala:52
 #, c-format
 msgid "Select the folder containing your %s"
 msgstr "तुमचे %s असलेले फोल्डर निवडा"
 
-#: src/Widgets/BluetoothPage.vala:28
+#: src/Widgets/DLNAPage.vala:95
+msgid ""
+"While enabled, the following media libraries are shared to compatible "
+"devices in your network."
+msgstr ""
+"सक्षम असताना, खालील मीडिया लायब्ररी आपल्या नेटवर्कमधील सुसंगत डिव्हाइसेसवर सामायिक "
+"केल्या जातात."
+
+#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+msgid "Enabled"
+msgstr "सक्षम"
+
+#: src/Widgets/DLNAPage.vala:99
+msgid ""
+"While disabled, the selected media libraries are unshared, and it won't "
+"stream files from your computer to other devices."
+msgstr ""
+"अक्षम असताना, निवडलेले माध्यम लायब्ररीज असामायिक असतात आणि त्या आपल्या संगणकावरील "
+"फायली इतर डिव्हाइसेसवर प्रवाहित केल्या जाऊ शकणार नाहीत."
+
+#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+msgid "Disabled"
+msgstr "अक्षम"
+
+#: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
 msgstr "ब्लूटुथ"
 
-#: src/Widgets/BluetoothPage.vala:30
+#: src/Widgets/BluetoothPage.vala:20
+msgid "Ask before accepting files:"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:31
+msgid "Bluetooth settings…"
+msgstr "ब्लूटूथ सेटिंग्ज.…"
+
+#: src/Widgets/BluetoothPage.vala:55
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr "सक्षम असताना, ब्लूटुथ डिव्हाइसेस डाउनलोड करण्यासाठी फायली पाठवू शकतात."
 
-#: src/Widgets/BluetoothPage.vala:31
+#: src/Widgets/BluetoothPage.vala:59
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr "अक्षम असताना, ब्लूटूथ डिव्हाइसेस डाउनलोड्सवर फाइल्स पाठवू शकत नाहीत."
 
-#: src/Widgets/BluetoothPage.vala:52
-msgid "Notify about newly received files:"
-msgstr "नवीन प्राप्त झालेल्या फायलींबद्दल सूचित करा:"
-
-#: src/Widgets/BluetoothPage.vala:58
-msgid "Accept files from bluetooth devices:"
-msgstr "ब्लूटुथ डिव्हाइसेसवरून फायली स्वीकारा:"
-
-#: src/Widgets/BluetoothPage.vala:63
-msgid "Always"
-msgstr "नेहमी"
-
 #: src/Widgets/BluetoothPage.vala:64
-msgid "When paired"
-msgstr "जोडलेले असेल तेव्हा"
-
-#: src/Widgets/BluetoothPage.vala:65
-msgid "Ask me"
-msgstr "मला विचारा"
-
-#: src/Widgets/BluetoothPage.vala:67
-msgid "Bluetooth Sharing Is Not Available"
-msgstr "ब्लूटुथ सामायिकरण उपलब्ध नाही"
-
-#: src/Widgets/BluetoothPage.vala:68
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
 msgstr ""
-"ब्लूटूथ डिव्हाइस एकतर डिस्कनेक्ट किंवा अक्षम केले आहे. ब्लूटूथ सेटिंग्ज तपासा"
-" आणि पुन्हा प्रयत्न करा."
+"ब्लूटूथ डिव्हाइस एकतर डिस्कनेक्ट किंवा अक्षम केले आहे. ब्लूटूथ सेटिंग्ज तपासा आणि पुन्हा प्रयत्न "
+"करा."
 
-#: src/Widgets/BluetoothPage.vala:76
-msgid "Bluetooth settings…"
-msgstr "ब्लूटूथ सेटिंग्ज.…"
+#: src/Widgets/BluetoothPage.vala:66
+msgid "Not Available"
+msgstr "उपलब्ध नाही"
 
-#: src/Widgets/BluetoothPage.vala:77
-msgid "Open bluetooth settings"
-msgstr "ब्लूटूथ सेटिंग्ज उघडा"
+#~ msgid "Connected"
+#~ msgstr "जोडलेले"
+
+#~ msgid "Notify about newly received files:"
+#~ msgstr "नवीन प्राप्त झालेल्या फायलींबद्दल सूचित करा:"
+
+#~ msgid "Accept files from bluetooth devices:"
+#~ msgstr "ब्लूटुथ डिव्हाइसेसवरून फायली स्वीकारा:"
+
+#~ msgid "Always"
+#~ msgstr "नेहमी"
+
+#~ msgid "When paired"
+#~ msgstr "जोडलेले असेल तेव्हा"
+
+#~ msgid "Ask me"
+#~ msgstr "मला विचारा"
+
+#~ msgid "Bluetooth Sharing Is Not Available"
+#~ msgstr "ब्लूटुथ सामायिकरण उपलब्ध नाही"
+
+#~ msgid "Open bluetooth settings"
+#~ msgstr "ब्लूटूथ सेटिंग्ज उघडा"

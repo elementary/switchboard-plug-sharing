@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:38+0000\n"
+"POT-Creation-Date: 2023-10-13 21:16+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
@@ -20,52 +20,53 @@ msgstr ""
 "X-Generator: Weblate 4.14.2\n"
 "X-Launchpad-Export-Date: 2016-07-06 05:48+0000\n"
 
-#: src/Plug.vala:28
+#: src/Plug.vala:17
 msgid "Sharing"
 msgstr "Zdieľanie"
 
-#: src/Plug.vala:29
+#: src/Plug.vala:18
 msgid "Configure file and media sharing"
 msgstr "Nastavujte zdieľanie súborov a médií"
 
-#: src/Plug.vala:37
+#: src/Plug.vala:26
 msgid "Network Is Not Available"
 msgstr "Sieť je nedostupná"
 
-#: src/Plug.vala:38
+#: src/Plug.vala:27
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "Keď ste odpojení od siete, služby zdieľania nie sú dostupné."
 
-#: src/Plug.vala:43
+#: src/Plug.vala:32
 msgid "Network settings…"
 msgstr "Nastavenia siete…"
 
-#: src/Plug.vala:90
+#: src/Plug.vala:80
 msgid "Media library"
 msgstr "Knižnica médií"
 
-#: src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "Zapnuté"
-
-#: src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "Nedostupné"
-
-#: src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "Pripojené"
-
-#: src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Vypnuté"
-
-#: src/Widgets/DLNAPage.vala:28
+#: src/Widgets/DLNAPage.vala:20
 msgid "Media Library"
 msgstr "Knižnica médií"
 
-#: src/Widgets/DLNAPage.vala:30
+#: src/Widgets/DLNAPage.vala:26
+msgid "Music"
+msgstr "Hudba"
+
+#: src/Widgets/DLNAPage.vala:27
+msgid "Videos"
+msgstr "Videá"
+
+#: src/Widgets/DLNAPage.vala:28
+msgid "Photos"
+msgstr "Fotografie"
+
+#: src/Widgets/DLNAPage.vala:52
+#, c-format
+msgid "Select the folder containing your %s"
+msgstr "Vyberte priečinok obsahujúci vaše %s"
+
+#: src/Widgets/DLNAPage.vala:95
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -73,7 +74,11 @@ msgstr ""
 "Pokiaľ zapnuté, nasledujúce knižnice médií sú zdieľané do kompatibilných "
 "zariadení vo vašej sieti."
 
-#: src/Widgets/DLNAPage.vala:31
+#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+msgid "Enabled"
+msgstr "Zapnuté"
+
+#: src/Widgets/DLNAPage.vala:99
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -81,64 +86,35 @@ msgstr ""
 "Pokiaľ vypnuté, nasledujúce knižnice médií a súbory nie sú zdieľané z vášho "
 "počítača do iných zariadení."
 
-#: src/Widgets/DLNAPage.vala:49
-msgid "Music"
-msgstr "Hudba"
+#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+msgid "Disabled"
+msgstr "Vypnuté"
 
-#: src/Widgets/DLNAPage.vala:50
-msgid "Videos"
-msgstr "Videá"
-
-#: src/Widgets/DLNAPage.vala:51
-msgid "Photos"
-msgstr "Fotografie"
-
-#: src/Widgets/DLNAPage.vala:69
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Vyberte priečinok obsahujúci vaše %s"
-
-#: src/Widgets/BluetoothPage.vala:28
+#: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: src/Widgets/BluetoothPage.vala:30
+#: src/Widgets/BluetoothPage.vala:20
+msgid "Ask before accepting files:"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:31
+msgid "Bluetooth settings…"
+msgstr "Nastavenia Bluetooth…"
+
+#: src/Widgets/BluetoothPage.vala:55
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
 "Pokiaľ zapnuté, Bluetooth zariadenia môžu posielať súbory do priečinka "
 "Stiahnuté."
 
-#: src/Widgets/BluetoothPage.vala:31
+#: src/Widgets/BluetoothPage.vala:59
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
 "Pokiaľ vypnuté, Bluetooth zariadenia nemôžu posielať súbory do priečinka "
 "Stiahnuté."
 
-#: src/Widgets/BluetoothPage.vala:52
-msgid "Notify about newly received files:"
-msgstr "Oznámiť novo prijaté súbory:"
-
-#: src/Widgets/BluetoothPage.vala:58
-msgid "Accept files from bluetooth devices:"
-msgstr "Prijímať súbory z Bluetooth zariadení:"
-
-#: src/Widgets/BluetoothPage.vala:63
-msgid "Always"
-msgstr "Vždy"
-
 #: src/Widgets/BluetoothPage.vala:64
-msgid "When paired"
-msgstr "Od spárovaných"
-
-#: src/Widgets/BluetoothPage.vala:65
-msgid "Ask me"
-msgstr "Spýtať sa ma"
-
-#: src/Widgets/BluetoothPage.vala:67
-msgid "Bluetooth Sharing Is Not Available"
-msgstr "Zdieľanie cez Bluetooth je nedostupné"
-
-#: src/Widgets/BluetoothPage.vala:68
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
@@ -146,10 +122,30 @@ msgstr ""
 "Bluetooth zariadenie je buď odpojené, alebo vypnuté. Skontrolujte nastavenia "
 "Bluetooth a skúste to znova."
 
-#: src/Widgets/BluetoothPage.vala:76
-msgid "Bluetooth settings…"
-msgstr "Nastavenia Bluetooth…"
+#: src/Widgets/BluetoothPage.vala:66
+msgid "Not Available"
+msgstr "Nedostupné"
 
-#: src/Widgets/BluetoothPage.vala:77
-msgid "Open bluetooth settings"
-msgstr "Otvoriť nastavenia Bluetooth"
+#~ msgid "Connected"
+#~ msgstr "Pripojené"
+
+#~ msgid "Notify about newly received files:"
+#~ msgstr "Oznámiť novo prijaté súbory:"
+
+#~ msgid "Accept files from bluetooth devices:"
+#~ msgstr "Prijímať súbory z Bluetooth zariadení:"
+
+#~ msgid "Always"
+#~ msgstr "Vždy"
+
+#~ msgid "When paired"
+#~ msgstr "Od spárovaných"
+
+#~ msgid "Ask me"
+#~ msgstr "Spýtať sa ma"
+
+#~ msgid "Bluetooth Sharing Is Not Available"
+#~ msgstr "Zdieľanie cez Bluetooth je nedostupné"
+
+#~ msgid "Open bluetooth settings"
+#~ msgstr "Otvoriť nastavenia Bluetooth"

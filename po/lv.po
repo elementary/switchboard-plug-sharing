@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:38+0000\n"
+"POT-Creation-Date: 2023-10-13 21:16+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Danielle Foré <danielle@elementary.io>\n"
 "Language-Team: Latvian <https://l10n.elementary.io/projects/switchboard/"
@@ -19,126 +19,98 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: src/Plug.vala:28
+#: src/Plug.vala:17
 msgid "Sharing"
 msgstr ""
 
-#: src/Plug.vala:29
+#: src/Plug.vala:18
 msgid "Configure file and media sharing"
 msgstr ""
 
-#: src/Plug.vala:37
+#: src/Plug.vala:26
 msgid "Network Is Not Available"
 msgstr ""
 
-#: src/Plug.vala:38
+#: src/Plug.vala:27
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
 
-#: src/Plug.vala:43
+#: src/Plug.vala:32
 msgid "Network settings…"
 msgstr ""
 
-#: src/Plug.vala:90
+#: src/Plug.vala:80
 msgid "Media library"
 msgstr ""
 
-#: src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr ""
-
-#: src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr ""
-
-#: src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr ""
-
-#: src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Izslēgts"
-
-#: src/Widgets/DLNAPage.vala:28
+#: src/Widgets/DLNAPage.vala:20
 msgid "Media Library"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:30
+#: src/Widgets/DLNAPage.vala:26
+msgid "Music"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:27
+msgid "Videos"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:28
+msgid "Photos"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:52
+#, c-format
+msgid "Select the folder containing your %s"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:95
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:31
+#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+msgid "Enabled"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:99
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:49
-msgid "Music"
-msgstr ""
+#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+msgid "Disabled"
+msgstr "Izslēgts"
 
-#: src/Widgets/DLNAPage.vala:50
-msgid "Videos"
-msgstr ""
-
-#: src/Widgets/DLNAPage.vala:51
-msgid "Photos"
-msgstr ""
-
-#: src/Widgets/DLNAPage.vala:69
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr ""
-
-#: src/Widgets/BluetoothPage.vala:28
+#: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:30
-msgid "While enabled, bluetooth devices can send files to Downloads."
+#: src/Widgets/BluetoothPage.vala:20
+msgid "Ask before accepting files:"
 msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:31
+msgid "Bluetooth settings…"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:55
+msgid "While enabled, bluetooth devices can send files to Downloads."
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:59
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:52
-msgid "Notify about newly received files:"
-msgstr ""
-
-#: src/Widgets/BluetoothPage.vala:58
-msgid "Accept files from bluetooth devices:"
-msgstr ""
-
-#: src/Widgets/BluetoothPage.vala:63
-msgid "Always"
-msgstr ""
-
 #: src/Widgets/BluetoothPage.vala:64
-msgid "When paired"
-msgstr ""
-
-#: src/Widgets/BluetoothPage.vala:65
-msgid "Ask me"
-msgstr ""
-
-#: src/Widgets/BluetoothPage.vala:67
-msgid "Bluetooth Sharing Is Not Available"
-msgstr ""
-
-#: src/Widgets/BluetoothPage.vala:68
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:76
-msgid "Bluetooth settings…"
-msgstr ""
-
-#: src/Widgets/BluetoothPage.vala:77
-msgid "Open bluetooth settings"
+#: src/Widgets/BluetoothPage.vala:66
+msgid "Not Available"
 msgstr ""

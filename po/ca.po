@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:38+0000\n"
+"POT-Creation-Date: 2023-10-13 21:16+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
@@ -20,54 +20,55 @@ msgstr ""
 "X-Generator: Weblate 4.14.2\n"
 "X-Launchpad-Export-Date: 2016-12-14 05:40+0000\n"
 
-#: src/Plug.vala:28
+#: src/Plug.vala:17
 msgid "Sharing"
 msgstr "Compartició"
 
-#: src/Plug.vala:29
+#: src/Plug.vala:18
 msgid "Configure file and media sharing"
 msgstr "Configureu la compartició de fitxers i mitjans"
 
-#: src/Plug.vala:37
+#: src/Plug.vala:26
 msgid "Network Is Not Available"
 msgstr "La xarxa no està disponible"
 
-#: src/Plug.vala:38
+#: src/Plug.vala:27
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
 "Mentre està desconnectat de la xarxa, els serveis de compartició no estan "
 "disponibles."
 
-#: src/Plug.vala:43
+#: src/Plug.vala:32
 msgid "Network settings…"
 msgstr "Paràmetres de la xarxa…"
 
-#: src/Plug.vala:90
+#: src/Plug.vala:80
 msgid "Media library"
 msgstr "Biblioteca multimèdia"
 
-#: src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "Habilitat"
-
-#: src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "No disponible"
-
-#: src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "Connectat"
-
-#: src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Inhabilitat"
-
-#: src/Widgets/DLNAPage.vala:28
+#: src/Widgets/DLNAPage.vala:20
 msgid "Media Library"
 msgstr "Biblioteca multimèdia"
 
-#: src/Widgets/DLNAPage.vala:30
+#: src/Widgets/DLNAPage.vala:26
+msgid "Music"
+msgstr "Música"
+
+#: src/Widgets/DLNAPage.vala:27
+msgid "Videos"
+msgstr "Vídeos"
+
+#: src/Widgets/DLNAPage.vala:28
+msgid "Photos"
+msgstr "Fotografies"
+
+#: src/Widgets/DLNAPage.vala:52
+#, c-format
+msgid "Select the folder containing your %s"
+msgstr "Seleccioneu la carpeta que contingui %s"
+
+#: src/Widgets/DLNAPage.vala:95
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -75,7 +76,11 @@ msgstr ""
 "Mentre està activat, les biblioteques de mitjans següents es comparteixen en "
 "dispositius compatibles a la xarxa."
 
-#: src/Widgets/DLNAPage.vala:31
+#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+msgid "Enabled"
+msgstr "Habilitat"
+
+#: src/Widgets/DLNAPage.vala:99
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -83,64 +88,35 @@ msgstr ""
 "Mentre està desactivat, les biblioteques de mitjans seleccionades no es "
 "compartiran i no difondran fitxers des de l'ordinador a altres dispositius."
 
-#: src/Widgets/DLNAPage.vala:49
-msgid "Music"
-msgstr "Música"
+#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+msgid "Disabled"
+msgstr "Inhabilitat"
 
-#: src/Widgets/DLNAPage.vala:50
-msgid "Videos"
-msgstr "Vídeos"
-
-#: src/Widgets/DLNAPage.vala:51
-msgid "Photos"
-msgstr "Fotografies"
-
-#: src/Widgets/DLNAPage.vala:69
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Seleccioneu la carpeta que contingui %s"
-
-#: src/Widgets/BluetoothPage.vala:28
+#: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: src/Widgets/BluetoothPage.vala:30
+#: src/Widgets/BluetoothPage.vala:20
+msgid "Ask before accepting files:"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:31
+msgid "Bluetooth settings…"
+msgstr "Paràmetres del Bluetooth…"
+
+#: src/Widgets/BluetoothPage.vala:55
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
 "Mentre està activat, els dispositius Bluetooth poden enviar fitxers a la "
 "carpeta de baixades."
 
-#: src/Widgets/BluetoothPage.vala:31
+#: src/Widgets/BluetoothPage.vala:59
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
 "Mentre està desactivat, els dispositius Bluetooth no poden enviar fitxers a "
 "la carpeta de baixades."
 
-#: src/Widgets/BluetoothPage.vala:52
-msgid "Notify about newly received files:"
-msgstr "Notifica si es rep un fitxer:"
-
-#: src/Widgets/BluetoothPage.vala:58
-msgid "Accept files from bluetooth devices:"
-msgstr "Accepta fitxers de dispositius Bluetooth:"
-
-#: src/Widgets/BluetoothPage.vala:63
-msgid "Always"
-msgstr "Sempre"
-
 #: src/Widgets/BluetoothPage.vala:64
-msgid "When paired"
-msgstr "Quan estigui aparellat"
-
-#: src/Widgets/BluetoothPage.vala:65
-msgid "Ask me"
-msgstr "Demana'm què vull fer"
-
-#: src/Widgets/BluetoothPage.vala:67
-msgid "Bluetooth Sharing Is Not Available"
-msgstr "La compartició de Bluetooth no està disponible"
-
-#: src/Widgets/BluetoothPage.vala:68
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
@@ -148,10 +124,30 @@ msgstr ""
 "El dispositiu Bluetooth o bé està desconnectat o inhabilitat. Comproveu els "
 "paràmetres del Bluetooth i torneu-ho a intentar."
 
-#: src/Widgets/BluetoothPage.vala:76
-msgid "Bluetooth settings…"
-msgstr "Paràmetres del Bluetooth…"
+#: src/Widgets/BluetoothPage.vala:66
+msgid "Not Available"
+msgstr "No disponible"
 
-#: src/Widgets/BluetoothPage.vala:77
-msgid "Open bluetooth settings"
-msgstr "Obre els paràmetres del Bluetooth"
+#~ msgid "Connected"
+#~ msgstr "Connectat"
+
+#~ msgid "Notify about newly received files:"
+#~ msgstr "Notifica si es rep un fitxer:"
+
+#~ msgid "Accept files from bluetooth devices:"
+#~ msgstr "Accepta fitxers de dispositius Bluetooth:"
+
+#~ msgid "Always"
+#~ msgstr "Sempre"
+
+#~ msgid "When paired"
+#~ msgstr "Quan estigui aparellat"
+
+#~ msgid "Ask me"
+#~ msgstr "Demana'm què vull fer"
+
+#~ msgid "Bluetooth Sharing Is Not Available"
+#~ msgstr "La compartició de Bluetooth no està disponible"
+
+#~ msgid "Open bluetooth settings"
+#~ msgstr "Obre els paràmetres del Bluetooth"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 18:38+0000\n"
+"POT-Creation-Date: 2023-10-13 21:16+0000\n"
 "PO-Revision-Date: 2023-05-30 03:07+0000\n"
 "Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
@@ -20,54 +20,55 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 "X-Launchpad-Export-Date: 2016-07-19 06:13+0000\n"
 
-#: src/Plug.vala:28
+#: src/Plug.vala:17
 msgid "Sharing"
 msgstr "Delen"
 
-#: src/Plug.vala:29
+#: src/Plug.vala:18
 msgid "Configure file and media sharing"
 msgstr "Configureer het delen van bestanden en media"
 
-#: src/Plug.vala:37
+#: src/Plug.vala:26
 msgid "Network Is Not Available"
 msgstr "Het netwerk is niet beschikbaar"
 
-#: src/Plug.vala:38
+#: src/Plug.vala:27
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
 "Wanneer er geen netwerk beschikbaar is, dan is het delen van bestanden niet "
 "mogelijk."
 
-#: src/Plug.vala:43
+#: src/Plug.vala:32
 msgid "Network settings…"
 msgstr "Netwerkinstellingen…"
 
-#: src/Plug.vala:90
+#: src/Plug.vala:80
 msgid "Media library"
 msgstr "Mediabibliotheek"
 
-#: src/Widgets/ServiceEntry.vala:23
-msgid "Enabled"
-msgstr "Ingeschakeld"
-
-#: src/Widgets/ServiceEntry.vala:24
-msgid "Not Available"
-msgstr "Niet Beschikbaar"
-
-#: src/Widgets/ServiceEntry.vala:25
-msgid "Connected"
-msgstr "Verbonden"
-
-#: src/Widgets/ServiceEntry.vala:26
-msgid "Disabled"
-msgstr "Uitgeschakeld"
-
-#: src/Widgets/DLNAPage.vala:28
+#: src/Widgets/DLNAPage.vala:20
 msgid "Media Library"
 msgstr "Mediabibliotheek"
 
-#: src/Widgets/DLNAPage.vala:30
+#: src/Widgets/DLNAPage.vala:26
+msgid "Music"
+msgstr "Muziek"
+
+#: src/Widgets/DLNAPage.vala:27
+msgid "Videos"
+msgstr "Video's"
+
+#: src/Widgets/DLNAPage.vala:28
+msgid "Photos"
+msgstr "Foto’s"
+
+#: src/Widgets/DLNAPage.vala:52
+#, c-format
+msgid "Select the folder containing your %s"
+msgstr "Selecteer de map die %s bevat"
+
+#: src/Widgets/DLNAPage.vala:95
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -75,7 +76,11 @@ msgstr ""
 "Wanneer deze functie is ingeschakeld, zijn de volgende mediabibliotheken "
 "gedeeld met compatibele apparaten in uw netwerk."
 
-#: src/Widgets/DLNAPage.vala:31
+#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: src/Widgets/DLNAPage.vala:99
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -84,64 +89,35 @@ msgstr ""
 "mediabibliotheken niet gedeeld en worden geen bestanden gestreamd naar "
 "andere apparaten."
 
-#: src/Widgets/DLNAPage.vala:49
-msgid "Music"
-msgstr "Muziek"
+#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+msgid "Disabled"
+msgstr "Uitgeschakeld"
 
-#: src/Widgets/DLNAPage.vala:50
-msgid "Videos"
-msgstr "Video's"
-
-#: src/Widgets/DLNAPage.vala:51
-msgid "Photos"
-msgstr "Foto’s"
-
-#: src/Widgets/DLNAPage.vala:69
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Selecteer de map die %s bevat"
-
-#: src/Widgets/BluetoothPage.vala:28
+#: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: src/Widgets/BluetoothPage.vala:30
+#: src/Widgets/BluetoothPage.vala:20
+msgid "Ask before accepting files:"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:31
+msgid "Bluetooth settings…"
+msgstr "Bluetoothinstellingen…"
+
+#: src/Widgets/BluetoothPage.vala:55
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
 "Wanneer ingeschakeld kunnen bluetooth apparaten bestanden sturen naar "
 "Downloads."
 
-#: src/Widgets/BluetoothPage.vala:31
+#: src/Widgets/BluetoothPage.vala:59
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
 "Wanneer uit, bluetooth apparaten kunnen geen bestanden sturen om te "
 "downloaden."
 
-#: src/Widgets/BluetoothPage.vala:52
-msgid "Notify about newly received files:"
-msgstr "Geef een melding bij nieuw ontvangen bestanden:"
-
-#: src/Widgets/BluetoothPage.vala:58
-msgid "Accept files from bluetooth devices:"
-msgstr "Accepteer bestanden van bluetooth apparaten:"
-
-#: src/Widgets/BluetoothPage.vala:63
-msgid "Always"
-msgstr "Altijd"
-
 #: src/Widgets/BluetoothPage.vala:64
-msgid "When paired"
-msgstr "Wanneer gepaird"
-
-#: src/Widgets/BluetoothPage.vala:65
-msgid "Ask me"
-msgstr "Mij vragen"
-
-#: src/Widgets/BluetoothPage.vala:67
-msgid "Bluetooth Sharing Is Not Available"
-msgstr "Bluetooth delen is niet beschikbaar"
-
-#: src/Widgets/BluetoothPage.vala:68
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
@@ -149,10 +125,30 @@ msgstr ""
 "Het bluetooth apparaat is losgekoppeld of uitgeschakeld. Controleer de "
 "bluetooth instellingen en probeer opnieuw."
 
-#: src/Widgets/BluetoothPage.vala:76
-msgid "Bluetooth settings…"
-msgstr "Bluetoothinstellingen…"
+#: src/Widgets/BluetoothPage.vala:66
+msgid "Not Available"
+msgstr "Niet Beschikbaar"
 
-#: src/Widgets/BluetoothPage.vala:77
-msgid "Open bluetooth settings"
-msgstr "open bluetooth instellingen"
+#~ msgid "Connected"
+#~ msgstr "Verbonden"
+
+#~ msgid "Notify about newly received files:"
+#~ msgstr "Geef een melding bij nieuw ontvangen bestanden:"
+
+#~ msgid "Accept files from bluetooth devices:"
+#~ msgstr "Accepteer bestanden van bluetooth apparaten:"
+
+#~ msgid "Always"
+#~ msgstr "Altijd"
+
+#~ msgid "When paired"
+#~ msgstr "Wanneer gepaird"
+
+#~ msgid "Ask me"
+#~ msgstr "Mij vragen"
+
+#~ msgid "Bluetooth Sharing Is Not Available"
+#~ msgstr "Bluetooth delen is niet beschikbaar"
+
+#~ msgid "Open bluetooth settings"
+#~ msgstr "open bluetooth instellingen"
