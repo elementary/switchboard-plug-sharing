@@ -49,27 +49,27 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
         var entry_label = new Gtk.Label ("%s:".printf (media_type_name));
         entry_label.halign = Gtk.Align.END;
 
-        var entry_file_chooser = new Gtk.FileChooserButton (_("Select the folder containing your %s").printf (media_type_name), Gtk.FileChooserAction.SELECT_FOLDER);
-        entry_file_chooser.hexpand = true;
-        entry_file_chooser.sensitive = is_enabled;
-        entry_file_chooser.file_set.connect (() => {
-            rygel_config_file.set_media_type_folder (media_type_id, entry_file_chooser.get_file ().get_path ());
-            rygel_config_file.save ();
-        });
+        // var entry_file_chooser = new Gtk.FileChooserButton (_("Select the folder containing your %s").printf (media_type_name), Gtk.FileChooserAction.SELECT_FOLDER);
+        // entry_file_chooser.hexpand = true;
+        // entry_file_chooser.sensitive = is_enabled;
+        // entry_file_chooser.file_set.connect (() => {
+        //     rygel_config_file.set_media_type_folder (media_type_id, entry_file_chooser.get_file ().get_path ());
+        //     rygel_config_file.save ();
+        // });
 
-        try {
-            if (folder_path != "") {
-                entry_file_chooser.set_file (File.new_for_path (replace_xdg_folders (folder_path)));
-            }
-        } catch (Error e) {
-            warning ("The folder path %s is invalid: %s", folder_path, e.message);
-        }
+        // try {
+        //     if (folder_path != "") {
+        //         entry_file_chooser.set_file (File.new_for_path (replace_xdg_folders (folder_path)));
+        //     }
+        // } catch (Error e) {
+        //     warning ("The folder path %s is invalid: %s", folder_path, e.message);
+        // }
 
         var entry_switch = new Gtk.Switch ();
         entry_switch.valign = Gtk.Align.CENTER;
         entry_switch.state = is_enabled;
         entry_switch.state_set.connect ((state) => {
-            entry_file_chooser.set_sensitive (state);
+            // entry_file_chooser.set_sensitive (state);
 
             rygel_config_file.set_media_type_enabled (media_type_id, state);
             rygel_config_file.save ();
@@ -78,7 +78,7 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
         });
 
         content_area.attach (entry_label, 0, content_area_rows, 1, 1);
-        content_area.attach (entry_file_chooser, 1, content_area_rows, 1, 1);
+        // content_area.attach (entry_file_chooser, 1, content_area_rows, 1, 1);
         content_area.attach (entry_switch, 2, content_area_rows, 1, 1);
 
         content_area_rows++;
