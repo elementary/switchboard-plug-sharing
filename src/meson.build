@@ -1,11 +1,7 @@
 plug_files = files(
     'Plug.vala',
-    'Widgets/Sidebar.vala',
-    'Widgets/SettingsView.vala',
-    'Widgets/SettingsPage.vala',
-    'Widgets/ServiceEntry.vala',
     'Widgets/DLNAPage.vala',
-    'Widgets/BluetoothPage.vala',
+    # 'Widgets/BluetoothPage.vala',
     'Backend/RygelStartupManager.vala',
     'Backend/RygelDBusInterface.vala',
     'Backend/RygelConfigFile.vala'
