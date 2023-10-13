@@ -1,89 +1,69 @@
 /*
- * Copyright (c) 2016 elementary LLC (https://launchpad.net/switchboard-plug-sharing)
- *
- * This program is free software; you can redistribute it and/or
- * modify it under the terms of the GNU General Public
- * License as published by the Free Software Foundation; either
- * version 2 of the License, or (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public
- * License along with this program; if not, write to the
- * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- * Boston, MA 02110-1301 USA.
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ * SPDX-FileCopyrightText: 2016-2023 elementary, Inc. (https://elementary.io)
  */
 
-public class Sharing.Widgets.BluetoothPage : SettingsPage {
-    GLib.Settings bluetooth_settings;
-    GLib.Settings sharing_settings;
-    Gtk.ComboBoxText accept_combo;
-    Gtk.Switch notify_switch;
+public class Sharing.Widgets.BluetoothPage : Granite.SimpleSettingsPage {
+    private GLib.Settings bluetooth_settings;
 
     public BluetoothPage () {
-        base ("bluetooth",
-              _("Bluetooth"),
-              "preferences-bluetooth",
-              _("While enabled, bluetooth devices can send files to Downloads."),
-              _("While disabled, bluetooth devices can not send files to Downloads."));
+        Object (
+            activatable: true,
+            description: ""
+        );
+    }
 
-        bluetooth_settings = new GLib.Settings ("org.pantheon.desktop.wingpanel.indicators.bluetooth");
-        sharing_settings = new GLib.Settings ("org.gnome.desktop.file-sharing");
+    construct {
+        title = _("Bluetooth");
+        icon_name = "preferences-bluetooth";
 
-        sharing_settings.bind ("bluetooth-obexpush-enabled", service_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
-        sharing_settings.bind ("bluetooth-accept-files", accept_combo, "active-id", SettingsBindFlags.DEFAULT);
-        sharing_settings.bind ("bluetooth-notify", notify_switch, "active", SettingsBindFlags.DEFAULT);
+        var accept_label = new Gtk.Label (_("Ask before accepting files:")) {
+            halign = END
+        };
 
-        service_switch.notify ["active"].connect (() => {
-            set_service_state ();
-        });
+        var accept_switch = new Gtk.Switch ();
+
+        content_area.attach (accept_label, 0, 1);
+        content_area.attach (accept_switch, 1, 1);
+
+        var link_button = new Gtk.LinkButton.with_label (
+            "settings://network/bluetooth",
+            _("Bluetooth settings…")
+        );
+        link_button.tooltip_text = "";
+
+        action_area.add (link_button);
+
+        bluetooth_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.bluetooth");
+        bluetooth_settings.bind ("bluetooth-obex-enabled", status_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
+        bluetooth_settings.bind ("bluetooth-confirm-accept-files", accept_switch, "active", SettingsBindFlags.DEFAULT);
+
+        set_service_state ();
 
         bluetooth_settings.changed ["bluetooth-enabled"].connect (() => {
             set_service_state ();
         });
 
-        set_service_state ();
-    }
-
-    construct {
-        var notify_label = new Gtk.Label (_("Notify about newly received files:"));
-        ((Gtk.Misc)notify_label).xalign = 1.0f;
-
-        notify_switch = new Gtk.Switch ();
-        notify_switch.halign = Gtk.Align.START;
-
-        var accept_label = new Gtk.Label (_("Accept files from bluetooth devices:"));
-        ((Gtk.Misc) accept_label).xalign = 1.0f;
-
-        accept_combo = new Gtk.ComboBoxText ();
-        accept_combo.hexpand = true;
-        accept_combo.append ("always", _("Always"));
-        accept_combo.append ("bonded", _("When paired"));
-        accept_combo.append ("ask", _("Ask me"));
-
-        alert_view.title = _("Bluetooth Sharing Is Not Available");
-        alert_view.description = _("The bluetooth device is either disconnected or disabled. Check bluetooth settings and try again.");
-        alert_view.icon_name ="bluetooth-disabled-symbolic";
-
-        content_grid.attach (notify_label, 0, 0, 1, 1);
-        content_grid.attach (notify_switch, 1, 0, 1, 1);
-        content_grid.attach (accept_label, 0, 1, 1, 1);
-        content_grid.attach (accept_combo, 1, 1, 1, 1);
-
-        link_button.label = _("Bluetooth settings…");
-        link_button.tooltip_text = _("Open bluetooth settings");
-        link_button.uri = "settings://network/bluetooth";
-        link_button.no_show_all = false;
+        status_switch.notify["active"].connect (() => {
+            set_service_state ();
+        });
     }
 
     private void set_service_state () {
         if (bluetooth_settings.get_boolean ("bluetooth-enabled")) {
-            update_state (sharing_settings.get_boolean ("bluetooth-obexpush-enabled") ? ServiceState.ENABLED : ServiceState.DISABLED);
+            if (bluetooth_settings.get_boolean ("bluetooth-obex-enabled")) {
+                description = _("While enabled, bluetooth devices can send files to Downloads.");
+                status = _("Enabled");
+                status_type = SUCCESS;
+            } else {
+                description = _("While disabled, bluetooth devices can not send files to Downloads.");
+                status = _("Disabled");
+                status_type = OFFLINE;
+            }
         } else {
-            update_state (ServiceState.NOT_AVAILABLE);
+            description = _("The bluetooth device is either disconnected or disabled. Check bluetooth settings and try again.");
+            status_type = ERROR;
+            status = _("Not Available");
         }
     }
 }

@@ -1,54 +1,37 @@
 /*
- * Copyright (c) 2016 elementary LLC (https://launchpad.net/switchboard-plug-sharing)
- *
- * This program is free software; you can redistribute it and/or
- * modify it under the terms of the GNU General Public
- * License as published by the Free Software Foundation; either
- * version 2 of the License, or (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public
- * License along with this program; if not, write to the
- * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- * Boston, MA 02110-1301 USA.
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ * SPDX-FileCopyrightText: 2016-2023 elementary, Inc. (https://elementary.io)
  */
 
-public class Sharing.Widgets.DLNAPage : SettingsPage {
+public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
     private Backend.RygelStartupManager rygel_startup_manager;
     private Backend.RygelConfigFile rygel_config_file;
 
-    private int content_grid_rows = 0;
+    private int content_area_rows = 0;
 
     public DLNAPage () {
-        base ("dlna",
-              _("Media Library"),
-              "applications-multimedia",
-              _("While enabled, the following media libraries are shared to compatible devices in your network."),
-              _("While disabled, the selected media libraries are unshared, and it won't stream files from your computer to other devices."));
-
-        switch_state_changed.connect ((state) => {
-            /* Make sure the configuration file exists */
-            if (rygel_config_file.save ()) {
-                rygel_startup_manager.set_service_enabled.begin (state);
-
-                update_state (state ? ServiceState.ENABLED : ServiceState.DISABLED);
-            }
-        });
-
-        set_service_state ();
+        Object (
+            activatable: true,
+            description: ""
+        );
     }
 
     construct {
+        title = _("Media Library");
+        icon_name = "applications-multimedia";
+
         rygel_startup_manager = new Backend.RygelStartupManager ();
         rygel_config_file = new Backend.RygelConfigFile ();
 
         add_media_entry ("music", _("Music"));
         add_media_entry ("videos", _("Videos"));
         add_media_entry ("pictures", _("Photos"));
+
+        set_service_state ();
+
+        status_switch.notify["active"].connect (() => {
+            set_service_state ();
+        });
     }
 
     private static string replace_xdg_folders (string folder_path) {
@@ -94,15 +77,28 @@ public class Sharing.Widgets.DLNAPage : SettingsPage {
             return false;
         });
 
-        content_grid.attach (entry_label, 0, content_grid_rows, 1, 1);
-        content_grid.attach (entry_file_chooser, 1, content_grid_rows, 1, 1);
-        content_grid.attach (entry_switch, 2, content_grid_rows, 1, 1);
+        content_area.attach (entry_label, 0, content_area_rows, 1, 1);
+        content_area.attach (entry_file_chooser, 1, content_area_rows, 1, 1);
+        content_area.attach (entry_switch, 2, content_area_rows, 1, 1);
 
-        content_grid_rows++;
+        content_area_rows++;
     }
 
     private void set_service_state () {
-        update_state (rygel_startup_manager.get_service_enabled () ? ServiceState.ENABLED : ServiceState.DISABLED);
-    }
+        /* Make sure the configuration file exists */
+        if (rygel_config_file.save ()) {
+            rygel_startup_manager.set_service_enabled.begin (status_switch.active);
 
+        }
+
+        if (status_switch.active) {
+            description = _("While enabled, the following media libraries are shared to compatible devices in your network.");
+            status = _("Enabled");
+            status_type = SUCCESS;
+        } else {
+            description = _("While disabled, the selected media libraries are unshared, and it won't stream files from your computer to other devices.");
+            status = _("Disabled");
+            status_type = OFFLINE;
+        }
+    }
 }
