@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-28 22:26+0000\n"
+"POT-Creation-Date: 2023-10-13 21:16+0000\n"
 "PO-Revision-Date: 2020-03-01 14:09+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -29,6 +29,7 @@ msgstr "分享"
 msgid "Configure file and media sharing"
 msgstr "設定檔案與媒體分享等設定"
 
-#: data/sharing.appdata.xml.in:13
+#: data/sharing.appdata.xml.in:13 data/sharing.appdata.xml.in:21
+#: data/sharing.appdata.xml.in:28
 msgid "Updated translations"
 msgstr ""
