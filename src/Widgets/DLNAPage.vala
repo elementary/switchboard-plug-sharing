@@ -129,6 +129,8 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
             attach (header, 2, 0);
             attach (location_button, 2, 1);
 
+            check.bind_property ("active", image, "sensitive");
+
             check.toggled.connect (() => {
                 config_file.set_media_type_enabled (media_type, check.active);
                 config_file.save ();
