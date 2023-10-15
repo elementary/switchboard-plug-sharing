@@ -1,9 +1,9 @@
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: switchboard-plug-sharing
-Source: https://launchpad.net/switchboard-plug-sharing
+Source: https://github.com/elementary/switchboard-plug-sharing
 
 Files: *
-Copyright: 2015 elementary LLC.
+Copyright: 2015-2023 elementary, Inc.
 License: GPL-3.0
  This program is free software; you can redistribute it and/or modify it under
  the terms of the GNU General Public License as published by the Free Software
