@@ -26,9 +26,9 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
         var pictures_entry = new MediaEntry ("pictures", _("Pictures Folder"), rygel_config_file);
 
         var box = new Gtk.Box (VERTICAL, 24);
-        box.add (music_entry);
-        box.add (videos_entry);
-        box.add (pictures_entry);
+        box.append (music_entry);
+        box.append (videos_entry);
+        box.append (pictures_entry);
 
         content_area.attach (box, 0, 0);
 
@@ -93,9 +93,10 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
                     break;
             }
 
-            var image = new Gtk.Image.from_icon_name (icon_name, DND) {
+            var image = new Gtk.Image.from_icon_name (icon_name) {
                 pixel_size = 32
             };
+            image.set_parent (check);
 
             var header = new Granite.HeaderLabel (label);
 
@@ -104,11 +105,11 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
                 hexpand = true
             };
 
-            var arrow = new Gtk.Image.from_icon_name ("view-more-horizontal-symbolic", BUTTON);
+            var arrow = new Gtk.Image.from_icon_name ("view-more-horizontal-symbolic");
 
             var location_button_box = new Gtk.Box (HORIZONTAL, 3);
-            location_button_box.add (folder_name);
-            location_button_box.add (arrow);
+            location_button_box.append (folder_name);
+            location_button_box.append (arrow);
 
             var location_button = new Gtk.Button () {
                 child = location_button_box
@@ -121,13 +122,18 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
                 _("Select"),
                 null
             );
-            location_dialog.set_current_folder (folder_dir);
 
-            column_spacing = 12;
+            try {
+                location_dialog.set_current_folder (File.new_for_path (folder_dir));
+            } catch (Error e) {
+                critical ("Couldn't set filechooser path: %s", e.message);
+            }
+
+            column_spacing = 6;
+            row_spacing = 3;
             attach (check, 0, 0, 1, 2);
-            attach (image, 1, 0, 1, 2);
-            attach (header, 2, 0);
-            attach (location_button, 2, 1);
+            attach (header, 1, 0);
+            attach (location_button, 1, 1);
 
             check.bind_property ("active", image, "sensitive");
 
@@ -137,7 +143,7 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
             });
 
             location_button.clicked.connect (() => {
-                location_dialog.run ();
+                location_dialog.show ();
             });
 
             folder_name.label = folder_dir;

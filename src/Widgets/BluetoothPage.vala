@@ -32,7 +32,7 @@ public class Sharing.Widgets.BluetoothPage : Granite.SimpleSettingsPage {
         );
         link_button.tooltip_text = "";
 
-        action_area.add (link_button);
+        action_area.append (link_button);
 
         bluetooth_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.bluetooth");
         bluetooth_settings.bind ("bluetooth-obex-enabled", status_switch, "active", SettingsBindFlags.NO_SENSITIVITY);

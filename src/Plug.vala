@@ -13,7 +13,7 @@ public class Sharing.Plug : Switchboard.Plug {
         var settings = new Gee.TreeMap<string, string?> (null, null);
         settings.set ("network/share", null);
         Object (category : Category.NETWORK,
-                code_name: "io.elementary.switchboard.sharing",
+                code_name: "io.elementary.settings.sharing",
                 display_name: _("Sharing"),
                 description: _("Configure file and media sharing"),
                 icon: "preferences-system-sharing",
@@ -22,20 +22,25 @@ public class Sharing.Plug : Switchboard.Plug {
 
     public override Gtk.Widget get_widget () {
         if (content == null) {
-            var network_alert_view = new Granite.Widgets.AlertView (
-                _("Network Is Not Available"),
-                _("While disconnected from the network, sharing services are not available."),
-                "network-error"
-            );
-            network_alert_view.get_style_context ().remove_class (Gtk.STYLE_CLASS_VIEW);
+            var network_alert_view = new Granite.Placeholder (
+                _("Network Is Not Available")
+            ) {
+                icon = new ThemedIcon ("network-error"),
+                description = _("While disconnected from the network, sharing services are not available.")
+            };
+            network_alert_view.remove_css_class (Granite.STYLE_CLASS_VIEW);
 
             var link_button = new Gtk.LinkButton.with_label ("settings://network", _("Network settings…"));
             link_button.halign = Gtk.Align.END;
             link_button.valign = Gtk.Align.END;
             link_button.vexpand = true;
 
-            var network_grid_view = new Gtk.Grid ();
-            network_grid_view.margin = 24;
+            var network_grid_view = new Gtk.Grid () {
+                margin_top = 12,
+                margin_end = 12,
+                margin_start = 12,
+                margin_bottom = 12
+            };
             network_grid_view.attach (network_alert_view, 0, 0, 1, 1);
             network_grid_view.attach (link_button, 0, 1, 1, 1);
 
@@ -43,19 +48,22 @@ public class Sharing.Plug : Switchboard.Plug {
             var bluetooth_page = new Widgets.BluetoothPage ();
 
             var settings_view = new Gtk.Stack ();
-            settings_view.add (dlna_page);
-            settings_view.add (bluetooth_page);
+            settings_view.add_child (dlna_page);
+            settings_view.add_child (bluetooth_page);
 
             var sidebar = new Granite.SettingsSidebar (settings_view);
 
-            var main_container = new Gtk.Paned (Gtk.Orientation.HORIZONTAL);
-            main_container.pack1 (sidebar, false, false);
-            main_container.pack2 (settings_view, true, false);
+            var main_container = new Gtk.Paned (Gtk.Orientation.HORIZONTAL) {
+                start_child = sidebar,
+                end_child = settings_view,
+                resize_start_child = false,
+                shrink_end_child = false,
+                shrink_start_child = false
+            };
 
             content = new Gtk.Stack ();
             content.add_named (main_container, "main-container");
             content.add_named (network_grid_view, "network-alert-view");
-            content.show_all ();
 
             NetworkMonitor.get_default ().network_changed.connect (() => update_content_view ());
 
