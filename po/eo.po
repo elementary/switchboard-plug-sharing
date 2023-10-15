@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 21:16+0000\n"
+"POT-Creation-Date: 2023-10-15 17:54+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
@@ -44,28 +44,25 @@ msgstr "Retaj agordoj…"
 msgid "Media library"
 msgstr "Aŭdvidaĵa biblioteko"
 
-#: src/Widgets/DLNAPage.vala:20
+#: src/Widgets/DLNAPage.vala:18
 msgid "Media Library"
 msgstr "Aŭdvidaĵa biblioteko"
 
-#: src/Widgets/DLNAPage.vala:26
-msgid "Music"
-msgstr "Muziko"
+#: src/Widgets/DLNAPage.vala:24
+msgid "Music Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:27
-msgid "Videos"
+#: src/Widgets/DLNAPage.vala:25
+#, fuzzy
+#| msgid "Videos"
+msgid "Videos Folder"
 msgstr "Videoj"
 
-#: src/Widgets/DLNAPage.vala:28
-msgid "Photos"
-msgstr "Fotoj"
+#: src/Widgets/DLNAPage.vala:26
+msgid "Pictures Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:52
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Elektu la dosierujon entenanta vian %s"
-
-#: src/Widgets/DLNAPage.vala:95
+#: src/Widgets/DLNAPage.vala:50
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -73,11 +70,11 @@ msgstr ""
 "Kiam ebligitaj, la sekvaj aŭdvidaĵaj bibliotekoj estas kundividitaj kun "
 "kongruaj aparatoj en via reto."
 
-#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
 msgid "Enabled"
 msgstr "Ebligita"
 
-#: src/Widgets/DLNAPage.vala:99
+#: src/Widgets/DLNAPage.vala:54
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -85,9 +82,17 @@ msgstr ""
 "Kiam malebligitaj, la elektitaj aŭdvidaĵaj bibliotekoj ne estas plu "
 "kundividitaj, kaj ne plu elsendos dosierojn de via komputilo al alia aparato."
 
-#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
 msgid "Disabled"
 msgstr "Malaktivigita"
+
+#: src/Widgets/DLNAPage.vala:118
+msgid "Select Screenshots Folder…"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:121
+msgid "Select"
+msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -124,6 +129,16 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:66
 msgid "Not Available"
 msgstr "Nedisponebla"
+
+#~ msgid "Music"
+#~ msgstr "Muziko"
+
+#~ msgid "Photos"
+#~ msgstr "Fotoj"
+
+#, c-format
+#~ msgid "Select the folder containing your %s"
+#~ msgstr "Elektu la dosierujon entenanta vian %s"
 
 #~ msgid "Connected"
 #~ msgstr "Konektita"

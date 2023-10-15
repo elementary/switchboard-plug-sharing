@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 21:16+0000\n"
+"POT-Creation-Date: 2023-10-15 17:54+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
@@ -45,28 +45,25 @@ msgstr "Nastavenia siete…"
 msgid "Media library"
 msgstr "Knižnica médií"
 
-#: src/Widgets/DLNAPage.vala:20
+#: src/Widgets/DLNAPage.vala:18
 msgid "Media Library"
 msgstr "Knižnica médií"
 
-#: src/Widgets/DLNAPage.vala:26
-msgid "Music"
-msgstr "Hudba"
+#: src/Widgets/DLNAPage.vala:24
+msgid "Music Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:27
-msgid "Videos"
+#: src/Widgets/DLNAPage.vala:25
+#, fuzzy
+#| msgid "Videos"
+msgid "Videos Folder"
 msgstr "Videá"
 
-#: src/Widgets/DLNAPage.vala:28
-msgid "Photos"
-msgstr "Fotografie"
+#: src/Widgets/DLNAPage.vala:26
+msgid "Pictures Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:52
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Vyberte priečinok obsahujúci vaše %s"
-
-#: src/Widgets/DLNAPage.vala:95
+#: src/Widgets/DLNAPage.vala:50
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -74,11 +71,11 @@ msgstr ""
 "Pokiaľ zapnuté, nasledujúce knižnice médií sú zdieľané do kompatibilných "
 "zariadení vo vašej sieti."
 
-#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
 msgid "Enabled"
 msgstr "Zapnuté"
 
-#: src/Widgets/DLNAPage.vala:99
+#: src/Widgets/DLNAPage.vala:54
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -86,9 +83,17 @@ msgstr ""
 "Pokiaľ vypnuté, nasledujúce knižnice médií a súbory nie sú zdieľané z vášho "
 "počítača do iných zariadení."
 
-#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
 msgid "Disabled"
 msgstr "Vypnuté"
+
+#: src/Widgets/DLNAPage.vala:118
+msgid "Select Screenshots Folder…"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:121
+msgid "Select"
+msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -125,6 +130,16 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:66
 msgid "Not Available"
 msgstr "Nedostupné"
+
+#~ msgid "Music"
+#~ msgstr "Hudba"
+
+#~ msgid "Photos"
+#~ msgstr "Fotografie"
+
+#, c-format
+#~ msgid "Select the folder containing your %s"
+#~ msgstr "Vyberte priečinok obsahujúci vaše %s"
 
 #~ msgid "Connected"
 #~ msgstr "Pripojené"

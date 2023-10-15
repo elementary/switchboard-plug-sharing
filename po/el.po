@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 21:16+0000\n"
+"POT-Creation-Date: 2023-10-15 17:54+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Greek <https://l10n.elementary.io/projects/switchboard/"
@@ -48,28 +48,25 @@ msgstr "Ρυθμίσεις δικτύου..."
 msgid "Media library"
 msgstr "Βιβλιοθήκη πολυμέσων"
 
-#: src/Widgets/DLNAPage.vala:20
+#: src/Widgets/DLNAPage.vala:18
 msgid "Media Library"
 msgstr "Βιβλιοθήκη πολυμέσων"
 
-#: src/Widgets/DLNAPage.vala:26
-msgid "Music"
-msgstr "Μουσική"
-
-#: src/Widgets/DLNAPage.vala:27
-msgid "Videos"
-msgstr "Βίντεο"
-
-#: src/Widgets/DLNAPage.vala:28
-msgid "Photos"
-msgstr "Φωτογραφίες"
-
-#: src/Widgets/DLNAPage.vala:52
-#, c-format
-msgid "Select the folder containing your %s"
+#: src/Widgets/DLNAPage.vala:24
+msgid "Music Folder"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:95
+#: src/Widgets/DLNAPage.vala:25
+#, fuzzy
+#| msgid "Videos"
+msgid "Videos Folder"
+msgstr "Βίντεο"
+
+#: src/Widgets/DLNAPage.vala:26
+msgid "Pictures Folder"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:50
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -77,11 +74,11 @@ msgstr ""
 "Όσο είναι ενεργοποιημένες, οι ακόλουθες βιβλιοθήκες πολυμέσων θα "
 "διαμοιράζονται σε συμβατές συσκευές στο δίκτυο σας."
 
-#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
 msgid "Enabled"
 msgstr "Ενεργοποιημένη"
 
-#: src/Widgets/DLNAPage.vala:99
+#: src/Widgets/DLNAPage.vala:54
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -90,9 +87,17 @@ msgstr ""
 "διαμοιράζονται και δε θα μεταδίδονται αρχεία από τον υπολογιστή σας σε άλλες "
 "συσκευές."
 
-#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
 msgid "Disabled"
 msgstr "Απενεργοποιημένη"
+
+#: src/Widgets/DLNAPage.vala:118
+msgid "Select Screenshots Folder…"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:121
+msgid "Select"
+msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -129,6 +134,12 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:66
 msgid "Not Available"
 msgstr "Μη διαθέσιμη"
+
+#~ msgid "Music"
+#~ msgstr "Μουσική"
+
+#~ msgid "Photos"
+#~ msgstr "Φωτογραφίες"
 
 #~ msgid "Connected"
 #~ msgstr "Συνδεδεμένο"

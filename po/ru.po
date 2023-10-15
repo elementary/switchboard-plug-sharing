@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 21:16+0000\n"
-"PO-Revision-Date: 2022-12-12 11:39+0000\n"
-"Last-Translator: Stas <SedovSG@yandex.ru>\n"
+"POT-Creation-Date: 2023-10-15 17:54+0000\n"
+"PO-Revision-Date: 2023-10-15 17:54+0000\n"
+"Last-Translator: кубик круглый <cubic@users.noreply.l10n.elementary.io>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/ru/>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2016-06-12 05:20+0000\n"
 
 #: src/Plug.vala:17
@@ -46,28 +46,25 @@ msgstr "Параметры сети…"
 msgid "Media library"
 msgstr "Медиатека"
 
-#: src/Widgets/DLNAPage.vala:20
+#: src/Widgets/DLNAPage.vala:18
 msgid "Media Library"
 msgstr "Медиатека"
 
-#: src/Widgets/DLNAPage.vala:26
-msgid "Music"
-msgstr "Музыка"
+#: src/Widgets/DLNAPage.vala:24
+msgid "Music Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:27
-msgid "Videos"
+#: src/Widgets/DLNAPage.vala:25
+#, fuzzy
+#| msgid "Videos"
+msgid "Videos Folder"
 msgstr "Видео"
 
-#: src/Widgets/DLNAPage.vala:28
-msgid "Photos"
-msgstr "Фотографии"
+#: src/Widgets/DLNAPage.vala:26
+msgid "Pictures Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:52
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Выберите папку, содержащую вашу %s"
-
-#: src/Widgets/DLNAPage.vala:95
+#: src/Widgets/DLNAPage.vala:50
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -75,11 +72,11 @@ msgstr ""
 "При включении, выбранные медиа-каталоги доступны для совместимых устройств "
 "вашей сети."
 
-#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
 msgid "Enabled"
 msgstr "Включено"
 
-#: src/Widgets/DLNAPage.vala:99
+#: src/Widgets/DLNAPage.vala:54
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -87,9 +84,17 @@ msgstr ""
 "При отключении, выбранные медиа-каталоги недоступны для совместимых "
 "устройств вашей сети."
 
-#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
 msgid "Disabled"
 msgstr "Отключено"
+
+#: src/Widgets/DLNAPage.vala:118
+msgid "Select Screenshots Folder…"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:121
+msgid "Select"
+msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -97,7 +102,7 @@ msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:20
 msgid "Ask before accepting files:"
-msgstr ""
+msgstr "Спрашивать перед принятием файлов:"
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "Bluetooth settings…"
@@ -125,6 +130,16 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:66
 msgid "Not Available"
 msgstr "Недоступно"
+
+#~ msgid "Music"
+#~ msgstr "Музыка"
+
+#~ msgid "Photos"
+#~ msgstr "Фотографии"
+
+#, c-format
+#~ msgid "Select the folder containing your %s"
+#~ msgstr "Выберите папку, содержащую вашу %s"
 
 #~ msgid "Connected"
 #~ msgstr "Подключено"

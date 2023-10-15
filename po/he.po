@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 21:16+0000\n"
-"PO-Revision-Date: 2022-12-12 11:39+0000\n"
+"POT-Creation-Date: 2023-10-15 17:54+0000\n"
+"PO-Revision-Date: 2023-10-15 17:54+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: src/Plug.vala:17
 msgid "Sharing"
@@ -44,38 +44,35 @@ msgstr "הגדרות רשת…"
 msgid "Media library"
 msgstr "ספריית מדיה"
 
-#: src/Widgets/DLNAPage.vala:20
+#: src/Widgets/DLNAPage.vala:18
 msgid "Media Library"
 msgstr "ספריית מדיה"
 
-#: src/Widgets/DLNAPage.vala:26
-msgid "Music"
-msgstr "מוזיקה"
+#: src/Widgets/DLNAPage.vala:24
+msgid "Music Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:27
-msgid "Videos"
+#: src/Widgets/DLNAPage.vala:25
+#, fuzzy
+#| msgid "Videos"
+msgid "Videos Folder"
 msgstr "סרטונים"
 
-#: src/Widgets/DLNAPage.vala:28
-msgid "Photos"
-msgstr "תמונות"
+#: src/Widgets/DLNAPage.vala:26
+msgid "Pictures Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:52
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "נא לבחור את התיקייה שמכילה את ה%s שלך"
-
-#: src/Widgets/DLNAPage.vala:95
+#: src/Widgets/DLNAPage.vala:50
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
 msgstr "כשהאפשרות פעילה, ספריות המדיה הבאות משותפות להתקנים תואמים ברשת שלך."
 
-#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
 msgid "Enabled"
 msgstr "פעיל"
 
-#: src/Widgets/DLNAPage.vala:99
+#: src/Widgets/DLNAPage.vala:54
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -83,9 +80,17 @@ msgstr ""
 "כשהאפשרות מושבתת, ספריות המדיה הבאות אינן משותפות ולא תהיה הזרמה של קבצים "
 "מהמחשב שלך להתקנים אחרים."
 
-#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
 msgid "Disabled"
 msgstr "מושבתת"
+
+#: src/Widgets/DLNAPage.vala:118
+msgid "Select Screenshots Folder…"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:121
+msgid "Select"
+msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -93,7 +98,7 @@ msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:20
 msgid "Ask before accepting files:"
-msgstr ""
+msgstr "לשאול בטרם קבלת קבצים:"
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "Bluetooth settings…"
@@ -116,6 +121,16 @@ msgstr "התקן הבלוטות׳ מנותק או מושבת. נא לבדוק א
 #: src/Widgets/BluetoothPage.vala:66
 msgid "Not Available"
 msgstr "לא זמין"
+
+#~ msgid "Music"
+#~ msgstr "מוזיקה"
+
+#~ msgid "Photos"
+#~ msgstr "תמונות"
+
+#, c-format
+#~ msgid "Select the folder containing your %s"
+#~ msgstr "נא לבחור את התיקייה שמכילה את ה%s שלך"
 
 #~ msgid "Connected"
 #~ msgstr "יש חיבור"

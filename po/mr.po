@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 21:16+0000\n"
+"POT-Creation-Date: 2023-10-15 17:54+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -44,28 +44,25 @@ msgstr "नेटवर्क सेटिंग्ज…"
 msgid "Media library"
 msgstr "मीडिया लायब्ररी"
 
-#: src/Widgets/DLNAPage.vala:20
+#: src/Widgets/DLNAPage.vala:18
 msgid "Media Library"
 msgstr "मीडिया लायब्ररी"
 
-#: src/Widgets/DLNAPage.vala:26
-msgid "Music"
-msgstr "संगीत"
+#: src/Widgets/DLNAPage.vala:24
+msgid "Music Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:27
-msgid "Videos"
+#: src/Widgets/DLNAPage.vala:25
+#, fuzzy
+#| msgid "Videos"
+msgid "Videos Folder"
 msgstr "व्हिडिओ"
 
-#: src/Widgets/DLNAPage.vala:28
-msgid "Photos"
-msgstr "फोटो"
+#: src/Widgets/DLNAPage.vala:26
+msgid "Pictures Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:52
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "तुमचे %s असलेले फोल्डर निवडा"
-
-#: src/Widgets/DLNAPage.vala:95
+#: src/Widgets/DLNAPage.vala:50
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -73,11 +70,11 @@ msgstr ""
 "सक्षम असताना, खालील मीडिया लायब्ररी आपल्या नेटवर्कमधील सुसंगत डिव्हाइसेसवर सामायिक "
 "केल्या जातात."
 
-#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
 msgid "Enabled"
 msgstr "सक्षम"
 
-#: src/Widgets/DLNAPage.vala:99
+#: src/Widgets/DLNAPage.vala:54
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -85,9 +82,17 @@ msgstr ""
 "अक्षम असताना, निवडलेले माध्यम लायब्ररीज असामायिक असतात आणि त्या आपल्या संगणकावरील "
 "फायली इतर डिव्हाइसेसवर प्रवाहित केल्या जाऊ शकणार नाहीत."
 
-#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
 msgid "Disabled"
 msgstr "अक्षम"
+
+#: src/Widgets/DLNAPage.vala:118
+msgid "Select Screenshots Folder…"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:121
+msgid "Select"
+msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -120,6 +125,16 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:66
 msgid "Not Available"
 msgstr "उपलब्ध नाही"
+
+#~ msgid "Music"
+#~ msgstr "संगीत"
+
+#~ msgid "Photos"
+#~ msgstr "फोटो"
+
+#, c-format
+#~ msgid "Select the folder containing your %s"
+#~ msgstr "तुमचे %s असलेले फोल्डर निवडा"
 
 #~ msgid "Connected"
 #~ msgstr "जोडलेले"
