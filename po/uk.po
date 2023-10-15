@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-15 17:54+0000\n"
+"POT-Creation-Date: 2023-10-15 19:33+0000\n"
 "PO-Revision-Date: 2023-10-15 17:54+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -33,16 +33,16 @@ msgstr "Налаштування надсилання файлів та меді
 msgid "Network Is Not Available"
 msgstr "Мережа недоступна"
 
-#: src/Plug.vala:27
+#: src/Plug.vala:29
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "Поки від'єднано від мережі, служба спільного доступу недоступна."
 
-#: src/Plug.vala:32
+#: src/Plug.vala:33
 msgid "Network settings…"
 msgstr "Налаштування мережі…"
 
-#: src/Plug.vala:80
+#: src/Plug.vala:88
 msgid "Media library"
 msgstr "Медіабібліотека"
 
@@ -88,11 +88,11 @@ msgstr ""
 msgid "Disabled"
 msgstr "Вимкнено"
 
-#: src/Widgets/DLNAPage.vala:118
+#: src/Widgets/DLNAPage.vala:119
 msgid "Select Screenshots Folder…"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:121
+#: src/Widgets/DLNAPage.vala:122
 msgid "Select"
 msgstr ""
 

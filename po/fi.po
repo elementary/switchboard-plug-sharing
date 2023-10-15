@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-15 17:54+0000\n"
+"POT-Creation-Date: 2023-10-15 19:33+0000\n"
 "PO-Revision-Date: 2023-10-15 17:54+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -32,17 +32,17 @@ msgstr "Määritä tiedostojen ja median jakaminen"
 msgid "Network Is Not Available"
 msgstr "Verkko ei ole käytettävissä"
 
-#: src/Plug.vala:27
+#: src/Plug.vala:29
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
 "Kun yhteys verkkoon on katkaistu, jakamispalvelut eivät ole käytettävissä."
 
-#: src/Plug.vala:32
+#: src/Plug.vala:33
 msgid "Network settings…"
 msgstr "Verkkoasetukset…"
 
-#: src/Plug.vala:80
+#: src/Plug.vala:88
 msgid "Media library"
 msgstr "Mediakirjasto"
 
@@ -88,11 +88,11 @@ msgstr ""
 msgid "Disabled"
 msgstr "Pois käytöstä"
 
-#: src/Widgets/DLNAPage.vala:118
+#: src/Widgets/DLNAPage.vala:119
 msgid "Select Screenshots Folder…"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:121
+#: src/Widgets/DLNAPage.vala:122
 msgid "Select"
 msgstr ""
 

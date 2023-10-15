@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-15 17:54+0000\n"
+"POT-Creation-Date: 2023-10-15 19:33+0000\n"
 "PO-Revision-Date: 2022-12-12 11:38+0000\n"
 "Last-Translator: Danielle Foré <danielle@elementary.io>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -32,16 +32,16 @@ msgstr "設定檔案與媒體分享等設定"
 msgid "Network Is Not Available"
 msgstr "網路無法使用"
 
-#: src/Plug.vala:27
+#: src/Plug.vala:29
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "當網路斷線時，分享服務便無法使用。"
 
-#: src/Plug.vala:32
+#: src/Plug.vala:33
 msgid "Network settings…"
 msgstr "網路設定值…"
 
-#: src/Plug.vala:80
+#: src/Plug.vala:88
 #, fuzzy
 msgid "Media library"
 msgstr "媒體庫"
@@ -84,11 +84,11 @@ msgstr "停用時，選取的媒體庫不會分享，也不會將檔案從您的
 msgid "Disabled"
 msgstr "已停用"
 
-#: src/Widgets/DLNAPage.vala:118
+#: src/Widgets/DLNAPage.vala:119
 msgid "Select Screenshots Folder…"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:121
+#: src/Widgets/DLNAPage.vala:122
 msgid "Select"
 msgstr ""
 

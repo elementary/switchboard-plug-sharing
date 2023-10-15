@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-15 17:54+0000\n"
+"POT-Creation-Date: 2023-10-15 19:33+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -31,16 +31,16 @@ msgstr "फाइल आणि मीडिया सामायिकरण �
 msgid "Network Is Not Available"
 msgstr "नेटवर्क उपलब्ध नाही"
 
-#: src/Plug.vala:27
+#: src/Plug.vala:29
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "नेटवर्कवरून डिस्कनेक्ट केल्यानंतर, सामायिकरण सेवा उपलब्ध नसतात."
 
-#: src/Plug.vala:32
+#: src/Plug.vala:33
 msgid "Network settings…"
 msgstr "नेटवर्क सेटिंग्ज…"
 
-#: src/Plug.vala:80
+#: src/Plug.vala:88
 msgid "Media library"
 msgstr "मीडिया लायब्ररी"
 
@@ -86,11 +86,11 @@ msgstr ""
 msgid "Disabled"
 msgstr "अक्षम"
 
-#: src/Widgets/DLNAPage.vala:118
+#: src/Widgets/DLNAPage.vala:119
 msgid "Select Screenshots Folder…"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:121
+#: src/Widgets/DLNAPage.vala:122
 msgid "Select"
 msgstr ""
 

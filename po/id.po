@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-15 17:54+0000\n"
+"POT-Creation-Date: 2023-10-15 19:33+0000\n"
 "PO-Revision-Date: 2023-06-01 14:07+0000\n"
 "Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
 "io>\n"
@@ -32,16 +32,16 @@ msgstr "Konfigurasikan berbagi berkas dan media"
 msgid "Network Is Not Available"
 msgstr "Jaringan Tidak Tersedia"
 
-#: src/Plug.vala:27
+#: src/Plug.vala:29
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "Saat terputus dari jaringan, layanan berbagi tidak tersedia."
 
-#: src/Plug.vala:32
+#: src/Plug.vala:33
 msgid "Network settings…"
 msgstr "Pengaturan jaringan…"
 
-#: src/Plug.vala:80
+#: src/Plug.vala:88
 msgid "Media library"
 msgstr "Pustaka media"
 
@@ -85,11 +85,11 @@ msgstr ""
 msgid "Disabled"
 msgstr "Nonaktifkan"
 
-#: src/Widgets/DLNAPage.vala:118
+#: src/Widgets/DLNAPage.vala:119
 msgid "Select Screenshots Folder…"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:121
+#: src/Widgets/DLNAPage.vala:122
 msgid "Select"
 msgstr ""
 

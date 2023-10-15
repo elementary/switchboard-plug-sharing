@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-15 17:54+0000\n"
+"POT-Creation-Date: 2023-10-15 19:33+0000\n"
 "PO-Revision-Date: 2023-10-15 17:54+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
@@ -31,16 +31,16 @@ msgstr "הגדרת שיתוף קבצים ומדיה"
 msgid "Network Is Not Available"
 msgstr "אין רשת זמינה"
 
-#: src/Plug.vala:27
+#: src/Plug.vala:29
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "בהעדר חיבור לרשת, שירותי השיתוף אינם זמינים."
 
-#: src/Plug.vala:32
+#: src/Plug.vala:33
 msgid "Network settings…"
 msgstr "הגדרות רשת…"
 
-#: src/Plug.vala:80
+#: src/Plug.vala:88
 msgid "Media library"
 msgstr "ספריית מדיה"
 
@@ -84,11 +84,11 @@ msgstr ""
 msgid "Disabled"
 msgstr "מושבתת"
 
-#: src/Widgets/DLNAPage.vala:118
+#: src/Widgets/DLNAPage.vala:119
 msgid "Select Screenshots Folder…"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:121
+#: src/Widgets/DLNAPage.vala:122
 msgid "Select"
 msgstr ""
 

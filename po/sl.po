@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-15 17:54+0000\n"
+"POT-Creation-Date: 2023-10-15 19:33+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
@@ -33,16 +33,16 @@ msgstr "Nastavitve souporabe datotek in večpredstavnosti"
 msgid "Network Is Not Available"
 msgstr "Omrežje ni na voljo"
 
-#: src/Plug.vala:27
+#: src/Plug.vala:29
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "Souporaba ni na voljo brez omrežne povezave."
 
-#: src/Plug.vala:32
+#: src/Plug.vala:33
 msgid "Network settings…"
 msgstr "Omrežne nastavitve…"
 
-#: src/Plug.vala:80
+#: src/Plug.vala:88
 #, fuzzy
 msgid "Media library"
 msgstr "Medijska knjižnica"
@@ -89,11 +89,11 @@ msgstr ""
 msgid "Disabled"
 msgstr "Onemogočeno"
 
-#: src/Widgets/DLNAPage.vala:118
+#: src/Widgets/DLNAPage.vala:119
 msgid "Select Screenshots Folder…"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:121
+#: src/Widgets/DLNAPage.vala:122
 msgid "Select"
 msgstr ""
 
