@@ -96,6 +96,7 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
             var image = new Gtk.Image.from_icon_name (icon_name) {
                 pixel_size = 32
             };
+            image.set_parent (check);
 
             var header = new Granite.HeaderLabel (label);
 
@@ -128,11 +129,11 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
                 critical ("Couldn't set filechooser path: %s", e.message);
             }
 
-            column_spacing = 12;
+            column_spacing = 6;
+            row_spacing = 3;
             attach (check, 0, 0, 1, 2);
-            attach (image, 1, 0, 1, 2);
-            attach (header, 2, 0);
-            attach (location_button, 2, 1);
+            attach (header, 1, 0);
+            attach (location_button, 1, 1);
 
             check.bind_property ("active", image, "sensitive");
 
