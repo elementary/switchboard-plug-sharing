@@ -1,4 +1,4 @@
-# Switchboard Sharing Plug
+# Sharing Settings
 [![Translation status](https://l10n.elementary.io/widgets/switchboard/-/switchboard-plug-sharing/svg-badge.svg)](https://l10n.elementary.io/engage/switchboard/?utm_source=widget)
 
 ![Screenshot](data/screenshot.png?raw=true)
@@ -7,9 +7,9 @@
 
 You'll need the following dependencies:
 
-* libgranite-dev
-* libgtk-3-dev
-* libswitchboard-2.0-dev
+* libgranite-7-dev
+* libgtk-4-dev
+* libswitchboard-3-dev
 * meson
 * valac
 
@@ -21,4 +21,4 @@ Run `meson` to configure the build environment and then `ninja` to build
 
 To install, use `ninja install`
 
-    sudo ninja install
+    ninja install

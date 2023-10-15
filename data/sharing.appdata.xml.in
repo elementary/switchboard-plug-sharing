@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="addon">
-  <id>io.elementary.switchboard.sharing</id>
-  <extends>io.elementary.switchboard</extends>
+  <id>io.elementary.settings.sharing</id>
+  <extends>io.elementary.settings</extends>
   <name>Sharing Settings</name>
   <summary>Configure file and media sharing</summary>
   <icon type="stock">preferences-system-sharing</icon>
-  <translation type="gettext">sharing-plug</translation>
+  <translation type="gettext">io.elementary.settings.sharing</translation>
   <releases>
     <release version="2.1.6" date="2022-10-20" urgency="medium">
       <description>
