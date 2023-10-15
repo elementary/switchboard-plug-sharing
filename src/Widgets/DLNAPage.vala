@@ -143,8 +143,11 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
             folder_name.label = folder_dir;
             location_dialog.response.connect ((response) => {
                 if (response == Gtk.ResponseType.ACCEPT) {
-                    var file = location_dialog.get_file ();
-                    folder_name.label = file.get_path ();
+                    var file_path = location_dialog.get_file ().get_path ();
+                    folder_name.label = file_path;
+
+                    config_file.set_media_type_folder (media_type, file_path);
+                    config_file.save ();
                 }
             });
         }
