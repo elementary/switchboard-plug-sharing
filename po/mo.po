@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 21:16+0000\n"
+"POT-Creation-Date: 2023-10-15 17:54+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Moldovan <https://l10n.elementary.io/projects/switchboard/"
@@ -47,28 +47,25 @@ msgstr "Setări de rețea…"
 msgid "Media library"
 msgstr "Biblioteca media"
 
-#: src/Widgets/DLNAPage.vala:20
+#: src/Widgets/DLNAPage.vala:18
 msgid "Media Library"
 msgstr "Biblioteca media"
 
-#: src/Widgets/DLNAPage.vala:26
-msgid "Music"
-msgstr "Muzică"
+#: src/Widgets/DLNAPage.vala:24
+msgid "Music Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:27
-msgid "Videos"
+#: src/Widgets/DLNAPage.vala:25
+#, fuzzy
+#| msgid "Videos"
+msgid "Videos Folder"
 msgstr "Video"
 
-#: src/Widgets/DLNAPage.vala:28
-msgid "Photos"
-msgstr "Fotografii"
+#: src/Widgets/DLNAPage.vala:26
+msgid "Pictures Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:52
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Selectați dosarul care conține %s 1"
-
-#: src/Widgets/DLNAPage.vala:95
+#: src/Widgets/DLNAPage.vala:50
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -76,11 +73,11 @@ msgstr ""
 "În timp ce sunt activate, următoarele biblioteci media sunt partajate cu "
 "dispozitive compatibile din rețea."
 
-#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
 msgid "Enabled"
 msgstr "Activat"
 
-#: src/Widgets/DLNAPage.vala:99
+#: src/Widgets/DLNAPage.vala:54
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -88,9 +85,17 @@ msgstr ""
 "În timp ce sunt dezactivate, bibliotecile media selectate sunt partajate și "
 "nu vor fi redate fișiere de pe computer pe alte dispozitive."
 
-#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
 msgid "Disabled"
 msgstr "Dezactivat"
+
+#: src/Widgets/DLNAPage.vala:118
+msgid "Select Screenshots Folder…"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:121
+msgid "Select"
+msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -127,6 +132,16 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:66
 msgid "Not Available"
 msgstr "Nu e disponibil"
+
+#~ msgid "Music"
+#~ msgstr "Muzică"
+
+#~ msgid "Photos"
+#~ msgstr "Fotografii"
+
+#, c-format
+#~ msgid "Select the folder containing your %s"
+#~ msgstr "Selectați dosarul care conține %s 1"
 
 #~ msgid "Connected"
 #~ msgstr "Conectat"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 21:16+0000\n"
+"POT-Creation-Date: 2023-10-15 17:54+0000\n"
 "PO-Revision-Date: 2022-12-28 22:25+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
@@ -47,28 +47,25 @@ msgstr "Hálózati beállítások…"
 msgid "Media library"
 msgstr "Médiagyűjtemény"
 
-#: src/Widgets/DLNAPage.vala:20
+#: src/Widgets/DLNAPage.vala:18
 msgid "Media Library"
 msgstr "Médiagyűjtemény"
 
-#: src/Widgets/DLNAPage.vala:26
-msgid "Music"
-msgstr "Zenék"
+#: src/Widgets/DLNAPage.vala:24
+msgid "Music Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:27
-msgid "Videos"
+#: src/Widgets/DLNAPage.vala:25
+#, fuzzy
+#| msgid "Videos"
+msgid "Videos Folder"
 msgstr "Videók"
 
-#: src/Widgets/DLNAPage.vala:28
-msgid "Photos"
-msgstr "Képek"
+#: src/Widgets/DLNAPage.vala:26
+msgid "Pictures Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:52
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Válassza ki a mappát, amiben %s találhatók"
-
-#: src/Widgets/DLNAPage.vala:95
+#: src/Widgets/DLNAPage.vala:50
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -76,11 +73,11 @@ msgstr ""
 "Amíg engedélyezve van, a következő médiagyűjtemények megosztásra kerülnek a "
 "hálózatban lévő kompatibilis eszközökkel."
 
-#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
 msgid "Enabled"
 msgstr "Engedélyezve"
 
-#: src/Widgets/DLNAPage.vala:99
+#: src/Widgets/DLNAPage.vala:54
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -88,9 +85,17 @@ msgstr ""
 "Ha le van tiltva, a kiválasztott médiakönyvtárak nem lesznek megosztva, és a "
 "fájlok a számítógépéről nem lesznek továbbítva más eszközökre."
 
-#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
 msgid "Disabled"
 msgstr "Kikapcsolva"
+
+#: src/Widgets/DLNAPage.vala:118
+msgid "Select Screenshots Folder…"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:121
+msgid "Select"
+msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -127,6 +132,16 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:66
 msgid "Not Available"
 msgstr "Nem érhető el"
+
+#~ msgid "Music"
+#~ msgstr "Zenék"
+
+#~ msgid "Photos"
+#~ msgstr "Képek"
+
+#, c-format
+#~ msgid "Select the folder containing your %s"
+#~ msgstr "Válassza ki a mappát, amiben %s találhatók"
 
 #~ msgid "Connected"
 #~ msgstr "Kapcsolódva"

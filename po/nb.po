@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 21:16+0000\n"
+"POT-Creation-Date: 2023-10-15 17:54+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -46,28 +46,25 @@ msgstr "Nettverksinnstillinger…"
 msgid "Media library"
 msgstr "Mediebibliotek"
 
-#: src/Widgets/DLNAPage.vala:20
+#: src/Widgets/DLNAPage.vala:18
 msgid "Media Library"
 msgstr "Mediebibliotek"
 
-#: src/Widgets/DLNAPage.vala:26
-msgid "Music"
-msgstr "Musikk"
+#: src/Widgets/DLNAPage.vala:24
+msgid "Music Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:27
-msgid "Videos"
+#: src/Widgets/DLNAPage.vala:25
+#, fuzzy
+#| msgid "Videos"
+msgid "Videos Folder"
 msgstr "Videoer"
 
-#: src/Widgets/DLNAPage.vala:28
-msgid "Photos"
-msgstr "Bilder"
+#: src/Widgets/DLNAPage.vala:26
+msgid "Pictures Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:52
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Velg mappen som inneholder dine %s"
-
-#: src/Widgets/DLNAPage.vala:95
+#: src/Widgets/DLNAPage.vala:50
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -75,11 +72,11 @@ msgstr ""
 "Når påslått, er følgende mediebibliotek delt til kompatible enheter i "
 "nettverket ditt."
 
-#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
 msgid "Enabled"
 msgstr "Påslått"
 
-#: src/Widgets/DLNAPage.vala:99
+#: src/Widgets/DLNAPage.vala:54
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -87,9 +84,17 @@ msgstr ""
 "Mens avslått er de valgte mediebibliotekene udelt, og det vil ikke strømme "
 "filer fra din datamaskin til andre enheter."
 
-#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
 msgid "Disabled"
 msgstr "Slått av"
+
+#: src/Widgets/DLNAPage.vala:118
+msgid "Select Screenshots Folder…"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:121
+msgid "Select"
+msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -123,6 +128,16 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:66
 msgid "Not Available"
 msgstr "Ikke tilgjengelig"
+
+#~ msgid "Music"
+#~ msgstr "Musikk"
+
+#~ msgid "Photos"
+#~ msgstr "Bilder"
+
+#, c-format
+#~ msgid "Select the folder containing your %s"
+#~ msgstr "Velg mappen som inneholder dine %s"
 
 #~ msgid "Connected"
 #~ msgstr "Tilkoblet"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 21:16+0000\n"
+"POT-Creation-Date: 2023-10-15 17:54+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
@@ -47,28 +47,25 @@ msgstr "Definições de rede…"
 msgid "Media library"
 msgstr "Biblioteca Multimédia"
 
-#: src/Widgets/DLNAPage.vala:20
+#: src/Widgets/DLNAPage.vala:18
 msgid "Media Library"
 msgstr "Biblioteca Multimédia"
 
-#: src/Widgets/DLNAPage.vala:26
-msgid "Music"
-msgstr "Música"
+#: src/Widgets/DLNAPage.vala:24
+msgid "Music Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:27
-msgid "Videos"
+#: src/Widgets/DLNAPage.vala:25
+#, fuzzy
+#| msgid "Videos"
+msgid "Videos Folder"
 msgstr "Vídeos"
 
-#: src/Widgets/DLNAPage.vala:28
-msgid "Photos"
-msgstr "Fotos"
+#: src/Widgets/DLNAPage.vala:26
+msgid "Pictures Folder"
+msgstr ""
 
-#: src/Widgets/DLNAPage.vala:52
-#, c-format
-msgid "Select the folder containing your %s"
-msgstr "Selecione a pasta de %s"
-
-#: src/Widgets/DLNAPage.vala:95
+#: src/Widgets/DLNAPage.vala:50
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -76,11 +73,11 @@ msgstr ""
 "Quando ativo, as seguintes bibliotecas de multimédia são partilhadas com os "
 "dispositivos compatíveis na sua rede."
 
-#: src/Widgets/DLNAPage.vala:96 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
 msgid "Enabled"
 msgstr "Ativo"
 
-#: src/Widgets/DLNAPage.vala:99
+#: src/Widgets/DLNAPage.vala:54
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -88,9 +85,17 @@ msgstr ""
 "Quando inativo, as seguintes bibliotecas de multimédia não são partilhadas e "
 "os ficheiros não são transmitidos do seu computador para outros dispositivos."
 
-#: src/Widgets/DLNAPage.vala:100 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
 msgid "Disabled"
 msgstr "Desativado"
+
+#: src/Widgets/DLNAPage.vala:118
+msgid "Select Screenshots Folder…"
+msgstr ""
+
+#: src/Widgets/DLNAPage.vala:121
+msgid "Select"
+msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -127,6 +132,16 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:66
 msgid "Not Available"
 msgstr "Não Disponível"
+
+#~ msgid "Music"
+#~ msgstr "Música"
+
+#~ msgid "Photos"
+#~ msgstr "Fotos"
+
+#, c-format
+#~ msgid "Select the folder containing your %s"
+#~ msgstr "Selecione a pasta de %s"
 
 #~ msgid "Connected"
 #~ msgstr "Ligado"
