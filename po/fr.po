@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-15 19:33+0000\n"
+"POT-Creation-Date: 2023-10-16 13:00+0000\n"
 "PO-Revision-Date: 2023-10-16 13:00+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -89,8 +89,10 @@ msgid "Disabled"
 msgstr "Désactivé"
 
 #: src/Widgets/DLNAPage.vala:119
-msgid "Select Screenshots Folder…"
-msgstr "Sélectionner le dossier des captures d'écran…"
+#, fuzzy, c-format
+#| msgid "Select"
+msgid "Select %s…"
+msgstr "Sélectionner"
 
 #: src/Widgets/DLNAPage.vala:122
 msgid "Select"
@@ -131,6 +133,9 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:66
 msgid "Not Available"
 msgstr "Indisponible"
+
+#~ msgid "Select Screenshots Folder…"
+#~ msgstr "Sélectionner le dossier des captures d'écran…"
 
 #~ msgid "Music"
 #~ msgstr "Musique"

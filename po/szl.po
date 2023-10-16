@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-15 19:33+0000\n"
+"POT-Creation-Date: 2023-10-16 13:00+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Silesian <https://l10n.elementary.io/projects/switchboard/"
@@ -76,7 +76,8 @@ msgid "Disabled"
 msgstr ""
 
 #: src/Widgets/DLNAPage.vala:119
-msgid "Select Screenshots Folder…"
+#, c-format
+msgid "Select %s…"
 msgstr ""
 
 #: src/Widgets/DLNAPage.vala:122
