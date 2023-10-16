@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-16 13:00+0000\n"
-"PO-Revision-Date: 2023-10-16 13:00+0000\n"
+"PO-Revision-Date: 2023-10-19 00:10+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/he/>\n"
@@ -83,10 +83,9 @@ msgid "Disabled"
 msgstr "מושבתת"
 
 #: src/Widgets/DLNAPage.vala:119
-#, fuzzy, c-format
-#| msgid "Select"
+#, c-format
 msgid "Select %s…"
-msgstr "בחירה"
+msgstr "בחירה ב־%s…"
 
 #: src/Widgets/DLNAPage.vala:122
 msgid "Select"
