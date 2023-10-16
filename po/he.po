@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-15 19:33+0000\n"
-"PO-Revision-Date: 2023-10-15 17:54+0000\n"
+"PO-Revision-Date: 2023-10-16 13:00+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/he/>\n"
@@ -50,17 +50,15 @@ msgstr "ספריית מדיה"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Music Folder"
-msgstr ""
+msgstr "תיקיית מוזיקה"
 
 #: src/Widgets/DLNAPage.vala:25
-#, fuzzy
-#| msgid "Videos"
 msgid "Videos Folder"
-msgstr "סרטונים"
+msgstr "תיקיית סרטונים"
 
 #: src/Widgets/DLNAPage.vala:26
 msgid "Pictures Folder"
-msgstr ""
+msgstr "תיקיית תמונות"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid ""
@@ -86,11 +84,11 @@ msgstr "מושבתת"
 
 #: src/Widgets/DLNAPage.vala:119
 msgid "Select Screenshots Folder…"
-msgstr ""
+msgstr "בחירת תיקיית צילומי מסך…"
 
 #: src/Widgets/DLNAPage.vala:122
 msgid "Select"
-msgstr ""
+msgstr "בחירה"
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
