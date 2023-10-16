@@ -116,7 +116,7 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
             };
 
             var location_dialog = new Gtk.FileChooserNative (
-                _("Select Screenshots Folder…"),
+                _("Select %s…").printf (label),
                 ((Gtk.Application) Application.get_default ()).active_window,
                 Gtk.FileChooserAction.SELECT_FOLDER,
                 _("Select"),
