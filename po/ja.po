@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-15 19:33+0000\n"
-"PO-Revision-Date: 2023-10-15 17:54+0000\n"
+"PO-Revision-Date: 2023-10-16 13:00+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/ja/>\n"
@@ -51,17 +51,15 @@ msgstr "メディアライブラリ"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Music Folder"
-msgstr ""
+msgstr "音楽フォルダー"
 
 #: src/Widgets/DLNAPage.vala:25
-#, fuzzy
-#| msgid "Videos"
 msgid "Videos Folder"
-msgstr "動画"
+msgstr "動画フォルダー"
 
 #: src/Widgets/DLNAPage.vala:26
 msgid "Pictures Folder"
-msgstr ""
+msgstr "写真フォルダー"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid ""
@@ -89,11 +87,11 @@ msgstr "無効"
 
 #: src/Widgets/DLNAPage.vala:119
 msgid "Select Screenshots Folder…"
-msgstr ""
+msgstr "スクリーンショットフォルダーを選択…"
 
 #: src/Widgets/DLNAPage.vala:122
 msgid "Select"
-msgstr ""
+msgstr "選択"
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
