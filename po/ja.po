@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-16 13:00+0000\n"
-"PO-Revision-Date: 2023-10-16 13:00+0000\n"
+"PO-Revision-Date: 2023-10-19 00:10+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/ja/>\n"
@@ -86,10 +86,9 @@ msgid "Disabled"
 msgstr "無効"
 
 #: src/Widgets/DLNAPage.vala:119
-#, fuzzy, c-format
-#| msgid "Select"
+#, c-format
 msgid "Select %s…"
-msgstr "選択"
+msgstr "%sを選択…"
 
 #: src/Widgets/DLNAPage.vala:122
 msgid "Select"
