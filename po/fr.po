@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-15 19:33+0000\n"
-"PO-Revision-Date: 2022-12-12 11:39+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-10-16 13:00+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2016-07-18 05:41+0000\n"
 
 #: src/Plug.vala:17
@@ -53,17 +53,15 @@ msgstr "Bibliothèque Médias"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Music Folder"
-msgstr ""
+msgstr "Dossier Musique"
 
 #: src/Widgets/DLNAPage.vala:25
-#, fuzzy
-#| msgid "Videos"
 msgid "Videos Folder"
-msgstr "Vidéos"
+msgstr "Dossier Vidéos"
 
 #: src/Widgets/DLNAPage.vala:26
 msgid "Pictures Folder"
-msgstr ""
+msgstr "Dossier Images"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid ""
@@ -92,11 +90,11 @@ msgstr "Désactivé"
 
 #: src/Widgets/DLNAPage.vala:119
 msgid "Select Screenshots Folder…"
-msgstr ""
+msgstr "Sélectionner le dossier des captures d'écran…"
 
 #: src/Widgets/DLNAPage.vala:122
 msgid "Select"
-msgstr ""
+msgstr "Sélectionner"
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -104,7 +102,7 @@ msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:20
 msgid "Ask before accepting files:"
-msgstr ""
+msgstr "Demander avant d'accepter les fichiers :"
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "Bluetooth settings…"
