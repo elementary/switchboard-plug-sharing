@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.settings.sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-15 19:33+0000\n"
+"POT-Creation-Date: 2023-10-16 13:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +79,8 @@ msgid "Disabled"
 msgstr ""
 
 #: src/Widgets/DLNAPage.vala:119
-msgid "Select Screenshots Folder…"
+#, c-format
+msgid "Select %s…"
 msgstr ""
 
 #: src/Widgets/DLNAPage.vala:122
