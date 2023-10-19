@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-16 13:00+0000\n"
-"PO-Revision-Date: 2022-12-12 11:38+0000\n"
-"Last-Translator: Cleiton Floss <cleitonfloss@tutanota.de>\n"
+"PO-Revision-Date: 2023-10-20 18:10+0000\n"
+"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/pl/>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2016-06-16 05:22+0000\n"
 
 #: src/Plug.vala:17
@@ -53,17 +53,15 @@ msgstr "Biblioteka mediów"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Music Folder"
-msgstr ""
+msgstr "Katalog z muzyką"
 
 #: src/Widgets/DLNAPage.vala:25
-#, fuzzy
-#| msgid "Videos"
 msgid "Videos Folder"
-msgstr "Filmy"
+msgstr "Katalog z filmami"
 
 #: src/Widgets/DLNAPage.vala:26
 msgid "Pictures Folder"
-msgstr ""
+msgstr "Katalog z obrazami"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid ""
@@ -93,11 +91,11 @@ msgstr "Wyłączone"
 #: src/Widgets/DLNAPage.vala:119
 #, c-format
 msgid "Select %s…"
-msgstr ""
+msgstr "Wybierz %s…"
 
 #: src/Widgets/DLNAPage.vala:122
 msgid "Select"
-msgstr ""
+msgstr "Wybierz"
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -105,7 +103,7 @@ msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:20
 msgid "Ask before accepting files:"
-msgstr ""
+msgstr "Pytaj przed akceptacją plików:"
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "Bluetooth settings…"
