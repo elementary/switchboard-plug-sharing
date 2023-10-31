@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-16 13:00+0000\n"
-"PO-Revision-Date: 2023-10-15 17:54+0000\n"
+"PO-Revision-Date: 2023-11-01 19:10+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/fi/>\n"
@@ -52,17 +52,15 @@ msgstr "Mediakirjasto"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Music Folder"
-msgstr ""
+msgstr "Musiikki-kansio"
 
 #: src/Widgets/DLNAPage.vala:25
-#, fuzzy
-#| msgid "Videos"
 msgid "Videos Folder"
-msgstr "Videot"
+msgstr "Videot-kansio"
 
 #: src/Widgets/DLNAPage.vala:26
 msgid "Pictures Folder"
-msgstr ""
+msgstr "Kuvat-kansio"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid ""
@@ -91,11 +89,11 @@ msgstr "Pois käytöstä"
 #: src/Widgets/DLNAPage.vala:119
 #, c-format
 msgid "Select %s…"
-msgstr ""
+msgstr "Valitse %s…"
 
 #: src/Widgets/DLNAPage.vala:122
 msgid "Select"
-msgstr ""
+msgstr "Valitse"
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
