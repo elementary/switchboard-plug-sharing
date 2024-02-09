@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-16 13:00+0000\n"
-"PO-Revision-Date: 2022-12-12 11:39+0000\n"
+"PO-Revision-Date: 2024-02-09 15:13+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-sharing/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.0.2\n"
 "X-Launchpad-Export-Date: 2016-08-14 05:43+0000\n"
 
 #: src/Plug.vala:17
@@ -52,7 +52,7 @@ msgstr "Mediebibliotek"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Music Folder"
-msgstr ""
+msgstr "Musikkmappe"
 
 #: src/Widgets/DLNAPage.vala:25
 #, fuzzy
@@ -62,7 +62,7 @@ msgstr "Videoer"
 
 #: src/Widgets/DLNAPage.vala:26
 msgid "Pictures Folder"
-msgstr ""
+msgstr "Bildemappe"
 
 #: src/Widgets/DLNAPage.vala:50
 msgid ""
@@ -91,11 +91,11 @@ msgstr "Slått av"
 #: src/Widgets/DLNAPage.vala:119
 #, c-format
 msgid "Select %s…"
-msgstr ""
+msgstr "Velg %s …"
 
 #: src/Widgets/DLNAPage.vala:122
 msgid "Select"
-msgstr ""
+msgstr "Velg"
 
 #: src/Widgets/BluetoothPage.vala:17
 msgid "Bluetooth"
@@ -103,7 +103,7 @@ msgstr "Blåtann"
 
 #: src/Widgets/BluetoothPage.vala:20
 msgid "Ask before accepting files:"
-msgstr ""
+msgstr "Spør før godkjenning av filer:"
 
 #: src/Widgets/BluetoothPage.vala:31
 msgid "Bluetooth settings…"
