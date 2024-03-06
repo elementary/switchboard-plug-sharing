@@ -3,36 +3,33 @@
  * SPDX-FileCopyrightText: 2016-2023 elementary, Inc. (https://elementary.io)
  */
 
-public class Sharing.Widgets.BluetoothPage : Granite.SimpleSettingsPage {
+public class Sharing.Widgets.BluetoothPage : Switchboard.SettingsPage {
     private GLib.Settings bluetooth_settings;
 
     public BluetoothPage () {
-        Object (
-            activatable: true,
-            description: ""
-        );
+        Object (activatable: true);
     }
 
     construct {
         title = _("Bluetooth");
-        icon_name = "preferences-bluetooth";
+        icon = new ThemedIcon ("preferences-bluetooth");
 
-        var accept_label = new Gtk.Label (_("Ask before accepting files:")) {
-            halign = END
+        var accept_switch = new Gtk.Switch () {
+            valign = CENTER
         };
 
-        var accept_switch = new Gtk.Switch ();
+        var accept_label = new Gtk.Label (_("Ask before accepting files:")) {
+            halign = END,
+            mnemonic_widget = accept_switch
+        };
 
-        content_area.attach (accept_label, 0, 1);
-        content_area.attach (accept_switch, 1, 1);
+        var box = new Gtk.Box (HORIZONTAL, 12);
+        box.append (accept_label);
+        box.append (accept_switch);
 
-        var link_button = new Gtk.LinkButton.with_label (
-            "settings://network/bluetooth",
-            _("Bluetooth settings…")
-        );
-        link_button.tooltip_text = "";
+        child = box;
 
-        action_area.append (link_button);
+        var settings_button = add_button (_("Bluetooth Settings…"));
 
         bluetooth_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.bluetooth");
         bluetooth_settings.bind ("bluetooth-obex-enabled", status_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
@@ -46,6 +43,11 @@ public class Sharing.Widgets.BluetoothPage : Granite.SimpleSettingsPage {
 
         status_switch.notify["active"].connect (() => {
             set_service_state ();
+        });
+
+        settings_button.clicked.connect (() => {
+            var uri_launcher = new Gtk.UriLauncher ("settings://network/bluetooth");
+            uri_launcher.launch.begin (((Gtk.Application) Application.get_default ()).active_window, null);
         });
     }
 

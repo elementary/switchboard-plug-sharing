@@ -3,20 +3,17 @@
  * SPDX-FileCopyrightText: 2016-2023 elementary, Inc. (https://elementary.io)
  */
 
-public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
+public class Sharing.Widgets.DLNAPage : Switchboard.SettingsPage {
     private Backend.RygelStartupManager rygel_startup_manager;
     private Backend.RygelConfigFile rygel_config_file;
 
     public DLNAPage () {
-        Object (
-            activatable: true,
-            description: ""
-        );
+        Object (activatable: true);
     }
 
     construct {
         title = _("Media Library");
-        icon_name = "applications-multimedia";
+        icon = new ThemedIcon ("applications-multimedia");
 
         rygel_startup_manager = new Backend.RygelStartupManager ();
         rygel_config_file = new Backend.RygelConfigFile ();
@@ -30,7 +27,7 @@ public class Sharing.Widgets.DLNAPage : Granite.SimpleSettingsPage {
         box.append (videos_entry);
         box.append (pictures_entry);
 
-        content_area.attach (box, 0, 0);
+        child = box;
 
         set_service_state ();
 
