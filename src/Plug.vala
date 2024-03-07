@@ -51,7 +51,7 @@ public class Sharing.Plug : Switchboard.Plug {
             settings_view.add_child (dlna_page);
             settings_view.add_child (bluetooth_page);
 
-            var sidebar = new Granite.SettingsSidebar (settings_view);
+            var sidebar = new Switchboard.SettingsSidebar (settings_view);
 
             var main_container = new Gtk.Paned (Gtk.Orientation.HORIZONTAL) {
                 start_child = sidebar,
