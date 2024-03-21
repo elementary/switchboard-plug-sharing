@@ -5,7 +5,7 @@ Maintainer: elementary, Inc. <builds@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
                gettext,
                libgranite-7-dev,
-               libgtk-4-dev,
+               libgtk-4-dev (>= 4.10),
                libswitchboard-3-dev,
                meson,
                valac (>= 0.22)
