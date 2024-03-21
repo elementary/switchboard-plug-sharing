@@ -14,7 +14,10 @@ Homepage: https://github.com/elementary/switchboard-plug-sharing
 
 Package: io.elementary.settings.sharing
 Architecture: any
-Depends: rygel, wingpanel-indicator-bluetooth, ${misc:Depends}, ${shlibs:Depends}
+Depends: rygel,
+         wingpanel-indicator-bluetooth,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Enhances: io.elementary.settings
 Description: Change media sharing settings
  Switchboard plug for controlling media sharing.
