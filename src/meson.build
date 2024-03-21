@@ -19,7 +19,7 @@ shared_module(
         dependency('gio-2.0'),
         dependency('gobject-2.0'),
         dependency('granite-7'),
-        dependency('gtk4'),
+        dependency('gtk4', version: '>=4.10'),
         switchboard_dep
     ],
     install: true,
