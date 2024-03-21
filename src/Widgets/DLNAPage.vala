@@ -14,6 +14,7 @@ public class Sharing.Widgets.DLNAPage : Switchboard.SettingsPage {
     construct {
         title = _("Media Library");
         icon = new ThemedIcon ("applications-multimedia");
+        show_end_title_buttons = true;
 
         rygel_startup_manager = new Backend.RygelStartupManager ();
         rygel_config_file = new Backend.RygelConfigFile ();

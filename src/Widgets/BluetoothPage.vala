@@ -13,6 +13,7 @@ public class Sharing.Widgets.BluetoothPage : Switchboard.SettingsPage {
     construct {
         title = _("Bluetooth");
         icon = new ThemedIcon ("preferences-bluetooth");
+        show_end_title_buttons = true;
 
         var accept_switch = new Gtk.Switch () {
             valign = CENTER
