@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-16 13:00+0000\n"
+"POT-Creation-Date: 2024-05-05 09:53+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
-"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 "X-Generator: Weblate 4.14.2\n"
 "X-Launchpad-Export-Date: 2016-08-03 06:32+0000\n"
 
@@ -42,29 +42,29 @@ msgstr "Tol, kol atsijungta nuo tinklo, bendrinimo tarnybos yra neprieinamos."
 msgid "Network settings…"
 msgstr "Tinklo nustatymai…"
 
-#: src/Plug.vala:88
+#: src/Plug.vala:90
 msgid "Media library"
 msgstr "Medijos biblioteka"
 
-#: src/Widgets/DLNAPage.vala:18
+#: src/Widgets/DLNAPage.vala:15
 msgid "Media Library"
 msgstr "Medijos biblioteka"
 
-#: src/Widgets/DLNAPage.vala:24
+#: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:25
+#: src/Widgets/DLNAPage.vala:23
 #, fuzzy
 #| msgid "Videos"
 msgid "Videos Folder"
 msgstr "Vaizdo įrašai"
 
-#: src/Widgets/DLNAPage.vala:26
+#: src/Widgets/DLNAPage.vala:24
 msgid "Pictures Folder"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:50
+#: src/Widgets/DLNAPage.vala:48
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -72,11 +72,11 @@ msgstr ""
 "Kol įjungta, šios medijos bibliotekos yra bendrinamos su suderinamais "
 "įrenginiais jūsų tinkle."
 
-#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Įjungta"
 
-#: src/Widgets/DLNAPage.vala:54
+#: src/Widgets/DLNAPage.vala:52
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -84,40 +84,42 @@ msgstr ""
 "Kol išjungta, pasirinktos medijos bibliotekos nėra bendrinamos ir failai "
 "nebus skleidžiami iš jūsų kompiuterio į kitus įrenginius."
 
-#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
 msgid "Disabled"
 msgstr "Išjungta"
 
-#: src/Widgets/DLNAPage.vala:119
+#: src/Widgets/DLNAPage.vala:117
 #, c-format
 msgid "Select %s…"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:122
+#: src/Widgets/DLNAPage.vala:120
 msgid "Select"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:17
+#: src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: src/Widgets/BluetoothPage.vala:20
+#: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:31
-msgid "Bluetooth settings…"
+#: src/Widgets/BluetoothPage.vala:33
+#, fuzzy
+#| msgid "Bluetooth settings…"
+msgid "Bluetooth Settings…"
 msgstr "Bluetooth nustatymai…"
 
-#: src/Widgets/BluetoothPage.vala:55
+#: src/Widgets/BluetoothPage.vala:58
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr "Kol įjungta, bluetooth įrenginiai gali siųsti failus į Atsiuntimus."
 
-#: src/Widgets/BluetoothPage.vala:59
+#: src/Widgets/BluetoothPage.vala:62
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr "Kol išjungta, bluetooth įrenginiai negali siųsti failų į Atsiuntimus."
 
-#: src/Widgets/BluetoothPage.vala:64
+#: src/Widgets/BluetoothPage.vala:67
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
@@ -125,7 +127,7 @@ msgstr ""
 "Bluetooth įrenginys yra arba atjungtas, arba išjungtas. Patikrinkite "
 "bluetooth nustatymus ir bandykite vėl."
 
-#: src/Widgets/BluetoothPage.vala:66
+#: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "Neprieinama"
 

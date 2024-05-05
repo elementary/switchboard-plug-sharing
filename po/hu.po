@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-16 13:00+0000\n"
+"POT-Creation-Date: 2024-05-05 09:53+0000\n"
 "PO-Revision-Date: 2023-12-16 04:07+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
@@ -43,27 +43,27 @@ msgstr ""
 msgid "Network settings…"
 msgstr "Hálózati beállítások…"
 
-#: src/Plug.vala:88
+#: src/Plug.vala:90
 msgid "Media library"
 msgstr "Médiagyűjtemény"
 
-#: src/Widgets/DLNAPage.vala:18
+#: src/Widgets/DLNAPage.vala:15
 msgid "Media Library"
 msgstr "Médiagyűjtemény"
 
-#: src/Widgets/DLNAPage.vala:24
+#: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
 msgstr "Zene mappa"
 
-#: src/Widgets/DLNAPage.vala:25
+#: src/Widgets/DLNAPage.vala:23
 msgid "Videos Folder"
 msgstr "Videók mappa"
 
-#: src/Widgets/DLNAPage.vala:26
+#: src/Widgets/DLNAPage.vala:24
 msgid "Pictures Folder"
 msgstr "Képek mappa"
 
-#: src/Widgets/DLNAPage.vala:50
+#: src/Widgets/DLNAPage.vala:48
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -71,11 +71,11 @@ msgstr ""
 "Amíg engedélyezve van, a következő médiagyűjtemények megosztásra kerülnek a "
 "hálózatban lévő kompatibilis eszközökkel."
 
-#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Engedélyezve"
 
-#: src/Widgets/DLNAPage.vala:54
+#: src/Widgets/DLNAPage.vala:52
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -83,44 +83,46 @@ msgstr ""
 "Ha le van tiltva, a kiválasztott médiakönyvtárak nem lesznek megosztva, és a "
 "fájlok a számítógépéről nem lesznek továbbítva más eszközökre."
 
-#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
 msgid "Disabled"
 msgstr "Kikapcsolva"
 
-#: src/Widgets/DLNAPage.vala:119
+#: src/Widgets/DLNAPage.vala:117
 #, c-format
 msgid "Select %s…"
 msgstr "%s kiválasztása…"
 
-#: src/Widgets/DLNAPage.vala:122
+#: src/Widgets/DLNAPage.vala:120
 msgid "Select"
 msgstr "Kiválasztás"
 
-#: src/Widgets/BluetoothPage.vala:17
+#: src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: src/Widgets/BluetoothPage.vala:20
+#: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
 msgstr "Megerősítés fájlok elfogadása előtt:"
 
-#: src/Widgets/BluetoothPage.vala:31
-msgid "Bluetooth settings…"
+#: src/Widgets/BluetoothPage.vala:33
+#, fuzzy
+#| msgid "Bluetooth settings…"
+msgid "Bluetooth Settings…"
 msgstr "Bluetooth-beállítások…"
 
-#: src/Widgets/BluetoothPage.vala:55
+#: src/Widgets/BluetoothPage.vala:58
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
 "Amíg engedélyezett, a Bluetooth-eszközök fájlokat küldhetnek a Letöltések "
 "mappába."
 
-#: src/Widgets/BluetoothPage.vala:59
+#: src/Widgets/BluetoothPage.vala:62
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
 "Ha le van tiltva, a Bluetooth-eszközök nem küldhetnek fájlokat a Letöltések "
 "mappába."
 
-#: src/Widgets/BluetoothPage.vala:64
+#: src/Widgets/BluetoothPage.vala:67
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
@@ -128,7 +130,7 @@ msgstr ""
 "A Bluetooth-eszköz leválasztva vagy letiltva. Ellenőrizze a Bluetooth-"
 "beállításokat, és próbálja újra."
 
-#: src/Widgets/BluetoothPage.vala:66
+#: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "Nem érhető el"
 

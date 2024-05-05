@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-16 13:00+0000\n"
+"POT-Creation-Date: 2024-05-05 09:53+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Maori <https://l10n.elementary.io/projects/switchboard/"
@@ -40,81 +40,81 @@ msgstr ""
 msgid "Network settings…"
 msgstr ""
 
-#: src/Plug.vala:88
+#: src/Plug.vala:90
 msgid "Media library"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:18
+#: src/Widgets/DLNAPage.vala:15
 msgid "Media Library"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:24
+#: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:25
+#: src/Widgets/DLNAPage.vala:23
 msgid "Videos Folder"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:26
+#: src/Widgets/DLNAPage.vala:24
 msgid "Pictures Folder"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:50
+#: src/Widgets/DLNAPage.vala:48
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:54
+#: src/Widgets/DLNAPage.vala:52
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
 msgid "Disabled"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:119
+#: src/Widgets/DLNAPage.vala:117
 #, c-format
 msgid "Select %s…"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:122
+#: src/Widgets/DLNAPage.vala:120
 msgid "Select"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:17
+#: src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:20
+#: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:31
-msgid "Bluetooth settings…"
+#: src/Widgets/BluetoothPage.vala:33
+msgid "Bluetooth Settings…"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:55
+#: src/Widgets/BluetoothPage.vala:58
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:59
+#: src/Widgets/BluetoothPage.vala:62
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:64
+#: src/Widgets/BluetoothPage.vala:67
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:66
+#: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr ""

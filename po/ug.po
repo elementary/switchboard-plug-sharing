@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-16 13:00+0000\n"
+"POT-Creation-Date: 2024-05-05 09:53+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Uyghur <https://l10n.elementary.io/projects/switchboard/"
@@ -41,30 +41,30 @@ msgstr "توردىن ئۈزۈلگەن ۋاقىتتا ھەمبەھىرلەش مۇ
 msgid "Network settings…"
 msgstr "تور تەڭشەكلىرى...."
 
-#: src/Plug.vala:88
+#: src/Plug.vala:90
 #, fuzzy
 msgid "Media library"
 msgstr "مېدىئا ئامبىرى"
 
-#: src/Widgets/DLNAPage.vala:18
+#: src/Widgets/DLNAPage.vala:15
 msgid "Media Library"
 msgstr "مېدىئا ئامبىرى"
 
-#: src/Widgets/DLNAPage.vala:24
+#: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:25
+#: src/Widgets/DLNAPage.vala:23
 #, fuzzy
 #| msgid "Videos"
 msgid "Videos Folder"
 msgstr "ۋىدېئولار"
 
-#: src/Widgets/DLNAPage.vala:26
+#: src/Widgets/DLNAPage.vala:24
 msgid "Pictures Folder"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:50
+#: src/Widgets/DLNAPage.vala:48
 msgid ""
 "While enabled, the following media libraries are shared to compatible "
 "devices in your network."
@@ -72,11 +72,11 @@ msgstr ""
 "قوزغىتىلغان ۋاقىتتا تۆۋەندىكى مېدىئا ئامبارلىرى تورىڭىزدىكى ئىشلەتكىلى "
 "بولىدىغان ئۈسكۈنىلەردە ھەمبەھىرلىنىدۇ."
 
-#: src/Widgets/DLNAPage.vala:51 src/Widgets/BluetoothPage.vala:56
+#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "قوزغىتىلغان"
 
-#: src/Widgets/DLNAPage.vala:54
+#: src/Widgets/DLNAPage.vala:52
 msgid ""
 "While disabled, the selected media libraries are unshared, and it won't "
 "stream files from your computer to other devices."
@@ -84,44 +84,46 @@ msgstr ""
 "قوزغىتىلمىغان ۋاقىتتا تاللانغان مېدىئا ئامبارلىرى ھەمبەھىرلەنمەيدۇ، ۋە "
 "كومپىيۇتىرىڭىزدىكى ھۆججەتلەرنى باشقا ئۈسكۈنىلەرگە ئەۋەتمەيدۇ."
 
-#: src/Widgets/DLNAPage.vala:55 src/Widgets/BluetoothPage.vala:60
+#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
 msgid "Disabled"
 msgstr "قوزغىتىلمىغان"
 
-#: src/Widgets/DLNAPage.vala:119
+#: src/Widgets/DLNAPage.vala:117
 #, c-format
 msgid "Select %s…"
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:122
+#: src/Widgets/DLNAPage.vala:120
 msgid "Select"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:17
+#: src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "كۆكچىش"
 
-#: src/Widgets/BluetoothPage.vala:20
+#: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:31
-msgid "Bluetooth settings…"
+#: src/Widgets/BluetoothPage.vala:33
+#, fuzzy
+#| msgid "Bluetooth settings…"
+msgid "Bluetooth Settings…"
 msgstr "كۆكچىش تەڭشەكلىرى…"
 
-#: src/Widgets/BluetoothPage.vala:55
+#: src/Widgets/BluetoothPage.vala:58
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
 "قوزغىتىلغان ۋاقىتتا كۆكچىش ئۈسكۈنىسى چۈشۈرۈش مۇندەرىجىسىگە ھۆججەت "
 "ئەۋەتەلەيدۇ."
 
-#: src/Widgets/BluetoothPage.vala:59
+#: src/Widgets/BluetoothPage.vala:62
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
 "قوزغىتىلمىغان ۋاقىتتا كۆكچىش ئۈسكۈنىسى چۈشۈرۈش مۇندەرىجىسىگە ھۆججەت "
 "ئەۋەتەلمەيدۇ."
 
-#: src/Widgets/BluetoothPage.vala:64
+#: src/Widgets/BluetoothPage.vala:67
 msgid ""
 "The bluetooth device is either disconnected or disabled. Check bluetooth "
 "settings and try again."
@@ -129,7 +131,7 @@ msgstr ""
 "كۆكچىش ئۈسكۈنىسى ئۇلانمىغان ياكى قوزغىتىلمىغان، كۆكچىش تەڭشەكلىرىنى تەكشۈرۈڭ "
 "ۋە قايتا سىناپ بىقىڭ."
 
-#: src/Widgets/BluetoothPage.vala:66
+#: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "ئىشلەتكىلى بولمايدۇ"
 
