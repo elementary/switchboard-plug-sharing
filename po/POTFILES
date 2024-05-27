@@ -2,5 +2,5 @@ src/Plug.vala
 src/Widgets/DLNAPage.vala
 src/Widgets/BluetoothPage.vala
 src/Backend/RygelStartupManager.vala
-src/Backend/RygelDBusInterface.vala
 src/Backend/RygelConfigFile.vala
+src/Backend/SharingDBusInterface.vala

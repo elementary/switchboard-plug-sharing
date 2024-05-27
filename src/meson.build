@@ -3,8 +3,8 @@ plug_files = files(
     'Widgets/DLNAPage.vala',
     'Widgets/BluetoothPage.vala',
     'Backend/RygelStartupManager.vala',
-    'Backend/RygelDBusInterface.vala',
-    'Backend/RygelConfigFile.vala'
+    'Backend/RygelConfigFile.vala',
+    'Backend/SharingDBusInterface.vala'
 )
 
 switchboard_dep = dependency('switchboard-3')
