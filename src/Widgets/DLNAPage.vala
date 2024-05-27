@@ -30,20 +30,20 @@ public class Sharing.Widgets.DLNAPage : Switchboard.SettingsPage {
 
         child = box;
 
+        status_switch.active = rygel_startup_manager.get_service_enabled ();
         set_service_state ();
 
         status_switch.notify["active"].connect (() => {
+            /* Make sure the configuration file exists */
+            if (rygel_config_file.save ()) {
+                rygel_startup_manager.set_service_enabled.begin (status_switch.active);
+            }
+
             set_service_state ();
         });
     }
 
     private void set_service_state () {
-        /* Make sure the configuration file exists */
-        if (rygel_config_file.save ()) {
-            rygel_startup_manager.set_service_enabled.begin (status_switch.active);
-
-        }
-
         if (status_switch.active) {
             description = _("While enabled, the following media libraries are shared to compatible devices in your network.");
             status = _("Enabled");

@@ -17,10 +17,20 @@
  * Boston, MA 02110-1301 USA.
  */
 
-[DBus (name = "org.gnome.Rygel1")]
-public interface Sharing.Backend.RygelDBusInterface : Object {
-    public const string SERVICE_NAME = "org.gnome.Rygel1";
-    public const string OBJECT_PATH = "/org/gnome/Rygel1";
+[DBus (name = "org.gnome.SettingsDaemon.Sharing")]
+public interface Sharing.Backend.SharingDBusInterface : Object {
+    public struct SharingNetwork {
+        string uuid;
+        string network_name;
+        string carrier_type;
+    }
 
-    public abstract void shutdown () throws IOError;
+    public const string SERVICE_NAME = "org.gnome.SettingsDaemon.Sharing";
+    public const string OBJECT_PATH = "/org/gnome/SettingsDaemon/Sharing";
+
+    public abstract string current_network { owned get; }
+
+    public abstract void enable_service (string service_name) throws Error;
+    public abstract void disable_service (string service_name, string network) throws Error;
+    public abstract SharingNetwork[] list_networks (string service_name) throws Error;
 }
