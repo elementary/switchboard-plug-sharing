@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2015 elementary Developers (https://launchpad.net/elementary)
+ * Copyright (c) 2011-2024 elementary, Inc. (https://elementaryos.org)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -23,9 +23,11 @@ public class Sharing.Backend.RygelStartupManager : Object {
 
     construct {
         try {
-            sharing = Bus.get_proxy_sync (BusType.SESSION,
-                                          SharingDBusInterface.SERVICE_NAME,
-                                          SharingDBusInterface.OBJECT_PATH);
+            sharing = Bus.get_proxy_sync (
+                BusType.SESSION,
+                SharingDBusInterface.SERVICE_NAME,
+                SharingDBusInterface.OBJECT_PATH
+            );
         } catch (Error e) {
             warning ("Getting Sharing proxy failed: %s", e.message);
         }
