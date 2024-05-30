@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-05 09:53+0000\n"
-"PO-Revision-Date: 2023-10-19 00:10+0000\n"
+"PO-Revision-Date: 2024-05-31 01:46+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/nl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.5\n"
 "X-Launchpad-Export-Date: 2016-07-19 06:13+0000\n"
 
 #: src/Plug.vala:17
@@ -106,8 +106,6 @@ msgid "Ask before accepting files:"
 msgstr "Vraag voor het accepteren van bestanden:"
 
 #: src/Widgets/BluetoothPage.vala:33
-#, fuzzy
-#| msgid "Bluetooth settings…"
 msgid "Bluetooth Settings…"
 msgstr "Bluetoothinstellingen…"
 
