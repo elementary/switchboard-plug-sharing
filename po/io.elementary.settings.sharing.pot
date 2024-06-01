@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.settings.sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-05 09:53+0000\n"
+"POT-Creation-Date: 2024-06-01 02:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,10 @@ msgstr ""
 
 #: src/Plug.vala:90
 msgid "Media library"
+msgstr ""
+
+#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+msgid "Bluetooth"
 msgstr ""
 
 #: src/Widgets/DLNAPage.vala:15
@@ -85,10 +89,6 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:120
 msgid "Select"
-msgstr ""
-
-#: src/Widgets/BluetoothPage.vala:14
-msgid "Bluetooth"
 msgstr ""
 
 #: src/Widgets/BluetoothPage.vala:22
