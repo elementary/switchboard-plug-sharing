@@ -2,6 +2,9 @@ plug_files = files(
     'Plug.vala',
     'Widgets/DLNAPage.vala',
     'Widgets/BluetoothPage.vala',
+    'Widgets/HostnamePage.vala',
+    'Backend/HostnameManager.vala',
+    'Backend/HostnameDBusInterface.vala',
     'Backend/RygelStartupManager.vala',
     'Backend/RygelConfigFile.vala',
     'Backend/SharingDBusInterface.vala'
@@ -20,6 +23,7 @@ shared_module(
         dependency('gobject-2.0'),
         dependency('granite-7'),
         dependency('gtk4', version: '>=4.10'),
+        dependency('polkit-gobject-1'),
         switchboard_dep
     ],
     install: true,

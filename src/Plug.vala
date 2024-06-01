@@ -44,10 +44,12 @@ public class Sharing.Plug : Switchboard.Plug {
             network_grid_view.attach (network_alert_view, 0, 0, 1, 1);
             network_grid_view.attach (link_button, 0, 1, 1, 1);
 
+            var hostname_page = new Widgets.HostnamePage ();
             var dlna_page = new Widgets.DLNAPage ();
             var bluetooth_page = new Widgets.BluetoothPage ();
 
             var settings_view = new Gtk.Stack ();
+            settings_view.add_child (hostname_page);
             settings_view.add_child (dlna_page);
             settings_view.add_child (bluetooth_page);
 
