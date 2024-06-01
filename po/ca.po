@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-05 09:53+0000\n"
+"POT-Creation-Date: 2024-06-01 02:26+0000\n"
 "PO-Revision-Date: 2024-05-06 10:13+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
@@ -46,6 +46,10 @@ msgstr "Paràmetres de la xarxa…"
 #: src/Plug.vala:90
 msgid "Media library"
 msgstr "Biblioteca multimèdia"
+
+#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+msgid "Bluetooth"
+msgstr "Bluetooth"
 
 #: src/Widgets/DLNAPage.vala:15
 msgid "Media Library"
@@ -95,10 +99,6 @@ msgstr "Selecciona %s…"
 #: src/Widgets/DLNAPage.vala:120
 msgid "Select"
 msgstr "Selecciona"
-
-#: src/Widgets/BluetoothPage.vala:14
-msgid "Bluetooth"
-msgstr "Bluetooth"
 
 #: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
