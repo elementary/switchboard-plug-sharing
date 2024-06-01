@@ -88,6 +88,7 @@ public class Sharing.Plug : Switchboard.Plug {
     public override async Gee.TreeMap<string, string> search (string search) {
         var search_results = new Gee.TreeMap<string, string> ((GLib.CompareDataFunc<string>)strcmp, (Gee.EqualDataFunc<string>)str_equal);
         search_results.set ("%s → %s".printf (display_name, _("Media library")), "");
+        search_results.set ("%s → %s".printf (display_name, _("Bluetooth")), "");
         return search_results;
     }
 
