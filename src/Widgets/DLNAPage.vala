@@ -49,7 +49,7 @@ public class Sharing.Widgets.DLNAPage : Switchboard.SettingsPage {
             status = _("Enabled");
             status_type = SUCCESS;
         } else {
-            description = _("Media libraries are unshared and can't be streamed to other devices.");
+            description = _("Media libraries are currently unshared and can't be streamed to other devices.");
             status = _("Disabled");
             status_type = OFFLINE;
         }
