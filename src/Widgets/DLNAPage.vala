@@ -12,7 +12,7 @@ public class Sharing.Widgets.DLNAPage : Switchboard.SettingsPage {
     }
 
     construct {
-        title = _("Media Library");
+        title = _("Media Streaming");
         icon = new ThemedIcon ("applications-multimedia");
         show_end_title_buttons = true;
 
@@ -45,11 +45,11 @@ public class Sharing.Widgets.DLNAPage : Switchboard.SettingsPage {
 
     private void set_service_state () {
         if (status_switch.active) {
-            description = _("While enabled, the following media libraries are shared to compatible devices in your network.");
+            description = _("The selected libraries are available to stream on compatible DLNA-enabled devices on your local network such as TVs and game consoles.");
             status = _("Enabled");
             status_type = SUCCESS;
         } else {
-            description = _("While disabled, the selected media libraries are unshared, and it won't stream files from your computer to other devices.");
+            description = _("Media libraries are currently unshared and can't be streamed to other devices.");
             status = _("Disabled");
             status_type = OFFLINE;
         }
