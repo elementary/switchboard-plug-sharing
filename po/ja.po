@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 11:41+0000\n"
-"PO-Revision-Date: 2024-05-06 10:13+0000\n"
+"PO-Revision-Date: 2024-06-05 13:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/ja/>\n"
@@ -43,11 +43,11 @@ msgstr "ネットワークの設定…"
 
 #: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
-msgstr ""
+msgstr "メディアストリーミング"
 
 #: src/Plug.vala:91
 msgid "DLNA and UPnP"
-msgstr ""
+msgstr "DLNA と UPnP"
 
 #: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
@@ -69,23 +69,19 @@ msgstr "写真フォルダー"
 msgid ""
 "The selected libraries are available to stream on compatible DLNA-enabled "
 "devices on your local network such as TVs and game consoles."
-msgstr ""
+msgstr "選択されたライブラリは、ローカルネットワーク上の互換性のある DLNA "
+"対応デバイス (TV やゲーム機など) でストリーミング可能です。"
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "有効"
 
 #: src/Widgets/DLNAPage.vala:52
-#, fuzzy
-#| msgid ""
-#| "While disabled, the selected media libraries are unshared, and it won't "
-#| "stream files from your computer to other devices."
 msgid ""
 "Media libraries are currently unshared and can't be streamed to other "
 "devices."
-msgstr ""
-"無効になっている間、選択されたメディアライブラリは共有されず、このコンピュー"
-"ターからほかのデバイスへファイルを送信しません。"
+msgstr "メディアライブラリは現在共有されていないため、ほかのデバイスからストリーミン"
+"グできません。"
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
 msgid "Disabled"
