@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 02:26+0000\n"
+"POT-Creation-Date: 2024-06-04 11:41+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Simon Dagfinrud <semonje@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
@@ -41,17 +41,17 @@ msgstr ""
 msgid "Network settings…"
 msgstr "Nettverksinnstillingar…"
 
-#: src/Plug.vala:90
-msgid "Media library"
-msgstr "Mediabibliotek"
+#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+msgid "Media Streaming"
+msgstr ""
 
-#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+#: src/Plug.vala:91
+msgid "DLNA and UPnP"
+msgstr ""
+
+#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "Bluetooth"
-
-#: src/Widgets/DLNAPage.vala:15
-msgid "Media Library"
-msgstr "Mediebibliotek"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
@@ -69,20 +69,22 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
+"The selected libraries are available to stream on compatible DLNA-enabled "
+"devices on your local network such as TVs and game consoles."
 msgstr ""
-"Medan aktivert er følgande mediebibliotek delt til kompatible einingar i "
-"nettverket ditt."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Påslått"
 
 #: src/Widgets/DLNAPage.vala:52
+#, fuzzy
+#| msgid ""
+#| "While disabled, the selected media libraries are unshared, and it won't "
+#| "stream files from your computer to other devices."
 msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
+"Media libraries are currently unshared and can't be streamed to other "
+"devices."
 msgstr ""
 "Medan avslått er dei valde mediebiblioteka udelt, og det vil ikkje strøyme "
 "filer frå datamaskina di til andre einingar."
@@ -130,6 +132,19 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "Ikkje tilgjengeleg"
+
+#~ msgid "Media library"
+#~ msgstr "Mediabibliotek"
+
+#~ msgid "Media Library"
+#~ msgstr "Mediebibliotek"
+
+#~ msgid ""
+#~ "While enabled, the following media libraries are shared to compatible "
+#~ "devices in your network."
+#~ msgstr ""
+#~ "Medan aktivert er følgande mediebibliotek delt til kompatible einingar i "
+#~ "nettverket ditt."
 
 #~ msgid "Music"
 #~ msgstr "Musikk"

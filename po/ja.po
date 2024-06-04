@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 02:26+0000\n"
+"POT-Creation-Date: 2024-06-04 11:41+0000\n"
 "PO-Revision-Date: 2024-05-06 10:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -41,17 +41,17 @@ msgstr "ネットワークから切断されている間、共有サービスは
 msgid "Network settings…"
 msgstr "ネットワークの設定…"
 
-#: src/Plug.vala:90
-msgid "Media library"
-msgstr "メディアライブラリ"
+#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+msgid "Media Streaming"
+msgstr ""
 
-#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+#: src/Plug.vala:91
+msgid "DLNA and UPnP"
+msgstr ""
+
+#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "Bluetooth"
-
-#: src/Widgets/DLNAPage.vala:15
-msgid "Media Library"
-msgstr "メディアライブラリ"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
@@ -67,20 +67,22 @@ msgstr "写真フォルダー"
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
+"The selected libraries are available to stream on compatible DLNA-enabled "
+"devices on your local network such as TVs and game consoles."
 msgstr ""
-"有効になっている間、以下のメディアライブラリはネットワーク内の互換性のあるデ"
-"バイスと共有されます。"
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "有効"
 
 #: src/Widgets/DLNAPage.vala:52
+#, fuzzy
+#| msgid ""
+#| "While disabled, the selected media libraries are unshared, and it won't "
+#| "stream files from your computer to other devices."
 msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
+"Media libraries are currently unshared and can't be streamed to other "
+"devices."
 msgstr ""
 "無効になっている間、選択されたメディアライブラリは共有されず、このコンピュー"
 "ターからほかのデバイスへファイルを送信しません。"
@@ -129,6 +131,19 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "利用不可"
+
+#~ msgid "Media library"
+#~ msgstr "メディアライブラリ"
+
+#~ msgid "Media Library"
+#~ msgstr "メディアライブラリ"
+
+#~ msgid ""
+#~ "While enabled, the following media libraries are shared to compatible "
+#~ "devices in your network."
+#~ msgstr ""
+#~ "有効になっている間、以下のメディアライブラリはネットワーク内の互換性のある"
+#~ "デバイスと共有されます。"
 
 #~ msgid "Select Screenshots Folder…"
 #~ msgstr "スクリーンショットフォルダーを選択…"

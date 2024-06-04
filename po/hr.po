@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 02:26+0000\n"
+"POT-Creation-Date: 2024-06-04 11:41+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Croatian <https://l10n.elementary.io/projects/switchboard/"
@@ -42,18 +42,17 @@ msgstr "Tijekom nedostupnosti mreže, usluge dijeljenja nisu dostupne."
 msgid "Network settings…"
 msgstr "Postavke mreže…"
 
-#: src/Plug.vala:90
-#, fuzzy
-msgid "Media library"
-msgstr "Medijska zbirka"
+#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+msgid "Media Streaming"
+msgstr ""
 
-#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+#: src/Plug.vala:91
+msgid "DLNA and UPnP"
+msgstr ""
+
+#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "Bluetooth"
-
-#: src/Widgets/DLNAPage.vala:15
-msgid "Media Library"
-msgstr "Medijska zbirka"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
@@ -71,20 +70,22 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
+"The selected libraries are available to stream on compatible DLNA-enabled "
+"devices on your local network such as TVs and game consoles."
 msgstr ""
-"Kada je omogućeno, sljedeće medijske zbirke su dijeljene s kompatibilnim "
-"uređajima na vašoj mreži."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Omogućeno"
 
 #: src/Widgets/DLNAPage.vala:52
+#, fuzzy
+#| msgid ""
+#| "While disabled, the selected media libraries are unshared, and it won't "
+#| "stream files from your computer to other devices."
 msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
+"Media libraries are currently unshared and can't be streamed to other "
+"devices."
 msgstr ""
 "Kada je onemogućeno, sljedeće medijske zbirke nisu dijeljene i neće "
 "odašiljati datoteke s vašeg uređaja na druge uređaje."
@@ -134,6 +135,20 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "Nije dostupno"
+
+#, fuzzy
+#~ msgid "Media library"
+#~ msgstr "Medijska zbirka"
+
+#~ msgid "Media Library"
+#~ msgstr "Medijska zbirka"
+
+#~ msgid ""
+#~ "While enabled, the following media libraries are shared to compatible "
+#~ "devices in your network."
+#~ msgstr ""
+#~ "Kada je omogućeno, sljedeće medijske zbirke su dijeljene s kompatibilnim "
+#~ "uređajima na vašoj mreži."
 
 #~ msgid "Music"
 #~ msgstr "Glazba"

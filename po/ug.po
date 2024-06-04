@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 02:26+0000\n"
+"POT-Creation-Date: 2024-06-04 11:41+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Uyghur <https://l10n.elementary.io/projects/switchboard/"
@@ -41,18 +41,17 @@ msgstr "توردىن ئۈزۈلگەن ۋاقىتتا ھەمبەھىرلەش مۇ
 msgid "Network settings…"
 msgstr "تور تەڭشەكلىرى...."
 
-#: src/Plug.vala:90
-#, fuzzy
-msgid "Media library"
-msgstr "مېدىئا ئامبىرى"
+#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+msgid "Media Streaming"
+msgstr ""
 
-#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+#: src/Plug.vala:91
+msgid "DLNA and UPnP"
+msgstr ""
+
+#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "كۆكچىش"
-
-#: src/Widgets/DLNAPage.vala:15
-msgid "Media Library"
-msgstr "مېدىئا ئامبىرى"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
@@ -70,20 +69,22 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
+"The selected libraries are available to stream on compatible DLNA-enabled "
+"devices on your local network such as TVs and game consoles."
 msgstr ""
-"قوزغىتىلغان ۋاقىتتا تۆۋەندىكى مېدىئا ئامبارلىرى تورىڭىزدىكى ئىشلەتكىلى "
-"بولىدىغان ئۈسكۈنىلەردە ھەمبەھىرلىنىدۇ."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "قوزغىتىلغان"
 
 #: src/Widgets/DLNAPage.vala:52
+#, fuzzy
+#| msgid ""
+#| "While disabled, the selected media libraries are unshared, and it won't "
+#| "stream files from your computer to other devices."
 msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
+"Media libraries are currently unshared and can't be streamed to other "
+"devices."
 msgstr ""
 "قوزغىتىلمىغان ۋاقىتتا تاللانغان مېدىئا ئامبارلىرى ھەمبەھىرلەنمەيدۇ، ۋە "
 "كومپىيۇتىرىڭىزدىكى ھۆججەتلەرنى باشقا ئۈسكۈنىلەرگە ئەۋەتمەيدۇ."
@@ -134,6 +135,20 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "ئىشلەتكىلى بولمايدۇ"
+
+#, fuzzy
+#~ msgid "Media library"
+#~ msgstr "مېدىئا ئامبىرى"
+
+#~ msgid "Media Library"
+#~ msgstr "مېدىئا ئامبىرى"
+
+#~ msgid ""
+#~ "While enabled, the following media libraries are shared to compatible "
+#~ "devices in your network."
+#~ msgstr ""
+#~ "قوزغىتىلغان ۋاقىتتا تۆۋەندىكى مېدىئا ئامبارلىرى تورىڭىزدىكى ئىشلەتكىلى "
+#~ "بولىدىغان ئۈسكۈنىلەردە ھەمبەھىرلىنىدۇ."
 
 #~ msgid "Music"
 #~ msgstr "مۇزىكا"

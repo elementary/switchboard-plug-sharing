@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 02:26+0000\n"
+"POT-Creation-Date: 2024-06-04 11:41+0000\n"
 "PO-Revision-Date: 2023-10-27 10:10+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
@@ -41,17 +41,17 @@ msgstr "Keď ste odpojení od siete, služby zdieľania nie sú dostupné."
 msgid "Network settings…"
 msgstr "Nastavenia siete…"
 
-#: src/Plug.vala:90
-msgid "Media library"
-msgstr "Knižnica médií"
+#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+msgid "Media Streaming"
+msgstr ""
 
-#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+#: src/Plug.vala:91
+msgid "DLNA and UPnP"
+msgstr ""
+
+#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "Bluetooth"
-
-#: src/Widgets/DLNAPage.vala:15
-msgid "Media Library"
-msgstr "Knižnica médií"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
@@ -69,20 +69,22 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
+"The selected libraries are available to stream on compatible DLNA-enabled "
+"devices on your local network such as TVs and game consoles."
 msgstr ""
-"Pokiaľ zapnuté, nasledujúce knižnice médií sú zdieľané do kompatibilných "
-"zariadení vo vašej sieti."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Zapnuté"
 
 #: src/Widgets/DLNAPage.vala:52
+#, fuzzy
+#| msgid ""
+#| "While disabled, the selected media libraries are unshared, and it won't "
+#| "stream files from your computer to other devices."
 msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
+"Media libraries are currently unshared and can't be streamed to other "
+"devices."
 msgstr ""
 "Pokiaľ vypnuté, nasledujúce knižnice médií a súbory nie sú zdieľané z vášho "
 "počítača do iných zariadení."
@@ -133,6 +135,19 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "Nedostupné"
+
+#~ msgid "Media library"
+#~ msgstr "Knižnica médií"
+
+#~ msgid "Media Library"
+#~ msgstr "Knižnica médií"
+
+#~ msgid ""
+#~ "While enabled, the following media libraries are shared to compatible "
+#~ "devices in your network."
+#~ msgstr ""
+#~ "Pokiaľ zapnuté, nasledujúce knižnice médií sú zdieľané do kompatibilných "
+#~ "zariadení vo vašej sieti."
 
 #~ msgid "Music"
 #~ msgstr "Hudba"

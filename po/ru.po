@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 02:26+0000\n"
+"POT-Creation-Date: 2024-06-04 11:41+0000\n"
 "PO-Revision-Date: 2024-05-06 10:13+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
@@ -42,17 +42,17 @@ msgstr "При отключении от сети службы обмена не
 msgid "Network settings…"
 msgstr "Параметры сети…"
 
-#: src/Plug.vala:90
-msgid "Media library"
-msgstr "Медиатека"
+#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+msgid "Media Streaming"
+msgstr ""
 
-#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+#: src/Plug.vala:91
+msgid "DLNA and UPnP"
+msgstr ""
+
+#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "Bluetooth"
-
-#: src/Widgets/DLNAPage.vala:15
-msgid "Media Library"
-msgstr "Медиатека"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
@@ -68,20 +68,22 @@ msgstr "Папка изображений"
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
+"The selected libraries are available to stream on compatible DLNA-enabled "
+"devices on your local network such as TVs and game consoles."
 msgstr ""
-"При включении, выбранные медиа-каталоги доступны для совместимых устройств "
-"вашей сети."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Включено"
 
 #: src/Widgets/DLNAPage.vala:52
+#, fuzzy
+#| msgid ""
+#| "While disabled, the selected media libraries are unshared, and it won't "
+#| "stream files from your computer to other devices."
 msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
+"Media libraries are currently unshared and can't be streamed to other "
+"devices."
 msgstr ""
 "При отключении, выбранные медиа-каталоги недоступны для совместимых "
 "устройств вашей сети."
@@ -129,6 +131,19 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "Недоступно"
+
+#~ msgid "Media library"
+#~ msgstr "Медиатека"
+
+#~ msgid "Media Library"
+#~ msgstr "Медиатека"
+
+#~ msgid ""
+#~ "While enabled, the following media libraries are shared to compatible "
+#~ "devices in your network."
+#~ msgstr ""
+#~ "При включении, выбранные медиа-каталоги доступны для совместимых "
+#~ "устройств вашей сети."
 
 #~ msgid "Select Screenshots Folder…"
 #~ msgstr "Выберите папку снимков экрана…"

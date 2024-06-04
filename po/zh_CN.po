@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 02:26+0000\n"
+"POT-Creation-Date: 2024-06-04 11:41+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -41,17 +41,17 @@ msgstr "网络连接断开时，共享设备不可用。"
 msgid "Network settings…"
 msgstr "网络设置…"
 
-#: src/Plug.vala:90
-msgid "Media library"
-msgstr "媒体库"
+#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+msgid "Media Streaming"
+msgstr ""
 
-#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+#: src/Plug.vala:91
+msgid "DLNA and UPnP"
+msgstr ""
+
+#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "蓝牙"
-
-#: src/Widgets/DLNAPage.vala:15
-msgid "Media Library"
-msgstr "媒体库"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
@@ -69,18 +69,22 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
-msgstr "启用时，以下媒体库将会共享至您当前网络中可用的设备中。"
+"The selected libraries are available to stream on compatible DLNA-enabled "
+"devices on your local network such as TVs and game consoles."
+msgstr ""
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "已启用"
 
 #: src/Widgets/DLNAPage.vala:52
+#, fuzzy
+#| msgid ""
+#| "While disabled, the selected media libraries are unshared, and it won't "
+#| "stream files from your computer to other devices."
 msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
+"Media libraries are currently unshared and can't be streamed to other "
+"devices."
 msgstr "禁用时，选中的媒体库不会被共享，也不会传输您的文件到其他设备中。"
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
@@ -123,6 +127,17 @@ msgstr "蓝牙设备已断开或禁用，请检查蓝牙设置后重试。"
 #: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "不可用"
+
+#~ msgid "Media library"
+#~ msgstr "媒体库"
+
+#~ msgid "Media Library"
+#~ msgstr "媒体库"
+
+#~ msgid ""
+#~ "While enabled, the following media libraries are shared to compatible "
+#~ "devices in your network."
+#~ msgstr "启用时，以下媒体库将会共享至您当前网络中可用的设备中。"
 
 #~ msgid "Music"
 #~ msgstr "音乐"

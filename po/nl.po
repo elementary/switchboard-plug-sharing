@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 02:26+0000\n"
+"POT-Creation-Date: 2024-06-04 11:41+0000\n"
 "PO-Revision-Date: 2024-05-31 01:46+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
@@ -43,17 +43,17 @@ msgstr ""
 msgid "Network settings…"
 msgstr "Netwerkinstellingen…"
 
-#: src/Plug.vala:90
-msgid "Media library"
-msgstr "Mediabibliotheek"
+#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+msgid "Media Streaming"
+msgstr ""
 
-#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+#: src/Plug.vala:91
+msgid "DLNA and UPnP"
+msgstr ""
+
+#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "Bluetooth"
-
-#: src/Widgets/DLNAPage.vala:15
-msgid "Media Library"
-msgstr "Mediabibliotheek"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
@@ -69,20 +69,22 @@ msgstr "Afbeeldingen map"
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
+"The selected libraries are available to stream on compatible DLNA-enabled "
+"devices on your local network such as TVs and game consoles."
 msgstr ""
-"Wanneer deze functie is ingeschakeld, zijn de volgende mediabibliotheken "
-"gedeeld met compatibele apparaten in uw netwerk."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Ingeschakeld"
 
 #: src/Widgets/DLNAPage.vala:52
+#, fuzzy
+#| msgid ""
+#| "While disabled, the selected media libraries are unshared, and it won't "
+#| "stream files from your computer to other devices."
 msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
+"Media libraries are currently unshared and can't be streamed to other "
+"devices."
 msgstr ""
 "Wanneer deze functie is uitgeschakeld, worden de geselecteerde "
 "mediabibliotheken niet gedeeld en worden geen bestanden gestreamd naar "
@@ -132,6 +134,19 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "Niet Beschikbaar"
+
+#~ msgid "Media library"
+#~ msgstr "Mediabibliotheek"
+
+#~ msgid "Media Library"
+#~ msgstr "Mediabibliotheek"
+
+#~ msgid ""
+#~ "While enabled, the following media libraries are shared to compatible "
+#~ "devices in your network."
+#~ msgstr ""
+#~ "Wanneer deze functie is ingeschakeld, zijn de volgende mediabibliotheken "
+#~ "gedeeld met compatibele apparaten in uw netwerk."
 
 #~ msgid "Select Screenshots Folder…"
 #~ msgstr "Selecteer map voor schermafbeeldingen…"

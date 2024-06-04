@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 02:26+0000\n"
+"POT-Creation-Date: 2024-06-04 11:41+0000\n"
 "PO-Revision-Date: 2022-12-12 11:38+0000\n"
 "Last-Translator: Danielle Foré <danielle@elementary.io>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -41,18 +41,17 @@ msgstr "當網路斷線時，分享服務便無法使用。"
 msgid "Network settings…"
 msgstr "網路設定值…"
 
-#: src/Plug.vala:90
-#, fuzzy
-msgid "Media library"
-msgstr "媒體庫"
+#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+msgid "Media Streaming"
+msgstr ""
 
-#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+#: src/Plug.vala:91
+msgid "DLNA and UPnP"
+msgstr ""
+
+#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "藍芽"
-
-#: src/Widgets/DLNAPage.vala:15
-msgid "Media Library"
-msgstr "媒體庫"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
@@ -70,18 +69,22 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
-msgstr "啟用時，下列媒體庫會和您網路中的相容裝置分享。"
+"The selected libraries are available to stream on compatible DLNA-enabled "
+"devices on your local network such as TVs and game consoles."
+msgstr ""
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "已啟用"
 
 #: src/Widgets/DLNAPage.vala:52
+#, fuzzy
+#| msgid ""
+#| "While disabled, the selected media libraries are unshared, and it won't "
+#| "stream files from your computer to other devices."
 msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
+"Media libraries are currently unshared and can't be streamed to other "
+"devices."
 msgstr "停用時，選取的媒體庫不會分享，也不會將檔案從您的電腦串流到其他裝置上。"
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
@@ -124,6 +127,18 @@ msgstr "藍牙裝置可能已斷線或停用。請先檢查藍牙設定值無誤
 #: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "無法使用"
+
+#, fuzzy
+#~ msgid "Media library"
+#~ msgstr "媒體庫"
+
+#~ msgid "Media Library"
+#~ msgstr "媒體庫"
+
+#~ msgid ""
+#~ "While enabled, the following media libraries are shared to compatible "
+#~ "devices in your network."
+#~ msgstr "啟用時，下列媒體庫會和您網路中的相容裝置分享。"
 
 #~ msgid "Music"
 #~ msgstr "音樂"

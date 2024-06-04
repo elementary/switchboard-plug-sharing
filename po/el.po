@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-01 02:26+0000\n"
+"POT-Creation-Date: 2024-06-04 11:41+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Greek <https://l10n.elementary.io/projects/switchboard/"
@@ -43,18 +43,17 @@ msgstr ""
 msgid "Network settings…"
 msgstr "Ρυθμίσεις δικτύου..."
 
-#: src/Plug.vala:90
-#, fuzzy
-msgid "Media library"
-msgstr "Βιβλιοθήκη πολυμέσων"
+#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+msgid "Media Streaming"
+msgstr ""
 
-#: src/Plug.vala:91 src/Widgets/BluetoothPage.vala:14
+#: src/Plug.vala:91
+msgid "DLNA and UPnP"
+msgstr ""
+
+#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "Bluetooth"
-
-#: src/Widgets/DLNAPage.vala:15
-msgid "Media Library"
-msgstr "Βιβλιοθήκη πολυμέσων"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
@@ -72,20 +71,22 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
-"While enabled, the following media libraries are shared to compatible "
-"devices in your network."
+"The selected libraries are available to stream on compatible DLNA-enabled "
+"devices on your local network such as TVs and game consoles."
 msgstr ""
-"Όσο είναι ενεργοποιημένες, οι ακόλουθες βιβλιοθήκες πολυμέσων θα "
-"διαμοιράζονται σε συμβατές συσκευές στο δίκτυο σας."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Ενεργοποιημένη"
 
 #: src/Widgets/DLNAPage.vala:52
+#, fuzzy
+#| msgid ""
+#| "While disabled, the selected media libraries are unshared, and it won't "
+#| "stream files from your computer to other devices."
 msgid ""
-"While disabled, the selected media libraries are unshared, and it won't "
-"stream files from your computer to other devices."
+"Media libraries are currently unshared and can't be streamed to other "
+"devices."
 msgstr ""
 "Όσο είναι απενεργοποιημένες, οι επιλεγμένες βιβλιοθήκες πολυμέσων δε θα "
 "διαμοιράζονται και δε θα μεταδίδονται αρχεία από τον υπολογιστή σας σε άλλες "
@@ -137,6 +138,20 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:69
 msgid "Not Available"
 msgstr "Μη διαθέσιμη"
+
+#, fuzzy
+#~ msgid "Media library"
+#~ msgstr "Βιβλιοθήκη πολυμέσων"
+
+#~ msgid "Media Library"
+#~ msgstr "Βιβλιοθήκη πολυμέσων"
+
+#~ msgid ""
+#~ "While enabled, the following media libraries are shared to compatible "
+#~ "devices in your network."
+#~ msgstr ""
+#~ "Όσο είναι ενεργοποιημένες, οι ακόλουθες βιβλιοθήκες πολυμέσων θα "
+#~ "διαμοιράζονται σε συμβατές συσκευές στο δίκτυο σας."
 
 #~ msgid "Music"
 #~ msgstr "Μουσική"
