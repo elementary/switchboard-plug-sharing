@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 11:41+0000\n"
-"PO-Revision-Date: 2024-05-06 10:13+0000\n"
+"PO-Revision-Date: 2024-06-05 13:13+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/he/>\n"
@@ -42,11 +42,11 @@ msgstr "הגדרות רשת…"
 
 #: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
-msgstr ""
+msgstr "הזרמת מדיה"
 
 #: src/Plug.vala:91
 msgid "DLNA and UPnP"
-msgstr ""
+msgstr "DLNA ו־UPnP"
 
 #: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
@@ -69,22 +69,18 @@ msgid ""
 "The selected libraries are available to stream on compatible DLNA-enabled "
 "devices on your local network such as TVs and game consoles."
 msgstr ""
+"הספריות הנבחרות זמינות להזרמה ממכשירים תואמי DLNA לרשת המקומית שלך כגון "
+"טלוויזיות וקונסולות משחקים."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "פעיל"
 
 #: src/Widgets/DLNAPage.vala:52
-#, fuzzy
-#| msgid ""
-#| "While disabled, the selected media libraries are unshared, and it won't "
-#| "stream files from your computer to other devices."
 msgid ""
 "Media libraries are currently unshared and can't be streamed to other "
 "devices."
-msgstr ""
-"כשהאפשרות מושבתת, ספריות המדיה הבאות אינן משותפות ולא תהיה הזרמה של קבצים "
-"מהמחשב שלך להתקנים אחרים."
+msgstr "ספריות מדיה לא משותפות כרגע ואי אפשר להזרים אותן למכשירים אחרים."
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
 msgid "Disabled"
