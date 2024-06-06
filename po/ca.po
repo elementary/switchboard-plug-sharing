@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 11:41+0000\n"
-"PO-Revision-Date: 2024-05-06 10:13+0000\n"
+"PO-Revision-Date: 2024-06-06 08:56+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/ca/>\n"
@@ -45,11 +45,11 @@ msgstr "Paràmetres de la xarxa…"
 
 #: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
-msgstr ""
+msgstr "Transmissió multimèdia"
 
 #: src/Plug.vala:91
 msgid "DLNA and UPnP"
-msgstr ""
+msgstr "DLNA i UPnP"
 
 #: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
@@ -72,22 +72,21 @@ msgid ""
 "The selected libraries are available to stream on compatible DLNA-enabled "
 "devices on your local network such as TVs and game consoles."
 msgstr ""
+"Les biblioteques seleccionades estan disponibles per reproduir-les en "
+"dispositius compatibles amb DLNA a la xarxa local, com ara televisors i "
+"consoles de jocs."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Habilitat"
 
 #: src/Widgets/DLNAPage.vala:52
-#, fuzzy
-#| msgid ""
-#| "While disabled, the selected media libraries are unshared, and it won't "
-#| "stream files from your computer to other devices."
 msgid ""
 "Media libraries are currently unshared and can't be streamed to other "
 "devices."
 msgstr ""
-"Mentre està desactivat, les biblioteques de mitjans seleccionades no es "
-"compartiran i no difondran fitxers des de l'ordinador a altres dispositius."
+"Actualment, les biblioteques multimèdia no es comparteixen i no es poden "
+"reproduir en altres dispositius."
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
 msgid "Disabled"
