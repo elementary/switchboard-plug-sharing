@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 11:41+0000\n"
-"PO-Revision-Date: 2024-05-09 19:13+0000\n"
+"PO-Revision-Date: 2024-06-11 16:07+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.5.5\n"
 "X-Launchpad-Export-Date: 2016-07-23 05:54+0000\n"
 
 #: src/Plug.vala:17
@@ -45,11 +45,11 @@ msgstr "Hálózati beállítások…"
 
 #: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
-msgstr ""
+msgstr "Médiastreamelés"
 
 #: src/Plug.vala:91
 msgid "DLNA and UPnP"
-msgstr ""
+msgstr "DLNA és UPnP"
 
 #: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
@@ -72,22 +72,20 @@ msgid ""
 "The selected libraries are available to stream on compatible DLNA-enabled "
 "devices on your local network such as TVs and game consoles."
 msgstr ""
+"A kiválasztott könyvtárak streamelhetők a helyi hálózaton lévő DLNA-"
+"kompatibilis eszközökre, mint a tévék és játékkonzolok."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Engedélyezve"
 
 #: src/Widgets/DLNAPage.vala:52
-#, fuzzy
-#| msgid ""
-#| "While disabled, the selected media libraries are unshared, and it won't "
-#| "stream files from your computer to other devices."
 msgid ""
 "Media libraries are currently unshared and can't be streamed to other "
 "devices."
 msgstr ""
-"Ha le van tiltva, a kiválasztott médiakönyvtárak nem lesznek megosztva, és a "
-"fájlok a számítógépéről nem lesznek továbbítva más eszközökre."
+"A médiakönyvtárak jelenleg nincsenek megosztva és nem streamelhetők más "
+"eszközökre."
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
 msgid "Disabled"
