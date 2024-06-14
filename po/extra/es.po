@@ -8,24 +8,24 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 11:41+0000\n"
-"PO-Revision-Date: 2020-05-01 03:10+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2024-06-14 00:51+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-sharing-extra/es/>\n"
+"sharing-extra/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: data/sharing.appdata.xml.in:5
 msgid "Sharing Settings"
-msgstr "Configuración de compartición"
+msgstr "Configuración de Uso compartido"
 
 #: data/sharing.appdata.xml.in:6
 msgid "Configure file and media sharing"
-msgstr "Configure la compartición de archivos y multimedia"
+msgstr "Configure el uso compartido de archivos y multimedia"
 
 #: data/sharing.appdata.xml.in:13 data/sharing.appdata.xml.in:21
 #: data/sharing.appdata.xml.in:28
