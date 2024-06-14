@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 11:41+0000\n"
-"PO-Revision-Date: 2024-06-13 08:33+0000\n"
+"PO-Revision-Date: 2024-06-14 00:51+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/es/>\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: src/Plug.vala:17
 msgid "Sharing"
-msgstr "Compartición"
+msgstr "Uso Compartido"
 
 #: src/Plug.vala:18
 msgid "Configure file and media sharing"
-msgstr "Configure la compartición de archivos y multimedia"
+msgstr "Configure el uso compartido de archivos y multimedia"
 
 #: src/Plug.vala:26
 msgid "Network Is Not Available"
@@ -35,7 +35,7 @@ msgstr "La red no está disponible"
 #: src/Plug.vala:29
 msgid ""
 "While disconnected from the network, sharing services are not available."
-msgstr "Los servicios de compartición no están disponibles sin una conexión."
+msgstr "Los servicios de uso compartido no están disponibles sin una conexión."
 
 #: src/Plug.vala:33
 msgid "Network settings…"
