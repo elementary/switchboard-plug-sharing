@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 11:41+0000\n"
-"PO-Revision-Date: 2024-06-14 03:33+0000\n"
+"PO-Revision-Date: 2024-06-16 14:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/Plug.vala:17
 msgid "Sharing"
-msgstr "Uso Compartido"
+msgstr "Uso compartido"
 
 #: src/Plug.vala:18
 msgid "Configure file and media sharing"
@@ -30,13 +30,14 @@ msgstr "Configure el uso compartido de archivos y multimedia"
 
 #: src/Plug.vala:26
 msgid "Network Is Not Available"
-msgstr "La red no está disponible"
+msgstr "No hay redes disponibles"
 
 #: src/Plug.vala:29
 msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr ""
-"Los servicios de uso compartido no están disponibles sin una conexión a red."
+"Los servicios de uso compartido no están disponibles sin una conexión a una "
+"red."
 
 #: src/Plug.vala:33
 msgid "Network settings…"
@@ -44,11 +45,11 @@ msgstr "Configuración de red…"
 
 #: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
-msgstr ""
+msgstr "Transmisión de medios"
 
 #: src/Plug.vala:91
 msgid "DLNA and UPnP"
-msgstr ""
+msgstr "DLNA y UPnP"
 
 #: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
@@ -56,7 +57,7 @@ msgstr "Bluetooth"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
-msgstr ""
+msgstr "Carpeta de Música"
 
 #: src/Widgets/DLNAPage.vala:23
 msgid "Videos Folder"
@@ -64,29 +65,28 @@ msgstr "Carpeta de Videos"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Pictures Folder"
-msgstr ""
+msgstr "Carpeta de Imágenes"
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
 "The selected libraries are available to stream on compatible DLNA-enabled "
 "devices on your local network such as TVs and game consoles."
 msgstr ""
+"Las bibliotecas seleccionadas están disponibles para transmitir en "
+"dispositivos compatibles con DLNA en su red local, como televisores y "
+"consolas de juegos."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Activado"
 
 #: src/Widgets/DLNAPage.vala:52
-#, fuzzy
-#| msgid ""
-#| "While disabled, the selected media libraries are unshared, and it won't "
-#| "stream files from your computer to other devices."
 msgid ""
 "Media libraries are currently unshared and can't be streamed to other "
 "devices."
 msgstr ""
-"Si se desactiva, las mediatecas seleccionadas no se compartirán y no "
-"transmitirán archivos desde el equipo a otros dispositivos."
+"Las bibliotecas de medios no se están compartiendo y no se pueden transmitir "
+"a otros dispositivos."
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
 msgid "Disabled"
@@ -95,19 +95,17 @@ msgstr "Desactivado"
 #: src/Widgets/DLNAPage.vala:117
 #, c-format
 msgid "Select %s…"
-msgstr ""
+msgstr "Seleccionar %s…"
 
 #: src/Widgets/DLNAPage.vala:120
 msgid "Select"
-msgstr ""
+msgstr "Seleccionar"
 
 #: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
-msgstr ""
+msgstr "Preguntar antes de aceptar archivos:"
 
 #: src/Widgets/BluetoothPage.vala:33
-#, fuzzy
-#| msgid "Bluetooth settings…"
 msgid "Bluetooth Settings…"
 msgstr "Configuración de Bluetooth…"
 
@@ -115,13 +113,13 @@ msgstr "Configuración de Bluetooth…"
 msgid "While enabled, bluetooth devices can send files to Downloads."
 msgstr ""
 "Mientras esté activado, los dispositivos Bluetooth pueden enviar archivos a "
-"Descargas."
+"la carpeta de Descargas."
 
 #: src/Widgets/BluetoothPage.vala:62
 msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgstr ""
-"Si se desactiva, los dispositivos Bluetooth no pueden enviar archivos a "
-"Descargas."
+"Si se desactiva, los dispositivos Bluetooth no pueden enviar archivos a la "
+"carpeta de Descargas."
 
 #: src/Widgets/BluetoothPage.vala:67
 msgid ""
