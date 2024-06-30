@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-04 11:41+0000\n"
-"PO-Revision-Date: 2024-05-08 14:13+0000\n"
+"PO-Revision-Date: 2024-07-01 17:16+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.5.5\n"
 "X-Launchpad-Export-Date: 2016-06-15 06:27+0000\n"
 
 #: src/Plug.vala:17
@@ -44,11 +44,11 @@ msgstr "Налаштування мережі…"
 
 #: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
-msgstr ""
+msgstr "Медіастримінг"
 
 #: src/Plug.vala:91
 msgid "DLNA and UPnP"
-msgstr ""
+msgstr "DLNA і UPnP"
 
 #: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
@@ -71,22 +71,21 @@ msgid ""
 "The selected libraries are available to stream on compatible DLNA-enabled "
 "devices on your local network such as TVs and game consoles."
 msgstr ""
+"Вибрані бібліотеки доступні для трансляції на сумісних пристроях з "
+"підтримкою DLNA у вашій локальній мережі, таких як телевізори та ігрові "
+"консолі."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
 msgstr "Увімкнено"
 
 #: src/Widgets/DLNAPage.vala:52
-#, fuzzy
-#| msgid ""
-#| "While disabled, the selected media libraries are unshared, and it won't "
-#| "stream files from your computer to other devices."
 msgid ""
 "Media libraries are currently unshared and can't be streamed to other "
 "devices."
 msgstr ""
-"Поки вимкнено, вибрані медіатеки не доступні для спільного доступу і з них "
-"не передаватимуться файли з вашого комп’ютера на інші пристрої."
+"Медіатеки наразі не мають спільного доступу і не можуть транслюватися на "
+"інші пристрої."
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
 msgid "Disabled"
