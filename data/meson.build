@@ -1,5 +1,5 @@
 i18n.merge_file(
-    input: 'sharing.appdata.xml.in',
+    input: 'sharing.metainfo.xml.in',
     output: meson.project_name() + '.metainfo.xml',
     po_dir: meson.source_root() / 'po' / 'extra',
     type: 'xml',
