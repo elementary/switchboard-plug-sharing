@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-04 11:41+0000\n"
+"POT-Creation-Date: 2024-07-08 21:05+0000\n"
 "PO-Revision-Date: 2021-11-08 09:18+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/switchboard/"
@@ -20,15 +20,19 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/sharing.appdata.xml.in:5
+#: data/sharing.metainfo.xml.in:10
 msgid "Sharing Settings"
 msgstr "Ustawienia udostępniania"
 
-#: data/sharing.appdata.xml.in:6
+#: data/sharing.metainfo.xml.in:11
 msgid "Configure file and media sharing"
 msgstr "Konfiguruj udostępnianie plików i multimediów"
 
-#: data/sharing.appdata.xml.in:13 data/sharing.appdata.xml.in:21
-#: data/sharing.appdata.xml.in:28
+#: data/sharing.metainfo.xml.in:28
+msgid "elementary, Inc."
+msgstr ""
+
+#: data/sharing.metainfo.xml.in:37 data/sharing.metainfo.xml.in:45
+#: data/sharing.metainfo.xml.in:53
 msgid "Updated translations"
 msgstr "Zaktualizowane tłumaczenia"
