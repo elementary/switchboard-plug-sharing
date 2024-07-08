@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-08 21:05+0000\n"
+"POT-Creation-Date: 2024-07-08 21:13+0000\n"
 "PO-Revision-Date: 2020-03-01 14:09+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -33,7 +33,11 @@ msgstr "設定檔案與媒體分享等設定"
 msgid "elementary, Inc."
 msgstr ""
 
-#: data/sharing.metainfo.xml.in:37 data/sharing.metainfo.xml.in:45
-#: data/sharing.metainfo.xml.in:53
+#: data/sharing.metainfo.xml.in:37
+msgid "Bluetooth sharing options"
+msgstr ""
+
+#: data/sharing.metainfo.xml.in:38 data/sharing.metainfo.xml.in:49
+#: data/sharing.metainfo.xml.in:57 data/sharing.metainfo.xml.in:65
 msgid "Updated translations"
 msgstr ""

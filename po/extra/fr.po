@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-08 21:05+0000\n"
+"POT-Creation-Date: 2024-07-08 21:13+0000\n"
 "PO-Revision-Date: 2020-05-01 03:10+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -31,7 +31,11 @@ msgstr "Configurez le partage de fichiers et de médias"
 msgid "elementary, Inc."
 msgstr ""
 
-#: data/sharing.metainfo.xml.in:37 data/sharing.metainfo.xml.in:45
-#: data/sharing.metainfo.xml.in:53
+#: data/sharing.metainfo.xml.in:37
+msgid "Bluetooth sharing options"
+msgstr ""
+
+#: data/sharing.metainfo.xml.in:38 data/sharing.metainfo.xml.in:49
+#: data/sharing.metainfo.xml.in:57 data/sharing.metainfo.xml.in:65
 msgid "Updated translations"
 msgstr "Mise à jour des traductions"
