@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-08 21:13+0000\n"
-"PO-Revision-Date: 2024-06-14 00:51+0000\n"
+"PO-Revision-Date: 2024-07-10 01:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
 "sharing-extra/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/sharing.metainfo.xml.in:10
 msgid "Sharing Settings"
@@ -29,11 +29,11 @@ msgstr "Configure el uso compartido de archivos y multimedia"
 
 #: data/sharing.metainfo.xml.in:28
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/sharing.metainfo.xml.in:37
 msgid "Bluetooth sharing options"
-msgstr ""
+msgstr "Se agregaron opciones de uso compartido con Bluetooth"
 
 #: data/sharing.metainfo.xml.in:38 data/sharing.metainfo.xml.in:49
 #: data/sharing.metainfo.xml.in:57 data/sharing.metainfo.xml.in:65
