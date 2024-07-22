@@ -14,7 +14,8 @@ Homepage: https://github.com/elementary/switchboard-plug-sharing
 
 Package: io.elementary.settings.sharing
 Architecture: any
-Depends: rygel,
+Depends: io.elementary.bluetooth-daemon,
+         rygel,
          wingpanel-indicator-bluetooth,
          ${misc:Depends},
          ${shlibs:Depends}
