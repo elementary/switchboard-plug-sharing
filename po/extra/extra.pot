@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-08 21:05+0000\n"
+"POT-Creation-Date: 2024-07-08 21:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,11 @@ msgstr ""
 msgid "elementary, Inc."
 msgstr ""
 
-#: data/sharing.metainfo.xml.in:37 data/sharing.metainfo.xml.in:45
-#: data/sharing.metainfo.xml.in:53
+#: data/sharing.metainfo.xml.in:37
+msgid "Bluetooth sharing options"
+msgstr ""
+
+#: data/sharing.metainfo.xml.in:38 data/sharing.metainfo.xml.in:49
+#: data/sharing.metainfo.xml.in:57 data/sharing.metainfo.xml.in:65
 msgid "Updated translations"
 msgstr ""
