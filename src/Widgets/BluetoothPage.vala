@@ -4,7 +4,8 @@
  */
 
 public class Sharing.Widgets.BluetoothPage : Switchboard.SettingsPage {
-    private GLib.Settings bluetooth_settings;
+    private GLib.Settings daemon_settings;
+    private GLib.Settings panel_settings;
 
     public BluetoothPage () {
         Object (activatable: true);
@@ -32,13 +33,15 @@ public class Sharing.Widgets.BluetoothPage : Switchboard.SettingsPage {
 
         var settings_button = add_button (_("Bluetooth Settings…"));
 
-        bluetooth_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.bluetooth");
-        bluetooth_settings.bind ("bluetooth-obex-enabled", status_switch, "active", SettingsBindFlags.NO_SENSITIVITY);
-        bluetooth_settings.bind ("bluetooth-confirm-accept-files", accept_switch, "active", SettingsBindFlags.DEFAULT);
+        daemon_settings = new GLib.Settings ("io.elementary.desktop.bluetooth");
+        daemon_settings.bind ("sharing", status_switch, "active", NO_SENSITIVITY);
+        daemon_settings.bind ("confirm-accept-files", accept_switch, "active", DEFAULT);
+
+        panel_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.bluetooth");
 
         set_service_state ();
 
-        bluetooth_settings.changed ["bluetooth-enabled"].connect (() => {
+        panel_settings.changed ["bluetooth-enabled"].connect (() => {
             set_service_state ();
         });
 
@@ -53,8 +56,8 @@ public class Sharing.Widgets.BluetoothPage : Switchboard.SettingsPage {
     }
 
     private void set_service_state () {
-        if (bluetooth_settings.get_boolean ("bluetooth-enabled")) {
-            if (bluetooth_settings.get_boolean ("bluetooth-obex-enabled")) {
+        if (panel_settings.get_boolean ("bluetooth-enabled")) {
+            if (daemon_settings.get_boolean ("sharing")) {
                 description = _("While enabled, bluetooth devices can send files to Downloads.");
                 status = _("Enabled");
                 status_type = SUCCESS;
