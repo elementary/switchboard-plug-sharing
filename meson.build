@@ -1,7 +1,7 @@
 project(
     'io.elementary.settings.sharing',
     'vala', 'c',
-    version: '2.1.6'
+    version: '8.0.0'
 )
 
 gnome = import('gnome')
