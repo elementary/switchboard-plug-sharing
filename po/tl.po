@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-08 21:13+0000\n"
-"PO-Revision-Date: 2022-12-12 11:39+0000\n"
-"Last-Translator: Danielle Foré <danielle@elementary.io>\n"
+"PO-Revision-Date: 2024-08-07 18:16+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Tagalog <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/tl/>\n"
 "Language: tl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 "
 "|| n % 10 == 6 || n % 10 == 9);\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/Plug.vala:17
 msgid "Sharing"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
 msgid "Enabled"
-msgstr ""
+msgstr "Pinagana"
 
 #: src/Widgets/DLNAPage.vala:52
 msgid ""
