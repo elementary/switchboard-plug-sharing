@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-08 21:13+0000\n"
+"POT-Creation-Date: 2024-08-14 03:53+0000\n"
 "PO-Revision-Date: 2024-05-31 01:46+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
@@ -51,7 +51,7 @@ msgstr ""
 msgid "DLNA and UPnP"
 msgstr ""
 
-#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:14
+#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
@@ -73,7 +73,7 @@ msgid ""
 "devices on your local network such as TVs and game consoles."
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:59
+#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:62
 msgid "Enabled"
 msgstr "Ingeschakeld"
 
@@ -90,7 +90,7 @@ msgstr ""
 "mediabibliotheken niet gedeeld en worden geen bestanden gestreamd naar "
 "andere apparaten."
 
-#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:63
+#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:66
 msgid "Disabled"
 msgstr "Uitgeschakeld"
 
@@ -103,35 +103,43 @@ msgstr "Selecteer %s…"
 msgid "Select"
 msgstr "Selecteren"
 
-#: src/Widgets/BluetoothPage.vala:22
+#: src/Widgets/BluetoothPage.vala:23
 msgid "Ask before accepting files:"
 msgstr "Vraag voor het accepteren van bestanden:"
 
-#: src/Widgets/BluetoothPage.vala:33
+#: src/Widgets/BluetoothPage.vala:34
 msgid "Bluetooth Settings…"
 msgstr "Bluetoothinstellingen…"
 
-#: src/Widgets/BluetoothPage.vala:58
-msgid "While enabled, bluetooth devices can send files to Downloads."
+#: src/Widgets/BluetoothPage.vala:61
+#, fuzzy
+#| msgid "While enabled, bluetooth devices can send files to Downloads."
+msgid "While enabled, Bluetooth devices can send files to Downloads."
 msgstr ""
 "Wanneer ingeschakeld kunnen bluetooth apparaten bestanden sturen naar "
 "Downloads."
 
-#: src/Widgets/BluetoothPage.vala:62
-msgid "While disabled, bluetooth devices can not send files to Downloads."
+#: src/Widgets/BluetoothPage.vala:65
+#, fuzzy
+#| msgid "While disabled, bluetooth devices can not send files to Downloads."
+msgid "While disabled, Bluetooth devices can not send files to Downloads."
 msgstr ""
 "Wanneer uit, bluetooth apparaten kunnen geen bestanden sturen om te "
 "downloaden."
 
-#: src/Widgets/BluetoothPage.vala:67
+#: src/Widgets/BluetoothPage.vala:70
+#, fuzzy
+#| msgid ""
+#| "The bluetooth device is either disconnected or disabled. Check bluetooth "
+#| "settings and try again."
 msgid ""
-"The bluetooth device is either disconnected or disabled. Check bluetooth "
+"The Bluetooth device is either disconnected or disabled. Check Bluetooth "
 "settings and try again."
 msgstr ""
 "Het bluetooth apparaat is losgekoppeld of uitgeschakeld. Controleer de "
 "bluetooth instellingen en probeer opnieuw."
 
-#: src/Widgets/BluetoothPage.vala:69
+#: src/Widgets/BluetoothPage.vala:72
 msgid "Not Available"
 msgstr "Niet Beschikbaar"
 
