@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-14 03:53+0000\n"
-"PO-Revision-Date: 2024-07-21 09:16+0000\n"
+"PO-Revision-Date: 2024-08-15 04:16+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/he/>\n"
@@ -104,22 +104,14 @@ msgid "Bluetooth Settings…"
 msgstr "הגדרות בלוטות׳…"
 
 #: src/Widgets/BluetoothPage.vala:61
-#, fuzzy
-#| msgid "While enabled, bluetooth devices can send files to Downloads."
 msgid "While enabled, Bluetooth devices can send files to Downloads."
 msgstr "כשהאפשרות פעילה, התקני בלוטות׳ יכולים לשלוח קבצים להורדות."
 
 #: src/Widgets/BluetoothPage.vala:65
-#, fuzzy
-#| msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgid "While disabled, Bluetooth devices can not send files to Downloads."
 msgstr "כשהאפשרות מושבתת, התקני בלוטות׳ לא יכולים לשלוח קבצים להורדות."
 
 #: src/Widgets/BluetoothPage.vala:70
-#, fuzzy
-#| msgid ""
-#| "The bluetooth device is either disconnected or disabled. Check bluetooth "
-#| "settings and try again."
 msgid ""
 "The Bluetooth device is either disconnected or disabled. Check Bluetooth "
 "settings and try again."
