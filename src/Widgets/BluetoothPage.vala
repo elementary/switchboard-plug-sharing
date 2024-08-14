@@ -58,16 +58,16 @@ public class Sharing.Widgets.BluetoothPage : Switchboard.SettingsPage {
     private void set_service_state () {
         if (panel_settings.get_boolean ("bluetooth-enabled")) {
             if (daemon_settings.get_boolean ("sharing")) {
-                description = _("While enabled, bluetooth devices can send files to Downloads.");
+                description = _("While enabled, Bluetooth devices can send files to Downloads.");
                 status = _("Enabled");
                 status_type = SUCCESS;
             } else {
-                description = _("While disabled, bluetooth devices can not send files to Downloads.");
+                description = _("While disabled, Bluetooth devices can not send files to Downloads.");
                 status = _("Disabled");
                 status_type = OFFLINE;
             }
         } else {
-            description = _("The bluetooth device is either disconnected or disabled. Check bluetooth settings and try again.");
+            description = _("The Bluetooth device is either disconnected or disabled. Check Bluetooth settings and try again.");
             status_type = ERROR;
             status = _("Not Available");
         }
