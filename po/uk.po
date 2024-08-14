@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-14 03:53+0000\n"
-"PO-Revision-Date: 2024-07-01 17:16+0000\n"
+"PO-Revision-Date: 2024-08-15 04:16+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Launchpad-Export-Date: 2016-06-15 06:27+0000\n"
 
 #: src/Plug.vala:17
@@ -109,23 +109,16 @@ msgid "Bluetooth Settings…"
 msgstr "Налаштування Bluetooth…"
 
 #: src/Widgets/BluetoothPage.vala:61
-#, fuzzy
-#| msgid "While enabled, bluetooth devices can send files to Downloads."
 msgid "While enabled, Bluetooth devices can send files to Downloads."
 msgstr ""
 "Поки ввімкнено, пристрої Bluetooth можуть надсилати файли до Завантажень."
 
 #: src/Widgets/BluetoothPage.vala:65
-#, fuzzy
-#| msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgid "While disabled, Bluetooth devices can not send files to Downloads."
-msgstr "Вимкнено, пристрої Bluetooth не можуть надсилати файли до Завантажень."
+msgstr ""
+"Поки вимкнено, пристрої Bluetooth не можуть надсилати файли до Завантажень."
 
 #: src/Widgets/BluetoothPage.vala:70
-#, fuzzy
-#| msgid ""
-#| "The bluetooth device is either disconnected or disabled. Check bluetooth "
-#| "settings and try again."
 msgid ""
 "The Bluetooth device is either disconnected or disabled. Check Bluetooth "
 "settings and try again."
