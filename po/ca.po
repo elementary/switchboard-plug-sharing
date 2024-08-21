@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-14 03:53+0000\n"
-"PO-Revision-Date: 2024-06-06 08:56+0000\n"
+"PO-Revision-Date: 2024-08-22 09:16+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-sharing/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Launchpad-Export-Date: 2016-12-14 05:40+0000\n"
 
 #: src/Plug.vala:17
@@ -110,26 +110,18 @@ msgid "Bluetooth Settings…"
 msgstr "Paràmetres del Bluetooth…"
 
 #: src/Widgets/BluetoothPage.vala:61
-#, fuzzy
-#| msgid "While enabled, bluetooth devices can send files to Downloads."
 msgid "While enabled, Bluetooth devices can send files to Downloads."
 msgstr ""
 "Mentre està activat, els dispositius Bluetooth poden enviar fitxers a la "
 "carpeta de baixades."
 
 #: src/Widgets/BluetoothPage.vala:65
-#, fuzzy
-#| msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgid "While disabled, Bluetooth devices can not send files to Downloads."
 msgstr ""
 "Mentre està desactivat, els dispositius Bluetooth no poden enviar fitxers a "
 "la carpeta de baixades."
 
 #: src/Widgets/BluetoothPage.vala:70
-#, fuzzy
-#| msgid ""
-#| "The bluetooth device is either disconnected or disabled. Check bluetooth "
-#| "settings and try again."
 msgid ""
 "The Bluetooth device is either disconnected or disabled. Check Bluetooth "
 "settings and try again."
