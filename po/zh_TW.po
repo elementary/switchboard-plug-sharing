@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-14 03:53+0000\n"
-"PO-Revision-Date: 2022-12-12 11:38+0000\n"
-"Last-Translator: Danielle Foré <danielle@elementary.io>\n"
+"PO-Revision-Date: 2024-09-05 21:13+0000\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "switchboard/switchboard-plug-sharing/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.6.2\n"
 "X-Launchpad-Export-Date: 2016-08-07 05:51+0000\n"
 
 #: src/Plug.vala:17
@@ -43,49 +43,43 @@ msgstr "網路設定值…"
 
 #: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
-msgstr ""
+msgstr "媒體串流"
 
 #: src/Plug.vala:91
 msgid "DLNA and UPnP"
-msgstr ""
+msgstr "DLNA 與 UPnP"
 
 #: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
-msgstr "藍芽"
+msgstr "藍牙"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
-msgstr ""
+msgstr "音樂資料夾"
 
 #: src/Widgets/DLNAPage.vala:23
-#, fuzzy
-#| msgid "Videos"
 msgid "Videos Folder"
-msgstr "影片"
+msgstr "影片資料夾"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Pictures Folder"
-msgstr ""
+msgstr "圖片資料夾"
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
 "The selected libraries are available to stream on compatible DLNA-enabled "
 "devices on your local network such as TVs and game consoles."
-msgstr ""
+msgstr "所選媒體庫能夠串流到區域網路上相容的 DLNA 裝置，像是電視或遊戲主機。"
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:62
 msgid "Enabled"
 msgstr "已啟用"
 
 #: src/Widgets/DLNAPage.vala:52
-#, fuzzy
-#| msgid ""
-#| "While disabled, the selected media libraries are unshared, and it won't "
-#| "stream files from your computer to other devices."
 msgid ""
 "Media libraries are currently unshared and can't be streamed to other "
 "devices."
-msgstr "停用時，選取的媒體庫不會分享，也不會將檔案從您的電腦串流到其他裝置上。"
+msgstr "媒體庫目前未被分享而無法串流到其他裝置上。"
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:66
 msgid "Disabled"
@@ -94,43 +88,33 @@ msgstr "已停用"
 #: src/Widgets/DLNAPage.vala:117
 #, c-format
 msgid "Select %s…"
-msgstr ""
+msgstr "選擇 %s…"
 
 #: src/Widgets/DLNAPage.vala:120
 msgid "Select"
-msgstr ""
+msgstr "選擇"
 
 #: src/Widgets/BluetoothPage.vala:23
 msgid "Ask before accepting files:"
-msgstr ""
+msgstr "接收檔案前詢問："
 
 #: src/Widgets/BluetoothPage.vala:34
-#, fuzzy
-#| msgid "Bluetooth settings…"
 msgid "Bluetooth Settings…"
-msgstr "藍牙設定值："
+msgstr "藍牙設定值…"
 
 #: src/Widgets/BluetoothPage.vala:61
-#, fuzzy
-#| msgid "While enabled, bluetooth devices can send files to Downloads."
 msgid "While enabled, Bluetooth devices can send files to Downloads."
 msgstr "啟用時，藍牙裝置可以傳送檔案到「下載」資料夾。"
 
 #: src/Widgets/BluetoothPage.vala:65
-#, fuzzy
-#| msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgid "While disabled, Bluetooth devices can not send files to Downloads."
-msgstr "停用時，藍牙裝置無法傳送檔案到「下載」資料夾。"
+msgstr "停用時，藍牙裝置不能傳送檔案到「下載」資料夾。"
 
 #: src/Widgets/BluetoothPage.vala:70
-#, fuzzy
-#| msgid ""
-#| "The bluetooth device is either disconnected or disabled. Check bluetooth "
-#| "settings and try again."
 msgid ""
 "The Bluetooth device is either disconnected or disabled. Check Bluetooth "
 "settings and try again."
-msgstr "藍牙裝置可能已斷線或停用。請先檢查藍牙設定值無誤後再試一次。"
+msgstr "藍牙裝置可能未連接或已停用。請檢查藍牙設定並再試一次。"
 
 #: src/Widgets/BluetoothPage.vala:72
 msgid "Not Available"
