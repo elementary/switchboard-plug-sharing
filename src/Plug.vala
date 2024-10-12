@@ -63,6 +63,9 @@ public class Sharing.Plug : Switchboard.Plug {
                 shrink_start_child = false
             };
 
+            var settings = new Settings ("io.elementary.settings");
+            settings.bind ("sidebar-position", main_container, "position", DEFAULT);
+
             content = new Gtk.Stack ();
             content.add_named (main_container, "main-container");
             content.add_named (network_grid_view, "network-alert-view");
