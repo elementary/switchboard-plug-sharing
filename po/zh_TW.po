@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 03:53+0000\n"
+"POT-Creation-Date: 2024-12-11 22:32+0000\n"
 "PO-Revision-Date: 2024-09-05 21:13+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -41,15 +41,15 @@ msgstr "當網路斷線時，分享服務便無法使用。"
 msgid "Network settings…"
 msgstr "網路設定值…"
 
-#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+#: src/Plug.vala:96 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
 msgstr "媒體串流"
 
-#: src/Plug.vala:91
+#: src/Plug.vala:97
 msgid "DLNA and UPnP"
 msgstr "DLNA 與 UPnP"
 
-#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:98 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
 msgstr "藍牙"
 

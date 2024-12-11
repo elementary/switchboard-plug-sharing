@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 03:53+0000\n"
+"POT-Creation-Date: 2024-12-11 22:32+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Yiddish <https://l10n.elementary.io/projects/switchboard/"
@@ -40,15 +40,15 @@ msgstr ""
 msgid "Network settings…"
 msgstr ""
 
-#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+#: src/Plug.vala:96 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
 msgstr ""
 
-#: src/Plug.vala:91
+#: src/Plug.vala:97
 msgid "DLNA and UPnP"
 msgstr ""
 
-#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:98 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
 msgstr ""
 
