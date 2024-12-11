@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 03:53+0000\n"
+"POT-Creation-Date: 2024-12-11 22:32+0000\n"
 "PO-Revision-Date: 2024-06-16 14:16+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -41,15 +41,15 @@ msgstr "Mens frakoblet fra nettverket er ikke delingstjenester tilgjengelige."
 msgid "Network settings…"
 msgstr "Nettverksinnstillinger…"
 
-#: src/Plug.vala:90 src/Widgets/DLNAPage.vala:15
+#: src/Plug.vala:96 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
 msgstr "Mediastrømming"
 
-#: src/Plug.vala:91
+#: src/Plug.vala:97
 msgid "DLNA and UPnP"
 msgstr "DLNA og UPnP"
 
-#: src/Plug.vala:92 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:98 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
 msgstr "Blåtann"
 
