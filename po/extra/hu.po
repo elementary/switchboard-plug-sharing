@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-11 22:32+0000\n"
-"PO-Revision-Date: 2024-08-07 18:16+0000\n"
+"PO-Revision-Date: 2024-12-19 20:16+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/switchboard/"
 "sharing-extra/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #: data/sharing.metainfo.xml.in:10
 msgid "Sharing Settings"
@@ -33,7 +33,7 @@ msgstr "elementary, Inc."
 
 #: data/sharing.metainfo.xml.in:37
 msgid "Sidebar position is now remembered"
-msgstr ""
+msgstr "Az oldalsáv helyzete megjegyzésre kerül"
 
 #: data/sharing.metainfo.xml.in:38 data/sharing.metainfo.xml.in:47
 #: data/sharing.metainfo.xml.in:58 data/sharing.metainfo.xml.in:66
