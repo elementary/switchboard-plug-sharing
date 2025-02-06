@@ -140,7 +140,7 @@ public class Sharing.Widgets.DLNAPage : Switchboard.SettingsPage {
 
                         config_file.set_media_type_folder (media_type, file_path);
                         config_file.save ();
-                    } catch (Error e){
+                    } catch (Error e) {
                         if (e.matches (Gtk.DialogError.quark (), Gtk.DialogError.DISMISSED)) {
                             return;
                         }
