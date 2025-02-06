@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 22:32+0000\n"
+"POT-Creation-Date: 2025-02-06 21:30+0000\n"
 "PO-Revision-Date: 2024-08-15 04:16+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/"
@@ -87,11 +87,6 @@ msgid "Disabled"
 msgstr "מושבתת"
 
 #: src/Widgets/DLNAPage.vala:117
-#, c-format
-msgid "Select %s…"
-msgstr "בחירה ב־%s…"
-
-#: src/Widgets/DLNAPage.vala:120
 msgid "Select"
 msgstr "בחירה"
 
@@ -120,6 +115,10 @@ msgstr "התקן הבלוטות׳ מנותק או מושבת. נא לבדוק א
 #: src/Widgets/BluetoothPage.vala:72
 msgid "Not Available"
 msgstr "לא זמין"
+
+#, c-format
+#~ msgid "Select %s…"
+#~ msgstr "בחירה ב־%s…"
 
 #~ msgid "Media library"
 #~ msgstr "ספריית מדיה"

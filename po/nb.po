@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 22:32+0000\n"
+"POT-Creation-Date: 2025-02-06 21:30+0000\n"
 "PO-Revision-Date: 2024-06-16 14:16+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -96,11 +96,6 @@ msgid "Disabled"
 msgstr "Slått av"
 
 #: src/Widgets/DLNAPage.vala:117
-#, c-format
-msgid "Select %s…"
-msgstr "Velg %s …"
-
-#: src/Widgets/DLNAPage.vala:120
 msgid "Select"
 msgstr "Velg"
 
@@ -142,6 +137,10 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:72
 msgid "Not Available"
 msgstr "Ikke tilgjengelig"
+
+#, c-format
+#~ msgid "Select %s…"
+#~ msgstr "Velg %s …"
 
 #, fuzzy
 #~ msgid "Media library"

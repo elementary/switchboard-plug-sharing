@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 22:32+0000\n"
+"POT-Creation-Date: 2025-02-06 21:30+0000\n"
 "PO-Revision-Date: 2024-08-15 04:16+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/switchboard/"
@@ -90,11 +90,6 @@ msgid "Disabled"
 msgstr "無効"
 
 #: src/Widgets/DLNAPage.vala:117
-#, c-format
-msgid "Select %s…"
-msgstr "%sを選択…"
-
-#: src/Widgets/DLNAPage.vala:120
 msgid "Select"
 msgstr "選択"
 
@@ -129,6 +124,10 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:72
 msgid "Not Available"
 msgstr "利用不可"
+
+#, c-format
+#~ msgid "Select %s…"
+#~ msgstr "%sを選択…"
 
 #~ msgid "Media library"
 #~ msgstr "メディアライブラリ"

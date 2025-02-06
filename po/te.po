@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 22:32+0000\n"
+"POT-Creation-Date: 2025-02-06 21:30+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Telugu <https://l10n.elementary.io/projects/switchboard/"
@@ -85,11 +85,6 @@ msgid "Disabled"
 msgstr ""
 
 #: src/Widgets/DLNAPage.vala:117
-#, c-format
-msgid "Select %s…"
-msgstr ""
-
-#: src/Widgets/DLNAPage.vala:120
 msgid "Select"
 msgstr ""
 

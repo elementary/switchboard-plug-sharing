@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 22:32+0000\n"
+"POT-Creation-Date: 2025-02-06 21:30+0000\n"
 "PO-Revision-Date: 2024-08-22 09:16+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/switchboard/"
@@ -93,11 +93,6 @@ msgid "Disabled"
 msgstr "Inhabilitat"
 
 #: src/Widgets/DLNAPage.vala:117
-#, c-format
-msgid "Select %s…"
-msgstr "Selecciona %s…"
-
-#: src/Widgets/DLNAPage.vala:120
 msgid "Select"
 msgstr "Selecciona"
 
@@ -132,6 +127,10 @@ msgstr ""
 #: src/Widgets/BluetoothPage.vala:72
 msgid "Not Available"
 msgstr "No disponible"
+
+#, c-format
+#~ msgid "Select %s…"
+#~ msgstr "Selecciona %s…"
 
 #~ msgid "Media library"
 #~ msgstr "Biblioteca multimèdia"
