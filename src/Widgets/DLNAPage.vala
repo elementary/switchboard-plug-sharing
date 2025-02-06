@@ -113,19 +113,11 @@ public class Sharing.Widgets.DLNAPage : Switchboard.SettingsPage {
                 child = location_button_box
             };
 
-            var location_dialog = new Gtk.FileChooserNative (
-                _("Select %s…").printf (label),
-                ((Gtk.Application) Application.get_default ()).active_window,
-                Gtk.FileChooserAction.SELECT_FOLDER,
-                _("Select"),
-                null
-            );
-
-            try {
-                location_dialog.set_current_folder (File.new_for_path (folder_dir));
-            } catch (Error e) {
-                critical ("Couldn't set filechooser path: %s", e.message);
-            }
+            var location_dialog = new Gtk.FileDialog () {
+                accept_label = _("Select"),
+                modal = true,
+                title = ("Select %s…").printf (label)
+            };
 
             column_spacing = 6;
             row_spacing = 3;
@@ -141,19 +133,24 @@ public class Sharing.Widgets.DLNAPage : Switchboard.SettingsPage {
             });
 
             location_button.clicked.connect (() => {
-                location_dialog.show ();
+                location_dialog.select_folder.begin (null, null, (obj, res) => {
+                    try {
+                        var file_path = location_dialog.select_folder.end (res).get_path ();
+                        folder_name.label = file_path;
+
+                        config_file.set_media_type_folder (media_type, file_path);
+                        config_file.save ();
+                    } catch (Error e) {
+                        if (e.matches (Gtk.DialogError.quark (), Gtk.DialogError.DISMISSED)) {
+                            return;
+                        }
+                        critical (e.message);
+                    }
+                });
+
             });
 
             folder_name.label = folder_dir;
-            location_dialog.response.connect ((response) => {
-                if (response == Gtk.ResponseType.ACCEPT) {
-                    var file_path = location_dialog.get_file ().get_path ();
-                    folder_name.label = file_path;
-
-                    config_file.set_media_type_folder (media_type, file_path);
-                    config_file.save ();
-                }
-            });
         }
 
         private string replace_xdg_folders (string folder_path) {
