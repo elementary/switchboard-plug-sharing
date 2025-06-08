@@ -2,6 +2,7 @@ plug_files = files(
     'Plug.vala',
     'Widgets/DLNAPage.vala',
     'Widgets/BluetoothPage.vala',
+    'Widgets/NetworkAlertView.vala',
     'Backend/RygelStartupManager.vala',
     'Backend/RygelConfigFile.vala',
     'Backend/SharingDBusInterface.vala'
