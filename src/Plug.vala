@@ -22,7 +22,7 @@ public class Sharing.Plug : Switchboard.Plug {
 
     public override Gtk.Widget get_widget () {
         if (content == null) {
-            var network_alert_message = new Granite.Placeholder (
+            var network_alert_view = new Granite.Placeholder (
                 _("Network Is Not Available")
             ) {
                 icon = new ThemedIcon ("network-error"),
@@ -30,7 +30,7 @@ public class Sharing.Plug : Switchboard.Plug {
                 vexpand = true,
                 hexpand = true
             };
-            network_alert_message.remove_css_class (Granite.STYLE_CLASS_VIEW);
+            network_alert_view.remove_css_class (Granite.STYLE_CLASS_VIEW);
 
             var link_button = new Gtk.LinkButton.with_label ("settings://network", _("Network settings…"));
             link_button.halign = Gtk.Align.END;
@@ -42,7 +42,7 @@ public class Sharing.Plug : Switchboard.Plug {
                 margin_start = 12,
                 margin_bottom = 12
             };
-            network_grid_view.attach (network_alert_message, 0, 0, 1, 1);
+            network_grid_view.attach (network_alert_view, 0, 0, 1, 1);
             network_grid_view.attach (link_button, 0, 1, 1, 1);
 
             var headerbar = new Adw.HeaderBar () {
@@ -54,10 +54,6 @@ public class Sharing.Plug : Switchboard.Plug {
                 top_bar_style = FLAT
             };
             toolbarview.add_top_bar (headerbar);
-
-            var network_alert_view = new Adw.Bin () {
-                child = toolbarview
-            };
 
             var dlna_page = new Widgets.DLNAPage ();
             var bluetooth_page = new Widgets.BluetoothPage ();
@@ -86,7 +82,7 @@ public class Sharing.Plug : Switchboard.Plug {
 
             content = new Gtk.Stack ();
             content.add_named (main_container, "main-container");
-            content.add_named (network_alert_view, "network-alert-view");
+            content.add_named (toolbarview, "network-alert-view");
 
             NetworkMonitor.get_default ().network_changed.connect (() => update_content_view ());
 
