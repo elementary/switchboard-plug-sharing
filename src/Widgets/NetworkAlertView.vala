@@ -8,6 +8,12 @@ public class Sharing.Widgets.NetworkAlertView : Gtk.Box {
     }
 
     construct {
+        margin_top = 12;
+        margin_end = 12;
+        margin_start = 12;
+        margin_bottom = 12;
+        orientation = Gtk.Orientation.VERTICAL;
+
         var network_alert_view = new Granite.Placeholder (
             _("Network Is Not Available")
         ) {
@@ -21,15 +27,7 @@ public class Sharing.Widgets.NetworkAlertView : Gtk.Box {
         link_button.valign = Gtk.Align.END;
         link_button.vexpand = true;
 
-        var network_grid_view = new Gtk.Grid () {
-            margin_top = 12,
-            margin_end = 12,
-            margin_start = 12,
-            margin_bottom = 12
-        };
-        network_grid_view.attach (network_alert_view, 0, 0, 1, 1);
-        network_grid_view.attach (link_button, 0, 1, 1, 1);
-
-        append (network_grid_view);
+        append (network_alert_view);
+        append (link_button);
     }
 }
