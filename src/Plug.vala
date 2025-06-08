@@ -46,7 +46,9 @@ public class Sharing.Plug : Switchboard.Plug {
             network_grid_view.attach (link_button, 0, 1, 1, 1);
 
             var headerbar = new Adw.HeaderBar () {
-                show_title = false
+                show_title = false,
+                show_end_title_buttons = true,
+                show_start_title_buttons = true
             };
 
             var toolbarview = new Adw.ToolbarView () {
