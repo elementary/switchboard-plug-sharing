@@ -22,10 +22,11 @@ public class Sharing.Widgets.NetworkAlertView : Gtk.Box {
         };
         network_alert_view.remove_css_class (Granite.STYLE_CLASS_VIEW);
 
-        var link_button = new Gtk.LinkButton.with_label ("settings://network", _("Network settings…"));
-        link_button.halign = Gtk.Align.END;
-        link_button.valign = Gtk.Align.END;
-        link_button.vexpand = true;
+        var link_button = new Gtk.LinkButton.with_label ("settings://network", _("Network settings…")) {
+            halign = Gtk.Align.END,
+            valign = Gtk.Align.END,
+            vexpand = true
+        };
 
         append (network_alert_view);
         append (link_button);
