@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-06 21:30+0000\n"
+"POT-Creation-Date: 2025-06-09 14:56+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/switchboard/"
@@ -39,19 +39,19 @@ msgstr ""
 "Når forbindelsen til netværket er afbrudt, er delingstjenester ikke "
 "tilgængelige."
 
-#: src/Plug.vala:33
+#: src/Plug.vala:35
 msgid "Network settings…"
 msgstr "Netværksindstillinger…"
 
-#: src/Plug.vala:96 src/Widgets/DLNAPage.vala:15
+#: src/Plug.vala:109 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
 msgstr ""
 
-#: src/Plug.vala:97
+#: src/Plug.vala:110
 msgid "DLNA and UPnP"
 msgstr ""
 
-#: src/Plug.vala:98 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
 msgstr "Bluetooth"
 

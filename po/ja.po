@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-06 21:30+0000\n"
+"POT-Creation-Date: 2025-06-09 14:56+0000\n"
 "PO-Revision-Date: 2025-03-01 14:57+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/settings/"
@@ -37,19 +37,19 @@ msgid ""
 "While disconnected from the network, sharing services are not available."
 msgstr "ネットワークから切断されている間、共有サービスは利用できません。"
 
-#: src/Plug.vala:33
+#: src/Plug.vala:35
 msgid "Network settings…"
 msgstr "ネットワークの設定…"
 
-#: src/Plug.vala:96 src/Widgets/DLNAPage.vala:15
+#: src/Plug.vala:109 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
 msgstr "メディアストリーミング"
 
-#: src/Plug.vala:97
+#: src/Plug.vala:110
 msgid "DLNA and UPnP"
 msgstr "DLNA と UPnP"
 
-#: src/Plug.vala:98 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
@@ -81,7 +81,8 @@ msgstr "有効"
 msgid ""
 "Media libraries are currently unshared and can't be streamed to other "
 "devices."
-msgstr "メディアライブラリは現在共有されていないため、他のデバイスからストリーミング"
+msgstr ""
+"メディアライブラリは現在共有されていないため、他のデバイスからストリーミング"
 "できません。"
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:66

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-06 21:30+0000\n"
+"POT-Creation-Date: 2025-06-09 14:56+0000\n"
 "PO-Revision-Date: 2024-08-27 08:16+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/switchboard/"
@@ -39,19 +39,19 @@ msgstr ""
 "Lorsque vous êtes déconnecté du réseau, le service de partage est "
 "indisponible."
 
-#: src/Plug.vala:33
+#: src/Plug.vala:35
 msgid "Network settings…"
 msgstr "Paramètres réseau…"
 
-#: src/Plug.vala:96 src/Widgets/DLNAPage.vala:15
+#: src/Plug.vala:109 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
 msgstr "Diffusion de média"
 
-#: src/Plug.vala:97
+#: src/Plug.vala:110
 msgid "DLNA and UPnP"
 msgstr "DLNA et UPnP"
 
-#: src/Plug.vala:98 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
 msgstr "Bluetooth"
 

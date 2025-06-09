@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-06 21:30+0000\n"
+"POT-Creation-Date: 2025-06-09 14:56+0000\n"
 "PO-Revision-Date: 2024-12-02 13:16+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -38,19 +38,19 @@ msgid ""
 msgstr ""
 "Kun yhteys verkkoon on katkaistu, jakamispalvelut eivät ole käytettävissä."
 
-#: src/Plug.vala:33
+#: src/Plug.vala:35
 msgid "Network settings…"
 msgstr "Verkkoasetukset…"
 
-#: src/Plug.vala:96 src/Widgets/DLNAPage.vala:15
+#: src/Plug.vala:109 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
 msgstr "Median suoratoistaminen"
 
-#: src/Plug.vala:97
+#: src/Plug.vala:110
 msgid "DLNA and UPnP"
 msgstr "DLNA ja UPnP"
 
-#: src/Plug.vala:98 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
 msgstr "Bluetooth"
 

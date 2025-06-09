@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-06 21:30+0000\n"
+"POT-Creation-Date: 2025-06-09 14:56+0000\n"
 "PO-Revision-Date: 2024-08-16 08:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
@@ -39,19 +39,19 @@ msgstr ""
 "Los servicios de uso compartido no están disponibles sin una conexión a una "
 "red."
 
-#: src/Plug.vala:33
+#: src/Plug.vala:35
 msgid "Network settings…"
 msgstr "Configuración de red…"
 
-#: src/Plug.vala:96 src/Widgets/DLNAPage.vala:15
+#: src/Plug.vala:109 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
 msgstr "Transmisión de medios"
 
-#: src/Plug.vala:97
+#: src/Plug.vala:110
 msgid "DLNA and UPnP"
 msgstr "DLNA y UPnP"
 
-#: src/Plug.vala:98 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
