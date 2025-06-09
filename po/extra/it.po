@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-06 21:30+0000\n"
+"POT-Creation-Date: 2025-06-09 14:56+0000\n"
 "PO-Revision-Date: 2024-08-07 18:16+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/switchboard/"
@@ -31,16 +31,16 @@ msgstr "Configura la condivisione di file e contenuti multimediali"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/sharing.metainfo.xml.in:37
-msgid "Sidebar position is now remembered"
-msgstr ""
-
-#: data/sharing.metainfo.xml.in:38 data/sharing.metainfo.xml.in:47
-#: data/sharing.metainfo.xml.in:58 data/sharing.metainfo.xml.in:66
-#: data/sharing.metainfo.xml.in:74
+#: data/sharing.metainfo.xml.in:37 data/sharing.metainfo.xml.in:49
+#: data/sharing.metainfo.xml.in:58 data/sharing.metainfo.xml.in:69
+#: data/sharing.metainfo.xml.in:77 data/sharing.metainfo.xml.in:85
 msgid "Updated translations"
 msgstr "Traduzioni aggiornate"
 
-#: data/sharing.metainfo.xml.in:46
+#: data/sharing.metainfo.xml.in:48
+msgid "Sidebar position is now remembered"
+msgstr ""
+
+#: data/sharing.metainfo.xml.in:57
 msgid "Bluetooth sharing options"
 msgstr ""
