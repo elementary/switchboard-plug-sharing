@@ -26,14 +26,15 @@ public class Sharing.Plug : Switchboard.Plug {
                 _("Network Is Not Available")
             ) {
                 icon = new ThemedIcon ("network-error"),
-                description = _("While disconnected from the network, sharing services are not available.")
+                description = _("While disconnected from the network, sharing services are not available."),
+                vexpand = true,
+                hexpand = true
             };
             network_alert_view.remove_css_class (Granite.STYLE_CLASS_VIEW);
 
             var link_button = new Gtk.LinkButton.with_label ("settings://network", _("Network settings…"));
             link_button.halign = Gtk.Align.END;
             link_button.valign = Gtk.Align.END;
-            link_button.vexpand = true;
 
             var network_grid_view = new Gtk.Grid () {
                 margin_top = 12,
@@ -43,6 +44,18 @@ public class Sharing.Plug : Switchboard.Plug {
             };
             network_grid_view.attach (network_alert_view, 0, 0, 1, 1);
             network_grid_view.attach (link_button, 0, 1, 1, 1);
+
+            var headerbar = new Adw.HeaderBar () {
+                show_title = false,
+                show_end_title_buttons = true,
+                show_start_title_buttons = true
+            };
+
+            var toolbarview = new Adw.ToolbarView () {
+                content = network_grid_view,
+                top_bar_style = FLAT
+            };
+            toolbarview.add_top_bar (headerbar);
 
             var dlna_page = new Widgets.DLNAPage ();
             var bluetooth_page = new Widgets.BluetoothPage ();
@@ -71,7 +84,7 @@ public class Sharing.Plug : Switchboard.Plug {
 
             content = new Gtk.Stack ();
             content.add_named (main_container, "main-container");
-            content.add_named (network_grid_view, "network-alert-view");
+            content.add_named (toolbarview, "network-alert-view");
 
             NetworkMonitor.get_default ().network_changed.connect (() => update_content_view ());
 
