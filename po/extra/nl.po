@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-09 14:56+0000\n"
-"PO-Revision-Date: 2024-08-07 18:16+0000\n"
+"PO-Revision-Date: 2025-06-10 15:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/"
 "sharing-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/sharing.metainfo.xml.in:10
 msgid "Sharing Settings"
@@ -39,7 +39,7 @@ msgstr "Bijgewerkte vertalingen"
 
 #: data/sharing.metainfo.xml.in:48
 msgid "Sidebar position is now remembered"
-msgstr ""
+msgstr "Zijbalk positie wordt nu onthouden"
 
 #: data/sharing.metainfo.xml.in:57
 msgid "Bluetooth sharing options"
