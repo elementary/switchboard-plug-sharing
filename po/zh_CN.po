@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-09 14:56+0000\n"
-"PO-Revision-Date: 2022-12-12 11:39+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
-"switchboard/switchboard-plug-sharing/zh_Hans/>\n"
+"PO-Revision-Date: 2025-08-03 08:55+0000\n"
+"Last-Translator: JieXu <xujie0739@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://"
+"l10n.elementaryos.org/projects/settings/switchboard-plug-sharing/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2016-06-17 06:07+0000\n"
 
 #: src/Plug.vala:17
@@ -43,11 +43,11 @@ msgstr "网络设置…"
 
 #: src/Plug.vala:109 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
-msgstr ""
+msgstr "媒体串流"
 
 #: src/Plug.vala:110
 msgid "DLNA and UPnP"
-msgstr ""
+msgstr "DLNA 与 UPnP"
 
 #: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
@@ -55,17 +55,15 @@ msgstr "蓝牙"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
-msgstr ""
+msgstr "音乐文件夹"
 
 #: src/Widgets/DLNAPage.vala:23
-#, fuzzy
-#| msgid "Videos"
 msgid "Videos Folder"
-msgstr "视频"
+msgstr "视频文件夹"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Pictures Folder"
-msgstr ""
+msgstr "图片文件夹"
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
@@ -78,14 +76,10 @@ msgid "Enabled"
 msgstr "已启用"
 
 #: src/Widgets/DLNAPage.vala:52
-#, fuzzy
-#| msgid ""
-#| "While disabled, the selected media libraries are unshared, and it won't "
-#| "stream files from your computer to other devices."
 msgid ""
 "Media libraries are currently unshared and can't be streamed to other "
 "devices."
-msgstr "禁用时，选中的媒体库不会被共享，也不会传输您的文件到其他设备中。"
+msgstr "媒体库目前未被分享而无法串流到其他设备上。"
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:66
 msgid "Disabled"
@@ -93,35 +87,25 @@ msgstr "已禁用"
 
 #: src/Widgets/DLNAPage.vala:117
 msgid "Select"
-msgstr ""
+msgstr "选择"
 
 #: src/Widgets/BluetoothPage.vala:23
 msgid "Ask before accepting files:"
-msgstr ""
+msgstr "接收文件前询问："
 
 #: src/Widgets/BluetoothPage.vala:34
-#, fuzzy
-#| msgid "Bluetooth settings…"
 msgid "Bluetooth Settings…"
 msgstr "蓝牙设置…"
 
 #: src/Widgets/BluetoothPage.vala:61
-#, fuzzy
-#| msgid "While enabled, bluetooth devices can send files to Downloads."
 msgid "While enabled, Bluetooth devices can send files to Downloads."
-msgstr "启用时，蓝牙设备可以发送文件至下载目录。"
+msgstr "启用时，蓝牙设备可以发送文件至“下载”目录。"
 
 #: src/Widgets/BluetoothPage.vala:65
-#, fuzzy
-#| msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgid "While disabled, Bluetooth devices can not send files to Downloads."
-msgstr "禁用时，蓝牙设备不能发送文件至下载目录。"
+msgstr "禁用时，蓝牙设备不能发送文件至“下载”目录。"
 
 #: src/Widgets/BluetoothPage.vala:70
-#, fuzzy
-#| msgid ""
-#| "The bluetooth device is either disconnected or disabled. Check bluetooth "
-#| "settings and try again."
 msgid ""
 "The Bluetooth device is either disconnected or disabled. Check Bluetooth "
 "settings and try again."
